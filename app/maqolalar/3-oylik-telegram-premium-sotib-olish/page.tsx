@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title:
     "3 oylik Telegram Premium sotib olish — O'zbekistonda so'mda, Uzcard va Humo orqali",
   description:
-    "3 oylik Telegram Premium sotib olish O'zbekistonda Uzcard, Humo, Click, Payme orqali. Telegramda 3 oylik paket yo'q — faqat @PremiumSendBot orqali. Narxi, imkoniyatlari va bosqichma-bosqich yo'riqnoma.",
+    "3 oylik Telegram Premium sotib olish O'zbekistonda 175,000 so'mga. Uzcard, Humo kartasi orqali so'mda to'lov. Telegramda 3 oylik paket yo'q — faqat @PremiumSendBot orqali. Bosqichma-bosqich yo'riqnoma.",
   keywords: [
     "3 oylik Telegram Premium sotib olish",
     "Telegram Premium 3 oylik",
@@ -37,7 +37,7 @@ export default function Article3Month() {
     headline:
       "3 oylik Telegram Premium sotib olish — O'zbekistonda so'mda, Uzcard va Humo orqali",
     description:
-      "3 oylik Telegram Premium sotib olish O'zbekistonda Uzcard, Humo, Click, Payme orqali. Batafsil qo'llanma.",
+      "3 oylik Telegram Premium sotib olish O'zbekistonda 175,000 so'mga. Uzcard, Humo kartasi orqali so'mda to'lov. Batafsil qo'llanma.",
     datePublished: "2026-04-02",
     dateModified: "2026-04-02",
     author: {

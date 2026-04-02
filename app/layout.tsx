@@ -49,12 +49,25 @@ export const metadata: Metadata = {
     title: "Telegram Premium sotib olish — so'mda to'lab oling | Premium Send",
     description:
       "Telegram Premium obunasini O'zbekiston so'mida sotib oling. 3, 6, 12 oylik paketlar. UzCard, Humo, Visa orqali to'lov.",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Premium Send — Telegram Premium sotib olish O'zbekistonda so'mda",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Telegram Premium sotib olish — so'mda | Premium Send",
     description:
       "Telegram Premium obunasini O'zbekiston so'mida sotib oling. 175,000 so'mdan boshlab.",
+    images: ["/og-image.png"],
+  },
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
   },
   robots: {
     index: true,
