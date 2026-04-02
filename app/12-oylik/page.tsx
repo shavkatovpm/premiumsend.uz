@@ -5,7 +5,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "12 oylik Telegram Premium sotib olish — 425,000 so'm",
   description:
-    "12 oylik (1 yillik) Telegram Premium sotib olish atigi 425,000 so'mga. Oyiga 35,417 so'm — eng arzon oylik narx! O'zbekiston so'mida UzCard, Humo, Visa orqali to'lov.",
+    "12 oylik (1 yillik) Telegram Premium sotib olish atigi 425,000 so'mga. Oyiga 35,417 so'm — eng arzon oylik narx! O'zbekiston so'mida UzCard, Humo orqali to'lov.",
   keywords: [
     "12 oylik Telegram Premium sotib olish",
     "Telegram Premium 12 oylik",
@@ -188,7 +188,7 @@ export default function TwelveMonthPage() {
               <strong className="text-foreground">12 oylik Telegram Premium sotib olish</strong> — eng tejamkor variant. Bir yilga Premium obuna atigi <strong className="text-foreground">425,000 so&apos;m</strong>, bu oyiga 35,417 so&apos;mni tashkil etadi. Agar 3 oylik paketni 4 marta sotib olsangiz 700,000 so&apos;m ketadi — 12 oylik bilan 275,000 so&apos;m tejaysiz.
             </p>
             <p>
-              Premium Send orqali 12 oylik Telegram Premium sotib olish oson — UzCard, Humo, Visa yoki MasterCard bilan O&apos;zbekiston so&apos;mida to&apos;lab, bir necha daqiqada aktivlashtiring. Butun yil davomida barcha Premium imkoniyatlardan foydalaning.
+              Premium Send orqali 12 oylik Telegram Premium sotib olish oson — UzCard, Humo kartasi bilan O&apos;zbekiston so&apos;mida to&apos;lab, bir necha daqiqada aktivlashtiring. Click yoki Payme orqali ham botdagi kartaga o&apos;tkazma qilish mumkin. Butun yil davomida barcha Premium imkoniyatlardan foydalaning.
             </p>
             <p>
               Qisqaroq muddat kerakmi? <Link href="/3-oylik" className="text-primary font-semibold hover:underline">3 oylik Telegram Premium</Link> (175,000 so&apos;m) sinab ko&apos;rish uchun yoki <Link href="/6-oylik" className="text-primary font-semibold hover:underline">6 oylik Telegram Premium</Link> (235,000 so&apos;m) eng yaxshi narx/sifat uchun.

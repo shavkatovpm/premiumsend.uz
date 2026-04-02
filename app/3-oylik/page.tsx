@@ -5,7 +5,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "3 oylik Telegram Premium sotib olish — 175,000 so'm",
   description:
-    "3 oylik Telegram Premium sotib olish atigi 175,000 so'mga. O'zbekiston so'mida UzCard, Humo, Visa orqali to'lov. Tez aktivatsiya. Telegramda 3 oylik paket yo'q — faqat Premium Send da.",
+    "3 oylik Telegram Premium sotib olish atigi 175,000 so'mga. O'zbekiston so'mida UzCard, Humo orqali to'lov. Tez aktivatsiya. Telegramda 3 oylik paket yo'q — faqat Premium Send da.",
   keywords: [
     "3 oylik Telegram Premium sotib olish",
     "Telegram Premium 3 oylik",
@@ -245,7 +245,7 @@ export default function ThreeMonthPage() {
               <strong className="text-foreground">3 oylik Telegram Premium sotib olish</strong> — bu Premium imkoniyatlarini sinab ko&apos;rishning eng qulay yo&apos;li. Telegram faqat 1 oylik va 12 oylik Premium taklif qiladi — 3 oylik va 6 oylik paketlar mavjud emas. Shuning uchun bu xizmatni faqat Premium Send kabi platformalar orqali sotib olish mumkin.
             </p>
             <p>
-              3 oylik Telegram Premium narxi atigi <strong className="text-foreground">175,000 so&apos;m</strong> (oyiga taxminan 58,333 so&apos;m). To&apos;lov O&apos;zbekiston so&apos;mida — UzCard, Humo, Visa yoki MasterCard orqali amalga oshiriladi. To&apos;lovdan so&apos;ng Premium bir necha daqiqada faollashtiriladi.
+              3 oylik Telegram Premium narxi atigi <strong className="text-foreground">175,000 so&apos;m</strong> (oyiga taxminan 58,333 so&apos;m). To&apos;lov O&apos;zbekiston so&apos;mida — UzCard, Humo kartasi orqali amalga oshiriladi. Click yoki Payme orqali ham botdagi kartaga o&apos;tkazma qilish mumkin. To&apos;lovdan so&apos;ng Premium bir necha daqiqada faollashtiriladi.
             </p>
             <p>
               Agar siz Telegram Premiumni uzoqroq muddatga olmoqchi bo&apos;lsangiz, <Link href="/6-oylik" className="text-primary font-semibold hover:underline">6 oylik Telegram Premium</Link> (235,000 so&apos;m) yoki <Link href="/12-oylik" className="text-primary font-semibold hover:underline">12 oylik Telegram Premium</Link> (425,000 so&apos;m) paketlarini ko&apos;rib chiqing — oylik narx ancha arzonroq.

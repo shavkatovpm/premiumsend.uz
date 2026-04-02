@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     template: "%s | Premium Send",
   },
   description:
-    "Telegram Premium sotib olish O'zbekistonda so'mda. 3 oylik 175,000 so'm, 6 oylik 235,000 so'm, 12 oylik 425,000 so'm. UzCard, Humo, Visa orqali to'lov. Tez aktivatsiya, ishonchli xizmat.",
+    "Telegram Premium sotib olish O'zbekistonda so'mda. 3 oylik 175,000 so'm, 6 oylik 235,000 so'm, 12 oylik 425,000 so'm. UzCard, Humo orqali to'lov. Tez aktivatsiya, ishonchli xizmat.",
   keywords: [
     "Telegram Premium sotib olish",
     "Telegram Premium",
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     siteName: "Premium Send",
     title: "Telegram Premium sotib olish — so'mda to'lab oling | Premium Send",
     description:
-      "Telegram Premium obunasini O'zbekiston so'mida sotib oling. 3, 6, 12 oylik paketlar. UzCard, Humo, Visa orqali to'lov.",
+      "Telegram Premium obunasini O'zbekiston so'mida sotib oling. 3, 6, 12 oylik paketlar. UzCard, Humo orqali to'lov.",
     images: [
       {
         url: "/og-image.png",

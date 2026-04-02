@@ -5,7 +5,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "6 oylik Telegram Premium sotib olish — 235,000 so'm",
   description:
-    "6 oylik Telegram Premium sotib olish atigi 235,000 so'mga. Eng ommabop paket! Oyiga 39,167 so'm. O'zbekiston so'mida UzCard, Humo, Visa orqali to'lov. Tez aktivatsiya.",
+    "6 oylik Telegram Premium sotib olish atigi 235,000 so'mga. Eng ommabop paket! Oyiga 39,167 so'm. O'zbekiston so'mida UzCard, Humo orqali to'lov. Tez aktivatsiya.",
   keywords: [
     "6 oylik Telegram Premium sotib olish",
     "Telegram Premium 6 oylik",
