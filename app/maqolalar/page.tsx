@@ -34,6 +34,14 @@ const articles = [
     category: "Qo'llanma",
     date: "2026-04-02",
   },
+  {
+    slug: "6-oylik-telegram-premium-sotib-olish",
+    title: "6 oylik Telegram Premium sotib olish",
+    excerpt:
+      "O'zbekistonda 6 oylik Telegram Premium sotib olish — 235,000 so'mga. Uzcard, Humo kartasi orqali so'mda to'lov. Telegramda 6 oylik paket yo'q — faqat @PremiumSendBot orqali. Nima uchun 6 oylik eng aqlli tanlov?",
+    category: "Qo'llanma",
+    date: "2026-04-02",
+  },
 ];
 
 const categoryColors: Record<string, string> = {
