@@ -90,55 +90,61 @@ export default function Header() {
         </div>
       </div>
 
-      {/* Mobile menu */}
+      {/* Mobile menu overlay */}
       {mobileMenuOpen && (
-        <div className="md:hidden border-t border-card-border bg-white">
-          <div className="px-4 py-3 space-y-1">
-            <Link
-              href="/"
-              onClick={() => setMobileMenuOpen(false)}
-              className="block px-4 py-3 rounded-lg text-sm font-medium hover:bg-primary-light hover:text-primary transition-all"
-            >
-              Bosh sahifa
-            </Link>
-            <Link
-              href="/3-oylik"
-              onClick={() => setMobileMenuOpen(false)}
-              className="block px-4 py-3 rounded-lg text-sm font-medium hover:bg-primary-light hover:text-primary transition-all"
-            >
-              3 oylik Premium
-            </Link>
-            <Link
-              href="/6-oylik"
-              onClick={() => setMobileMenuOpen(false)}
-              className="block px-4 py-3 rounded-lg text-sm font-medium hover:bg-primary-light hover:text-primary transition-all"
-            >
-              6 oylik Premium
-            </Link>
-            <Link
-              href="/12-oylik"
-              onClick={() => setMobileMenuOpen(false)}
-              className="block px-4 py-3 rounded-lg text-sm font-medium hover:bg-primary-light hover:text-primary transition-all"
-            >
-              12 oylik Premium
-            </Link>
-            <Link
-              href="/maqolalar"
-              onClick={() => setMobileMenuOpen(false)}
-              className="block px-4 py-3 rounded-lg text-sm font-medium hover:bg-primary-light hover:text-primary transition-all"
-            >
-              Maqolalar
-            </Link>
-            <Link
-              href="https://t.me/premiumsendbot"
-              target="_blank"
-              onClick={() => setMobileMenuOpen(false)}
-              className="block px-4 py-3 rounded-xl bg-primary text-white text-sm font-semibold text-center mt-2"
-            >
-              Sotib olish
-            </Link>
+        <>
+          <div
+            className="md:hidden fixed inset-0 top-16 bg-black/20 z-40"
+            onClick={() => setMobileMenuOpen(false)}
+          />
+          <div className="md:hidden fixed left-0 right-0 top-16 z-50 border-t border-card-border bg-white shadow-xl">
+            <div className="px-4 py-3 space-y-1">
+              <Link
+                href="/"
+                onClick={() => setMobileMenuOpen(false)}
+                className="block px-4 py-3 rounded-lg text-sm font-medium hover:bg-primary-light hover:text-primary transition-all"
+              >
+                Bosh sahifa
+              </Link>
+              <Link
+                href="/3-oylik"
+                onClick={() => setMobileMenuOpen(false)}
+                className="block px-4 py-3 rounded-lg text-sm font-medium hover:bg-primary-light hover:text-primary transition-all"
+              >
+                3 oylik Premium
+              </Link>
+              <Link
+                href="/6-oylik"
+                onClick={() => setMobileMenuOpen(false)}
+                className="block px-4 py-3 rounded-lg text-sm font-medium hover:bg-primary-light hover:text-primary transition-all"
+              >
+                6 oylik Premium
+              </Link>
+              <Link
+                href="/12-oylik"
+                onClick={() => setMobileMenuOpen(false)}
+                className="block px-4 py-3 rounded-lg text-sm font-medium hover:bg-primary-light hover:text-primary transition-all"
+              >
+                12 oylik Premium
+              </Link>
+              <Link
+                href="/maqolalar"
+                onClick={() => setMobileMenuOpen(false)}
+                className="block px-4 py-3 rounded-lg text-sm font-medium hover:bg-primary-light hover:text-primary transition-all"
+              >
+                Maqolalar
+              </Link>
+              <Link
+                href="https://t.me/premiumsendbot"
+                target="_blank"
+                onClick={() => setMobileMenuOpen(false)}
+                className="block px-4 py-3 rounded-xl bg-primary text-white text-sm font-semibold text-center mt-2"
+              >
+                Sotib olish
+              </Link>
+            </div>
           </div>
-        </div>
+        </>
       )}
     </header>
   );
