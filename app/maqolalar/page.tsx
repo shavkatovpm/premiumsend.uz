@@ -42,6 +42,14 @@ const articles = [
     category: "Qo'llanma",
     date: "2026-04-02",
   },
+  {
+    slug: "12-oylik-telegram-premium-sotib-olish",
+    title: "12 oylik Telegram Premium sotib olish",
+    excerpt:
+      "O'zbekistonda 12 oylik Telegram Premium sotib olish — 425,000 so'mga. Oyiga 35,417 so'm — eng arzon variant. Telegramda 12 oylik bor, lekin xorijiy karta kerak. Premium Send da so'mda oling.",
+    category: "Qo'llanma",
+    date: "2026-04-02",
+  },
 ];
 
 const categoryColors: Record<string, string> = {
