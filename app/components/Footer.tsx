@@ -61,6 +61,11 @@ export default function Footer() {
                   Narxlar
                 </Link>
               </li>
+              <li>
+                <Link href="/oferta" className="text-white/60 hover:text-primary text-sm transition-colors">
+                  Ommaviy oferta
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -88,9 +93,6 @@ export default function Footer() {
         <div className="border-t border-white/10 mt-10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-white/40 text-sm">
             © {new Date().getFullYear()} Premium Send. Barcha huquqlar himoyalangan.
-          </p>
-          <p className="text-white/40 text-xs">
-            Telegram — Telegram FZ-LLC tomonidan ishlab chiqilgan.
           </p>
         </div>
       </div>
