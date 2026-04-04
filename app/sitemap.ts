@@ -29,6 +29,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
+      url: `${baseUrl}/oferta`,
+      lastModified: new Date("2026-04-05"),
+      changeFrequency: "yearly",
+      priority: 0.5,
+    },
+    {
       url: `${baseUrl}/maqolalar`,
       lastModified: new Date(),
       changeFrequency: "weekly",
