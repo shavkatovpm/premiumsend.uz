@@ -60,10 +60,6 @@ export default function OfertaPage() {
                 1.3. Foydalanuvchi botda buyurtma berish orqali ushbu oferta shartlarini
                 to&apos;liq va so&apos;zsiz qabul qilgan hisoblanadi (aksept).
               </p>
-              <p>
-                1.4. Ijrochi O&apos;zbekiston Respublikasi qonunchiligiga muvofiq faoliyat
-                yuritadi.
-              </p>
             </div>
           </section>
 
