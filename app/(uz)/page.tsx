@@ -1,19 +1,19 @@
 import type { Metadata } from "next";
-import PricingCard from "./components/PricingCard";
-import AnimatedWave from "./components/AnimatedWave";
+import PricingCard from "../components/PricingCard";
+import AnimatedWave from "../components/AnimatedWave";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Telegram Premium sotib olish — so'mda to'lab oling | Premium Send",
+  title: "Telegram Premium sotib olish — so'mda to'lab oling",
   description:
-    "Telegram Premium sotib olish O'zbekistonda so'mda. 3 oylik 175,000 so'm, 6 oylik 235,000 so'm, 12 oylik 425,000 so'm. UzCard, Humo orqali to'lov. Tez aktivatsiya.",
+    "Telegram Premium sotib olish O'zbekistonda so'mda. 1 oylik 59,000 so'm, 3 oylik 175,000 so'm, 6 oylik 235,000 so'm, 12 oylik 425,000 so'm. UzCard, Humo orqali to'lov. Tez aktivatsiya.",
   alternates: {
     canonical: "https://premiumsend.uz",
   },
   openGraph: {
     title: "Telegram Premium sotib olish — so'mda to'lab oling",
     description:
-      "Telegram Premium obunasini O'zbekiston so'mida sotib oling. 175,000 so'mdan boshlab. UzCard, Humo.",
+      "Telegram Premium obunasini O'zbekiston so'mida sotib oling. 59,000 so'mdan boshlab. UzCard, Humo.",
     url: "https://premiumsend.uz",
   },
 };
@@ -25,15 +25,15 @@ const faqData = [
   },
   {
     q: "Telegram Premium narxi qancha?",
-    a: "Premium Send da Telegram Premium narxlari: 3 oylik — 175,000 so'm, 6 oylik — 235,000 so'm, 12 oylik — 425,000 so'm. Barcha narxlar O'zbekiston so'mida.",
+    a: "Premium Send da Telegram Premium narxlari: 1 oylik — 59,000 so'm, 3 oylik — 175,000 so'm, 6 oylik — 235,000 so'm, 12 oylik — 425,000 so'm. Barcha narxlar O'zbekiston so'mida.",
   },
   {
     q: "Nima uchun Premium Send dan sotib olish kerak?",
-    a: "Telegram messenjerida faqat 1 oylik va 12 oylik Premium paketlar mavjud — 3 oylik va 6 oylik paketlar yo'q. Bundan tashqari, to'lov faqat xorijiy karta orqali amalga oshiriladi (Uzcard, Humo ishlamaydi). Premium Send orqali esa O'zbekiston so'mida, UzCard, Humo kartangiz orqali to'lab olishingiz mumkin. Click yoki Payme orqali ham botdagi kartaga o'tkazma qilish mumkin.",
+    a: "Telegram messenjerida faqat 1 oylik va 12 oylik Premium paketlar mavjud — 3 oylik va 6 oylik paketlar yo'q. Bundan tashqari, to'lov faqat xorijiy karta orqali amalga oshiriladi (Uzcard, Humo ishlamaydi). Premium Send orqali esa O'zbekiston so'mida, UzCard, Humo kartangiz orqali to'lab olishingiz mumkin. Click yoki Payme orqali ham kartaga o'tkazma qilish mumkin. 1, 3, 6 va 12 oylik paketlar mavjud.",
   },
   {
     q: "Telegram Premium qanday sotib olish mumkin?",
-    a: "Premium Send orqali Telegram Premium sotib olish juda oson: 1) O'zingizga kerakli muddatni tanlang (3, 6 yoki 12 oy). 2) Telegram bot orqali buyurtma bering. 3) UzCard, Humo yoki boshqa karta orqali so'mda to'lov qiling. 4) Bir necha daqiqada Premium faollashadi.",
+    a: "Premium Send orqali Telegram Premium sotib olish juda oson: 1) O'zingizga kerakli muddatni tanlang (1, 3, 6 yoki 12 oy). 2) Telegram bot orqali buyurtma bering. 3) UzCard, Humo yoki boshqa karta orqali so'mda to'lov qiling. 4) Bir necha daqiqada Premium faollashadi.",
   },
   {
     q: "To'lov qanday amalga oshiriladi?",
@@ -73,7 +73,7 @@ export default function Home() {
       url: "https://premiumsend.uz",
     },
     description:
-      "O'zbekistonda Telegram Premium obunasini so'mda sotib olish xizmati. 3, 6 va 12 oylik paketlar.",
+      "O'zbekistonda Telegram Premium obunasini so'mda sotib olish xizmati. 1, 3, 6 va 12 oylik paketlar.",
     areaServed: {
       "@type": "Country",
       name: "Uzbekistan",
@@ -82,6 +82,13 @@ export default function Home() {
       "@type": "OfferCatalog",
       name: "Telegram Premium paketlar",
       itemListElement: [
+        {
+          "@type": "Offer",
+          name: "Telegram Premium 1 oylik",
+          price: "59000",
+          priceCurrency: "UZS",
+          url: "https://premiumsend.uz/1-oylik",
+        },
         {
           "@type": "Offer",
           name: "Telegram Premium 3 oylik",
@@ -139,8 +146,8 @@ export default function Home() {
             </h1>
             <p className="text-lg md:text-xl text-white/80 mb-10 max-w-2xl mx-auto leading-relaxed">
               <span className="hidden md:inline">Premium Send orqali Telegram Premium obunasini O&apos;zbekiston so&apos;mida, UzCard yoki Humo kartadan to&apos;lab,
-              oson va tez sotib oling. 3, 6 yoki 12 oylik paketlar mavjud.</span>
-              <span className="md:hidden">3, 6 yoki 12 oylik paketlar mavjud.</span>
+              oson va tez sotib oling. 1, 3, 6 yoki 12 oylik paketlar mavjud.</span>
+              <span className="md:hidden">1, 3, 6 yoki 12 oylik paketlar mavjud.</span>
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link
@@ -265,7 +272,19 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto items-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto items-center">
+            <PricingCard
+              months={1}
+              price="59,000"
+              pricePerMonth="59,000"
+              features={[
+                "1 oy Telegram Premium",
+                "Barcha Premium imkoniyatlar",
+                "So'mda to'lov",
+                "Tez aktivatsiya",
+              ]}
+              href="/1-oylik"
+            />
             <PricingCard
               months={3}
               price="175,000"
@@ -324,7 +343,7 @@ export default function Home() {
               {
                 step: "1",
                 title: "Muddatni tanlang",
-                desc: "3, 6 yoki 12 oylik Telegram Premium paketlardan birini tanlang",
+                desc: "1, 3, 6 yoki 12 oylik Telegram Premium paketlardan birini tanlang",
               },
               {
                 step: "2",
@@ -364,7 +383,7 @@ export default function Home() {
                 O&apos;zbekistonda Telegram Premium sotib olish uchun odatda xorijiy bank kartasi kerak bo&apos;ladi — Uzcard va Humo kartalar ishlamaydi. Bundan tashqari, Telegram messenjerida faqat 1 oylik va 12 oylik Premium paketlar mavjud — 3 oylik va 6 oylik paketlar yo&apos;q.
               </p>
               <p>
-                <strong className="text-foreground">Premium Send</strong> bu muammolarni hal qiladi. Bizning xizmat orqali siz Telegram Premium obunasini O&apos;zbekiston so&apos;mida — UzCard yoki Humo kartangiz bilan sotib olishingiz mumkin. Click yoki Payme orqali ham botdagi kartaga o&apos;tkazma qilish mumkin. 3 oylik paket atigi <strong className="text-foreground">175,000 so&apos;m</strong>, 6 oylik — <strong className="text-foreground">235,000 so&apos;m</strong>, 12 oylik — <strong className="text-foreground">425,000 so&apos;m</strong>.
+                <strong className="text-foreground">Premium Send</strong> bu muammolarni hal qiladi. Bizning xizmat orqali siz Telegram Premium obunasini O&apos;zbekiston so&apos;mida — UzCard yoki Humo kartangiz bilan sotib olishingiz mumkin. Click yoki Payme orqali ham botdagi kartaga o&apos;tkazma qilish mumkin. 1 oylik paket atigi <strong className="text-foreground">59,000 so&apos;m</strong>, 3 oylik — <strong className="text-foreground">175,000 so&apos;m</strong>, 6 oylik — <strong className="text-foreground">235,000 so&apos;m</strong>, 12 oylik — <strong className="text-foreground">425,000 so&apos;m</strong>.
               </p>
               <p>
                 Telegram Premium sotib olish jarayoni juda oddiy: kerakli muddatni tanlaysiz, Telegram bot orqali buyurtma berasiz, so&apos;mda to&apos;lov qilasiz va bir necha daqiqada Premium faollashadi. Xavfsiz va ishonchli — biz rasmiy Telegram Premium gift orqali obunani faollashtiramiz.
@@ -403,7 +422,13 @@ export default function Home() {
           <h2 className="text-3xl font-extrabold text-foreground text-center mb-12">
             Telegram Premium <span className="gradient-text">paketlarni tanlang</span>
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <Link href="/1-oylik" className="bg-white rounded-2xl p-8 border border-card-border shadow-sm card-hover text-center group">
+              <div className="text-4xl font-extrabold text-primary mb-2">1 oy</div>
+              <div className="text-2xl font-bold text-foreground mb-1">59,000 so&apos;m</div>
+              <p className="text-sm text-muted mb-4">Telegram Premium 1 oylik sotib olish</p>
+              <span className="text-primary font-semibold text-sm group-hover:underline">Batafsil →</span>
+            </Link>
             <Link href="/3-oylik" className="bg-white rounded-2xl p-8 border border-card-border shadow-sm card-hover text-center group">
               <div className="text-4xl font-extrabold text-primary mb-2">3 oy</div>
               <div className="text-2xl font-bold text-foreground mb-1">175,000 so&apos;m</div>
@@ -440,7 +465,7 @@ export default function Home() {
                 Hoziroq Telegram Premium sotib oling!
               </h2>
               <p className="text-white/80 text-lg mb-8 max-w-xl mx-auto">
-                Atigi 175,000 so&apos;mdan boshlab. So&apos;mda to&apos;lab, bir necha daqiqada aktivlashtiring.
+                Atigi 59,000 so&apos;mdan boshlab. So&apos;mda to&apos;lab, bir necha daqiqada aktivlashtiring.
               </p>
               <Link
                 href="https://t.me/premiumsendbot"

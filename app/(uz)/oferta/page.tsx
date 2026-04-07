@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Ommaviy oferta shartnomasi — Premium Send",
+  title: "Ommaviy oferta shartnomasi",
   description:
     "Premium Send xizmatining ommaviy oferta shartnomasi. Telegram Premium obunasini sotib olish shartlari, to'lov tartibi, qaytarish siyosati va boshqa qoidalar.",
   alternates: {

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import AnimatedWave from "../components/AnimatedWave";
+import AnimatedWave from "../../components/AnimatedWave";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -205,8 +205,11 @@ export default function TwelveMonthPage() {
             <div className="grid grid-cols-4 bg-section-alt p-4 font-bold text-sm">
               <div>Paket</div><div className="text-center">Narx</div><div className="text-center">Oylik</div><div className="text-center">Tejamkorlik</div>
             </div>
+            <Link href="/1-oylik" className="grid grid-cols-4 p-4 border-b border-card-border items-center hover:bg-primary-light/10 transition-colors">
+              <div className="font-bold">1 oylik</div><div className="text-center font-semibold">59,000</div><div className="text-center text-sm text-muted">59,000</div><div className="text-center text-sm">&mdash;</div>
+            </Link>
             <Link href="/3-oylik" className="grid grid-cols-4 p-4 border-b border-card-border items-center hover:bg-primary-light/10 transition-colors">
-              <div className="font-bold">3 oylik</div><div className="text-center font-semibold">175,000</div><div className="text-center text-sm text-muted">58,333</div><div className="text-center text-sm">—</div>
+              <div className="font-bold">3 oylik</div><div className="text-center font-semibold">175,000</div><div className="text-center text-sm text-muted">58,333</div><div className="text-center text-sm text-green-600 font-medium">-1%</div>
             </Link>
             <Link href="/6-oylik" className="grid grid-cols-4 p-4 border-b border-card-border items-center hover:bg-primary-light/10 transition-colors">
               <div className="font-bold">6 oylik</div><div className="text-center font-semibold">235,000</div><div className="text-center text-sm text-muted">39,167</div><div className="text-center text-sm text-green-600 font-medium">-33%</div>

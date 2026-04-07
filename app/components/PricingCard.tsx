@@ -7,6 +7,7 @@ interface PricingCardProps {
   popular?: boolean;
   features: string[];
   href: string;
+  locale?: "uz" | "ru";
 }
 
 export default function PricingCard({
@@ -16,7 +17,16 @@ export default function PricingCard({
   popular = false,
   features,
   href,
+  locale = "uz",
 }: PricingCardProps) {
+  const t = locale === "ru"
+    ? { badge: "Самый популярный", monthly: "oylik", perMonth: "в месяц ~", currency: "сум", tp: "Telegram Premium", buy: "Купить" }
+    : { badge: "Eng ommabop", monthly: "oylik", perMonth: "oyiga ~", currency: "so'm", tp: "Telegram Premium", buy: "Sotib olish" };
+
+  const monthLabel = locale === "ru"
+    ? months === 1 ? "месяц" : months < 5 ? "месяца" : "месяцев"
+    : "oylik";
+
   return (
     <div
       className={`relative rounded-2xl p-8 card-hover ${
@@ -28,7 +38,7 @@ export default function PricingCard({
       {popular && (
         <div className="absolute -top-4 left-1/2 -translate-x-1/2">
           <span className="shine-badge text-white text-xs font-bold px-4 py-1.5 rounded-full">
-            Eng ommabop
+            {t.badge}
           </span>
         </div>
       )}
@@ -48,17 +58,19 @@ export default function PricingCard({
             <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" />
           </svg>
         </div>
-        <h3 className="text-xl font-bold text-foreground">{months} oylik</h3>
-        <p className="text-muted text-sm mt-1">Telegram Premium</p>
+        <h3 className="text-xl font-bold text-foreground">
+          {locale === "ru" ? `${months} ${monthLabel}` : `${months} oylik`}
+        </h3>
+        <p className="text-muted text-sm mt-1">{t.tp}</p>
       </div>
 
       <div className="text-center mb-6">
         <div className="flex items-end justify-center gap-1">
           <span className="text-4xl font-extrabold text-foreground">{price}</span>
-          <span className="text-lg text-muted mb-1">so&apos;m</span>
+          <span className="text-lg text-muted mb-1">{t.currency}</span>
         </div>
         <p className="text-sm text-primary font-medium mt-1">
-          oyiga ~ {pricePerMonth} so&apos;m
+          {t.perMonth} {pricePerMonth} {t.currency}
         </p>
       </div>
 
@@ -87,7 +99,7 @@ export default function PricingCard({
             : "bg-primary-light text-primary hover:bg-primary hover:text-white"
         }`}
       >
-        Sotib olish
+        {t.buy}
       </Link>
     </div>
   );
