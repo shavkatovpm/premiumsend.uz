@@ -27,6 +27,38 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "12-oylik-telegram-premium-sovga-qilish",
+    title: "12 oylik Telegram Premium sovg'a qilish",
+    excerpt:
+      "Istalgan odamga 12 oylik Telegram Premium sovg'a qiling — @PremiumSendBot orqali 425,000 so'mga. Uzcard, Humo bilan so'mda to'lov. Username kiritasiz — Premium faollashadi.",
+    category: "Maslahat",
+    date: "2026-04-08",
+  },
+  {
+    slug: "6-oylik-telegram-premium-olishning-eng-yaxshi-usuli",
+    title: "6 oylik Telegram Premium olishning eng yaxshi usuli",
+    excerpt:
+      "Barcha usullar taqqoslandi: rasmiy ilova, Fragment, tanish orqali va reseller bot. O'zbekistonda 6 oylik Telegram Premium olishning eng tez, eng arzon va eng ishonchli usuli — @PremiumSendBot.",
+    category: "Taqqoslash",
+    date: "2026-04-08",
+  },
+  {
+    slug: "3-oylik-telegram-premium-sovga-qilish",
+    title: "3 oylik Telegram Premium sovg'a qilish",
+    excerpt:
+      "Do'stingiz yoki yaqiningizga 3 oylik Telegram Premium sovg'a qiling — @PremiumSendBot orqali 175,000 so'mga, Uzcard va Humo bilan. Username kiriting, to'lang — gift avtomatik faollashadi.",
+    category: "Qo'llanma",
+    date: "2026-04-08",
+  },
+  {
+    slug: "1-oylik-telegram-premium-uzcard-orqali-sotib-olish",
+    title: "1 oylik Telegram Premium Uzcard orqali sotib olish",
+    excerpt:
+      "Telegram Premium Uzcard bilan to'lab bo'ladimi? Ha — @premiumsend_admin orqali Uzcard kartasi bilan 59,000 so'mga Premium faollashtiring. Bosqichma-bosqich yo'riqnoma va xavfsizlik haqida.",
+    category: "Qo'llanma",
+    date: "2026-04-08",
+  },
+  {
     slug: "1-oylik-telegram-premium-sotib-olish",
     title: "1 oylik Telegram Premium sotib olish",
     excerpt:

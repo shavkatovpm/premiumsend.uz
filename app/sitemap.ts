@@ -47,6 +47,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: `${baseUrl}/maqolalar/1-oylik-telegram-premium-uzcard-orqali-sotib-olish`,
+      lastModified: new Date("2026-04-08"),
+      changeFrequency: "monthly",
+      priority: 0.85,
+    },
+    {
       url: `${baseUrl}/maqolalar/1-oylik-telegram-premium-sotib-olish`,
       lastModified: new Date("2026-04-07"),
       changeFrequency: "monthly",
