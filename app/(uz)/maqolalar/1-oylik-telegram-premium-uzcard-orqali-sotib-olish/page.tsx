@@ -279,8 +279,11 @@ export default function ArticlePremiumUzcard() {
             <p className="text-muted leading-relaxed mb-4">
               Bu faqat Telegramga xos muammo emas — Spotify, YouTube Premium, Netflix kabi deyarli barcha xorijiy raqamli xizmatlar ham Uzcard qabul qilmaydi. Ba&apos;zilar virtual xorijiy karta ochishga harakat qiladi, lekin ro&apos;yxatdan o&apos;tish, identifikatsiya, valyuta konvertatsiyasi va bank komissiyasi — hammasini hisoblaganda, 1 oylik Premium uchun sarflanadigan vaqt va xarajat asl narxdan oshib ketadi.
             </p>
-            <p className="text-muted leading-relaxed">
+            <p className="text-muted leading-relaxed mb-4">
               Aynan shu sababli O&apos;zbekistonda mahalliy xizmatlar orqali Telegram Premium sotib olish eng amaliy yo&apos;l. Siz Uzcard kartangiz bilan so&apos;mda to&apos;laysiz, xizmat esa Telegram&apos;ning rasmiy Gift Premium funksiyasi orqali obunani sizning akkauntingizga faollashtiradi — xorijiy karta yoki VPN kerak emas.
+            </p>
+            <p className="text-muted leading-relaxed">
+              O&apos;zbekistonda bu turdagi bir nechta xizmat bor. Ishonchli servisni tanlashda e&apos;tibor berish kerak bo&apos;lgan jihatlar: rasmiy veb-sayt mavjudligi, narxlarning ochiq ko&apos;rsatilganligi, to&apos;lovning so&apos;mda amalga oshirilishi va Premium&apos;ning Telegram&apos;ning rasmiy Gift funksiyasi orqali faollashtirilishi. Agar shu mezonlarga javob bersa — xizmat ishonchli.
             </p>
           </section>
 
