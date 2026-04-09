@@ -19,6 +19,10 @@ export const metadata: Metadata = {
   alternates: {
     canonical:
       "https://premiumsend.uz/maqolalar/1-oylik-telegram-premium-uzcard-orqali-sotib-olish",
+    languages: {
+      uz: "https://premiumsend.uz/maqolalar/1-oylik-telegram-premium-uzcard-orqali-sotib-olish",
+      ru: "https://premiumsend.uz/ru/maqolalar/1-oylik-telegram-premium-uzcard-orqali-sotib-olish",
+    },
   },
   openGraph: {
     title:
