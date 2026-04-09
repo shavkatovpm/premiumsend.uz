@@ -19,6 +19,10 @@ export const metadata: Metadata = {
   alternates: {
     canonical:
       "https://premiumsend.uz/maqolalar/6-oylik-telegram-premium-olishning-eng-yaxshi-usuli",
+    languages: {
+      uz: "https://premiumsend.uz/maqolalar/6-oylik-telegram-premium-olishning-eng-yaxshi-usuli",
+      ru: "https://premiumsend.uz/ru/maqolalar/6-oylik-telegram-premium-olishning-eng-yaxshi-usuli",
+    },
   },
   openGraph: {
     title: "6 oylik Telegram Premium olishning eng yaxshi usuli",

@@ -31,6 +31,38 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "12-oylik-telegram-premium-sovga-qilish",
+    title: "Подарить Telegram Premium на 12 месяцев",
+    excerpt:
+      "Подарите любому человеку 12-месячный Telegram Premium — через @PremiumSendBot за 425 000 сум. Оплата Uzcard, Humo в сумах. Вводите username — Premium активируется.",
+    category: "Советы",
+    date: "2026-04-08",
+  },
+  {
+    slug: "6-oylik-telegram-premium-olishning-eng-yaxshi-usuli",
+    title: "Лучший способ получить Telegram Premium на 6 месяцев",
+    excerpt:
+      "Все способы сравнены: официальное приложение, Fragment, через знакомых и реселлер-бот. Самый быстрый, удобный и надёжный способ получить 6-месячный Telegram Premium в Узбекистане — @PremiumSendBot.",
+    category: "Сравнение",
+    date: "2026-04-08",
+  },
+  {
+    slug: "3-oylik-telegram-premium-sovga-qilish",
+    title: "Подарить Telegram Premium на 3 месяца",
+    excerpt:
+      "Подарите другу или близкому 3-месячный Telegram Premium — через @PremiumSendBot за 175 000 сум, картой Uzcard или Humo. Введите username, оплатите — gift активируется автоматически.",
+    category: "Руководство",
+    date: "2026-04-08",
+  },
+  {
+    slug: "1-oylik-telegram-premium-uzcard-orqali-sotib-olish",
+    title: "Купить Telegram Premium на 1 месяц через Uzcard",
+    excerpt:
+      "Можно ли оплатить Telegram Premium через Uzcard? Да — через @premiumsend_admin за 59 000 сум. Пошаговая инструкция и вопросы безопасности.",
+    category: "Руководство",
+    date: "2026-04-08",
+  },
+  {
     slug: "1-oylik-telegram-premium-sotib-olish",
     title: "Купить Telegram Premium на 1 месяц",
     excerpt:
