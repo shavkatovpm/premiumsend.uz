@@ -27,6 +27,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "3-oylik-telegram-premium-uzcard-orqali",
+    title: "3 oylik Telegram Premium Uzcard orqali",
+    excerpt:
+      "3 oylik Telegram Premiumni Uzcard bilan so'mda to'lab faollashtiring — @PremiumSendBot orqali 175,000 so'mga, qo'shimcha komissiyasiz. Uzcard P2P, Click va Payme variantlari.",
+    category: "Qo'llanma",
+    date: "2026-04-17",
+  },
+  {
     slug: "12-oylik-telegram-premium-sovga-qilish",
     title: "12 oylik Telegram Premium sovg'a qilish",
     excerpt:
