@@ -31,6 +31,30 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "12-oylik-telegram-premium-uzcard-orqali",
+    title: "Telegram Premium на 12 месяцев через Uzcard",
+    excerpt:
+      "Активируйте годовой Telegram Premium через Uzcard в сумах — в @PremiumSendBot за 425 000 сум, на 39% дешевле помесячной. В месяц всего 35 417 сум.",
+    category: "Руководство",
+    date: "2026-04-17",
+  },
+  {
+    slug: "6-oylik-telegram-premium-uzcard-orqali",
+    title: "Telegram Premium на 6 месяцев через Uzcard",
+    excerpt:
+      "Активируйте 6-месячный Telegram Premium через Uzcard в сумах — в @PremiumSendBot за 235 000 сум, на 33% дешевле помесячной. В Telegram нет 6-месячного пакета.",
+    category: "Руководство",
+    date: "2026-04-17",
+  },
+  {
+    slug: "3-oylik-telegram-premium-uzcard-orqali",
+    title: "Telegram Premium на 3 месяца через Uzcard",
+    excerpt:
+      "Активируйте 3-месячный Telegram Premium через Uzcard в сумах — в @PremiumSendBot за 175 000 сум, без дополнительной комиссии. Варианты Uzcard P2P, Click и Payme.",
+    category: "Руководство",
+    date: "2026-04-17",
+  },
+  {
     slug: "12-oylik-telegram-premium-sovga-qilish",
     title: "Подарить Telegram Premium на 12 месяцев",
     excerpt:

@@ -21,6 +21,7 @@ export const metadata: Metadata = {
       "https://premiumsend.uz/maqolalar/6-oylik-telegram-premium-uzcard-orqali",
     languages: {
       uz: "https://premiumsend.uz/maqolalar/6-oylik-telegram-premium-uzcard-orqali",
+      ru: "https://premiumsend.uz/ru/maqolalar/6-oylik-telegram-premium-uzcard-orqali",
     },
   },
   openGraph: {
