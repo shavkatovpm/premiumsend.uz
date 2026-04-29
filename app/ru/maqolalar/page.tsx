@@ -31,6 +31,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "telegram-premium-eng-arzon-qayerdan-sotib-olish",
+    title: "Где Telegram Premium дешевле всего",
+    excerpt:
+      "Telegram Premium по самой низкой цене — в Premium Send от 35 417 сум в месяц. Сравнение с App Store, Fragment и реселлерами. Без скрытых комиссий, оплата в сумах.",
+    category: "Сравнение",
+    date: "2026-04-29",
+  },
+  {
     slug: "telegram-premium-nima",
     title: "Что такое Telegram Premium и какие возможности даёт в 2026 году",
     excerpt:

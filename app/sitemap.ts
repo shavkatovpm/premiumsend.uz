@@ -53,6 +53,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
+      url: `${baseUrl}/maqolalar/telegram-premium-eng-arzon-qayerdan-sotib-olish`,
+      lastModified: new Date("2026-04-29"),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
       url: `${baseUrl}/maqolalar/1-oylik-telegram-premium-uzcard-orqali-sotib-olish`,
       lastModified: new Date("2026-04-08"),
       changeFrequency: "monthly",
@@ -126,6 +132,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/ru/maqolalar/telegram-premium-eng-arzon-qayerdan-sotib-olish`,
+      lastModified: new Date("2026-04-29"),
+      changeFrequency: "monthly",
+      priority: 0.9,
     },
     {
       url: `${baseUrl}/ru/maqolalar/telegram-premium-nima`,

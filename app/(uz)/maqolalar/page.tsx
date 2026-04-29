@@ -27,6 +27,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "telegram-premium-eng-arzon-qayerdan-sotib-olish",
+    title: "Telegram Premium eng arzon qayerdan sotib olish",
+    excerpt:
+      "Telegram Premium eng arzon narxda — Premium Send da oyiga 35 417 so'mdan boshlab. App Store, Fragment va oraliq botlar bilan taqqoslash. Yashirin komissiyalarsiz, so'mda to'lov.",
+    category: "Taqqoslash",
+    date: "2026-04-29",
+  },
+  {
     slug: "telegram-premium-nima",
     title: "Telegram Premium nima va 2026-yilda qanday imkoniyatlar beradi",
     excerpt:
