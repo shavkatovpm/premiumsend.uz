@@ -27,6 +27,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "telegram-premium-nima",
+    title: "Telegram Premium nima va 2026-yilda qanday imkoniyatlar beradi",
+    excerpt:
+      "Telegram Premium — bu Telegramning pullik versiyasi. 4 GB fayl yuklash, reklamasiz tajriba, 1000 kanal va 20+ funksiya. O'zbekistonda 59,000 so'mdan, @PremiumSendBot orqali so'mda to'lov. To'liq qo'llanma.",
+    category: "Qo'llanma",
+    date: "2026-04-29",
+  },
+  {
     slug: "12-oylik-telegram-premium-uzcard-orqali",
     title: "12 oylik Telegram Premium Uzcard orqali",
     excerpt:

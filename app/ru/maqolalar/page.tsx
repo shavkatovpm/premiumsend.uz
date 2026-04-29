@@ -31,6 +31,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "telegram-premium-nima",
+    title: "Что такое Telegram Premium и какие возможности даёт в 2026 году",
+    excerpt:
+      "Telegram Premium — платная версия Telegram. Загрузка файлов до 4 ГБ, без рекламы, 1000 каналов и 20+ функций. В Узбекистане от 59 000 сум через @PremiumSendBot, оплата в сумах. Полное руководство.",
+    category: "Руководство",
+    date: "2026-04-29",
+  },
+  {
     slug: "12-oylik-telegram-premium-uzcard-orqali",
     title: "Telegram Premium на 12 месяцев через Uzcard",
     excerpt:
