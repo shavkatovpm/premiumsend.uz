@@ -27,6 +27,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "telegram-premium-narxlari",
+    title: "Telegram Premium narxlari 2026: 1, 3, 6, 12 oylik tariflar taqqoslash",
+    excerpt:
+      "Telegram Premium narxlari O'zbekistonda: 1 oylik — 59,000 so'm, 3 oylik — 175,000 so'm, 6 oylik — 235,000 so'm, 12 oylik — 425,000 so'm. Eng tejamkor tarif tahlili va to'lov usullari.",
+    category: "Taqqoslash",
+    date: "2026-04-30",
+  },
+  {
     slug: "telegram-premium-eng-arzon-qayerdan-sotib-olish",
     title: "Telegram Premium eng arzon qayerdan sotib olish",
     excerpt:
