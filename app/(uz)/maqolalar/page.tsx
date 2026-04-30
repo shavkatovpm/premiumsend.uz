@@ -27,6 +27,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "telegram-stars-nima",
+    title: "Telegram Stars nima va qayerda ishlatiladi",
+    excerpt:
+      "Telegram Stars — Telegramning rasmiy ichki valyutasi (2024-yildan). 12+ amaliy holat: stikerlar, donate, AI botlar, Premium sovg'a. O'zbekistondan 50 Stars 12 000 so'mdan, StarsJoy.uz orqali so'mda to'lov.",
+    category: "Qo'llanma",
+    date: "2026-04-30",
+  },
+  {
     slug: "telegram-premium-narxlari",
     title: "Telegram Premium narxlari 2026: 1, 3, 6, 12 oylik tariflar taqqoslash",
     excerpt:

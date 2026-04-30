@@ -31,6 +31,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "telegram-stars-nima",
+    title: "Что такое Telegram Stars и где они используются",
+    excerpt:
+      "Telegram Stars — официальная внутренняя валюта Telegram (с 2024 года). 12+ способов применения: стикеры, донаты, AI-боты, подарки Premium. Из Узбекистана 50 Stars от 12 000 сум, через StarsJoy.uz в сумах.",
+    category: "Руководство",
+    date: "2026-04-30",
+  },
+  {
     slug: "telegram-premium-narxlari",
     title: "Цены Telegram Premium 2026: сравнение тарифов 1, 3, 6, 12 месяцев",
     excerpt:
