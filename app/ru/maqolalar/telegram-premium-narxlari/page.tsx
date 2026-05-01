@@ -30,7 +30,7 @@ export const metadata: Metadata = {
       "Цены Telegram Premium в Узбекистане: от 59 000 до 425 000 сум. Анализ самого выгодного тарифа и способы оплаты.",
     url: "https://premiumsend.uz/ru/maqolalar/telegram-premium-narxlari",
     type: "article",
-    publishedTime: "2026-04-30",
+    publishedTime: "2026-05-01",
   },
 };
 
@@ -42,8 +42,8 @@ export default function ArticleTelegramPremiumNarxlariRu() {
       "Цены Telegram Premium 2026: сравнение тарифов 1, 3, 6, 12 месяцев",
     description:
       "Сравнение цен и тарифов Telegram Premium в Узбекистане. От 1 до 12 месяцев — какой тариф самый выгодный?",
-    datePublished: "2026-04-30",
-    dateModified: "2026-04-30",
+    datePublished: "2026-05-01",
+    dateModified: "2026-05-01",
     author: {
       "@type": "Organization",
       name: "Premium Send",
@@ -154,8 +154,8 @@ export default function ArticleTelegramPremiumNarxlariRu() {
             <span className="text-xs font-semibold px-3 py-1 rounded-full bg-purple-100 text-purple-700">
               Сравнение
             </span>
-            <time className="text-xs text-muted" dateTime="2026-04-30">
-              30 апреля 2026
+            <time className="text-xs text-muted" dateTime="2026-05-01">
+              1 мая 2026
             </time>
           </div>
           <h1 className="text-3xl md:text-4xl font-extrabold text-foreground leading-tight mb-6">

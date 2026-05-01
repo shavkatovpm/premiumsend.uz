@@ -52,7 +52,7 @@ const articles = [
     excerpt:
       "Цены Telegram Premium в Узбекистане: 1 месяц — 59 000 сум, 3 месяца — 175 000 сум, 6 месяцев — 235 000 сум, 12 месяцев — 425 000 сум. Анализ самого выгодного тарифа и способов оплаты.",
     category: "Сравнение",
-    date: "2026-04-30",
+    date: "2026-05-01",
   },
   {
     slug: "telegram-premium-eng-arzon-qayerdan-sotib-olish",

@@ -30,7 +30,7 @@ export const metadata: Metadata = {
       "O'zbekistonda Telegram Premium narxlari: 59,000 dan 425,000 so'mgacha. Eng tejamkor tarif tahlili va to'lov usullari.",
     url: "https://premiumsend.uz/maqolalar/telegram-premium-narxlari",
     type: "article",
-    publishedTime: "2026-04-30",
+    publishedTime: "2026-05-01",
   },
 };
 
@@ -42,8 +42,8 @@ export default function ArticleTelegramPremiumNarxlari() {
       "Telegram Premium narxlari 2026: 1, 3, 6, 12 oylik tariflar taqqoslash",
     description:
       "O'zbekistonda Telegram Premium narxlari va tariflar taqqoslash. 1 oylikdan 12 oylikgacha — qaysi tarif eng tejamkor?",
-    datePublished: "2026-04-30",
-    dateModified: "2026-04-30",
+    datePublished: "2026-05-01",
+    dateModified: "2026-05-01",
     author: {
       "@type": "Organization",
       name: "Premium Send",
@@ -154,8 +154,8 @@ export default function ArticleTelegramPremiumNarxlari() {
             <span className="text-xs font-semibold px-3 py-1 rounded-full bg-purple-100 text-purple-700">
               Taqqoslash
             </span>
-            <time className="text-xs text-muted" dateTime="2026-04-30">
-              2026-yil, 30-aprel
+            <time className="text-xs text-muted" dateTime="2026-05-01">
+              2026-yil, 1-may
             </time>
           </div>
           <h1 className="text-3xl md:text-4xl font-extrabold text-foreground leading-tight mb-6">
