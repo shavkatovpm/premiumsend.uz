@@ -27,6 +27,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "telegram-premium-qachon-faollashadi",
+    title: "Telegram Premium qachon faollashadi va muddat qanday hisoblanadi",
+    excerpt:
+      "Premium to'lovdan keyin 2-5 daqiqada faollashadi. Muddat kalendar oy bo'yicha (30 kun emas), faollashish kunidan boshlanadi. Yangilash, sovg'a, fevral muammosi va texnik kechikishlar uchun yechimlar.",
+    category: "Savol-javob",
+    date: "2026-04-30",
+  },
+  {
     slug: "telegram-stars-nima",
     title: "Telegram Stars nima va qayerda ishlatiladi",
     excerpt:
@@ -154,6 +162,7 @@ const categoryColors: Record<string, string> = {
   Taqqoslash: "bg-purple-100 text-purple-700",
   Maslahat: "bg-gold-light text-amber-700",
   Yangiliklar: "bg-blue-100 text-blue-700",
+  "Savol-javob": "bg-blue-100 text-blue-700",
 };
 
 export default function ArticlesPage() {

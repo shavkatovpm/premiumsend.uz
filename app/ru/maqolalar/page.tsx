@@ -31,6 +31,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "telegram-premium-qachon-faollashadi",
+    title: "Когда активируется Telegram Premium и как считается срок",
+    excerpt:
+      "Premium активируется через 2-5 минут после оплаты. Срок по календарным месяцам (не 30 дней), с даты активации. Продление, подарок, проблема февраля и решение технических задержек.",
+    category: "Вопрос-ответ",
+    date: "2026-04-30",
+  },
+  {
     slug: "telegram-stars-nima",
     title: "Что такое Telegram Stars и где они используются",
     excerpt:
@@ -158,6 +166,7 @@ const categoryColors: Record<string, string> = {
   Сравнение: "bg-purple-100 text-purple-700",
   Советы: "bg-gold-light text-amber-700",
   Новости: "bg-blue-100 text-blue-700",
+  "Вопрос-ответ": "bg-blue-100 text-blue-700",
 };
 
 export default function ArticlesPage() {
