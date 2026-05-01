@@ -32,7 +32,7 @@ const articles = [
     excerpt:
       "Premium to'lovdan keyin 2-5 daqiqada faollashadi. Muddat kalendar oy bo'yicha (30 kun emas), faollashish kunidan boshlanadi. Yangilash, sovg'a, fevral muammosi va texnik kechikishlar uchun yechimlar.",
     category: "Savol-javob",
-    date: "2026-04-30",
+    date: "2026-05-01",
   },
   {
     slug: "telegram-stars-nima",
@@ -48,7 +48,7 @@ const articles = [
     excerpt:
       "Telegram Premium narxlari O'zbekistonda: 1 oylik — 59,000 so'm, 3 oylik — 175,000 so'm, 6 oylik — 235,000 so'm, 12 oylik — 425,000 so'm. Eng tejamkor tarif tahlili va to'lov usullari.",
     category: "Taqqoslash",
-    date: "2026-05-01",
+    date: "2026-04-30",
   },
   {
     slug: "telegram-premium-eng-arzon-qayerdan-sotib-olish",

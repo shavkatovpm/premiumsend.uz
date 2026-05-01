@@ -30,7 +30,7 @@ export const metadata: Metadata = {
       "To'lovdan keyin 5 daqiqa, muddat kalendar oy bo'yicha. Yangilash, sovg'a, fevral muammosi va faollashmagan holatlar uchun yechim.",
     url: "https://premiumsend.uz/maqolalar/telegram-premium-qachon-faollashadi",
     type: "article",
-    publishedTime: "2026-04-30",
+    publishedTime: "2026-05-01",
   },
 };
 
@@ -42,8 +42,8 @@ export default function ArticleQachonFaollashadi() {
       "Telegram Premium qachon faollashadi va muddat qanday hisoblanadi — to'liq qo'llanma",
     description:
       "Telegram Premium faollashish vaqti, muddat hisoblash mantiqi, yangilash, sovg'a qabul qilish va texnik muammolarni hal qilish bo'yicha to'liq javob.",
-    datePublished: "2026-04-30",
-    dateModified: "2026-04-30",
+    datePublished: "2026-05-01",
+    dateModified: "2026-05-01",
     author: {
       "@type": "Organization",
       name: "Premium Send",
@@ -192,8 +192,8 @@ export default function ArticleQachonFaollashadi() {
             <span className="text-xs font-semibold px-3 py-1 rounded-full bg-primary-light text-primary">
               Savol-javob
             </span>
-            <time className="text-xs text-muted" dateTime="2026-04-30">
-              2026-yil, 30-aprel
+            <time className="text-xs text-muted" dateTime="2026-05-01">
+              2026-yil, 1-may
             </time>
           </div>
           <h1 className="text-3xl md:text-4xl font-extrabold text-foreground leading-tight mb-6">

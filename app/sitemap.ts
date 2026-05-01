@@ -48,7 +48,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${baseUrl}/maqolalar/telegram-premium-narxlari`,
-      lastModified: new Date("2026-05-01"),
+      lastModified: new Date("2026-04-30"),
       changeFrequency: "monthly",
       priority: 0.9,
     },
@@ -60,7 +60,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${baseUrl}/maqolalar/telegram-premium-qachon-faollashadi`,
-      lastModified: new Date("2026-04-30"),
+      lastModified: new Date("2026-05-01"),
       changeFrequency: "monthly",
       priority: 0.85,
     },
@@ -153,7 +153,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${baseUrl}/ru/maqolalar/telegram-premium-narxlari`,
-      lastModified: new Date("2026-05-01"),
+      lastModified: new Date("2026-04-30"),
       changeFrequency: "monthly",
       priority: 0.85,
     },
@@ -171,7 +171,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${baseUrl}/ru/maqolalar/telegram-premium-qachon-faollashadi`,
-      lastModified: new Date("2026-04-30"),
+      lastModified: new Date("2026-05-01"),
       changeFrequency: "monthly",
       priority: 0.85,
     },

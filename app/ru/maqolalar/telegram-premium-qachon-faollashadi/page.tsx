@@ -30,7 +30,7 @@ export const metadata: Metadata = {
       "Через 5 минут после оплаты, срок по календарным месяцам. Продление, подарок, проблема февраля и решение технических проблем.",
     url: "https://premiumsend.uz/ru/maqolalar/telegram-premium-qachon-faollashadi",
     type: "article",
-    publishedTime: "2026-04-30",
+    publishedTime: "2026-05-01",
   },
 };
 
@@ -42,8 +42,8 @@ export default function ArticleQachonFaollashadiRu() {
       "Когда активируется Telegram Premium и как считается срок — полное руководство",
     description:
       "Время активации Telegram Premium, логика расчёта срока, продление, получение подарка и решение технических проблем — полный ответ.",
-    datePublished: "2026-04-30",
-    dateModified: "2026-04-30",
+    datePublished: "2026-05-01",
+    dateModified: "2026-05-01",
     author: {
       "@type": "Organization",
       name: "Premium Send",
@@ -192,8 +192,8 @@ export default function ArticleQachonFaollashadiRu() {
             <span className="text-xs font-semibold px-3 py-1 rounded-full bg-primary-light text-primary">
               Вопрос-ответ
             </span>
-            <time className="text-xs text-muted" dateTime="2026-04-30">
-              30 апреля 2026
+            <time className="text-xs text-muted" dateTime="2026-05-01">
+              1 мая 2026
             </time>
           </div>
           <h1 className="text-3xl md:text-4xl font-extrabold text-foreground leading-tight mb-6">
