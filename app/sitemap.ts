@@ -60,7 +60,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${baseUrl}/maqolalar/telegram-premium-humo-orqali`,
-      lastModified: new Date("2026-05-01"),
+      lastModified: new Date("2026-05-02"),
       changeFrequency: "monthly",
       priority: 0.9,
     },
@@ -177,7 +177,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${baseUrl}/ru/maqolalar/telegram-premium-humo-orqali`,
-      lastModified: new Date("2026-05-01"),
+      lastModified: new Date("2026-05-02"),
       changeFrequency: "monthly",
       priority: 0.85,
     },

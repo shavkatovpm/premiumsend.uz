@@ -32,7 +32,7 @@ const articles = [
     excerpt:
       "Telegram Premium Humo karta orqali — 59,000 so'mdan 425,000 so'mgacha. @PremiumSendBot da Humo bilan so'mda to'lov, 5 daqiqada faollashish. Bosqichma-bosqich qo'llanma va xavfsizlik.",
     category: "Qo'llanma",
-    date: "2026-05-01",
+    date: "2026-05-02",
   },
   {
     slug: "telegram-premium-qachon-faollashadi",

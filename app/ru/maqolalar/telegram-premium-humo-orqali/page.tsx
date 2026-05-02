@@ -28,7 +28,7 @@ export const metadata: Metadata = {
       "Оплата Telegram Premium картой Humo в сумах. 4 тарифа (1, 3, 6, 12 месяцев), активация за 5 минут, 0% комиссии.",
     url: "https://premiumsend.uz/ru/maqolalar/telegram-premium-humo-orqali",
     type: "article",
-    publishedTime: "2026-05-01",
+    publishedTime: "2026-05-02",
   },
 };
 
@@ -40,8 +40,8 @@ export default function ArticleHumoOrqaliRu() {
       "Telegram Premium через карту Humo — пошаговое руководство",
     description:
       "Покупка Telegram Premium картой Humo в Узбекистане — все тарифы, цены и пошаговая инструкция.",
-    datePublished: "2026-05-01",
-    dateModified: "2026-05-01",
+    datePublished: "2026-05-02",
+    dateModified: "2026-05-02",
     author: {
       "@type": "Organization",
       name: "Premium Send",
@@ -152,8 +152,8 @@ export default function ArticleHumoOrqaliRu() {
             <span className="text-xs font-semibold px-3 py-1 rounded-full bg-primary-light text-primary">
               Руководство
             </span>
-            <time className="text-xs text-muted" dateTime="2026-05-01">
-              1 мая 2026
+            <time className="text-xs text-muted" dateTime="2026-05-02">
+              2 мая 2026
             </time>
           </div>
           <h1 className="text-3xl md:text-4xl font-extrabold text-foreground leading-tight mb-6">

@@ -29,7 +29,7 @@ export const metadata: Metadata = {
       "Humo karta bilan Telegram Premium so'mda to'lov. 4 ta tarif (1, 3, 6, 12 oylik), 5 daqiqada faollashish, 0% komissiya.",
     url: "https://premiumsend.uz/maqolalar/telegram-premium-humo-orqali",
     type: "article",
-    publishedTime: "2026-05-01",
+    publishedTime: "2026-05-02",
   },
 };
 
@@ -41,8 +41,8 @@ export default function ArticleHumoOrqali() {
       "Telegram Premium Humo karta orqali sotib olish — qadamma-qadam qo'llanma",
     description:
       "Telegram Premium Humo karta bilan O'zbekistonda sotib olish — barcha tariflar, narxlar va bosqichma-bosqich qo'llanma.",
-    datePublished: "2026-05-01",
-    dateModified: "2026-05-01",
+    datePublished: "2026-05-02",
+    dateModified: "2026-05-02",
     author: {
       "@type": "Organization",
       name: "Premium Send",
@@ -153,8 +153,8 @@ export default function ArticleHumoOrqali() {
             <span className="text-xs font-semibold px-3 py-1 rounded-full bg-primary-light text-primary">
               Qo&apos;llanma
             </span>
-            <time className="text-xs text-muted" dateTime="2026-05-01">
-              2026-yil, 1-may
+            <time className="text-xs text-muted" dateTime="2026-05-02">
+              2026-yil, 2-may
             </time>
           </div>
           <h1 className="text-3xl md:text-4xl font-extrabold text-foreground leading-tight mb-6">
