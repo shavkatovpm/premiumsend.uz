@@ -27,6 +27,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "telegram-premium-vs-oddiy-telegram",
+    title: "Telegram Premium vs oddiy Telegram: 15 ta asosiy farq",
+    excerpt:
+      "Premium oddiy Telegramdan nimasi bilan farq qiladi? 15 ta aniq farq jadvalda: fayl 4 GB, 1000 kanal, premium stikerlar, voice→matn va boshqalar. Premium kerakmi? Halol javob.",
+    category: "Taqqoslash",
+    date: "2026-05-02",
+  },
+  {
     slug: "telegram-premium-humo-orqali",
     title: "Telegram Premium Humo karta orqali sotib olish — qadamma-qadam qo'llanma",
     excerpt:

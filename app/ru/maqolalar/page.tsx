@@ -31,6 +31,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "telegram-premium-vs-oddiy-telegram",
+    title: "Telegram Premium vs обычный Telegram: 15 главных отличий",
+    excerpt:
+      "Чем Premium отличается от обычной версии? 15 чётких отличий в таблице: файлы 4 ГБ, 1000 каналов, премиум-стикеры, голос→текст и другие. Нужен ли Premium? Честный ответ.",
+    category: "Сравнение",
+    date: "2026-05-02",
+  },
+  {
     slug: "telegram-premium-humo-orqali",
     title: "Telegram Premium через карту Humo — пошаговое руководство",
     excerpt:
