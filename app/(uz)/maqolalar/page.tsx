@@ -27,6 +27,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "telegram-premium-humo-orqali",
+    title: "Telegram Premium Humo karta orqali sotib olish — qadamma-qadam qo'llanma",
+    excerpt:
+      "Telegram Premium Humo karta orqali — 59,000 so'mdan 425,000 so'mgacha. @PremiumSendBot da Humo bilan so'mda to'lov, 5 daqiqada faollashish. Bosqichma-bosqich qo'llanma va xavfsizlik.",
+    category: "Qo'llanma",
+    date: "2026-05-01",
+  },
+  {
     slug: "telegram-premium-qachon-faollashadi",
     title: "Telegram Premium qachon faollashadi va muddat qanday hisoblanadi",
     excerpt:

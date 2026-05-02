@@ -31,6 +31,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "telegram-premium-humo-orqali",
+    title: "Telegram Premium через карту Humo — пошаговое руководство",
+    excerpt:
+      "Telegram Premium через карту Humo — от 59 000 до 425 000 сум. @PremiumSendBot, оплата в сумах, активация за 5 минут. Пошаговое руководство и безопасность.",
+    category: "Руководство",
+    date: "2026-05-01",
+  },
+  {
     slug: "telegram-premium-qachon-faollashadi",
     title: "Когда активируется Telegram Premium и как считается срок",
     excerpt:
