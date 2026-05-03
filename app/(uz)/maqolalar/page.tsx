@@ -27,6 +27,22 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "3-oylik-telegram-premium-click-orqali",
+    title: "3 oylik Telegram Premium Click orqali sotib olish",
+    excerpt:
+      "3 oylik Telegram Premiumni Click ilovasi bilan 175,000 so'mga tezda to'lab oling — @PremiumSendBot orqali, PIN/Face ID bilan 1-2 daqiqada, 5 daqiqada faollashish.",
+    category: "Qo'llanma",
+    date: "2026-05-03",
+  },
+  {
+    slug: "telegram-premium-click-orqali",
+    title: "Telegram Premium Click orqali sotib olish — eng tezkor mahalliy usul",
+    excerpt:
+      "Telegram Premium Click orqali — 59,000 so'mdan 425,000 so'mgacha. Click ilovasida 1-2 daqiqada to'lov, 5 daqiqada faollashish. Karta raqami yozish kerak emas — pillar qo'llanma.",
+    category: "Qo'llanma",
+    date: "2026-05-03",
+  },
+  {
     slug: "3-oylik-telegram-premium-humo-orqali",
     title: "3 oylik Telegram Premium Humo orqali sotib olish",
     excerpt:

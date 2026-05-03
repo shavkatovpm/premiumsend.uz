@@ -31,6 +31,22 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "3-oylik-telegram-premium-click-orqali",
+    title: "Telegram Premium на 3 месяца через Click",
+    excerpt:
+      "Активируйте 3-месячный Telegram Premium через Click за 175 000 сум — @PremiumSendBot, оплата по PIN/Face ID за 1-2 минуты, активация за 5 минут.",
+    category: "Руководство",
+    date: "2026-05-03",
+  },
+  {
+    slug: "telegram-premium-click-orqali",
+    title: "Telegram Premium через Click — самый быстрый локальный способ",
+    excerpt:
+      "Telegram Premium через Click — от 59 000 до 425 000 сум. Оплата в Click за 1-2 минуты, активация за 5 минут. Не нужно вводить номер карты — общее руководство (pillar).",
+    category: "Руководство",
+    date: "2026-05-03",
+  },
+  {
     slug: "3-oylik-telegram-premium-humo-orqali",
     title: "Telegram Premium на 3 месяца через карту Humo",
     excerpt:
