@@ -27,6 +27,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "3-oylik-telegram-premium-humo-orqali",
+    title: "3 oylik Telegram Premium Humo orqali sotib olish",
+    excerpt:
+      "3 oylik Telegram Premiumni Humo karta bilan 175,000 so'mga so'mda to'lab oling — @PremiumSendBot orqali, 5 daqiqada faollashish. Telegramda Humo va 3 oylik tarif ikkalasi ham yo'q — bu yerda mavjud.",
+    category: "Qo'llanma",
+    date: "2026-05-03",
+  },
+  {
     slug: "telegram-premium-vs-oddiy-telegram",
     title: "Telegram Premium vs oddiy Telegram: 15 ta asosiy farq",
     excerpt:

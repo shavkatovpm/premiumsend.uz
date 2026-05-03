@@ -31,6 +31,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "3-oylik-telegram-premium-humo-orqali",
+    title: "Telegram Premium на 3 месяца через карту Humo",
+    excerpt:
+      "Активируйте 3-месячный Telegram Premium картой Humo за 175 000 сум — через @PremiumSendBot, оплата в сумах, 5 минут на активацию. В Telegram нет ни Humo, ни 3-месячного тарифа — здесь оба есть.",
+    category: "Руководство",
+    date: "2026-05-03",
+  },
+  {
     slug: "telegram-premium-vs-oddiy-telegram",
     title: "Telegram Premium vs обычный Telegram: 15 главных отличий",
     excerpt:

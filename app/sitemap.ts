@@ -71,6 +71,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
+      url: `${baseUrl}/maqolalar/3-oylik-telegram-premium-humo-orqali`,
+      lastModified: new Date("2026-05-03"),
+      changeFrequency: "monthly",
+      priority: 0.85,
+    },
+    {
       url: `${baseUrl}/maqolalar/telegram-premium-qachon-faollashadi`,
       lastModified: new Date("2026-05-01"),
       changeFrequency: "monthly",
@@ -192,6 +198,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date("2026-05-02"),
       changeFrequency: "monthly",
       priority: 0.85,
+    },
+    {
+      url: `${baseUrl}/ru/maqolalar/3-oylik-telegram-premium-humo-orqali`,
+      lastModified: new Date("2026-05-03"),
+      changeFrequency: "monthly",
+      priority: 0.8,
     },
     {
       url: `${baseUrl}/ru/maqolalar/telegram-premium-qachon-faollashadi`,
