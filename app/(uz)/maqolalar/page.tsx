@@ -27,6 +27,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "telegram-stars-ozbekistondan-sotib-olish",
+    title: "Telegram Stars O'zbekistondan qanday sotib olinadi",
+    excerpt:
+      "Telegram Stars O'zbekistondan so'mda — StarsJoy.uz orqali 50 Stars 12 000 so'mdan, Click va bank kartasi bilan. App Store'dan 17% arzon, valyuta konvertatsiyasiz. Qadamma-qadam.",
+    category: "Qo'llanma",
+    date: "2026-05-04",
+  },
+  {
     slug: "telegram-premium-xavfsiz-aldovdan-saqlanish",
     title: "Telegram Premium O'zbekistondan sotib olish xavfsizmi? Aldovdan saqlanish",
     excerpt:

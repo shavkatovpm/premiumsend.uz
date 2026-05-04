@@ -31,6 +31,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "telegram-stars-ozbekistondan-sotib-olish",
+    title: "Как купить Telegram Stars в Узбекистане",
+    excerpt:
+      "Купить Telegram Stars в Узбекистане в сумах — через StarsJoy.uz от 50 Stars за 12 000 сум, Click и банковской картой. На 17% дешевле App Store, без валюты. Пошагово.",
+    category: "Руководство",
+    date: "2026-05-04",
+  },
+  {
     slug: "telegram-premium-xavfsiz-aldovdan-saqlanish",
     title: "Безопасно ли покупать Telegram Premium в Узбекистане? Как не попасться на обман",
     excerpt:

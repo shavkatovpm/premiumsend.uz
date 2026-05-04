@@ -13,6 +13,7 @@ export default function Header({ locale = "uz" }: HeaderProps) {
   const prefix = locale === "ru" ? "/ru" : "";
   const altPrefix = locale === "ru" ? "" : "/ru";
   const altLabel = locale === "ru" ? "UZ" : "RU";
+  const aboutHref = locale === "ru" ? "/ru/o-nas" : "/haqida";
 
   const nav = locale === "ru"
     ? {
@@ -22,6 +23,7 @@ export default function Header({ locale = "uz" }: HeaderProps) {
         m6: "6 месяцев",
         m12: "12 месяцев",
         articles: "Статьи",
+        about: "О нас",
         buy: "Купить",
       }
     : {
@@ -31,6 +33,7 @@ export default function Header({ locale = "uz" }: HeaderProps) {
         m6: "6 oylik",
         m12: "12 oylik",
         articles: "Maqolalar",
+        about: "Biz haqimizda",
         buy: "Sotib olish",
       };
 
@@ -42,6 +45,7 @@ export default function Header({ locale = "uz" }: HeaderProps) {
         m6: "6 месяцев Premium",
         m12: "12 месяцев Premium",
         articles: "Статьи",
+        about: "О нас",
         buy: "Купить",
       }
     : {
@@ -51,6 +55,7 @@ export default function Header({ locale = "uz" }: HeaderProps) {
         m6: "6 oylik Premium",
         m12: "12 oylik Premium",
         articles: "Maqolalar",
+        about: "Biz haqimizda",
         buy: "Sotib olish",
       };
 
@@ -105,6 +110,12 @@ export default function Header({ locale = "uz" }: HeaderProps) {
               className="px-4 py-2 rounded-lg text-sm font-medium text-foreground/70 hover:text-primary hover:bg-primary-light transition-all"
             >
               {nav.articles}
+            </Link>
+            <Link
+              href={aboutHref}
+              className="px-4 py-2 rounded-lg text-sm font-medium text-foreground/70 hover:text-primary hover:bg-primary-light transition-all"
+            >
+              {nav.about}
             </Link>
             {/* Language Switcher */}
             <Link
@@ -209,6 +220,13 @@ export default function Header({ locale = "uz" }: HeaderProps) {
                 className="block px-4 py-3 rounded-lg text-sm font-medium hover:bg-primary-light hover:text-primary transition-all"
               >
                 {mobileNav.articles}
+              </Link>
+              <Link
+                href={aboutHref}
+                onClick={() => setMobileMenuOpen(false)}
+                className="block px-4 py-3 rounded-lg text-sm font-medium hover:bg-primary-light hover:text-primary transition-all"
+              >
+                {mobileNav.about}
               </Link>
               <Link
                 href="https://t.me/premiumsendbot"

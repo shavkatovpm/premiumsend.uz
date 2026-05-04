@@ -71,6 +71,11 @@ export default function Footer({ locale = "uz" }: FooterProps) {
                   </Link>
                 </li>
                 <li>
+                  <Link href="/ru/o-nas" className="text-white/60 hover:text-primary text-sm transition-colors">
+                    О нас
+                  </Link>
+                </li>
+                <li>
                   <Link href="/ru/oferta" className="text-white/60 hover:text-primary text-sm transition-colors">
                     Публичная оферта
                   </Link>
@@ -168,6 +173,11 @@ export default function Footer({ locale = "uz" }: FooterProps) {
               <li>
                 <Link href="/3-oylik" className="text-white/60 hover:text-primary text-sm transition-colors">
                   Narxlar
+                </Link>
+              </li>
+              <li>
+                <Link href="/haqida" className="text-white/60 hover:text-primary text-sm transition-colors">
+                  Biz haqimizda
                 </Link>
               </li>
               <li>
