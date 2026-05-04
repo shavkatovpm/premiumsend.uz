@@ -27,6 +27,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "telegram-premium-xavfsiz-aldovdan-saqlanish",
+    title: "Telegram Premium O'zbekistondan sotib olish xavfsizmi? Aldovdan saqlanish",
+    excerpt:
+      "Aldovchi botlarning 7 ta tipik sxemasi, ishonchli reseller'ni 30 soniyada aniqlash uchun 8 ta belgi va karta ma'lumotlari qayerda saqlanishi. Pul yo'qotmaslik uchun amaliy qo'llanma.",
+    category: "Savol-javob",
+    date: "2026-05-04",
+  },
+  {
     slug: "3-oylik-telegram-premium-click-orqali",
     title: "3 oylik Telegram Premium Click orqali sotib olish",
     excerpt:

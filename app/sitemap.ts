@@ -47,6 +47,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: `${baseUrl}/maqolalar/telegram-premium-xavfsiz-aldovdan-saqlanish`,
+      lastModified: new Date("2026-05-04"),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
       url: `${baseUrl}/maqolalar/telegram-premium-narxlari`,
       lastModified: new Date("2026-04-30"),
       changeFrequency: "monthly",
@@ -180,6 +186,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/ru/maqolalar/telegram-premium-xavfsiz-aldovdan-saqlanish`,
+      lastModified: new Date("2026-05-04"),
+      changeFrequency: "monthly",
+      priority: 0.85,
     },
     {
       url: `${baseUrl}/ru/maqolalar/telegram-premium-narxlari`,

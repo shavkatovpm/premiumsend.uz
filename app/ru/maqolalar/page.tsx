@@ -31,6 +31,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "telegram-premium-xavfsiz-aldovdan-saqlanish",
+    title: "Безопасно ли покупать Telegram Premium в Узбекистане? Как не попасться на обман",
+    excerpt:
+      "7 типичных схем мошенников, 8 признаков надёжного реселлера за 30 секунд и где хранятся данные карты. Практическое руководство, чтобы не потерять деньги.",
+    category: "Вопрос-ответ",
+    date: "2026-05-04",
+  },
+  {
     slug: "3-oylik-telegram-premium-click-orqali",
     title: "Telegram Premium на 3 месяца через Click",
     excerpt:
