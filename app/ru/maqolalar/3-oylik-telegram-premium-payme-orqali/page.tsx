@@ -3,9 +3,9 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "Telegram Premium на 3 месяца через Payme — 175 000 сум за 1-2 минуты",
+    "Telegram Premium на 3 месяца через Payme — 175 000 сум, перевод на карту",
   description:
-    "3-месячный Telegram Premium через Payme за 175 000 сум — @PremiumSendBot, оплата по PIN/Face ID, активация за 5 минут. В Telegram Payme не работает и нет 3-месячного тарифа.",
+    "3-месячный Telegram Premium через Payme за 175 000 сум — @PremiumSendBot показывает карту и сумму, вы переводите через Payme, Premium активируется за 5 минут. В Telegram нет 3-месячного тарифа.",
   keywords: [
     "Telegram Premium на 3 месяца Payme",
     "Telegram Premium через Payme 3 месяца",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Telegram Premium на 3 месяца через Payme — 175 000 сум",
     description:
-      "3-месячный Telegram Premium через Payme за 175 000 сум. @PremiumSendBot — PIN/Face ID, активация за 5 минут.",
+      "3-месячный Telegram Premium через Payme за 175 000 сум. Бот показывает карту и сумму, переводите через Payme, Premium через 5 минут.",
     url: "https://premiumsend.uz/ru/maqolalar/3-oylik-telegram-premium-payme-orqali",
     type: "article",
     publishedTime: "2026-05-05",
@@ -40,7 +40,7 @@ export default function Article3MonthPaymeRu() {
     headline:
       "Telegram Premium на 3 месяца через Payme — за 175 000 сум",
     description:
-      "Покупка 3-месячного Telegram Premium через Payme — @PremiumSendBot за 175 000 сум. Оплата в сумах, в Payme за 1-2 минуты, активация за 5 минут.",
+      "Покупка 3-месячного Telegram Premium через Payme — @PremiumSendBot выдаёт карту и сумму, вы переводите, система автоматически определяет.",
     datePublished: "2026-05-05",
     dateModified: "2026-05-05",
     author: {
@@ -66,23 +66,23 @@ export default function Article3MonthPaymeRu() {
         name: "Сколько стоит Telegram Premium на 3 месяца через Payme?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "В Premium Send 3-месячный Telegram Premium через Payme — 175 000 сум, или 58 333 сум в месяц. Цена одинаковая через Uzcard, Humo и Click. Payme не берёт дополнительной комиссии, курсового риска нет.",
+          text: "В Premium Send 3-месячный Telegram Premium через Payme — 175 000 сум, или 58 333 сум в месяц. Цена одинаковая через Uzcard, Humo и приложение Click. Бот показывает точную сумму и номер карты для P2P-перевода через Payme. Комиссия 0%, курсового риска нет.",
         },
       },
       {
         "@type": "Question",
-        name: "Через сколько активируется 3-месячный Premium после оплаты Payme?",
+        name: "Как купить 3-месячный Premium через Payme?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "В Payme оплата занимает 1-2 минуты (PIN или Face ID). После подтверждения Premium активируется автоматически за 2-5 минут. При технической задержке может занять 10-15 минут.",
+          text: "В @PremiumSendBot выбираете 3-месячный тариф, вводите @username аккаунта-получателя Premium. Бот показывает номер карты и точную сумму 175 000 сум. Через приложение Payme функцией 'Перевод на другую карту' переводите ровно 175 000 сум на эту карту. Система за 1-5 минут определяет платёж и Premium активируется на аккаунте.",
         },
       },
       {
         "@type": "Question",
-        name: "Есть ли дополнительная комиссия при оплате через Payme?",
+        name: "Почему важно перевести именно 175 000 сум?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Нет. В @PremiumSendBot при оплате через Payme нет скрытых комиссий. Вы платите 175 000 сум — это итоговая сумма. Payme также не берёт комиссии за такие платежи.",
+          text: "Система определяет платёж по комбинации карты и суммы. Если вы переведёте другую сумму (например 174 000 или 175 500), система не сможет автоматически сопоставить и Premium активируется вручную после обращения в поддержку. Сумма, указанная ботом — ровно 175 000, переведя её, Premium придёт за 5 минут.",
         },
       },
       {
@@ -90,7 +90,7 @@ export default function Article3MonthPaymeRu() {
         name: "Можно ли оплатить 3 месяца через Payme в официальном приложении Telegram?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Нет, по двум причинам. Первая: официальное приложение Telegram не принимает Payme — только Visa, Mastercard, Google Pay, Apple Pay. Вторая: в Telegram нет 3-месячного тарифа — только 1 и 12 месяцев.",
+          text: "Нет, по двум причинам. Первая: официальное приложение Telegram не принимает Payme — только Visa, Mastercard, Google Pay, Apple Pay. Вторая: в Telegram нет 3-месячного тарифа — только 1 и 12 месяцев. Для 3-месячного Premium в сумах нужен местный посреднический сервис.",
         },
       },
       {
@@ -98,7 +98,7 @@ export default function Article3MonthPaymeRu() {
         name: "Можно ли подарить 3-месячный Premium через Payme?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Да. 3-месячный Premium можно подарить через Payme. Бот спрашивает username — указываете @username получателя, подтверждаете в Payme, Premium активируется на этом аккаунте. По правилам Telegram 1-месячного подарка не существует, 3 месяца — самый дешёвый вариант для подарка.",
+          text: "Да. Когда бот спрашивает username, указываете не свой, а получателя подарка, остальной процесс не меняется: через Payme переводите 175 000 сум на карту, Premium активируется на этом аккаунте. По правилам Telegram 1-месячный подарок невозможен, 3 месяца — самый дешёвый вариант для подарка.",
         },
       },
       {
@@ -106,7 +106,7 @@ export default function Article3MonthPaymeRu() {
         name: "Безопасна ли оплата через Payme?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Да. Payme — официальная платёжная система, лицензированная Центральным банком, по стандарту PCI DSS. Данные карты только на сервере Payme, бот их не видит. На каждую оплату выдаётся PDF-чек. Если Premium не пришёл, оплата возвращается полностью.",
+          text: "Да. Payme — официальная платёжная система, лицензированная Центральным банком, по стандарту PCI DSS. Данные карты сохраняются только на сервере Payme, бот их не видит. На каждый P2P-перевод выдаётся PDF-чек. Если Premium не пришёл, оплата возвращается полностью.",
         },
       },
       {
@@ -114,7 +114,7 @@ export default function Article3MonthPaymeRu() {
         name: "Что делать, если нет приложения Payme?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Два пути. Первый: установите Payme бесплатно из Play Market или App Store (3-5 минут), привяжите карту, потом оплатите. Второй: в @PremiumSendBot выберите Click или Uzcard P2P — цена та же, 175 000 сум.",
+          text: "На указанную ботом карту ровно 175 000 сум можно перевести через любое другое приложение: Click, приложение Uzcard, Humo или приложение банка. Результат тот же — система по сумме и карте определит платёж и активирует Premium. Или скачайте Payme бесплатно из Play Market/App Store за 3-5 минут.",
         },
       },
     ],
@@ -194,7 +194,7 @@ export default function Article3MonthPaymeRu() {
           {/* TL;DR */}
           <div className="bg-primary-light/40 rounded-xl p-5 border border-primary/20 mb-6">
             <p className="text-foreground leading-relaxed font-medium">
-              <strong>Краткий ответ:</strong> 3-месячный Telegram Premium через приложение Payme можно купить в{" "}
+              <strong>Краткий ответ:</strong> процесс покупки 3-месячного Telegram Premium через Payme — в{" "}
               <Link
                 href="https://t.me/premiumsendbot"
                 target="_blank"
@@ -202,15 +202,15 @@ export default function Article3MonthPaymeRu() {
               >
                 @PremiumSendBot
               </Link>
-              . Цена — <strong>175 000 сум</strong> (58 333 сум/месяц), оплата в сумах, без комиссии. В Payme подтверждение PIN/Face ID — <strong>1-2 минуты</strong>, Premium активируется за <strong>5 минут</strong>. Официальное приложение Telegram не принимает Payme и 3-месячного тарифа там нет.
+              {" "}выбираете 3-месячный тариф, бот показывает <strong>номер карты и точную сумму 175 000 сум</strong>, вы через Payme переводите ровно эту сумму на эту карту. Система автоматически определяет платёж и активирует Premium на аккаунте за 5 минут. В месяц 58 333 сум, без комиссии.
             </p>
           </div>
 
           <p className="text-lg text-muted leading-relaxed">
-            Для пользователей Payme 3-месячный Premium — удобная комбинация: Payme — распространённое локальное платёжное приложение, 3-месячный тариф — баланс между сроком и бюджетом. Вместе — минимум времени, минимум действий.
+            Для пользователей Payme 3-месячный Premium — удобная комбинация: Payme — самое распространённое локальное платёжное приложение, 3-месячный тариф — баланс между сроком и бюджетом. Бот выдаёт карту и сумму, вы делаете обычный P2P-перевод через Payme.
           </p>
           <p className="text-lg text-muted leading-relaxed mt-4">
-            В статье — точная цена 3-месячного Premium через Payme, пошаговый процесс, безопасность и распространённые проблемы. Если приложение Payme готово — Premium на аккаунте через 5 минут.
+            В статье — точная цена 3-месячного Premium через Payme, механизм между ботом и Payme, пошаговый процесс, безопасность и распространённые проблемы. Если приложение Payme готово — Premium на аккаунте через 5 минут.
           </p>
         </header>
 
@@ -237,15 +237,15 @@ export default function Article3MonthPaymeRu() {
               <strong className="text-foreground">Платёжное ограничение:</strong> Telegram не принимает Payme. Нужна Visa, Mastercard, Google Pay или Apple Pay. Локальное приложение Payme — в международной системе оплаты Telegram отсутствует.
             </p>
             <p className="text-muted leading-relaxed mb-4">
-              <strong className="text-foreground">Преимущество Payme:</strong> В приложении Payme карта привязывается один раз. При каждом следующем платеже не нужно вводить номер, ждать SMS — подтверждение по PIN или Face ID. Для Premium это особенно удобно: нажали кнопку, приложение открылось, сумма заполнилась автоматически.
+              <strong className="text-foreground">Преимущество Payme:</strong> В приложении Payme ваша карта привязана один раз. При каждом следующем P2P-переводе номер своей карты вводить не нужно — указываете только номер карты получателя и сумму, подтверждаете PIN/Face ID. Для покупки Premium это самый простой путь.
             </p>
             <div className="bg-section-alt rounded-xl p-5 mb-4">
               <p className="text-muted text-sm leading-relaxed">
-                <strong className="text-foreground">Решение:</strong> @PremiumSendBot — принимает оплату через Payme и доставляет 3-месячный пакет, которого нет в официальной системе Telegram. Payme — опыт &laquo;через приложение&raquo;, 3 месяца — &laquo;сбалансированный&raquo; срок. Всё в одном процессе.
+                <strong className="text-foreground">Решение:</strong> @PremiumSendBot для 3-месячного пакета показывает номер карты и сумму 175 000 сум. Вы через Payme переводите эту сумму на эту карту. Система автоматически определяет и Premium активируется. Никаких лишних процессов — обычный P2P-перевод.
               </p>
             </div>
             <p className="text-muted leading-relaxed">
-              Большинство пользователей Payme завершают весь процесс за 3-5 минут — старый способ (Uzcard P2P) обычно медленнее.
+              Большинство пользователей Payme завершают весь процесс за 3-5 минут.
             </p>
           </section>
 
@@ -256,7 +256,7 @@ export default function Article3MonthPaymeRu() {
             </h2>
             <div className="bg-primary-light/40 border border-primary/20 rounded-xl p-5 mb-6">
               <p className="text-foreground leading-relaxed">
-                <strong>Цена:</strong> 3-месячный Telegram Premium через Payme — <strong>175 000 сум</strong> (58 333 сум/месяц). Оплата в сумах, без курсового риска. Payme может быть привязан к Uzcard, Humo или Visa — результат тот же: бот пришлёт ссылку Payme, приложение откроется, вы подтвердите.
+                <strong>Цена:</strong> 3-месячный Telegram Premium через Payme — <strong>175 000 сум</strong> (58 333 сум/месяц). Сумма, указанная ботом — ровно столько, никаких дополнительных комиссий. Payme также не берёт комиссию за P2P-перевод. Payme работает с вашей картой Uzcard, Humo или Visa.
               </p>
             </div>
 
@@ -308,7 +308,7 @@ export default function Article3MonthPaymeRu() {
             </div>
 
             <p className="text-muted leading-relaxed">
-              3 месяца — &laquo;пробно-бюджетный&raquo; интервал. Чуть дешевле месячного в пересчёте на месяц, без большого платежа за 6 месяцев. В Payme автозаполненная сумма — 175 000 сум.
+              3 месяца — &laquo;пробно-бюджетный&raquo; интервал. Чуть дешевле месячного в пересчёте на месяц, без большого платежа за 6 месяцев. Бот для оплаты через Payme запрашивает ровно 175 000 сум.
             </p>
           </section>
 
@@ -327,7 +327,7 @@ export default function Article3MonthPaymeRu() {
                 >
                   @PremiumSendBot
                 </Link>
-                {" "}→ выберите <strong>3 месяца</strong> → введите username → выберите <strong>Payme</strong> → приложение откроется автоматически → подтвердите PIN/Face ID → Premium активируется за 5 минут.
+                {" "}→ выберите <strong>3 месяца</strong> → введите username → бот выдаст номер карты и сумму 175 000 сум → через Payme переведите эту сумму на эту карту → Premium активируется за 5 минут.
               </p>
             </div>
 
@@ -354,23 +354,23 @@ export default function Article3MonthPaymeRu() {
                 },
                 {
                   step: "4",
-                  title: "Выберите способ оплаты «Payme»",
-                  desc: "На экране 4 варианта: Uzcard, Humo, Click, Payme. Нажмите «Payme». Бот пришлёт ссылку Payme или QR-код.",
+                  title: "Бот покажет номер карты и точную сумму",
+                  desc: "На экране появятся номер карты (8600 XXXX XXXX XXXX) и точная сумма платежа (175 000 сум). Бот может добавить контрольный код в комментарии.",
                 },
                 {
                   step: "5",
-                  title: "Приложение Payme откроется автоматически",
-                  desc: "По клику телефон откроет Payme. Сумма заполнена автоматически — 175 000 сум. Не нужно вводить номер карты, пароль или CVV — всё сохранено в приложении.",
+                  title: "Откройте Payme и начните P2P-перевод",
+                  desc: "Войдите в приложение Payme. Выберите функцию «Перевод на другую карту». Введите номер карты, указанный ботом.",
                 },
                 {
                   step: "6",
-                  title: "Подтвердите PIN-кодом или Face ID",
-                  desc: "В Payme подтверждаете оплату ранее установленным PIN-кодом (или Face ID/отпечатком). SMS не нужен. Платёж проходит мгновенно, Payme выдаёт PDF-чек.",
+                  title: "Введите ровно 175 000 сум и подтвердите",
+                  desc: "Сумму вводите ровно 175 000 сум. Даже разница в 100 сум помешает системе автоматически определить платёж. Подтвердите PIN или Face ID.",
                 },
                 {
                   step: "7",
                   title: "Premium активируется за 5 минут",
-                  desc: "После подтверждения Premium автоматически включается на аккаунте. Бот пришлёт сообщение, в профиле появится значок Premium. При технической задержке — 10-15 минут.",
+                  desc: "После подтверждения Payme система за 1-5 минут определит сумму, и Premium активируется на указанном вами аккаунте. Бот пришлёт сообщение, в профиле появится значок Premium.",
                 },
               ].map((item, i) => (
                 <div key={i} className="flex items-start gap-4">
@@ -386,7 +386,7 @@ export default function Article3MonthPaymeRu() {
             </div>
 
             <p className="text-muted leading-relaxed">
-              Большинство пользователей Payme завершают весь процесс за 3-5 минут. В течение 3 месяцев повторных платежей не требуется.
+              Большинство пользователей завершают весь процесс за 3-5 минут. В течение 3 месяцев повторных платежей не требуется.
             </p>
           </section>
 
@@ -395,7 +395,7 @@ export default function Article3MonthPaymeRu() {
             <div className="hero-gradient rounded-2xl p-6 md:p-8 text-center">
               <p className="text-white/90 leading-relaxed mb-4">
                 Приложение Payme готово?{" "}
-                <strong className="text-white">@PremiumSendBot</strong> — оплатите 3-месячный Telegram Premium за 175 000 сум через Payme. Подтверждение в одно касание.
+                <strong className="text-white">@PremiumSendBot</strong> — выберите 3-месячный тариф, получите номер карты и сумму 175 000 сум, переведите через Payme. Premium на аккаунте через 5 минут.
               </p>
               <Link
                 href="https://t.me/premiumsendbot"
@@ -415,19 +415,51 @@ export default function Article3MonthPaymeRu() {
             </div>
           </section>
 
-          {/* Section 4 — Comparison */}
+          {/* Section 4 — Why exact amount */}
           <section>
             <h2 className="text-2xl font-extrabold text-foreground mb-4">
-              Для 3 месяцев Payme vs Click vs Uzcard P2P — что быстрее?
+              Почему важно перевести именно 175 000 сум?
+            </h2>
+            <p className="text-muted leading-relaxed mb-4">
+              Вопрос «как бот находит ваш платёж» обоснован. Механизм построен так:
+            </p>
+            <ul className="list-disc list-inside text-muted leading-relaxed mb-4 space-y-2">
+              <li>
+                Бот для 3-месячного тарифа показывает точную сумму <strong>175 000 сум</strong> (или с уникальным дополнением для каждого заказа)
+              </li>
+              <li>
+                Система постоянно отслеживает поступления на карту
+              </li>
+              <li>
+                Когда ваш платёж приходит ровно с этой суммой — система сопоставляет его с вашим заказом
+              </li>
+              <li>
+                Premium автоматически активируется на указанном вами @username
+              </li>
+            </ul>
+            <p className="text-muted leading-relaxed mb-4">
+              Если вы переведёте другую сумму (174 500 или 175 200 сум), система не сможет автоматически сопоставить. В таком случае вы пишете в поддержку бота, отправляете номер чека Payme и точную сумму — Premium активируется вручную (15-30 минут). Но <strong>ровно 175 000</strong> — самый быстрый автоматический путь.
+            </p>
+            <div className="bg-section-alt rounded-xl p-5">
+              <p className="text-muted text-sm leading-relaxed">
+                <strong className="text-foreground">Совет:</strong> при копировании суммы из бота в Payme не добавляйте лишних пробелов или точек. Введите чистое число — &laquo;175000&raquo; — Payme автоматически отформатирует его в вид «175 000 сум».
+              </p>
+            </div>
+          </section>
+
+          {/* Section 5 — Comparison */}
+          <section>
+            <h2 className="text-2xl font-extrabold text-foreground mb-4">
+              Для 3 месяцев Payme и другие приложения — что быстрее?
             </h2>
             <p className="text-muted leading-relaxed mb-6">
-              175 000 сум за 3-месячный Premium можно оплатить 4 способами. Результат одинаковый — Premium всё равно приходит за 5 минут. Но скорость и удобство различаются:
+              На указанную ботом карту ровно 175 000 сум для 3-месячного Premium можно перевести через любое приложение. Результат одинаковый — Premium всё равно приходит за 5 минут. Но скорость и удобство различаются:
             </p>
 
             <div className="bg-white rounded-2xl border border-card-border shadow-lg overflow-hidden mb-6">
               <div className="grid grid-cols-4 bg-section-alt p-4 font-bold text-sm">
-                <div>Способ</div>
-                <div className="text-center">Время оплаты</div>
+                <div>Приложение</div>
+                <div className="text-center">Время перевода</div>
                 <div className="text-center">Ввод карты</div>
                 <div className="text-center">Подтверждение</div>
               </div>
@@ -436,44 +468,48 @@ export default function Article3MonthPaymeRu() {
                 <div className="text-center text-green-600 font-bold">
                   1-2 мин
                 </div>
-                <div className="text-center text-green-600">Нет</div>
+                <div className="text-center text-green-600">Нет*</div>
                 <div className="text-center">PIN/Face ID</div>
               </div>
               <div className="grid grid-cols-4 p-4 border-b border-card-border items-center text-sm">
-                <div className="font-medium">Click</div>
+                <div className="font-medium">Приложение Click</div>
                 <div className="text-center text-green-600">1-2 мин</div>
-                <div className="text-center text-green-600">Нет</div>
+                <div className="text-center text-green-600">Нет*</div>
                 <div className="text-center">PIN/Face ID</div>
               </div>
               <div className="grid grid-cols-4 p-4 border-b border-card-border items-center text-sm">
-                <div className="font-medium">Uzcard P2P</div>
+                <div className="font-medium">Приложение Uzcard</div>
                 <div className="text-center">2-3 мин</div>
                 <div className="text-center">Да</div>
                 <div className="text-center">SMS-код</div>
               </div>
               <div className="grid grid-cols-4 p-4 items-center text-sm">
-                <div className="font-medium">Humo P2P</div>
+                <div className="font-medium">Приложение банка (общее)</div>
                 <div className="text-center">2-3 мин</div>
                 <div className="text-center">Да</div>
                 <div className="text-center">SMS-код</div>
               </div>
             </div>
 
+            <p className="text-muted text-xs italic mb-4">
+              * В приложениях Payme и Click ваша карта уже сохранена — при каждом переводе номер вашей карты не нужно вводить. Но <strong>номер карты получателя</strong> в любом случае придётся ввести (тот, что показал бот).
+            </p>
+
             <p className="text-muted leading-relaxed mb-4">
-              <strong className="text-foreground">Payme и Click</strong> — &laquo;через приложение&raquo;: одно касание, сумма автоматически, подтверждение PIN. У большинства узбекских пользователей оба установлены. Payme — современнее по UI и принимает Visa-карты тоже. Click — чуть шире распространён. Какой удобнее, тот и выбирайте.
+              <strong className="text-foreground">Payme и приложение Click</strong> — дают опыт «через приложение»: ваша карта сохранена, вводите номер карты получателя и сумму, подтверждение PIN. У большинства пользователей в Узбекистане установлены оба. Что у вас удобнее, то и выбирайте.
             </p>
             <p className="text-muted leading-relaxed">
-              Uzcard или Humo P2P — обычный перевод через банковское приложение. Работает, если нет Payme или Click, но шагов больше.
+              Перевод через приложение Uzcard или Humo — старый способ: ручной ввод карты, ожидание SMS. Если нет Payme или Click, тоже работает.
             </p>
           </section>
 
-          {/* Section 5 — Why 3 months for Payme users */}
+          {/* Section 6 — Why 3 months */}
           <section>
             <h2 className="text-2xl font-extrabold text-foreground mb-4">
-              Почему пользователю Payme подходит 3-месячный?
+              Почему пользователю Payme подходит 3-месячный тариф?
             </h2>
             <p className="text-muted leading-relaxed mb-4">
-              Тот, кто пользуется Payme, обычно &laquo;действует быстро&raquo;: коммунальные, такси, мобильная связь — всё в одно касание. 3-месячный Premium вписывается в ту же логику: один раз быстро заплатили — 90 дней не вспоминаете.
+              Тот, кто пользуется Payme, обычно &laquo;действует быстро&raquo;: коммунальные, такси, мобильная связь — всё в одно-два касания. 3-месячный Premium вписывается в ту же логику: один раз быстро заплатили — 90 дней не вспоминаете.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
@@ -492,7 +528,7 @@ export default function Article3MonthPaymeRu() {
                 },
                 {
                   title: "Подходит для подарка",
-                  desc: "Если делаете подарок — 3 месяца достаточный срок. Через Payme платите, вводите username — Premium на этом аккаунте. По правилам Telegram 1-месячного подарка не существует.",
+                  desc: "Если делаете подарок — 3 месяца достаточный срок. Через Payme переводите 175 000 сум на карту, вводите username — Premium на этом аккаунте. По правилам Telegram 1-месячного подарка не существует.",
                 },
               ].map((item, i) => (
                 <div
@@ -517,13 +553,13 @@ export default function Article3MonthPaymeRu() {
             </p>
           </section>
 
-          {/* Section 6 — Safety */}
+          {/* Section 7 — Safety */}
           <section>
             <h2 className="text-2xl font-extrabold text-foreground mb-4">
-              Безопасно ли платить 175 000 сум через Payme?
+              Безопасно ли перевести 175 000 сум через Payme?
             </h2>
             <p className="text-muted leading-relaxed mb-4">
-              Payme — официальная платёжная система, лицензированная Центральным банком. Работает по международному стандарту PCI DSS. Миллионы пользователей применяют её ежедневно для коммунальных, такси, мобильной связи и онлайн-покупок. Для Telegram Premium механизм точно такой же — отдельных рисков нет.
+              Payme — официальная платёжная система, лицензированная Центральным банком. Работает по международному стандарту PCI DSS. Миллионы пользователей применяют её ежедневно для коммунальных, такси, мобильной связи и онлайн-покупок. Для Telegram Premium механизм точно такой же — обычный P2P-перевод на указанную ботом карту. Отдельных рисков нет.
             </p>
 
             <div className="space-y-3 mb-6">
@@ -532,7 +568,7 @@ export default function Article3MonthPaymeRu() {
                   🔐 Данные карты только на сервере Payme
                 </h3>
                 <p className="text-sm text-muted leading-relaxed">
-                  Номер карты, пароль и CVV хранятся только на безопасных серверах Payme. @PremiumSendBot их никогда не видит. Бот видит только факт «Payme подтвердил оплату».
+                  Номер карты, пароль и CVV сохраняются только на безопасных серверах Payme. @PremiumSendBot эти данные никогда не видит. Бот видит только факт «на карту поступило 175 000 сум».
                 </p>
               </div>
               <div className="bg-white rounded-xl p-5 border border-card-border shadow-sm">
@@ -548,7 +584,7 @@ export default function Article3MonthPaymeRu() {
                   📋 PDF-чек Payme — юридический документ
                 </h3>
                 <p className="text-sm text-muted leading-relaxed">
-                  Payme выдаёт PDF-чек на каждую оплату. Сохраняется в приложении и может быть перезагружен в любой момент. При проблеме поддержка по номеру чека сразу находит платёж.
+                  Payme выдаёт PDF-чек на каждый P2P-перевод. Сохраняется в приложении и может быть перезагружен в любой момент. При проблеме поддержка по номеру чека сразу находит платёж.
                 </p>
               </div>
               <div className="bg-white rounded-xl p-5 border border-card-border shadow-sm">
@@ -562,39 +598,39 @@ export default function Article3MonthPaymeRu() {
             </div>
 
             <p className="text-muted leading-relaxed">
-              Покупка 3-месячного Premium через Payme — настолько же безопасна, как ваш обычный платёж в Payme. Дополнительного технического риска нет.
+              Покупка 3-месячного Premium через Payme — настолько же безопасна, как ваш обычный P2P-перевод в Payme. Дополнительного технического риска нет.
             </p>
           </section>
 
-          {/* Section 7 — Common issues */}
+          {/* Section 8 — Common issues */}
           <section>
             <h2 className="text-2xl font-extrabold text-foreground mb-4">
               Проблемы при оплате 175 000 сум через Payme
             </h2>
             <p className="text-muted leading-relaxed mb-6">
-              Большинство платежей Payme проходят без проблем — приложение давно отлажено и стабильно. Но иногда могут быть мелкие препятствия:
+              Большинство P2P-переводов через Payme проходят без проблем — приложение давно отлажено и стабильно. Но иногда могут быть мелкие препятствия:
             </p>
 
             <div className="space-y-3 mb-6">
               <div className="bg-white rounded-xl p-5 border border-card-border shadow-sm">
                 <h3 className="font-bold text-foreground mb-1">
-                  Не хватает баланса в Payme
+                  Переведена не та сумма вместо 175 000
                 </h3>
                 <p className="text-sm text-muted leading-relaxed">
-                  Самая частая причина. <strong>Решение:</strong> проверьте карту в Payme. Если баланса не хватает на 175 000 сум — пополните или выберите другую карту. Через Payme пополнение карты тоже происходит в одно касание.
+                  Самая частая причина. <strong>Решение:</strong> отправьте в поддержку бота номер чека Payme и точную сумму, которую вы перевели. За 15-30 минут проводится ручная проверка, Premium активируется или возвращается разница.
                 </p>
               </div>
               <div className="bg-white rounded-xl p-5 border border-card-border shadow-sm">
                 <h3 className="font-bold text-foreground mb-1">
-                  Приложение Payme не открыло ссылку
+                  Не хватает денег на балансе Payme
                 </h3>
                 <p className="text-sm text-muted leading-relaxed">
-                  Возможно, телефон на старой версии или Payme требует обновления. <strong>Решение:</strong> обновите Payme в Play Market или App Store. После обновления нажмите ссылку бота заново.
+                  На карте, привязанной к Payme, должно быть достаточно средств на 175 000 сум. <strong>Решение:</strong> пополните карту через Payme или выберите другую карту.
                 </p>
               </div>
               <div className="bg-white rounded-xl p-5 border border-card-border shadow-sm">
                 <h3 className="font-bold text-foreground mb-1">
-                  Деньги списались, а Premium не пришёл
+                  Деньги переведены, а Premium не пришёл
                 </h3>
                 <p className="text-sm text-muted leading-relaxed">
                   Система может обрабатывать чуть дольше. <strong>Решение:</strong> подождите 10-15 минут. Если не активировалось — отправьте номер чека Payme в поддержку бота. После ручной проверки Premium активируется или деньги возвращаются.
@@ -605,7 +641,7 @@ export default function Article3MonthPaymeRu() {
                   Нет приложения Payme
                 </h3>
                 <p className="text-sm text-muted leading-relaxed">
-                  <strong>Решение:</strong> скачайте Payme бесплатно из Play Market (Android) или App Store (iPhone). Зарегистрируйтесь по номеру телефона (3 минуты), привяжите Uzcard или Humo — далее оплата в одно касание. Или в @PremiumSendBot выберите Click или Uzcard P2P.
+                  <strong>Решение:</strong> скачайте Payme бесплатно из Play Market (Android) или App Store (iPhone). Зарегистрируйтесь по номеру телефона (3 минуты), привяжите Uzcard или Humo — далее перевод в одно-два касания. Или переведите на указанную ботом карту через приложение Click, Uzcard или приложение банка — результат тот же.
                 </p>
               </div>
               <div className="bg-white rounded-xl p-5 border border-card-border shadow-sm">
@@ -619,7 +655,7 @@ export default function Article3MonthPaymeRu() {
             </div>
 
             <p className="text-muted leading-relaxed">
-              Большинство проблем решается сразу. Поддержка бота помогает в любой ситуации и предлагает альтернативный путь (Click или Uzcard P2P).
+              Большинство проблем решается сразу. Поддержка бота помогает в любой ситуации и предлагает альтернативный путь (Click, приложение Uzcard или банк).
             </p>
           </section>
 
@@ -632,15 +668,19 @@ export default function Article3MonthPaymeRu() {
               {[
                 {
                   q: "Сколько стоит Telegram Premium на 3 месяца через Payme?",
-                  a: "175 000 сум — 58 333 сум в месяц. Цена одинаковая через Uzcard, Humo и Click. Payme не берёт дополнительной комиссии.",
+                  a: "175 000 сум — 58 333 сум в месяц. Цена одинаковая через Uzcard, Humo и приложение Click. Payme P2P-перевод тоже без комиссии.",
                 },
                 {
-                  q: "Через сколько активируется 3-месячный Premium после оплаты Payme?",
-                  a: "В Payme оплата 1-2 минуты. После подтверждения Premium активируется автоматически за 2-5 минут. При технической задержке — до 10-15 минут.",
+                  q: "Как купить 3-месячный Premium через Payme?",
+                  a: "В @PremiumSendBot выберите 3-месячный тариф и введите username. Бот покажет номер карты и точную сумму 175 000 сум. Через Payme функцией «Перевод на другую карту» переведите ровно 175 000 сум на эту карту. За 5 минут Premium на аккаунте.",
                 },
                 {
                   q: "Есть ли дополнительная комиссия при оплате через Payme?",
-                  a: "Нет. В @PremiumSendBot скрытых комиссий нет. Вы платите 175 000 сум — это итоговая сумма.",
+                  a: "Нет. Сумма, указанная ботом, 175 000 — вы переводите ровно столько, дополнительно ничего не берётся. Payme также не берёт комиссии за P2P-перевод.",
+                },
+                {
+                  q: "Что если перевести другую сумму?",
+                  a: "Система не сможет автоматически сопоставить. В таком случае вы пишете в поддержку бота, отправляете номер чека Payme и точную сумму — Premium активируется вручную за 15-30 минут или возвращается разница. Но ровно 175 000 — всегда быстрее.",
                 },
                 {
                   q: "Можно ли оплатить 3 месяца через Payme в официальном приложении Telegram?",
@@ -648,15 +688,11 @@ export default function Article3MonthPaymeRu() {
                 },
                 {
                   q: "Можно ли подарить 3-месячный Premium через Payme?",
-                  a: "Да. Бот спрашивает username — указываете @username получателя, подтверждаете в Payme, Premium активируется на этом аккаунте. По правилам Telegram 1-месячного подарка не существует, 3 месяца — самый дешёвый для подарка.",
-                },
-                {
-                  q: "Безопасно ли платить через Payme?",
-                  a: "Да. Payme — лицензирован Центральным банком, по стандарту PCI DSS. Данные карты только на сервере Payme, бот их не видит. Если Premium не пришёл — деньги возвращаются.",
+                  a: "Да. Бот спрашивает username получателя, вы переводите через Payme 175 000 сум на карту, Premium активируется на этом аккаунте. По правилам Telegram 1-месячный подарок не существует, 3 месяца — самый дешёвый для подарка.",
                 },
                 {
                   q: "Что делать, если нет приложения Payme?",
-                  a: "Скачайте Payme бесплатно из Play Market или App Store (3-5 минут). Или в @PremiumSendBot выберите Click или Uzcard P2P — цена одинаковая, 175 000 сум.",
+                  a: "Скачайте Payme бесплатно из Play Market или App Store (3-5 минут). Или переведите на указанную ботом карту через Click, приложение Uzcard или приложение банка — цена та же 175 000 сум, результат тот же.",
                 },
               ].map((faq, i) => (
                 <div
@@ -687,7 +723,7 @@ export default function Article3MonthPaymeRu() {
                 </div>
                 <div className="text-center">
                   <p className="text-2xl font-extrabold text-primary">1-2 мин</p>
-                  <p className="text-sm text-muted">оплата в Payme</p>
+                  <p className="text-sm text-muted">P2P-перевод в Payme</p>
                 </div>
                 <div className="text-center">
                   <p className="text-2xl font-extrabold text-primary">90 дн</p>
@@ -759,7 +795,7 @@ export default function Article3MonthPaymeRu() {
               </div>
               <div className="relative">
                 <p className="text-white/90 text-lg leading-relaxed mb-6">
-                  Для пользователей Payme 3-месячный Telegram Premium — удобный локальный путь. 175 000 сум, подтверждение PIN в приложении, активация за 5 минут, 90 дней спокойствия.{" "}
+                  Для пользователей Payme 3-месячный Telegram Premium — удобный локальный путь. 175 000 сум, обычный P2P-перевод через Payme на указанную ботом карту, активация за 5 минут, 90 дней спокойствия.{" "}
                   <strong className="text-white">@PremiumSendBot</strong> — начать в несколько кликов.
                 </p>
                 <Link

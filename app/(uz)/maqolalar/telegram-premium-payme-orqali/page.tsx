@@ -3,13 +3,13 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "Telegram Premium Payme orqali sotib olish — 1-2 daqiqada, qadamma-qadam",
+    "Telegram Premium Payme orqali sotib olish — kartaga o'tkazma, qadamma-qadam",
   description:
-    "Telegram Premium Payme orqali — 59,000 so'mdan 425,000 so'mgacha. @PremiumSendBot da Payme ilovasi bilan 1-2 daqiqada to'lov, 5 daqiqada faollashish. Komissiyasiz, mahalliy karta.",
+    "Telegram Premium Payme orqali — 59,000 so'mdan 425,000 so'mgacha. @PremiumSendBot ko'rsatgan kartaga Payme'dan aniq summa o'tkazasiz, tizim avtomatik aniqlaydi va Premium 5 daqiqada faollashadi.",
   keywords: [
     "Telegram Premium Payme",
     "Payme orqali Telegram Premium",
-    "Telegram Premium Payme ilovasi",
+    "Telegram Premium Payme bilan to'lash",
     "Payme bilan Premium",
     "Payme orqali premium sotib olish",
     "Telegram Premium so'mda Payme",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Telegram Premium Payme orqali sotib olish — qadamma-qadam",
     description:
-      "Payme ilovasi bilan Telegram Premium so'mda to'lov. 4 ta tarif, 1-2 daqiqada to'lov, 5 daqiqada faollashish, 0% komissiya.",
+      "Bot ko'rsatgan kartaga Payme orqali aniq summa o'tkazasiz, Premium 5 daqiqada akkauntda. 4 ta tarif, so'mda, komissiyasiz.",
     url: "https://premiumsend.uz/maqolalar/telegram-premium-payme-orqali",
     type: "article",
     publishedTime: "2026-05-05",
@@ -39,7 +39,7 @@ export default function ArticlePaymePillarUz() {
     headline:
       "Telegram Premium Payme orqali sotib olish — qadamma-qadam qo'llanma",
     description:
-      "Telegram Premium ni Payme ilovasi orqali O'zbekistonda sotib olish — barcha tariflar, narxlar va bosqichma-bosqich qo'llanma.",
+      "Telegram Premium ni Payme orqali O'zbekistonda sotib olish — bot ko'rsatgan kartaga Payme'dan o'tkazasiz, tizim avtomatik aniqlaydi.",
     datePublished: "2026-05-05",
     dateModified: "2026-05-05",
     author: {
@@ -65,7 +65,7 @@ export default function ArticlePaymePillarUz() {
         name: "Telegram Premium Payme orqali sotib olish mumkinmi?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Ha. @PremiumSendBot da Payme ilovasi orqali Telegram Premium sotib olish mumkin. Barcha tariflar (1, 3, 6, 12 oylik) qo'llab-quvvatlanadi. To'lov so'mda, komissiyasiz, 1-2 daqiqada Payme ilovasida amalga oshadi va 5 daqiqada Premium faollashadi.",
+          text: "Ha. @PremiumSendBot tarif tanlaganingizdan keyin karta raqami va aniq summani ko'rsatadi. Siz Payme ilovasidan o'sha kartaga ko'rsatilgan summani o'tkazasiz. Tizim to'lovni avtomatik aniqlab, Premium ni 5 daqiqada akkauntga yoqadi. Barcha tariflar (1, 3, 6, 12 oylik) qo'llab-quvvatlanadi, narx so'mda, komissiyasiz.",
         },
       },
       {
@@ -73,23 +73,31 @@ export default function ArticlePaymePillarUz() {
         name: "Payme orqali Telegram Premium qancha turadi?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Narxlar boshqa to'lov usullari bilan bir xil: 1 oylik — 59,000 so'm, 3 oylik — 175,000 so'm, 6 oylik — 235,000 so'm, 12 oylik — 425,000 so'm. To'lov usuli (Uzcard, Humo, Click, Payme) narxga ta'sir qilmaydi. Payme ham qo'shimcha komissiya olmaydi.",
+          text: "Narxlar boshqa to'lov usullari bilan bir xil: 1 oylik — 59,000 so'm, 3 oylik — 175,000 so'm, 6 oylik — 235,000 so'm, 12 oylik — 425,000 so'm. To'lov usuli (Payme, Uzcard, Humo, Click ilovasi yoki bank ilovasi orqali kartaga o'tkazma) narxga ta'sir qilmaydi. Yashirin komissiya yo'q.",
         },
       },
       {
         "@type": "Question",
-        name: "Payme va Click — qaysi biri qulayroq?",
+        name: "Payme orqali to'lash qanday ishlaydi?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Ikkalasi ham deyarli teng. Payme — modernroq UI, ko'pgina foydalanuvchilar uni kommunal va taksi to'lovlari uchun ishlatadi. Click — biroz keng tarqalgan. Texnik mexanizm, tezlik (1-2 daqiqa), narx (bir xil) va xavfsizlik (PCI DSS) — hammasi teng. Sizda qaysi ilova tayyor bo'lsa, shuni tanlang.",
+          text: "Mexanizm oddiy: bot tarif va username asosida sizga karta raqami + aniq summa beradi. Siz Payme ilovasini ochasiz, 'Boshqa kartaga o'tkazma' ni tanlaysiz, ko'rsatilgan kartaga aniq summani o'tkazasiz. Payme tasdiqlashidan so'ng tizim 1-5 daqiqa ichida to'lovni aniqlaydi (summa va karta orqali) va Premium siz bergan @username'da avtomatik faollashadi.",
         },
       },
       {
         "@type": "Question",
-        name: "Payme ilovasi yo'q bo'lsa Premium olish mumkinmi?",
+        name: "Aynan ko'rsatilgan summani o'tkazish nega muhim?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Ha. @PremiumSendBot da Payme bilan birga Click, Uzcard P2P, Humo va Visa variantlari ham mavjud. Payme yo'q bo'lsa, boshqa usulda to'lashingiz mumkin — narx va Premium muddati o'zgarmaydi. Payme ilovasini Play Market yoki App Store dan bepul yuklash 3-5 daqiqada amalga oshadi.",
+          text: "Tizim to'lovni summa va karta kombinatsiyasi orqali aniqlaydi. Agar siz boshqa summa o'tkazsangiz, tizim avtomatik aniqlay olmaydi va Premium qo'lda yoqilishi uchun qo'llab-quvvatlashga murojaat qilish kerak bo'ladi. Botda ko'rsatilgan summani aynan o'tkazish — eng tezkor yo'l.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Payme ilovasi yo'q bo'lsa ham Premium olish mumkinmi?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Ha. Payme — bu shunchaki kartaga pul o'tkazish vositasi. Boshqa har qanday ilovadan (Uzcard, Humo, Click ilovasi yoki bank ilovasi) ham bot ko'rsatgan kartaga o'sha summani o'tkazsangiz, natija bir xil — tizim aniqlaydi va Premium o'tadi. Payme — qulayligi va keng tarqalganligi uchun ko'pchilik tomonidan tanlanadi.",
         },
       },
       {
@@ -97,7 +105,7 @@ export default function ArticlePaymePillarUz() {
         name: "Payme orqali to'lash xavfsizmi?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Ha. Payme — O'zbekiston Markaziy banki tomonidan litsenziyalangan rasmiy to'lov tizimi, PCI DSS xalqaro xavfsizlik standartiga muvofiq ishlaydi. Karta ma'lumotlari faqat Payme serverida saqlanadi, bot ko'rmaydi. Har to'lov uchun PDF chek beriladi. Premium kelmasa, to'langan summa to'liq qaytariladi.",
+          text: "Ha. Payme — Markaziy bank tomonidan litsenziyalangan rasmiy to'lov tizimi, PCI DSS xalqaro xavfsizlik standartiga muvofiq ishlaydi. Karta ma'lumotlari (raqam, parol, CVV) faqat Payme serverida saqlanadi, bot ko'rmaydi. Har o'tkazma uchun Payme'da PDF chek beriladi. Texnik muammo bo'lsa chek raqami orqali tekshiruv tezkor.",
         },
       },
       {
@@ -105,7 +113,7 @@ export default function ArticlePaymePillarUz() {
         name: "Telegram rasmiy ilovasida Payme orqali to'lab bo'ladimi?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Yo'q. Telegram rasmiy ilovasi faqat Visa, Mastercard, Google Pay va Apple Pay qabul qiladi. Payme bu tizimga ulanmagan — chunki u mahalliy ilova. Telegram'da Payme bilan to'lash uchun mahalliy oraliq xizmat (masalan, @PremiumSendBot) zarur.",
+          text: "Yo'q. Telegram rasmiy ilovasi faqat Visa, Mastercard, Google Pay va Apple Pay qabul qiladi. Payme bu tizimga ulanmagan. So'mda va Payme orqali Premium olish uchun mahalliy oraliq xizmat (masalan, @PremiumSendBot) zarur — siz Payme'dan kartaga o'tkazasiz, tizim Telegram'ga Premium gift jo'natadi.",
         },
       },
       {
@@ -113,7 +121,7 @@ export default function ArticlePaymePillarUz() {
         name: "Payme orqali sovg'a qilish mumkinmi?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Ha. 3, 6 va 12 oylik Telegram Premium ni Payme bilan to'lab boshqa odamga sovg'a qilish mumkin. Bot username so'raydi, Payme bilan to'laysiz — Premium o'sha akkauntda faollashadi. Telegram qoidasi bo'yicha 1 oylik sovg'a mavjud emas — eng arzon sovg'a 3 oylik (175,000 so'm).",
+          text: "Ha. 3, 6 va 12 oylik Telegram Premium ni Payme orqali to'lab boshqa odamga sovg'a qilish mumkin. Bot oddiy: o'zingizning emas, sovg'a qilayotgan kishining @username'ini kiritasiz, qolgan jarayon bir xil — Payme'dan kartaga o'tkazasiz, Premium o'sha akkauntda faollashadi. Telegram qoidasi bo'yicha 1 oylik sovg'a mavjud emas — eng arzon sovg'a 3 oylik (175,000 so'm).",
         },
       },
     ],
@@ -193,7 +201,7 @@ export default function ArticlePaymePillarUz() {
           {/* TL;DR */}
           <div className="bg-primary-light/40 rounded-xl p-5 border border-primary/20 mb-6">
             <p className="text-foreground leading-relaxed font-medium">
-              <strong>Qisqacha javob:</strong> Telegram Premium Payme orqali sotib olish{" "}
+              <strong>Qisqacha javob:</strong> Telegram Premium Payme orqali sotib olish jarayoni —{" "}
               <Link
                 href="https://t.me/premiumsendbot"
                 target="_blank"
@@ -201,57 +209,66 @@ export default function ArticlePaymePillarUz() {
               >
                 @PremiumSendBot
               </Link>
-              {" "}da amalga oshiriladi. Narxlar:{" "}
-              <strong>1 oylik — 59,000 so&apos;m</strong>,{" "}
-              <strong>3 oylik — 175,000 so&apos;m</strong>,{" "}
-              <strong>6 oylik — 235,000 so&apos;m</strong>,{" "}
-              <strong>12 oylik — 425,000 so&apos;m</strong>. Payme ilovasida to&apos;lov 1-2 daqiqa, Premium faollashishi 5 daqiqa. Komissiya 0%.
+              {" "}da tarifni tanlaysiz, bot sizga <strong>karta raqami va aniq summani</strong> ko&apos;rsatadi, siz Payme ilovasidan shu kartaga o&apos;sha summani o&apos;tkazasiz. Tizim to&apos;lovni avtomatik aniqlab, Premium ni siz bergan akkauntga 5 daqiqada faollashtiradi. Narxlar: <strong>1 oylik — 59,000 so&apos;m</strong>, <strong>3 oylik — 175,000</strong>, <strong>6 oylik — 235,000</strong>, <strong>12 oylik — 425,000 so&apos;m</strong>. Komissiya 0%, kurs riski yo&apos;q.
             </p>
           </div>
 
           <p className="text-lg text-muted leading-relaxed">
-            Payme — O&apos;zbekistondagi keng tarqalgan mobil to&apos;lov tizimlaridan biri. Karta ulangan ilova orqali har qanday onlayn to&apos;lov ikki bosishda amalga oshadi. Telegram Premium sotib olishda Payme aynan shu &quot;tez va oson&quot; tajribani saqlab qoladi — ko&apos;p bosqichlar yo&apos;q, har to&apos;lovda karta raqami yozish kerak emas.
+            Payme — O&apos;zbekistonda eng keng tarqalgan mobil to&apos;lov ilovalaridan biri. Karta ulangan ilova orqali kommunal to&apos;lovlar, taksi, mobil aloqa va boshqa xizmatlarga to&apos;lash hamda boshqa kartalarga o&apos;tkazma qilish bir-ikki bosishda amalga oshadi. Telegram Premium sotib olishda Payme aynan shu &quot;kartaga o&apos;tkazma&quot; funksiyasini ishlatadi.
           </p>
           <p className="text-lg text-muted leading-relaxed mt-4">
-            Ushbu pillar qo&apos;llanma Payme orqali Telegram Premium sotib olishning to&apos;liq jarayonini ochib beradi: nega Payme qulay, qaysi tariflar mavjud, bosqichma-bosqich yo&apos;riqnoma, xavfsizlik va eng ko&apos;p uchraydigan savollar.
+            Ushbu pillar qo&apos;llanma Payme orqali Telegram Premium sotib olishning to&apos;liq jarayonini ochib beradi: bot va Payme o&apos;rtasidagi mexanizm, qaysi tariflar mavjud, bosqichma-bosqich yo&apos;riqnoma, xavfsizlik va eng ko&apos;p uchraydigan savollar.
           </p>
         </header>
 
         <div className="prose prose-lg max-w-none space-y-12">
-          {/* Section 1 — Why Payme */}
+          {/* Section 1 — How payment mechanism works */}
           <section>
             <h2 className="text-2xl font-extrabold text-foreground mb-4">
-              Nega Payme — Premium uchun qulay mahalliy yo&apos;l?
+              Bot va Payme qanday ishlaydi — to&apos;lov mexanizmi
             </h2>
             <p className="text-muted leading-relaxed mb-4">
-              Payme — bu karta emas, <strong>to&apos;lov tizimi va mobil ilova</strong>. Asosiy farq aynan shunda: Uzcard va Humo — kartalar (Visa va Mastercard kabi). Payme esa ulardan tepada turadigan ilova: siz Payme&apos;ga Uzcard yoki Humo kartani bir marta ulaysiz va keyin har to&apos;lovda kartani qaytadan kiritish kerak emas.
+              Mexanizmni tushunib olish, qolgan jarayon o&apos;ziga oydinlashtiradi. Quyidagi sxema oddiy va shaffof:
             </p>
-            <p className="text-muted leading-relaxed mb-4">
-              Bu Premium sotib olishda muhim afzallik beradi. Aksariyat foydalanuvchilar uchun:
-            </p>
-            <ul className="list-disc list-inside text-muted leading-relaxed mb-4 space-y-2">
-              <li>
-                <strong className="text-foreground">Karta raqami va CVV yozish kerak emas</strong> — ilova bir marta yodda saqlagan
-              </li>
-              <li>
-                <strong className="text-foreground">SMS tasdiq o&apos;rniga PIN kod yoki Face ID</strong> — tezroq, simsiz
-              </li>
-              <li>
-                <strong className="text-foreground">Bir bosishda to&apos;lov</strong> — bot havolasini bossangiz, summa avtomatik to&apos;ldiriladi
-              </li>
-              <li>
-                <strong className="text-foreground">PDF chek darhol</strong> — saqlash, ulashish oson
-              </li>
-              <li>
-                <strong className="text-foreground">Modern UI</strong> — Payme dizayni ko&apos;pchilik foydalanuvchilar tomonidan oson tushuniladi
-              </li>
-            </ul>
-            <p className="text-muted leading-relaxed mb-4">
-              Telegram rasmiy ilovasida esa Payme umuman ishlamaydi — Telegram faqat Visa, Mastercard, Google Pay va Apple Pay qabul qiladi. Payme ham, Click ham, Uzcard ham, Humo ham bu tizimga kiritilmagan. Shuning uchun mahalliy oraliq xizmat zarur.
-            </p>
+
+            <div className="space-y-3 mb-6">
+              <div className="bg-white rounded-xl p-5 border border-card-border shadow-sm">
+                <h3 className="font-bold text-foreground mb-1">
+                  1. Bot karta va summani ko&apos;rsatadi
+                </h3>
+                <p className="text-sm text-muted leading-relaxed">
+                  @PremiumSendBot da tarif (1, 3, 6 yoki 12 oylik) va Premium kerak akkauntning username&apos;ini kiritganingizdan so&apos;ng, bot ekranda <strong>karta raqami</strong> va <strong>aniq to&apos;lov summasi</strong>ni chiqaradi. Masalan: 175 000 so&apos;m va 8600 0000 0000 0000 raqamli karta.
+                </p>
+              </div>
+              <div className="bg-white rounded-xl p-5 border border-card-border shadow-sm">
+                <h3 className="font-bold text-foreground mb-1">
+                  2. Payme ilovasidan kartaga o&apos;tkazasiz
+                </h3>
+                <p className="text-sm text-muted leading-relaxed">
+                  Payme ilovasini ochib, &quot;Boshqa kartaga o&apos;tkazma&quot; (yoki &quot;P2P o&apos;tkazma&quot;) funksiyasini tanlang. Bot ko&apos;rsatgan karta raqamini va <strong>aynan o&apos;sha summani</strong> kiriting. Payme PIN yoki Face ID bilan tasdiqlashni so&apos;raydi — odatdagi P2P o&apos;tkazmadek.
+                </p>
+              </div>
+              <div className="bg-white rounded-xl p-5 border border-card-border shadow-sm">
+                <h3 className="font-bold text-foreground mb-1">
+                  3. Tizim to&apos;lovni avtomatik aniqlaydi
+                </h3>
+                <p className="text-sm text-muted leading-relaxed">
+                  To&apos;lov tasdiqlangach, tizim 1-5 daqiqa ichida tushgan summani aniqlaydi (karta va aynan ko&apos;rsatilgan summa kombinatsiyasi orqali). Sizdan hech qanday qo&apos;shimcha harakat talab qilinmaydi.
+                </p>
+              </div>
+              <div className="bg-white rounded-xl p-5 border border-card-border shadow-sm">
+                <h3 className="font-bold text-foreground mb-1">
+                  4. Premium akkauntga avtomatik yoqiladi
+                </h3>
+                <p className="text-sm text-muted leading-relaxed">
+                  Tizim siz bergan @username&apos;ga Telegram&apos;ning rasmiy gift mexanizmi orqali Premium ni yuboradi. Bot xabar yuboradi, profilda Premium belgi paydo bo&apos;ladi. Texnik kechikish bo&apos;lsa 10-15 daqiqaga cho&apos;zilishi mumkin.
+                </p>
+              </div>
+            </div>
+
             <div className="bg-section-alt rounded-xl p-5">
               <p className="text-muted text-sm leading-relaxed">
-                <strong className="text-foreground">Qisqacha:</strong> Telegram Payme&apos;ni qabul qilmaydi, lekin Payme — qulay va keng tarqalgan mahalliy to&apos;lov usuli. @PremiumSendBot bu ikki haqiqatni birlashtiradi — siz Payme bilan to&apos;laysiz, xizmat Premium ni faollashtiradi.
+                <strong className="text-foreground">Asosiy fakt:</strong> Payme — bu kartaga pul o&apos;tkazish vositasi. Bot to&apos;lovni Payme ichidan emas, balki <strong>kartaga tushgan summani avtomatik aniqlash</strong> orqali oladi. Shuning uchun Payme ilovasi ichida &quot;PremiumSend&quot; tugmasi yo&apos;q — siz odatdagi P2P o&apos;tkazmani ishlatasiz.
               </p>
             </div>
           </section>
@@ -263,7 +280,7 @@ export default function ArticlePaymePillarUz() {
             </h2>
             <div className="bg-primary-light/40 border border-primary/20 rounded-xl p-5 mb-6">
               <p className="text-foreground leading-relaxed">
-                <strong>Narxlar:</strong> 4 ta tarif Payme bilan ham qabul qilinadi. 1 oylik — <strong>59,000 so&apos;m</strong>, 3 oylik — <strong>175,000 so&apos;m</strong>, 6 oylik — <strong>235,000 so&apos;m</strong>, 12 oylik — <strong>425,000 so&apos;m</strong>. Payme qo&apos;shimcha komissiya olmaydi.
+                <strong>Narxlar:</strong> 4 ta tarif Payme orqali ham qabul qilinadi. 1 oylik — <strong>59,000 so&apos;m</strong>, 3 oylik — <strong>175,000 so&apos;m</strong>, 6 oylik — <strong>235,000 so&apos;m</strong>, 12 oylik — <strong>425,000 so&apos;m</strong>. Bot ko&apos;rsatgan summa aynan shu — qo&apos;shimcha komissiya yo&apos;q. Payme P2P o&apos;tkazma uchun ham komissiya olmaydi (oddiy karta-kartaga o&apos;tkazmada).
               </p>
             </div>
 
@@ -305,7 +322,7 @@ export default function ArticlePaymePillarUz() {
             </div>
 
             <p className="text-muted leading-relaxed">
-              Payme bilan to&apos;lash narxga umuman ta&apos;sir qilmaydi — yashirin xizmat haqi yo&apos;q, kurs farqi yo&apos;q. Tariflar haqida batafsil:{" "}
+              Bot ko&apos;rsatgan summani Payme&apos;ga aynan kiritish muhim — chunki tizim to&apos;lovni summa va karta kombinatsiyasi orqali aniqlaydi. Tariflar haqida batafsil:{" "}
               <Link
                 href="/maqolalar/telegram-premium-narxlari"
                 className="text-primary font-semibold hover:underline"
@@ -331,7 +348,7 @@ export default function ArticlePaymePillarUz() {
                 >
                   @PremiumSendBot
                 </Link>
-                {" "}ni oching → tarifni tanlang → username kiriting → <strong>Payme</strong> ni tanlang → Payme ilovasi ochiladi → tasdiqlang → Premium 5 daqiqada faollashadi.
+                {" "}ni oching → tarifni tanlang → username kiriting → bot karta raqami va summani beradi → Payme ilovasidan kartaga aynan shu summani o&apos;tkazasiz → Premium 5 daqiqada faollashadi.
               </p>
             </div>
 
@@ -349,32 +366,32 @@ export default function ArticlePaymePillarUz() {
                 {
                   step: "2",
                   title: "Tarifni tanlang",
-                  desc: "Bot 4 ta tarif chiqaradi: 1, 3, 6 va 12 oylik. Sinab ko'rish uchun 1 oylik (59,000) yetadi, doimiy uchun 12 oylik (425,000) eng arzon. Sizga mosini tanlang.",
+                  desc: "Bot 4 ta tarif chiqaradi: 1, 3, 6 va 12 oylik. Sinash uchun 1 oylik (59,000) yetadi, doimiy uchun 12 oylik (425,000) eng arzon. Sizga mosini tanlang.",
                 },
                 {
                   step: "3",
-                  title: "Premium kerak akkauntning username'ini kiriting",
+                  title: "Premium kerak akkaunt username'ini kiriting",
                   desc: "@belgisidan keyin Telegram username yozing. Bu o'zingizning yoki sovg'a olayotgan kishining akkaunti. Xato bo'lsa Premium boshqa akkauntda faollashadi — ikki marta tekshiring.",
                 },
                 {
                   step: "4",
-                  title: "To'lov usuli sifatida \"Payme\" ni tanlang",
-                  desc: "4 ta variant ko'rinadi: Uzcard, Humo, Click, Payme. \"Payme\" ni bosing. Bot Payme to'lov havolasini yoki QR-kodni jo'natadi.",
+                  title: "Bot karta raqami va summani ko'rsatadi",
+                  desc: "Ekranda karta raqami (masalan, 8600 XXXX XXXX XXXX) va aniq to'lov summasi (masalan, 175 000 so'm) chiqadi. Bot izoh sifatida tekshiruv kodi ham berishi mumkin — uni ham eslab tursangiz foyda.",
                 },
                 {
                   step: "5",
-                  title: "Payme ilovasi avtomatik ochiladi",
-                  desc: "Havolaga bossangiz, telefon Payme ilovasini ochadi va summa avtomatik to'ldiriladi. Karta raqami, parol va CVV kiritish kerak emas — ilovada yodda saqlangan.",
+                  title: "Payme ilovasini oching va P2P o'tkazma boshlang",
+                  desc: "Payme ilovasiga kiring. \"Boshqa kartaga o'tkazma\" (yoki shunga o'xshash) funksiyasini tanlang. Karta raqamini bot ko'rsatgan raqam bilan to'ldiring.",
                 },
                 {
                   step: "6",
-                  title: "PIN kod yoki Face ID bilan tasdiqlang",
-                  desc: "Payme siz oldin o'rnatgan PIN kodi (yoki Face ID/barmoq izi) bilan to'lovni tasdiqlaysiz. SMS tasdiq kerak emas. Bir lahzada to'lov amalga oshadi.",
+                  title: "Aynan ko'rsatilgan summani kiriting va tasdiqlang",
+                  desc: "Summani aynan bot ko'rsatgan miqdorda kiriting. 100 so'm farq ham tizimga to'lovni avtomatik aniqlashga to'sqinlik qiladi. PIN yoki Face ID bilan tasdiqlang.",
                 },
                 {
                   step: "7",
                   title: "Premium 5 daqiqada faollashadi",
-                  desc: "To'lov tasdiqlangach, akkauntda Premium avtomatik yoqiladi. Bot xabar yuboradi, profilda Premium belgi paydo bo'ladi. Texnik kechikish bo'lsa — 10-15 daqiqa.",
+                  desc: "To'lov Payme tomonidan tasdiqlangach, tizim 1-5 daqiqa ichida summani aniqlaydi va Premium siz bergan akkauntda yoqiladi. Bot xabar yuboradi, profilda Premium belgi paydo bo'ladi.",
                 },
               ].map((item, i) => (
                 <div key={i} className="flex items-start gap-4">
@@ -390,7 +407,7 @@ export default function ArticlePaymePillarUz() {
             </div>
 
             <p className="text-muted leading-relaxed">
-              Aksariyat Payme foydalanuvchilari butun jarayonni 3-5 daqiqa ichida yakunlaydi. Premium yoqilgach, tarifning butun davomida hech qanday qayta to&apos;lov so&apos;ralmaydi.
+              Aksariyat foydalanuvchilar butun jarayonni 3-5 daqiqada yakunlaydi. Premium yoqilgach, tarifning butun davomida hech qanday qayta to&apos;lov so&apos;ralmaydi.
             </p>
           </section>
 
@@ -399,7 +416,7 @@ export default function ArticlePaymePillarUz() {
             <div className="hero-gradient rounded-2xl p-6 md:p-8 text-center">
               <p className="text-white/90 leading-relaxed mb-4">
                 Payme ilovangiz tayyormi?{" "}
-                <strong className="text-white">@PremiumSendBot</strong> da 1, 3, 6 yoki 12 oylik Premium ni Payme bilan tezda to&apos;lab oling. To&apos;lov — 1-2 daqiqada.
+                <strong className="text-white">@PremiumSendBot</strong> da tarif tanlang, karta raqami va summa olib, Payme&apos;dan o&apos;tkazing. Premium 5 daqiqada akkauntda.
               </p>
               <Link
                 href="https://t.me/premiumsendbot"
@@ -419,92 +436,101 @@ export default function ArticlePaymePillarUz() {
             </div>
           </section>
 
-          {/* Section 4 — Payme vs Click vs Uzcard */}
+          {/* Section 4 — Why exact amount matters */}
           <section>
             <h2 className="text-2xl font-extrabold text-foreground mb-4">
-              Payme vs Click vs Uzcard P2P — qaysi to&apos;lov usuli qulayroq?
+              Nima uchun aynan ko&apos;rsatilgan summani o&apos;tkazish kerak?
+            </h2>
+            <p className="text-muted leading-relaxed mb-4">
+              Bot to&apos;lovingizni qanday topadi degan savol asosli. Mexanizm shunday qurilgan:
+            </p>
+            <ul className="list-disc list-inside text-muted leading-relaxed mb-4 space-y-2">
+              <li>
+                Bot har buyurtma uchun <strong>aniq summa</strong> generatsiya qiladi — tarif narxi yoki uning ustiga unik so&apos;m qo&apos;shilishi mumkin
+              </li>
+              <li>
+                Tizim kartaga tushgan to&apos;lovlarni doimo kuzatib turadi
+              </li>
+              <li>
+                Sizning to&apos;lovingiz aynan o&apos;sha summada tushganida — tizim uni sizning buyurtmangiz bilan moslaydi
+              </li>
+              <li>
+                Premium siz bergan @username&apos;ga avtomatik yoqiladi
+              </li>
+            </ul>
+            <p className="text-muted leading-relaxed mb-4">
+              Agar siz boshqa summani o&apos;tkazsangiz, tizim avtomatik moslay olmaydi. Bunday hollarda bot qo&apos;llab-quvvatlashga murojaat qilib, Payme chek raqamini yuborasiz va Premium qo&apos;lda yoqiladi (15-30 daqiqa). Lekin <strong>aynan ko&apos;rsatilgan summa</strong> — tezkor avtomatik yo&apos;l.
+            </p>
+            <div className="bg-section-alt rounded-xl p-5">
+              <p className="text-muted text-sm leading-relaxed">
+                <strong className="text-foreground">Maslahat:</strong> bot ko&apos;rsatgan summani Payme&apos;ga ko&apos;chirib qo&apos;yganda qo&apos;shimcha bo&apos;sh joy yoki nuqta qo&apos;shilmasin. Toza raqamni kiriting — Payme avtomatik tarzda &quot;X so&apos;m&quot; ko&apos;rinishida formatlaydi.
+              </p>
+            </div>
+          </section>
+
+          {/* Section 5 — Payme vs other apps */}
+          <section>
+            <h2 className="text-2xl font-extrabold text-foreground mb-4">
+              Payme va boshqa ilovalar — qaysi biri qulayroq?
             </h2>
             <p className="text-muted leading-relaxed mb-6">
-              @PremiumSendBot to&apos;rt xil to&apos;lov yo&apos;nalishini taklif qiladi: Payme, Click, Uzcard P2P va Humo. Narx hammasida bir xil — 175,000 so&apos;m (3 oylik misolida). Lekin tezlik va qulaylik darajasi farq qiladi:
+              Bot ko&apos;rsatgan kartaga o&apos;tkazmani siz <strong>istalgan ilova</strong> orqali amalga oshirishingiz mumkin. Natija bir xil — Premium baribir 5 daqiqada keladi. Lekin tezlik va qulaylik darajasi farq qiladi:
             </p>
 
             <div className="bg-white rounded-2xl border border-card-border shadow-lg overflow-hidden mb-6">
               <div className="grid grid-cols-4 bg-section-alt p-4 font-bold text-sm">
-                <div>Parametr</div>
-                <div className="text-center">Payme</div>
-                <div className="text-center">Click</div>
-                <div className="text-center">Uzcard P2P</div>
+                <div>Ilova</div>
+                <div className="text-center">O&apos;tkazma vaqti</div>
+                <div className="text-center">Karta yozish</div>
+                <div className="text-center">Tasdiq</div>
+              </div>
+              <div className="grid grid-cols-4 p-4 border-b border-card-border items-center text-sm bg-primary-light/20">
+                <div className="font-bold text-primary">Payme</div>
+                <div className="text-center text-green-600 font-bold">
+                  1-2 daqiqa
+                </div>
+                <div className="text-center text-green-600">Yo&apos;q*</div>
+                <div className="text-center">PIN/Face ID</div>
               </div>
               <div className="grid grid-cols-4 p-4 border-b border-card-border items-center text-sm">
-                <div className="font-medium">To&apos;lov vaqti</div>
-                <div className="text-center text-green-600 font-bold">
-                  1-2 daqiqa
-                </div>
-                <div className="text-center text-green-600 font-bold">
-                  1-2 daqiqa
-                </div>
+                <div className="font-medium">Click ilovasi</div>
+                <div className="text-center text-green-600">1-2 daqiqa</div>
+                <div className="text-center text-green-600">Yo&apos;q*</div>
+                <div className="text-center">PIN/Face ID</div>
+              </div>
+              <div className="grid grid-cols-4 p-4 border-b border-card-border items-center text-sm">
+                <div className="font-medium">Uzcard ilovasi / SMS-bank</div>
                 <div className="text-center">2-3 daqiqa</div>
-              </div>
-              <div className="grid grid-cols-4 p-4 border-b border-card-border items-center text-sm">
-                <div className="font-medium">Karta raqami yozish</div>
-                <div className="text-center text-green-600">Yo&apos;q</div>
-                <div className="text-center text-green-600">Yo&apos;q</div>
                 <div className="text-center">Ha</div>
-              </div>
-              <div className="grid grid-cols-4 p-4 border-b border-card-border items-center text-sm">
-                <div className="font-medium">Tasdiq usuli</div>
-                <div className="text-center">PIN/Face ID</div>
-                <div className="text-center">PIN/Face ID</div>
                 <div className="text-center">SMS kod</div>
               </div>
-              <div className="grid grid-cols-4 p-4 border-b border-card-border items-center text-sm">
-                <div className="font-medium">Komissiya</div>
-                <div className="text-center text-green-600 font-bold">0%</div>
-                <div className="text-center text-green-600 font-bold">0%</div>
-                <div className="text-center text-green-600 font-bold">0%</div>
-              </div>
-              <div className="grid grid-cols-4 p-4 border-b border-card-border items-center text-sm">
-                <div className="font-medium">Karta turi</div>
-                <div className="text-center">Uzcard, Humo, Visa</div>
-                <div className="text-center">Uzcard, Humo</div>
-                <div className="text-center">Faqat o&apos;sha karta</div>
-              </div>
               <div className="grid grid-cols-4 p-4 items-center text-sm">
-                <div className="font-medium">Eng yaxshi kim uchun</div>
-                <div className="text-center text-muted text-xs">
-                  Payme ilovasi bor
-                </div>
-                <div className="text-center text-muted text-xs">
-                  Click ilovasi bor
-                </div>
-                <div className="text-center text-muted text-xs">
-                  Bank ilovasi orqali
-                </div>
+                <div className="font-medium">Bank ilovasi (umumiy)</div>
+                <div className="text-center">2-3 daqiqa</div>
+                <div className="text-center">Ha</div>
+                <div className="text-center">SMS kod</div>
               </div>
             </div>
 
+            <p className="text-muted text-xs italic mb-4">
+              * Payme va Click ilovalarida o&apos;z karta saqlangan bo&apos;ladi — har o&apos;tkazmada kartangiz raqamini yozish kerak emas. Lekin <strong>qabul qiluvchi karta raqamini</strong> har holda kiritishga to&apos;g&apos;ri keladi (bot ko&apos;rsatgan raqam).
+            </p>
+
             <p className="text-muted leading-relaxed mb-4">
-              <strong className="text-foreground">Xulosa:</strong> Payme va Click — deyarli teng. Bu ikkalasi bir xil &quot;ilova-orqali&quot; tajribani beradi. Aksariyat O&apos;zbekiston foydalanuvchilarida ikkalasi ham o&apos;rnatilgan. Payme — modernroq UI va Visa kartalarni ham qabul qiladi. Click — biroz keng tarqalganroq. Qaysisi sizda tayyor bo&apos;lsa, shuni tanlang —{" "}
-              <Link
-                href="/maqolalar/telegram-premium-click-orqali"
-                className="text-primary font-semibold hover:underline"
-              >
-                Click pillar qo&apos;llanma
-              </Link>
-              .
+              <strong className="text-foreground">Xulosa:</strong> Payme va Click ilovasi — eng tezkor variantlar, chunki o&apos;z karta saqlangan va PIN/Face ID bilan tasdiqlash bor. Aksariyat O&apos;zbekiston foydalanuvchilarida ikkalasi ham o&apos;rnatilgan. Sizda qaysi tayyor bo&apos;lsa, shuni tanlang.
             </p>
             <p className="text-muted leading-relaxed">
-              Uzcard P2P — eski uslub: kartani qo&apos;lda yozish, SMS kutish. Payme yoki Click bo&apos;lmasa ishlaydi, bo&apos;lsa — ilova tezroq.
+              Uzcard yoki Humo bank ilovasi orqali o&apos;tkazma — eski uslub: kartani yozish, SMS kutish. Payme yoki Click bo&apos;lmasa ishlaydi.
             </p>
           </section>
 
-          {/* Section 5 — Safety */}
+          {/* Section 6 — Safety */}
           <section>
             <h2 className="text-2xl font-extrabold text-foreground mb-4">
               Payme orqali to&apos;lash xavfsizmi?
             </h2>
             <p className="text-muted leading-relaxed mb-4">
-              Payme — Markaziy bank tomonidan litsenziyalangan rasmiy to&apos;lov tizimi. PCI DSS standartiga muvofiq ishlaydi va millionlab foydalanuvchi uni kommunal to&apos;lovlar, taksi, mobil aloqa va onlayn xaridlarda kunlik foydalanadi. Telegram Premium uchun ham mexanizm bir xil — alohida xavf yo&apos;q.
+              Payme — Markaziy bank tomonidan litsenziyalangan rasmiy to&apos;lov tizimi. PCI DSS xalqaro xavfsizlik standartiga muvofiq ishlaydi. Millionlab foydalanuvchi uni kommunal to&apos;lovlar, taksi, mobil aloqa va onlayn xaridlarda kunlik foydalanadi. Telegram Premium uchun mexanizm bir xil — alohida xavf yo&apos;q.
             </p>
 
             <div className="space-y-3 mb-6">
@@ -513,7 +539,7 @@ export default function ArticlePaymePillarUz() {
                   🔐 Karta ma&apos;lumotlari Payme serverida
                 </h3>
                 <p className="text-sm text-muted leading-relaxed">
-                  Karta raqami, parol va CVV faqat Payme&apos;ning xavfsiz serverlarida saqlanadi. @PremiumSendBot bu ma&apos;lumotlarni hech qachon ko&apos;rmaydi va ulay olmaydi. Bot faqat &quot;to&apos;lov keldi&quot; faktini ko&apos;radi.
+                  Karta raqami, parol va CVV faqat Payme&apos;ning xavfsiz serverlarida saqlanadi. @PremiumSendBot bu ma&apos;lumotlarni hech qachon ko&apos;rmaydi va ko&apos;ra olmaydi. Bot faqat &quot;kartaga shu summa kelgan&quot; faktini ko&apos;radi.
                 </p>
               </div>
               <div className="bg-white rounded-xl p-5 border border-card-border shadow-sm">
@@ -521,7 +547,7 @@ export default function ArticlePaymePillarUz() {
                   💰 Pul qaytarish kafolati
                 </h3>
                 <p className="text-sm text-muted leading-relaxed">
-                  Texnik xato tufayli Premium akkauntda yoqilmasa, to&apos;langan summa to&apos;liq qaytariladi. Payme ilovasidagi chek raqami orqali qaytarish jarayoni tezkor — bu standart reseller qoidasi.
+                  Texnik xato tufayli Premium akkauntda yoqilmasa, to&apos;langan summa to&apos;liq qaytariladi. Payme chek raqami orqali qaytarish jarayoni tezkor — bu standart reseller qoidasi.
                 </p>
               </div>
               <div className="bg-white rounded-xl p-5 border border-card-border shadow-sm">
@@ -529,7 +555,7 @@ export default function ArticlePaymePillarUz() {
                   📋 Payme PDF chek — huquqiy hujjat
                 </h3>
                 <p className="text-sm text-muted leading-relaxed">
-                  Payme har to&apos;lov uchun PDF formatida chek beradi. Bu ilovada saqlanadi va istalgan paytda qayta yuklash mumkin. Muammo bo&apos;lsa, qo&apos;llab-quvvatlash chek raqami orqali to&apos;lovni darhol topadi.
+                  Payme har o&apos;tkazma uchun PDF formatida chek beradi. Bu ilovada saqlanadi va istalgan paytda qayta yuklash mumkin. Muammo bo&apos;lsa, qo&apos;llab-quvvatlash chek raqami orqali to&apos;lovni darhol topadi.
                 </p>
               </div>
               <div className="bg-white rounded-xl p-5 border border-card-border shadow-sm">
@@ -537,13 +563,13 @@ export default function ArticlePaymePillarUz() {
                   🛡️ Ikki bosqichli himoya
                 </h3>
                 <p className="text-sm text-muted leading-relaxed">
-                  Payme — PIN/Face ID + bank balansi tekshiruvi. Bot — username tasdig&apos;i + Premium faollashtirish. Har bosqichda nazorat bor — agar biror joyda muammo bo&apos;lsa, jarayon to&apos;xtaydi va xato xabar beriladi.
+                  Payme — PIN/Face ID + bank balansi tekshiruvi. Bot — username tasdig&apos;i + Premium faollashtirish. Har bosqichda nazorat — biror joyda muammo bo&apos;lsa jarayon to&apos;xtaydi va tushunarli xato xabari beriladi.
                 </p>
               </div>
             </div>
 
             <p className="text-muted leading-relaxed">
-              Payme orqali Premium sotib olish — sizning oddiy Payme to&apos;lovingiz bilan bir xil darajada xavfsiz. Qo&apos;shimcha texnik risk yo&apos;q. Ishonchli reseller'ni tanlash mexanizmlari haqida —{" "}
+              Payme orqali Premium sotib olish — sizning oddiy Payme P2P o&apos;tkazmangiz bilan bir xil darajada xavfsiz. Qo&apos;shimcha texnik risk yo&apos;q. Ishonchli reseller&apos;ni tanlash mexanizmlari haqida —{" "}
               <Link
                 href="/maqolalar/telegram-premium-xavfsiz-aldovdan-saqlanish"
                 className="text-primary font-semibold hover:underline"
@@ -554,46 +580,46 @@ export default function ArticlePaymePillarUz() {
             </p>
           </section>
 
-          {/* Section 6 — Common issues */}
+          {/* Section 7 — Common issues */}
           <section>
             <h2 className="text-2xl font-extrabold text-foreground mb-4">
               Payme orqali to&apos;lovda uchraydigan muammolar va yechimlar
             </h2>
             <p className="text-muted leading-relaxed mb-6">
-              Aksariyat Payme to&apos;lovlari muammosiz amalga oshadi — chunki ilova uzoq vaqtdan beri sayqallangan va barqaror ishlaydi. Lekin ba&apos;zan bank yoki tarmoq tomondan kichik to&apos;siqlar bo&apos;lishi mumkin:
+              Aksariyat Payme orqali to&apos;lovlar muammosiz amalga oshadi. Lekin ba&apos;zan kichik to&apos;siqlar bo&apos;lishi mumkin:
             </p>
 
             <div className="space-y-3 mb-6">
               <div className="bg-white rounded-xl p-5 border border-card-border shadow-sm">
                 <h3 className="font-bold text-foreground mb-1">
-                  Payme ilovasida balans yetmaydi
+                  Aniq ko&apos;rsatilgan summa o&apos;rniga noto&apos;g&apos;ri summa o&apos;tkazildi
                 </h3>
                 <p className="text-sm text-muted leading-relaxed">
-                  Eng ko&apos;p uchraydigan sabab. <strong>Yechim:</strong> Payme ichida kartani tekshiring — balans yetarli bo&apos;lsa, ilova oddiy ishlaydi. Yetmasa — boshqa karta tanlang yoki ilova orqali kartaga pul to&apos;ldiring.
+                  Eng ko&apos;p uchraydigan sabab. <strong>Yechim:</strong> botdagi qo&apos;llab-quvvatlashga Payme chek raqamini va aniq o&apos;tkazgan summangizni yuboring. 15-30 daqiqada qo&apos;lda tekshiruv bo&apos;lib, Premium yoqiladi yoki farqi qaytariladi.
                 </p>
               </div>
               <div className="bg-white rounded-xl p-5 border border-card-border shadow-sm">
                 <h3 className="font-bold text-foreground mb-1">
-                  Payme ilovasi havolani ochmadi
+                  Payme balansida pul yetmadi
                 </h3>
                 <p className="text-sm text-muted leading-relaxed">
-                  Telefon eski versiyada bo&apos;lishi mumkin yoki Payme ilovasi yangilanish kutmoqda. <strong>Yechim:</strong> Payme ilovasini Play Market yoki App Store dan yangilang. Yangilangach, bot havolasini qaytadan bosing.
+                  Payme&apos;ga ulangan kartada balans yetarli bo&apos;lishi kerak. <strong>Yechim:</strong> Payme orqali kartani to&apos;ldiring yoki boshqa kartani tanlang.
                 </p>
               </div>
               <div className="bg-white rounded-xl p-5 border border-card-border shadow-sm">
                 <h3 className="font-bold text-foreground mb-1">
-                  Pul yechildi, lekin Premium kelmadi
+                  Pul o&apos;tkazildi, lekin Premium 15 daqiqada kelmadi
                 </h3>
                 <p className="text-sm text-muted leading-relaxed">
-                  Tizim sal uzoqroq qayta ishlanishi mumkin. <strong>Yechim:</strong> 10-15 daqiqa kuting. Faollashmasa — botdagi qo&apos;llab-quvvatlashga Payme chek raqamini yuboring. Manual tekshirishdan so&apos;ng Premium yoqiladi yoki pul qaytariladi.
+                  Tizim sal uzoqroq qayta ishlanishi mumkin. <strong>Yechim:</strong> 15-20 daqiqa kuting. Faollashmasa — botdagi qo&apos;llab-quvvatlashga Payme chek raqamini yuboring. Manual tekshirishdan so&apos;ng Premium yoqiladi yoki pul qaytariladi.
                 </p>
               </div>
               <div className="bg-white rounded-xl p-5 border border-card-border shadow-sm">
                 <h3 className="font-bold text-foreground mb-1">
-                  Payme ilovasi yo&apos;q — qanday o&apos;rnataman?
+                  Payme ilovasi yo&apos;q
                 </h3>
                 <p className="text-sm text-muted leading-relaxed">
-                  Payme ilovasini Play Market (Android) yoki App Store (iPhone) dan bepul yuklang. Telefon raqami bilan ro&apos;yxatdan o&apos;ting (3 daqiqa), Uzcard yoki Humo kartani uling — keyin to&apos;lov bir bosishda. <strong>Yoki:</strong> Payme yo&apos;q bo&apos;lsa, botda Click yoki Uzcard variantiga o&apos;ting.
+                  <strong>Yechim:</strong> Payme ilovasini Play Market (Android) yoki App Store (iPhone) dan bepul yuklang. Telefon raqami bilan ro&apos;yxatdan o&apos;ting (3 daqiqa), Uzcard yoki Humo kartani uling — keyin to&apos;lov bir-ikki bosishda. Yoki bot ko&apos;rsatgan kartaga boshqa ilova (Click ilovasi, Uzcard, bank ilovasi) orqali o&apos;tkazing — natija bir xil.
                 </p>
               </div>
               <div className="bg-white rounded-xl p-5 border border-card-border shadow-sm">
@@ -607,7 +633,7 @@ export default function ArticlePaymePillarUz() {
             </div>
 
             <p className="text-muted leading-relaxed">
-              Aksariyat muammolarni darhol hal qilish mumkin. Bot qo&apos;llab-quvvatlashi har vaziyatda yordam beradi va muqobil yo&apos;l (Click yoki Uzcard P2P) taklif qiladi.
+              Aksariyat muammolarni darhol hal qilish mumkin. Bot qo&apos;llab-quvvatlashi har vaziyatda yordam beradi va muqobil yo&apos;l (boshqa ilova orqali o&apos;tkazma) taklif qiladi.
             </p>
           </section>
 
@@ -620,31 +646,31 @@ export default function ArticlePaymePillarUz() {
               {[
                 {
                   q: "Telegram Premium Payme orqali sotib olish mumkinmi?",
-                  a: "Ha. @PremiumSendBot da Payme ilovasi orqali Telegram Premium sotib olish mumkin. Barcha tariflar (1, 3, 6, 12 oylik) qo'llab-quvvatlanadi. To'lov so'mda, komissiyasiz, 5 daqiqada Premium faollashadi.",
+                  a: "Ha. @PremiumSendBot da tarif tanlaganingizdan keyin bot karta raqami va aniq summani ko'rsatadi. Siz Payme ilovasidan o'sha kartaga ko'rsatilgan summani o'tkazasiz. Tizim avtomatik aniqlaydi va Premium 5 daqiqada faollashadi.",
                 },
                 {
                   q: "Payme orqali Telegram Premium qancha turadi?",
-                  a: "Narxlar boshqa to'lov usullari bilan bir xil: 1 oylik — 59,000 so'm, 3 oylik — 175,000 so'm, 6 oylik — 235,000 so'm, 12 oylik — 425,000 so'm. Payme qo'shimcha komissiya olmaydi.",
+                  a: "Narxlar boshqa to'lov usullari bilan bir xil: 1 oylik — 59,000 so'm, 3 oylik — 175,000 so'm, 6 oylik — 235,000 so'm, 12 oylik — 425,000 so'm. Yashirin komissiya yo'q.",
                 },
                 {
-                  q: "Payme va Click — qaysi biri tezroq?",
-                  a: "Ikkalasi ham 1-2 daqiqada PIN/Face ID bilan tasdiqlanadi. Texnik tezlik teng. Payme — biroz modernroq UI, ko'pchilik foydalanuvchilar uchun qulay. Click — biroz keng tarqalgan. Qaysisi sizda o'rnatilgan bo'lsa, shuni tanlang.",
+                  q: "Tizim to'lovni qanday aniqlaydi?",
+                  a: "Bot har buyurtma uchun aniq summa beradi. Tizim kartaga tushgan to'lovlarni kuzatib, summa va karta kombinatsiyasi bo'yicha sizning buyurtmangizni topadi. Aynan ko'rsatilgan summani o'tkazish — eng tezkor avtomatik yo'l.",
+                },
+                {
+                  q: "Boshqa summa o'tkazsam nima bo'ladi?",
+                  a: "Tizim avtomatik moslay olmaydi. Bunday holatda bot qo'llab-quvvatlashga Payme chek raqamini va o'tkazgan aniq summangizni yuborasiz — Premium qo'lda 15-30 daqiqada yoqiladi. Lekin aynan ko'rsatilgan summani o'tkazish — har doim tezroq.",
                 },
                 {
                   q: "Payme ilovasi yo'q bo'lsa nima qilish kerak?",
-                  a: "Payme ilovasini Play Market yoki App Store dan bepul yuklang (3-5 daqiqa). Yoki @PremiumSendBot da Click yoki Uzcard P2P variantini tanlang — narx bir xil qoladi.",
+                  a: "Payme ilovasini Play Market yoki App Store dan bepul yuklang (3-5 daqiqa). Yoki bot ko'rsatgan kartaga Click ilovasi, Uzcard ilovasi yoki bank ilovasi orqali o'tkazing — natija bir xil bo'ladi.",
                 },
                 {
                   q: "Payme orqali to'lash xavfsizmi?",
-                  a: "Ha. Payme — Markaziy bank tomonidan litsenziyalangan rasmiy to'lov tizimi, PCI DSS standartiga muvofiq. Karta ma'lumotlari faqat Payme serverida, bot ko'rmaydi. Premium kelmasa pul qaytariladi.",
-                },
-                {
-                  q: "Telegram rasmiy ilovasida Payme bilan to'lab bo'ladimi?",
-                  a: "Yo'q. Telegram faqat Visa, Mastercard, Google Pay va Apple Pay qabul qiladi. Payme bu tizimda yo'q. Mahalliy to'lov uchun @PremiumSendBot kabi mahalliy oraliq xizmat zarur.",
+                  a: "Ha. Payme — Markaziy bank litsenziyali, PCI DSS standartiga muvofiq. Karta ma'lumotlari faqat Payme serverida, bot ko'rmaydi. Premium kelmasa pul qaytariladi.",
                 },
                 {
                   q: "Payme orqali sovg'a qilish mumkinmi?",
-                  a: "Ha. 3, 6 va 12 oylik Premium ni Payme bilan to'lab boshqa odamga sovg'a qilish mumkin. Bot username so'raydi, Payme bilan to'laysiz — Premium o'sha akkauntda faollashadi. 1 oylik sovg'a Telegram qoidasi bo'yicha mavjud emas.",
+                  a: "Ha. 3, 6 va 12 oylik Premium ni sovg'a qilish mumkin: bot username so'raydi (sovg'a oluvchining), siz Payme'dan kartaga o'tkazasiz, Premium o'sha akkauntda faollashadi. 1 oylik sovg'a Telegram qoidasi bo'yicha mavjud emas.",
                 },
               ].map((faq, i) => (
                 <div
@@ -669,7 +695,7 @@ export default function ArticlePaymePillarUz() {
                   <p className="text-2xl font-extrabold text-primary">
                     1-2 daq.
                   </p>
-                  <p className="text-sm text-muted">to&apos;lov vaqti</p>
+                  <p className="text-sm text-muted">o&apos;tkazma vaqti</p>
                 </div>
                 <div className="text-center">
                   <p className="text-2xl font-extrabold text-primary">5 daq.</p>
@@ -690,7 +716,7 @@ export default function ArticlePaymePillarUz() {
                 Payme orqali muddat bo&apos;yicha qo&apos;llanmalar
               </h3>
               <p className="text-muted text-sm leading-relaxed mb-4">
-                Payme foydalanuvchilari uchun barcha tariflar mavjud. Sizga mos muddatga qarab tanlang:
+                Barcha tariflar mavjud. Sizga mos muddatga qarab tanlang:
               </p>
               <ul className="space-y-2 text-sm">
                 <li>
@@ -699,14 +725,6 @@ export default function ArticlePaymePillarUz() {
                     className="text-primary font-semibold hover:underline"
                   >
                     3 oylik Premium Payme orqali (175,000 so&apos;m)
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/maqolalar/telegram-premium-click-orqali"
-                    className="text-primary font-semibold hover:underline"
-                  >
-                    Click orqali Premium (taqqoslash uchun)
                   </Link>
                 </li>
                 <li>
@@ -745,8 +763,8 @@ export default function ArticlePaymePillarUz() {
               </div>
               <div className="relative">
                 <p className="text-white/90 text-lg leading-relaxed mb-6">
-                  Payme ilovangiz tayyormi? Telegram Premium ni mahalliy ilovada qulay yo&apos;l bilan oling. 1, 3, 6 yoki 12 oylik tariflar — so&apos;mda to&apos;lov, 1-2 daqiqada Payme ichida tasdiqlash, 5 daqiqada faollashish.{" "}
-                  <strong className="text-white">@PremiumSendBot</strong> da bir necha bosishda boshlang.
+                  Payme ilovangiz tayyormi? Telegram Premium ni mahalliy karta o&apos;tkazma orqali oling. 1, 3, 6 yoki 12 oylik tariflar — so&apos;mda, bot ko&apos;rsatgan kartaga Payme&apos;dan aniq summa, 5 daqiqada faollashish.{" "}
+                  <strong className="text-white">@PremiumSendBot</strong> da boshlang.
                 </p>
                 <Link
                   href="https://t.me/premiumsendbot"

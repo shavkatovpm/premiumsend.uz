@@ -89,7 +89,7 @@ export default function AboutPageUz() {
         name: "Qaysi to'lov usullarini qabul qilasiz?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "5 ta usul: Click ilovasi (PIN/Face ID bilan 1-2 daqiqada), Payme ilovasi, Uzcard kartasi (P2P o'tkazma), Humo kartasi (P2P o'tkazma) va Visa karta. Hammasi so'mda — kurs riski yo'q. To'lov tasdiqlangach Premium 2-5 daqiqada faollashadi.",
+          text: "Bot tarif tanlaganingizdan keyin karta raqami va aniq summani ko'rsatadi. Siz istalgan ilova orqali (Click, Payme, Uzcard ilovasi, Humo ilovasi, bank ilovasi yoki Visa karta) ko'rsatilgan kartaga aniq summani o'tkazasiz. Tizim kartaga tushgan to'lovni summa va karta kombinatsiyasi orqali avtomatik aniqlaydi va Premium 2-5 daqiqada faollashtiradi. Hammasi so'mda — kurs riski yo'q.",
         },
       },
       {
@@ -291,13 +291,13 @@ export default function AboutPageUz() {
                 },
                 {
                   step: "3",
-                  title: "To'lov usulini tanlash",
-                  desc: "Click, Payme, Uzcard P2P, Humo P2P yoki Visa. Hammasi so'mda. Click va Payme — eng tezi (1-2 daqiqada).",
+                  title: "Bot karta raqami va aniq summani beradi",
+                  desc: "Tarif tanlaganingizdan keyin bot ekranda karta raqami va to'lov uchun aniq summani ko'rsatadi. Hammasi so'mda.",
                 },
                 {
                   step: "4",
-                  title: "Click yoki Payme ilovasida tasdiqlash",
-                  desc: "Karta ma'lumotlari faqat to'lov tizimi serverida saqlanadi. Bot ko'rmaydi. PDF chek beriladi.",
+                  title: "Istalgan ilova orqali shu kartaga o'tkazma",
+                  desc: "Click, Payme, Uzcard ilovasi, Humo ilovasi yoki bank ilovasi orqali bot ko'rsatgan kartaga aynan o'sha summani o'tkazasiz. Karta ma'lumotlari faqat to'lov tizimi serverida saqlanadi — bot ko'rmaydi. PDF chek beriladi.",
                 },
                 {
                   step: "5",
@@ -429,32 +429,32 @@ export default function AboutPageUz() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
               {[
                 {
-                  title: "Click",
-                  desc: "Click ilovasida PIN yoki Face ID bilan 1-2 daqiqada. Eng tez usul. Ilovada karta saqlangan bo'lsa, raqam yozish kerak emas.",
+                  title: "Click ilovasi",
+                  desc: "Click ilovasida P2P o'tkazma bilan bot ko'rsatgan kartaga summa o'tkazasiz. PIN yoki Face ID bilan 1-2 daqiqada tasdiqlanadi. O'z karta ilovada saqlangan, kartangiz raqamini yozish kerak emas.",
                   link: "/maqolalar/telegram-premium-click-orqali",
                   linkText: "Click orqali batafsil",
                 },
                 {
                   title: "Payme",
-                  desc: "Payme ilovasida xuddi Click kabi 1-2 daqiqada PIN/Face ID bilan. Ilova ochiladi, summa avtomatik to'ldirilgan.",
-                  link: null,
-                  linkText: null,
+                  desc: "Payme ilovasida P2P o'tkazma bilan bot ko'rsatgan kartaga summa o'tkazasiz. Xuddi Click kabi 1-2 daqiqada PIN/Face ID bilan tasdiqlanadi.",
+                  link: "/maqolalar/telegram-premium-payme-orqali",
+                  linkText: "Payme orqali batafsil",
                 },
                 {
                   title: "Uzcard",
-                  desc: "Uzcard P2P o'tkazma orqali. Bank ilovasi yoki USSD orqali. SMS-kod bilan tasdiqlash, 2-3 daqiqada.",
+                  desc: "Uzcard kartasi orqali bot ko'rsatgan kartaga P2P o'tkazma. Bank ilovasi yoki SMS-bank orqali, SMS-kod bilan tasdiqlash, 2-3 daqiqada.",
                   link: "/maqolalar/3-oylik-telegram-premium-uzcard-orqali",
                   linkText: "Uzcard orqali batafsil",
                 },
                 {
                   title: "Humo",
-                  desc: "Humo P2P o'tkazma — Uzcard kabi mexanizm. Bank ilovasi yoki SMS-bank orqali, 2-3 daqiqada.",
+                  desc: "Humo kartasi orqali bot ko'rsatgan kartaga P2P o'tkazma — Uzcard kabi mexanizm. Bank ilovasi yoki SMS-bank orqali, 2-3 daqiqada.",
                   link: "/maqolalar/telegram-premium-humo-orqali",
                   linkText: "Humo orqali batafsil",
                 },
                 {
                   title: "Visa",
-                  desc: "Visa karta orqali to'lash mumkin — xorijiy yoki mahalliy Visa. Mahalliy Visa kartalari ham qabul qilinadi.",
+                  desc: "Visa karta orqali ham bot ko'rsatgan kartaga o'tkazma — xorijiy yoki mahalliy Visa. Mahalliy Visa kartalari ham qabul qilinadi.",
                   link: null,
                   linkText: null,
                 },
@@ -496,8 +496,8 @@ export default function AboutPageUz() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
               {[
                 {
-                  title: "Click va Payme rasmiy ilovalari",
-                  desc: "Bot to'lov uchun rasmiy click.uz va payme.uz havolalarini yuboradi. Karta ma'lumotlari faqat to'lov tizimi serverida.",
+                  title: "Faqat rasmiy to'lov tizimlari",
+                  desc: "Bot karta raqami va aniq summani ko'rsatadi, siz Click, Payme, Uzcard yoki Humo ilovalari orqali shu kartaga o'tkazasiz. Karta ma'lumotlari faqat to'lov tizimi serverida saqlanadi — bot ko'rmaydi.",
                 },
                 {
                   title: "Har to'lovda PDF chek",

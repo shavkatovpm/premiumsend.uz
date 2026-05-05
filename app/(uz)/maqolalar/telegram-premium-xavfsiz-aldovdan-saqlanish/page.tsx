@@ -329,8 +329,8 @@ export default function ArticleSafeBuy() {
               {[
                 {
                   n: "1",
-                  signal: "Click yoki Payme rasmiy ilovasi orqali to'lov",
-                  check: "Bot Click havolasini berganida — havola click.uz domenida bo'lishi va ilova avtomatik ochilishi kerak",
+                  signal: "Bot karta raqami va aniq summa ko'rsatadi",
+                  check: "Siz Click, Payme yoki bank ilovasi orqali shu kartaga to'g'ridan-to'g'ri o'tkazasiz. Hech qanday qo'shimcha 'to'lov sahifasi' yoki shubhali link yo'q",
                 },
                 {
                   n: "2",
@@ -437,18 +437,18 @@ export default function ArticleSafeBuy() {
               {[
                 {
                   step: "1",
-                  title: "Botda Click yoki Payme havolasi yaratiladi",
-                  desc: "Bot 175 000 so'mlik to'lov so'rovini yaratadi va sizga rasmiy click.uz yoki payme.uz havolasini yuboradi. Bot bu bosqichda hech qanday karta ma'lumotini ko'rmaydi.",
+                  title: "Bot karta raqami va aniq summani beradi",
+                  desc: "Bot tarif asosida karta raqami va aynan to'lov summasini ekranda ko'rsatadi. Bot hech qanday karta ma'lumotini ko'rmaydi va so'ramaydi.",
                 },
                 {
                   step: "2",
-                  title: "Click/Payme ilovasi karta uchun parol so'raydi",
-                  desc: "Karta ma'lumotlari faqat Click yoki Payme serverida saqlanadi. PCI DSS xalqaro standartiga muvofiq shifrlangan. Bot bu serverga umuman kirmaydi.",
+                  title: "Click/Payme/bank ilovasi orqali kartaga o'tkazasiz",
+                  desc: "Siz istalgan ilovadan (Click, Payme, Uzcard, Humo, bank ilovasi) bot ko'rsatgan kartaga o'sha summani P2P o'tkazasiz. Karta ma'lumotlari faqat to'lov tizimi serverida saqlanadi, PCI DSS standartiga muvofiq shifrlangan.",
                 },
                 {
                   step: "3",
-                  title: "To'lov tasdiqlangach — bot \"to'langan\" faktini oladi",
-                  desc: "Click/Payme botga shunchaki signal yuboradi: 'shu chek raqami bo'yicha 175 000 so'm to'langan'. Karta raqami yoki kim to'lagani — bu signal ichida YO'Q.",
+                  title: "Tizim kartaga tushgan summani avtomatik aniqlaydi",
+                  desc: "To'lov tasdiqlangach tizim kartaga tushgan summani aniqlaydi (karta va aynan ko'rsatilgan summa kombinatsiyasi orqali). Bot karta raqamingizni yoki shaxsiy ma'lumotlaringizni ko'rmaydi.",
                 },
                 {
                   step: "4",
@@ -595,8 +595,8 @@ export default function ArticleSafeBuy() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
               {[
                 {
-                  title: "Click va Payme rasmiy ilovalari",
-                  desc: "Bot to'lov uchun click.uz va payme.uz rasmiy havolalarini yuboradi. Karta ma'lumotlari bot serveriga umuman tushmaydi.",
+                  title: "Faqat rasmiy to'lov tizimlari orqali",
+                  desc: "Bot karta raqami va summani ko'rsatadi, siz Click, Payme, Uzcard yoki Humo orqali shu kartaga to'lov o'tkazasiz. Karta ma'lumotlari bot serveriga umuman tushmaydi.",
                 },
                 {
                   title: "PDF chek har to'lovda",
