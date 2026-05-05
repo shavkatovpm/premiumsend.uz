@@ -27,6 +27,22 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "3-oylik-telegram-premium-payme-orqali",
+    title: "3 oylik Telegram Premium Payme orqali sotib olish",
+    excerpt:
+      "3 oylik Telegram Premiumni Payme ilovasi bilan 175,000 so'mga tezda to'lab oling — @PremiumSendBot orqali, PIN/Face ID bilan 1-2 daqiqada, 5 daqiqada faollashish.",
+    category: "Qo'llanma",
+    date: "2026-05-04",
+  },
+  {
+    slug: "telegram-premium-payme-orqali",
+    title: "Telegram Premium Payme orqali sotib olish — qadamma-qadam qo'llanma",
+    excerpt:
+      "Telegram Premium Payme orqali — 59,000 so'mdan 425,000 so'mgacha. Payme ilovasida 1-2 daqiqada to'lov, 5 daqiqada faollashish. Karta raqami yozish kerak emas — pillar qo'llanma.",
+    category: "Qo'llanma",
+    date: "2026-05-04",
+  },
+  {
     slug: "telegram-stars-ozbekistondan-sotib-olish",
     title: "Telegram Stars O'zbekistondan qanday sotib olinadi",
     excerpt:

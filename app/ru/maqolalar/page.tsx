@@ -31,6 +31,22 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "3-oylik-telegram-premium-payme-orqali",
+    title: "Telegram Premium на 3 месяца через Payme",
+    excerpt:
+      "Активируйте 3-месячный Telegram Premium через Payme за 175 000 сум — @PremiumSendBot, оплата по PIN/Face ID за 1-2 минуты, активация за 5 минут.",
+    category: "Руководство",
+    date: "2026-05-04",
+  },
+  {
+    slug: "telegram-premium-payme-orqali",
+    title: "Telegram Premium через Payme — пошаговое руководство",
+    excerpt:
+      "Telegram Premium через Payme — от 59 000 до 425 000 сум. Оплата в Payme за 1-2 минуты, активация за 5 минут. Не нужно вводить номер карты — pillar-руководство.",
+    category: "Руководство",
+    date: "2026-05-04",
+  },
+  {
     slug: "telegram-stars-ozbekistondan-sotib-olish",
     title: "Как купить Telegram Stars в Узбекистане",
     excerpt:

@@ -65,6 +65,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.85,
     },
     {
+      url: `${baseUrl}/maqolalar/telegram-premium-payme-orqali`,
+      lastModified: new Date("2026-05-04"),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/maqolalar/3-oylik-telegram-premium-payme-orqali`,
+      lastModified: new Date("2026-05-04"),
+      changeFrequency: "monthly",
+      priority: 0.85,
+    },
+    {
       url: `${baseUrl}/maqolalar/telegram-premium-narxlari`,
       lastModified: new Date("2026-04-30"),
       changeFrequency: "monthly",
@@ -213,6 +225,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${baseUrl}/ru/maqolalar/telegram-stars-ozbekistondan-sotib-olish`,
+      lastModified: new Date("2026-05-04"),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/ru/maqolalar/telegram-premium-payme-orqali`,
+      lastModified: new Date("2026-05-04"),
+      changeFrequency: "monthly",
+      priority: 0.85,
+    },
+    {
+      url: `${baseUrl}/ru/maqolalar/3-oylik-telegram-premium-payme-orqali`,
       lastModified: new Date("2026-05-04"),
       changeFrequency: "monthly",
       priority: 0.8,
