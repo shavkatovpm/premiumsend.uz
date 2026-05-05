@@ -36,7 +36,7 @@ const articles = [
     excerpt:
       "Разница Stars и Premium: Stars — внутренняя валюта для ботов и каналов, Premium — месячная подписка (4 ГБ файлы, 1000 каналов). В каком случае что нужно — полное сравнение.",
     category: "Сравнение",
-    date: "2026-05-04",
+    date: "2026-05-05",
   },
   {
     slug: "3-oylik-telegram-premium-payme-orqali",
@@ -44,7 +44,7 @@ const articles = [
     excerpt:
       "Активируйте 3-месячный Telegram Premium через Payme за 175 000 сум — @PremiumSendBot, оплата по PIN/Face ID за 1-2 минуты, активация за 5 минут.",
     category: "Руководство",
-    date: "2026-05-04",
+    date: "2026-05-05",
   },
   {
     slug: "telegram-premium-payme-orqali",
@@ -52,7 +52,7 @@ const articles = [
     excerpt:
       "Telegram Premium через Payme — от 59 000 до 425 000 сум. Оплата в Payme за 1-2 минуты, активация за 5 минут. Не нужно вводить номер карты — pillar-руководство.",
     category: "Руководство",
-    date: "2026-05-04",
+    date: "2026-05-05",
   },
   {
     slug: "telegram-stars-ozbekistondan-sotib-olish",
@@ -60,7 +60,7 @@ const articles = [
     excerpt:
       "Купить Telegram Stars в Узбекистане в сумах — через StarsJoy.uz от 50 Stars за 12 000 сум, Click и банковской картой. На 17% дешевле App Store, без валюты. Пошагово.",
     category: "Руководство",
-    date: "2026-05-04",
+    date: "2026-05-05",
   },
   {
     slug: "telegram-premium-xavfsiz-aldovdan-saqlanish",
@@ -68,7 +68,7 @@ const articles = [
     excerpt:
       "7 типичных схем мошенников, 8 признаков надёжного реселлера за 30 секунд и где хранятся данные карты. Практическое руководство, чтобы не потерять деньги.",
     category: "Вопрос-ответ",
-    date: "2026-05-04",
+    date: "2026-05-05",
   },
   {
     slug: "3-oylik-telegram-premium-click-orqali",

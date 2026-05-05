@@ -32,7 +32,7 @@ const articles = [
     excerpt:
       "Stars va Premium farqi: Stars — bot va kanallar uchun ichki valyuta, Premium — oylik obuna (4 GB fayl, 1000 kanal). Qaysi vaziyatda qaysi biri kerak — to'liq taqqoslash.",
     category: "Taqqoslash",
-    date: "2026-05-04",
+    date: "2026-05-05",
   },
   {
     slug: "3-oylik-telegram-premium-payme-orqali",
@@ -40,7 +40,7 @@ const articles = [
     excerpt:
       "3 oylik Telegram Premiumni Payme ilovasi bilan 175,000 so'mga tezda to'lab oling — @PremiumSendBot orqali, PIN/Face ID bilan 1-2 daqiqada, 5 daqiqada faollashish.",
     category: "Qo'llanma",
-    date: "2026-05-04",
+    date: "2026-05-05",
   },
   {
     slug: "telegram-premium-payme-orqali",
@@ -48,7 +48,7 @@ const articles = [
     excerpt:
       "Telegram Premium Payme orqali — 59,000 so'mdan 425,000 so'mgacha. Payme ilovasida 1-2 daqiqada to'lov, 5 daqiqada faollashish. Karta raqami yozish kerak emas — pillar qo'llanma.",
     category: "Qo'llanma",
-    date: "2026-05-04",
+    date: "2026-05-05",
   },
   {
     slug: "telegram-stars-ozbekistondan-sotib-olish",
@@ -56,7 +56,7 @@ const articles = [
     excerpt:
       "Telegram Stars O'zbekistondan so'mda — StarsJoy.uz orqali 50 Stars 12 000 so'mdan, Click va bank kartasi bilan. App Store'dan 17% arzon, valyuta konvertatsiyasiz. Qadamma-qadam.",
     category: "Qo'llanma",
-    date: "2026-05-04",
+    date: "2026-05-05",
   },
   {
     slug: "telegram-premium-xavfsiz-aldovdan-saqlanish",
@@ -64,7 +64,7 @@ const articles = [
     excerpt:
       "Aldovchi botlarning 7 ta tipik sxemasi, ishonchli reseller'ni 30 soniyada aniqlash uchun 8 ta belgi va karta ma'lumotlari qayerda saqlanishi. Pul yo'qotmaslik uchun amaliy qo'llanma.",
     category: "Savol-javob",
-    date: "2026-05-04",
+    date: "2026-05-05",
   },
   {
     slug: "3-oylik-telegram-premium-click-orqali",

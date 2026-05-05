@@ -29,7 +29,7 @@ export const metadata: Metadata = {
       "3-месячный Telegram Premium через Payme за 175 000 сум. @PremiumSendBot — PIN/Face ID, активация за 5 минут.",
     url: "https://premiumsend.uz/ru/maqolalar/3-oylik-telegram-premium-payme-orqali",
     type: "article",
-    publishedTime: "2026-05-04",
+    publishedTime: "2026-05-05",
   },
 };
 
@@ -41,8 +41,8 @@ export default function Article3MonthPaymeRu() {
       "Telegram Premium на 3 месяца через Payme — за 175 000 сум",
     description:
       "Покупка 3-месячного Telegram Premium через Payme — @PremiumSendBot за 175 000 сум. Оплата в сумах, в Payme за 1-2 минуты, активация за 5 минут.",
-    datePublished: "2026-05-04",
-    dateModified: "2026-05-04",
+    datePublished: "2026-05-05",
+    dateModified: "2026-05-05",
     author: {
       "@type": "Organization",
       name: "Premium Send",
@@ -183,8 +183,8 @@ export default function Article3MonthPaymeRu() {
             <span className="text-xs font-semibold px-3 py-1 rounded-full bg-primary-light text-primary">
               Руководство
             </span>
-            <time className="text-xs text-muted" dateTime="2026-05-04">
-              4 мая 2026
+            <time className="text-xs text-muted" dateTime="2026-05-05">
+              5 мая 2026
             </time>
           </div>
           <h1 className="text-3xl md:text-4xl font-extrabold text-foreground leading-tight mb-6">

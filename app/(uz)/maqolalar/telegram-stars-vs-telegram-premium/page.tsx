@@ -30,7 +30,7 @@ export const metadata: Metadata = {
       "Stars va Premium qachon va kim uchun kerak — to'liq taqqoslash, narxlar va aniq foydalanish stsenariylar.",
     url: "https://premiumsend.uz/maqolalar/telegram-stars-vs-telegram-premium",
     type: "article",
-    publishedTime: "2026-05-04",
+    publishedTime: "2026-05-05",
   },
 };
 
@@ -42,8 +42,8 @@ export default function ArticleStarsVsPremiumUz() {
       "Telegram Stars vs Telegram Premium: qaysini tanlash kerak",
     description:
       "Stars va Premium o'rtasidagi farqlar, qaysi vaziyatda qaysi biri kerakligi va birgalikda foydalanish — to'liq taqqoslash.",
-    datePublished: "2026-05-04",
-    dateModified: "2026-05-04",
+    datePublished: "2026-05-05",
+    dateModified: "2026-05-05",
     author: {
       "@type": "Organization",
       name: "Premium Send",
@@ -192,8 +192,8 @@ export default function ArticleStarsVsPremiumUz() {
             <span className="text-xs font-semibold px-3 py-1 rounded-full bg-blue-100 text-blue-700">
               Savol-javob
             </span>
-            <time className="text-xs text-muted" dateTime="2026-05-04">
-              2026-yil, 4-may
+            <time className="text-xs text-muted" dateTime="2026-05-05">
+              2026-yil, 5-may
             </time>
           </div>
           <h1 className="text-3xl md:text-4xl font-extrabold text-foreground leading-tight mb-6">

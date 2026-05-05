@@ -30,7 +30,7 @@ export const metadata: Metadata = {
       "Через StarsJoy.uz от 50 Stars за 12 000 сум, через Click и карту. На 17% дешевле App Store, без валюты.",
     url: "https://premiumsend.uz/ru/maqolalar/telegram-stars-ozbekistondan-sotib-olish",
     type: "article",
-    publishedTime: "2026-05-04",
+    publishedTime: "2026-05-05",
   },
 };
 
@@ -42,8 +42,8 @@ export default function ArticleStarsBuyRu() {
       "Как купить Telegram Stars в Узбекистане — в сумах, за 5 минут",
     description:
       "Пошаговое руководство по покупке Telegram Stars из Узбекистана: цены, способы оплаты, сравнение каналов и безопасность.",
-    datePublished: "2026-05-04",
-    dateModified: "2026-05-04",
+    datePublished: "2026-05-05",
+    dateModified: "2026-05-05",
     author: {
       "@type": "Organization",
       name: "Premium Send",
@@ -192,8 +192,8 @@ export default function ArticleStarsBuyRu() {
             <span className="text-xs font-semibold px-3 py-1 rounded-full bg-primary-light text-primary">
               Руководство
             </span>
-            <time className="text-xs text-muted" dateTime="2026-05-04">
-              4 мая 2026
+            <time className="text-xs text-muted" dateTime="2026-05-05">
+              5 мая 2026
             </time>
           </div>
           <h1 className="text-3xl md:text-4xl font-extrabold text-foreground leading-tight mb-6">

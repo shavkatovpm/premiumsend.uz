@@ -31,7 +31,7 @@ export const metadata: Metadata = {
       "StarsJoy.uz orqali 50 Stars 12 000 so'mdan, Click va kartaga o'tkazma bilan. App Store'dan 17% arzon, kurs riski yo'q.",
     url: "https://premiumsend.uz/maqolalar/telegram-stars-ozbekistondan-sotib-olish",
     type: "article",
-    publishedTime: "2026-05-04",
+    publishedTime: "2026-05-05",
   },
 };
 
@@ -43,8 +43,8 @@ export default function ArticleStarsBuyUz() {
       "Telegram Stars O'zbekistondan qanday sotib olinadi — so'mda, 5 daqiqada",
     description:
       "O'zbekistondan Telegram Stars sotib olishning qadamma-qadam qo'llanmasi: narxlar, to'lov usullari, kanallar taqqoslash va xavfsiz xarid.",
-    datePublished: "2026-05-04",
-    dateModified: "2026-05-04",
+    datePublished: "2026-05-05",
+    dateModified: "2026-05-05",
     author: {
       "@type": "Organization",
       name: "Premium Send",
@@ -193,8 +193,8 @@ export default function ArticleStarsBuyUz() {
             <span className="text-xs font-semibold px-3 py-1 rounded-full bg-primary-light text-primary">
               Qo&apos;llanma
             </span>
-            <time className="text-xs text-muted" dateTime="2026-05-04">
-              2026-yil, 4-may
+            <time className="text-xs text-muted" dateTime="2026-05-05">
+              2026-yil, 5-may
             </time>
           </div>
           <h1 className="text-3xl md:text-4xl font-extrabold text-foreground leading-tight mb-6">

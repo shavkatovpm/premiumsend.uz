@@ -31,7 +31,7 @@ export const metadata: Metadata = {
       "Aldovchi botlarning 7 ta sxemasi, ishonchli reseller belgilari, pul yo'qotmaslik uchun amaliy qo'llanma. Halol javoblar.",
     url: "https://premiumsend.uz/maqolalar/telegram-premium-xavfsiz-aldovdan-saqlanish",
     type: "article",
-    publishedTime: "2026-05-04",
+    publishedTime: "2026-05-05",
   },
 };
 
@@ -43,8 +43,8 @@ export default function ArticleSafeBuy() {
       "Telegram Premium O'zbekistondan sotib olish xavfsizmi? Aldovdan saqlanish",
     description:
       "Aldovchi botlarning 7 ta tipik sxemasi, ishonchli reseller'ni tanlashning 8 ta belgisi va xavfsiz to'lov mexanizmi — halol qo'llanma.",
-    datePublished: "2026-05-04",
-    dateModified: "2026-05-04",
+    datePublished: "2026-05-05",
+    dateModified: "2026-05-05",
     author: {
       "@type": "Organization",
       name: "Premium Send",
@@ -193,8 +193,8 @@ export default function ArticleSafeBuy() {
             <span className="text-xs font-semibold px-3 py-1 rounded-full bg-blue-100 text-blue-700">
               Savol-javob
             </span>
-            <time className="text-xs text-muted" dateTime="2026-05-04">
-              2026-yil, 4-may
+            <time className="text-xs text-muted" dateTime="2026-05-05">
+              2026-yil, 5-may
             </time>
           </div>
           <h1 className="text-3xl md:text-4xl font-extrabold text-foreground leading-tight mb-6">

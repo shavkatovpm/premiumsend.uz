@@ -28,7 +28,7 @@ export const metadata: Metadata = {
       "Через приложение Payme в сумах. 4 тарифа, оплата за 1-2 минуты, активация за 5 минут, 0% комиссии.",
     url: "https://premiumsend.uz/ru/maqolalar/telegram-premium-payme-orqali",
     type: "article",
-    publishedTime: "2026-05-04",
+    publishedTime: "2026-05-05",
   },
 };
 
@@ -40,8 +40,8 @@ export default function ArticlePaymePillarRu() {
       "Telegram Premium через Payme — пошаговое руководство по покупке",
     description:
       "Покупка Telegram Premium через приложение Payme в Узбекистане — все тарифы, цены и пошаговая инструкция.",
-    datePublished: "2026-05-04",
-    dateModified: "2026-05-04",
+    datePublished: "2026-05-05",
+    dateModified: "2026-05-05",
     author: {
       "@type": "Organization",
       name: "Premium Send",
@@ -182,8 +182,8 @@ export default function ArticlePaymePillarRu() {
             <span className="text-xs font-semibold px-3 py-1 rounded-full bg-primary-light text-primary">
               Руководство
             </span>
-            <time className="text-xs text-muted" dateTime="2026-05-04">
-              4 мая 2026
+            <time className="text-xs text-muted" dateTime="2026-05-05">
+              5 мая 2026
             </time>
           </div>
           <h1 className="text-3xl md:text-4xl font-extrabold text-foreground leading-tight mb-6">
