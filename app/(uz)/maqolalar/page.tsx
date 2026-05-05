@@ -27,6 +27,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "telegram-stars-vs-telegram-premium",
+    title: "Telegram Stars vs Telegram Premium: qaysini tanlash kerak",
+    excerpt:
+      "Stars va Premium farqi: Stars — bot va kanallar uchun ichki valyuta, Premium — oylik obuna (4 GB fayl, 1000 kanal). Qaysi vaziyatda qaysi biri kerak — to'liq taqqoslash.",
+    category: "Taqqoslash",
+    date: "2026-05-04",
+  },
+  {
     slug: "3-oylik-telegram-premium-payme-orqali",
     title: "3 oylik Telegram Premium Payme orqali sotib olish",
     excerpt:

@@ -31,6 +31,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "telegram-stars-vs-telegram-premium",
+    title: "Telegram Stars или Premium: что выбрать",
+    excerpt:
+      "Разница Stars и Premium: Stars — внутренняя валюта для ботов и каналов, Premium — месячная подписка (4 ГБ файлы, 1000 каналов). В каком случае что нужно — полное сравнение.",
+    category: "Сравнение",
+    date: "2026-05-04",
+  },
+  {
     slug: "3-oylik-telegram-premium-payme-orqali",
     title: "Telegram Premium на 3 месяца через Payme",
     excerpt:
