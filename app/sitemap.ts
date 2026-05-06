@@ -83,6 +83,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.85,
     },
     {
+      url: `${baseUrl}/maqolalar/telegram-premium-stikerlari-emoji-reaksiyalari`,
+      lastModified: new Date("2026-05-06"),
+      changeFrequency: "monthly",
+      priority: 0.85,
+    },
+    {
       url: `${baseUrl}/maqolalar/telegram-premium-narxlari`,
       lastModified: new Date("2026-04-30"),
       changeFrequency: "monthly",
@@ -244,6 +250,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       url: `${baseUrl}/ru/maqolalar/3-oylik-telegram-premium-payme-orqali`,
       lastModified: new Date("2026-05-05"),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/ru/maqolalar/telegram-premium-stikerlari-emoji-reaksiyalari`,
+      lastModified: new Date("2026-05-06"),
       changeFrequency: "monthly",
       priority: 0.8,
     },

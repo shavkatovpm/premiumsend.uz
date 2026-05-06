@@ -27,6 +27,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "telegram-premium-stikerlari-emoji-reaksiyalari",
+    title: "Telegram Premium stikerlari, animatsiyali emoji va premium reaksiyalar",
+    excerpt:
+      "Premium stikerlar (1000+ paket), animatsiyali emoji va premium reaksiyalar — Premium foydalanuvchilari uchun maxsus funksiyalar. Qanday ishlaydi va qaysi qurilmalarda mavjud — to'liq qo'llanma.",
+    category: "Qo'llanma",
+    date: "2026-05-06",
+  },
+  {
     slug: "telegram-stars-vs-telegram-premium",
     title: "Telegram Stars vs Telegram Premium: qaysini tanlash kerak",
     excerpt:
