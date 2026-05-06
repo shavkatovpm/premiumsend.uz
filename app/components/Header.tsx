@@ -148,37 +148,47 @@ export default function Header({ locale = "uz" }: HeaderProps) {
             </Link>
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="p-2 rounded-lg hover:bg-section-alt transition-colors"
+              className="p-2 rounded-lg hover:bg-section-alt transition-colors relative w-10 h-10"
               aria-label="Menyu"
+              aria-expanded={mobileMenuOpen}
             >
-              <svg
-                width="24"
-                height="24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                viewBox="0 0 24 24"
-              >
-                {mobileMenuOpen ? (
-                  <path strokeLinecap="round" d="M6 18L18 6M6 6l12 12" />
-                ) : (
-                  <path strokeLinecap="round" d="M4 6h16M4 12h16M4 18h16" />
-                )}
-              </svg>
+              <span
+                className={`absolute left-1/2 top-1/2 -translate-x-1/2 block h-0.5 w-5 bg-current transition-all duration-300 ease-out ${
+                  mobileMenuOpen ? "rotate-45 -translate-y-1/2" : "-translate-y-[7px]"
+                }`}
+              />
+              <span
+                className={`absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 block h-0.5 w-5 bg-current transition-all duration-300 ease-out ${
+                  mobileMenuOpen ? "opacity-0 scale-x-0" : "opacity-100 scale-x-100"
+                }`}
+              />
+              <span
+                className={`absolute left-1/2 top-1/2 -translate-x-1/2 block h-0.5 w-5 bg-current transition-all duration-300 ease-out ${
+                  mobileMenuOpen ? "-rotate-45 -translate-y-1/2" : "translate-y-[5px]"
+                }`}
+              />
             </button>
           </div>
         </div>
       </div>
 
       {/* Mobile menu overlay */}
-      {mobileMenuOpen && (
-        <>
-          <div
-            className="md:hidden fixed inset-0 top-16 bg-black/20 z-40"
-            onClick={() => setMobileMenuOpen(false)}
-          />
-          <div className="md:hidden fixed left-0 right-0 top-16 z-50 border-t border-card-border bg-white shadow-xl">
-            <div className="px-4 py-3 space-y-1">
+      <>
+        <div
+          aria-hidden={!mobileMenuOpen}
+          className={`md:hidden fixed inset-0 top-16 bg-black/30 z-40 transition-opacity duration-300 ease-out ${
+            mobileMenuOpen ? "opacity-100" : "opacity-0 pointer-events-none"
+          }`}
+          onClick={() => setMobileMenuOpen(false)}
+        />
+        <div
+          className={`md:hidden fixed left-0 right-0 top-16 z-50 border-t border-card-border bg-white shadow-xl origin-top transform transition-all duration-300 ease-out ${
+            mobileMenuOpen
+              ? "opacity-100 translate-y-0 scale-y-100"
+              : "opacity-0 -translate-y-2 scale-y-95 pointer-events-none"
+          }`}
+        >
+          <div className="px-4 py-3 space-y-1">
               <Link
                 href={`${prefix}/`}
                 onClick={() => setMobileMenuOpen(false)}
@@ -239,7 +249,6 @@ export default function Header({ locale = "uz" }: HeaderProps) {
             </div>
           </div>
         </>
-      )}
     </header>
   );
 }
