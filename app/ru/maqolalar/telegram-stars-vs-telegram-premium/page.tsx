@@ -618,7 +618,7 @@ export default function ArticleStarsVsPremiumRu() {
                   <strong>Цена:</strong> 1 месяц от 59 000 сум
                 </p>
                 <p className="text-sm text-muted mb-3">
-                  <strong>Оплата:</strong> Click, Payme, Uzcard, Humo, Visa
+                  <strong>Оплата:</strong> Click, Payme, Uzcard, Humo
                 </p>
                 <Link
                   href="https://t.me/premiumsendbot"

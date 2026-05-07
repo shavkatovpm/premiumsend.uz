@@ -37,7 +37,7 @@ export default function AboutPageRu() {
     name: "Premium Send",
     url: "https://premiumsend.uz",
     description:
-      "Покупка Telegram Premium в сумах в Узбекистане — через Click, Payme, Uzcard, Humo и Visa. Местный независимый реселлер.",
+      "Покупка Telegram Premium в сумах в Узбекистане — через Click, Payme, Uzcard и Humo. Местный независимый реселлер.",
     sameAs: ["https://t.me/premiumsendbot"],
     contactPoint: {
       "@type": "ContactPoint",
@@ -89,7 +89,7 @@ export default function AboutPageRu() {
         name: "Какие способы оплаты вы принимаете?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "После выбора тарифа бот показывает номер карты и точную сумму. Вы через любое приложение (Click, Payme, приложение Uzcard, Humo, приложение банка или Visa-карта) переводите указанную сумму на эту карту. Система автоматически определяет платёж по комбинации суммы и карты и Premium активируется за 2-5 минут. Всё в сумах — без курсового риска.",
+          text: "После выбора тарифа бот показывает номер карты и точную сумму. Вы через любое приложение (Click, Payme, приложение Uzcard, Humo или приложение банка) переводите указанную сумму на эту карту. Система автоматически определяет платёж по комбинации суммы и карты и Premium активируется за 2-5 минут. Всё в сумах — без курсового риска.",
         },
       },
       {
@@ -176,7 +176,7 @@ export default function AboutPageRu() {
 
           <div className="bg-primary-light/40 rounded-xl p-6 border border-primary/20">
             <p className="text-foreground leading-relaxed text-lg font-medium">
-              <strong>Коротко:</strong> PremiumSend — независимый реселлер в Узбекистане. Даём возможность купить подписку Telegram Premium с местной картой и в сумах: через Click, Payme, Uzcard, Humo и Visa, тарифы 1-12 месяцев, активация за 5 минут. НЕ являемся официальным партнёром Telegram — механизм опирается на открытую систему gift Telegram.
+              <strong>Коротко:</strong> PremiumSend — независимый реселлер в Узбекистане. Даём возможность купить подписку Telegram Premium с местной картой и в сумах: через Click, Payme, Uzcard и Humo, тарифы 1-12 месяцев, активация за 5 минут. НЕ являемся официальным партнёром Telegram — механизм опирается на открытую систему gift Telegram.
             </p>
           </div>
         </header>
@@ -423,7 +423,7 @@ export default function AboutPageRu() {
               Способы оплаты
             </h2>
             <p className="text-muted leading-relaxed mb-6">
-              Доступны 5 способов. Все в сумах, все локальные:
+              Доступны 4 способа. Все в сумах, все локальные:
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
@@ -451,12 +451,6 @@ export default function AboutPageRu() {
                   desc: "P2P-перевод Humo — механизм как у Uzcard. Через приложение банка или SMS-банк, 2-3 минуты.",
                   link: "/ru/maqolalar/telegram-premium-humo-orqali",
                   linkText: "Подробнее о Humo",
-                },
-                {
-                  title: "Visa",
-                  desc: "Можно оплатить картой Visa — зарубежной или местной. Местные Visa-карты тоже принимаются.",
-                  link: null,
-                  linkText: null,
                 },
               ].map((item, i) => (
                 <div

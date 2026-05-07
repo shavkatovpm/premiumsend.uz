@@ -621,7 +621,7 @@ export default function ArticleStarsVsPremiumUz() {
                   <strong>Narx:</strong> 1 oylik 59 000 so&apos;mdan
                 </p>
                 <p className="text-sm text-muted mb-3">
-                  <strong>To&apos;lov:</strong> Click, Payme, Uzcard, Humo, Visa
+                  <strong>To&apos;lov:</strong> Click, Payme, Uzcard, Humo
                 </p>
                 <Link
                   href="https://t.me/premiumsendbot"

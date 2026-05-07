@@ -37,7 +37,7 @@ export default function AboutPageUz() {
     name: "Premium Send",
     url: "https://premiumsend.uz",
     description:
-      "O'zbekistonda Telegram Premium so'mda sotib olish — Click, Payme, Uzcard, Humo va Visa orqali. Mahalliy mustaqil reseller.",
+      "O'zbekistonda Telegram Premium so'mda sotib olish — Click, Payme, Uzcard va Humo orqali. Mahalliy mustaqil reseller.",
     sameAs: ["https://t.me/premiumsendbot"],
     contactPoint: {
       "@type": "ContactPoint",
@@ -89,7 +89,7 @@ export default function AboutPageUz() {
         name: "Qaysi to'lov usullarini qabul qilasiz?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Bot tarif tanlaganingizdan keyin karta raqami va aniq summani ko'rsatadi. Siz istalgan ilova orqali (Click, Payme, Uzcard ilovasi, Humo ilovasi, bank ilovasi yoki Visa karta) ko'rsatilgan kartaga aniq summani o'tkazasiz. Tizim kartaga tushgan to'lovni summa va karta kombinatsiyasi orqali avtomatik aniqlaydi va Premium 2-5 daqiqada faollashtiradi. Hammasi so'mda — kurs riski yo'q.",
+          text: "Bot tarif tanlaganingizdan keyin karta raqami va aniq summani ko'rsatadi. Siz istalgan ilova orqali (Click, Payme, Uzcard ilovasi, Humo ilovasi yoki bank ilovasi) ko'rsatilgan kartaga aniq summani o'tkazasiz. Tizim kartaga tushgan to'lovni summa va karta kombinatsiyasi orqali avtomatik aniqlaydi va Premium 2-5 daqiqada faollashtiradi. Hammasi so'mda — kurs riski yo'q.",
         },
       },
       {
@@ -176,7 +176,7 @@ export default function AboutPageUz() {
 
           <div className="bg-primary-light/40 rounded-xl p-6 border border-primary/20">
             <p className="text-foreground leading-relaxed text-lg font-medium">
-              <strong>Qisqacha:</strong> PremiumSend — O&apos;zbekistondagi mustaqil reseller. Telegram Premium obunasini mahalliy karta va so&apos;m bilan sotib olish imkonini beramiz: Click, Payme, Uzcard, Humo va Visa orqali, 1-12 oylik tariflar, 5 daqiqada faollashish. Telegram&apos;ning rasmiy hamkori EMAS — bu mexanizm Telegram&apos;ning ochiq gift tizimiga tayanadi.
+              <strong>Qisqacha:</strong> PremiumSend — O&apos;zbekistondagi mustaqil reseller. Telegram Premium obunasini mahalliy karta va so&apos;m bilan sotib olish imkonini beramiz: Click, Payme, Uzcard va Humo orqali, 1-12 oylik tariflar, 5 daqiqada faollashish. Telegram&apos;ning rasmiy hamkori EMAS — bu mexanizm Telegram&apos;ning ochiq gift tizimiga tayanadi.
             </p>
           </div>
         </header>
@@ -423,7 +423,7 @@ export default function AboutPageUz() {
               To&apos;lov usullari
             </h2>
             <p className="text-muted leading-relaxed mb-6">
-              5 ta usul mavjud. Hammasi so&apos;mda, hammasi mahalliy:
+              4 ta usul mavjud. Hammasi so&apos;mda, hammasi mahalliy:
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
@@ -451,12 +451,6 @@ export default function AboutPageUz() {
                   desc: "Humo kartasi orqali bot ko'rsatgan kartaga P2P o'tkazma — Uzcard kabi mexanizm. Bank ilovasi yoki SMS-bank orqali, 2-3 daqiqada.",
                   link: "/maqolalar/telegram-premium-humo-orqali",
                   linkText: "Humo orqali batafsil",
-                },
-                {
-                  title: "Visa",
-                  desc: "Visa karta orqali ham bot ko'rsatgan kartaga o'tkazma — xorijiy yoki mahalliy Visa. Mahalliy Visa kartalari ham qabul qilinadi.",
-                  link: null,
-                  linkText: null,
                 },
               ].map((item, i) => (
                 <div
