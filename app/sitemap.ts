@@ -89,6 +89,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.85,
     },
     {
+      url: `${baseUrl}/maqolalar/6-oylik-telegram-premium-humo-orqali`,
+      lastModified: new Date("2026-05-06"),
+      changeFrequency: "monthly",
+      priority: 0.85,
+    },
+    {
+      url: `${baseUrl}/maqolalar/telegram-stars-click-payme-orqali-somda`,
+      lastModified: new Date("2026-05-06"),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/maqolalar/premiumsend-vs-boshqa-resellerlar`,
+      lastModified: new Date("2026-05-06"),
+      changeFrequency: "monthly",
+      priority: 0.85,
+    },
+    {
       url: `${baseUrl}/maqolalar/telegram-premium-narxlari`,
       lastModified: new Date("2026-04-30"),
       changeFrequency: "monthly",
@@ -255,6 +273,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${baseUrl}/ru/maqolalar/telegram-premium-stikerlari-emoji-reaksiyalari`,
+      lastModified: new Date("2026-05-06"),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/ru/maqolalar/6-oylik-telegram-premium-humo-orqali`,
+      lastModified: new Date("2026-05-06"),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/ru/maqolalar/telegram-stars-click-payme-orqali-somda`,
+      lastModified: new Date("2026-05-06"),
+      changeFrequency: "monthly",
+      priority: 0.75,
+    },
+    {
+      url: `${baseUrl}/ru/maqolalar/premiumsend-vs-boshqa-resellerlar`,
       lastModified: new Date("2026-05-06"),
       changeFrequency: "monthly",
       priority: 0.8,

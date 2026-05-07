@@ -27,6 +27,30 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "premiumsend-vs-boshqa-resellerlar",
+    title: "PremiumSend vs boshqa Telegram Premium reseller'lar — ob'ektiv mezonlari",
+    excerpt:
+      "Reseller'larni 8 universal mezon bo'yicha taqqoslash: sayt, oferta, to'lov tizimi, halollik. Raqobatchilarsiz, ob'ektiv qo'llanma — eng arzon doim eng yaxshi emas.",
+    category: "Taqqoslash",
+    date: "2026-05-06",
+  },
+  {
+    slug: "telegram-stars-click-payme-orqali-somda",
+    title: "Telegram Stars Click va kartaga o'tkazma orqali so'mda",
+    excerpt:
+      "Stars'ni Click ilovasi yoki kartaga o'tkazma orqali so'mda sotib olish — StarsJoy.uz da 50 Stars 12 000 so'mdan, mahalliy karta bilan, valyuta konvertatsiyasiz.",
+    category: "Qo'llanma",
+    date: "2026-05-06",
+  },
+  {
+    slug: "6-oylik-telegram-premium-humo-orqali",
+    title: "6 oylik Telegram Premium Humo orqali sotib olish",
+    excerpt:
+      "6 oylik Telegram Premium Humo karta orqali 235,000 so'mga — @PremiumSendBot karta va summani ko'rsatadi, Humo'dan o'tkazasiz, oyiga 39 167 so'm. 1 oylikka 33% arzon.",
+    category: "Qo'llanma",
+    date: "2026-05-06",
+  },
+  {
     slug: "telegram-premium-stikerlari-emoji-reaksiyalari",
     title: "Telegram Premium stikerlari, animatsiyali emoji va premium reaksiyalar",
     excerpt:
