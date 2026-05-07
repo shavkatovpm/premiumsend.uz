@@ -30,7 +30,7 @@ export const metadata: Metadata = {
       "6 oylik Telegram Premium Humo karta orqali 235,000 so'mga. Bot karta va summani ko'rsatadi, Humo'dan kartaga o'tkazasiz.",
     url: "https://premiumsend.uz/maqolalar/6-oylik-telegram-premium-humo-orqali",
     type: "article",
-    publishedTime: "2026-05-06",
+    publishedTime: "2026-05-07",
   },
 };
 
@@ -42,8 +42,8 @@ export default function Article6MonthHumoUz() {
       "6 oylik Telegram Premium Humo orqali sotib olish — 235,000 so'mga",
     description:
       "6 oylik Telegram Premium Humo karta orqali — @PremiumSendBot 235,000 so'mlik kartaga o'tkazma ko'rsatadi, siz Humo'dan o'tkazasiz, tizim avtomatik aniqlaydi.",
-    datePublished: "2026-05-06",
-    dateModified: "2026-05-06",
+    datePublished: "2026-05-07",
+    dateModified: "2026-05-07",
     author: { "@type": "Organization", name: "Premium Send", url: "https://premiumsend.uz" },
     publisher: { "@type": "Organization", name: "Premium Send", url: "https://premiumsend.uz" },
     mainEntityOfPage:
@@ -92,7 +92,7 @@ export default function Article6MonthHumoUz() {
         <header className="mb-10">
           <div className="flex items-center gap-3 mb-4">
             <span className="text-xs font-semibold px-3 py-1 rounded-full bg-primary-light text-primary">Qo&apos;llanma</span>
-            <time className="text-xs text-muted" dateTime="2026-05-06">2026-yil, 6-may</time>
+            <time className="text-xs text-muted" dateTime="2026-05-07">2026-yil, 7-may</time>
           </div>
           <h1 className="text-3xl md:text-4xl font-extrabold text-foreground leading-tight mb-6">
             6 oylik Telegram Premium Humo orqali sotib olish

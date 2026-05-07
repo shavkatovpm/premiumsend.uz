@@ -28,7 +28,7 @@ export const metadata: Metadata = {
       "Telegram Premium reseller'larini ob'ektiv mezonlar bo'yicha taqqoslash: narx, to'lov, kafolatlar.",
     url: "https://premiumsend.uz/maqolalar/premiumsend-vs-boshqa-resellerlar",
     type: "article",
-    publishedTime: "2026-05-06",
+    publishedTime: "2026-05-07",
   },
 };
 
@@ -40,8 +40,8 @@ export default function ArticleVsResellersUz() {
       "PremiumSend vs boshqa Telegram Premium reseller'lar — ob'ektiv taqqoslash mezonlari",
     description:
       "Telegram Premium reseller'larini ob'ektiv mezonlar bo'yicha taqqoslash uchun qo'llanma.",
-    datePublished: "2026-05-06",
-    dateModified: "2026-05-06",
+    datePublished: "2026-05-07",
+    dateModified: "2026-05-07",
     author: { "@type": "Organization", name: "Premium Send", url: "https://premiumsend.uz" },
     publisher: { "@type": "Organization", name: "Premium Send", url: "https://premiumsend.uz" },
     mainEntityOfPage:
@@ -89,7 +89,7 @@ export default function ArticleVsResellersUz() {
         <header className="mb-10">
           <div className="flex items-center gap-3 mb-4">
             <span className="text-xs font-semibold px-3 py-1 rounded-full bg-purple-100 text-purple-700">Taqqoslash</span>
-            <time className="text-xs text-muted" dateTime="2026-05-06">2026-yil, 6-may</time>
+            <time className="text-xs text-muted" dateTime="2026-05-07">2026-yil, 7-may</time>
           </div>
           <h1 className="text-3xl md:text-4xl font-extrabold text-foreground leading-tight mb-6">
             PremiumSend vs boshqa Telegram Premium reseller&apos;lar — ob&apos;ektiv taqqoslash mezonlari

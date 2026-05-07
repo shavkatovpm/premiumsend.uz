@@ -29,7 +29,7 @@ export const metadata: Metadata = {
       "Stars'ni Click ilovasi yoki kartaga o'tkazma orqali so'mda sotib oling — StarsJoy.uz da 50 Stars 12 000 so'mdan.",
     url: "https://premiumsend.uz/maqolalar/telegram-stars-click-payme-orqali-somda",
     type: "article",
-    publishedTime: "2026-05-06",
+    publishedTime: "2026-05-07",
   },
 };
 
@@ -41,8 +41,8 @@ export default function ArticleStarsPaymentUz() {
       "Telegram Stars Click va kartaga o'tkazma orqali so'mda — to'liq qo'llanma",
     description:
       "O'zbekistondan Telegram Stars Click va kartaga o'tkazma orqali so'mda sotib olish — qadamma-qadam qo'llanma.",
-    datePublished: "2026-05-06",
-    dateModified: "2026-05-06",
+    datePublished: "2026-05-07",
+    dateModified: "2026-05-07",
     author: { "@type": "Organization", name: "Premium Send", url: "https://premiumsend.uz" },
     publisher: { "@type": "Organization", name: "Premium Send", url: "https://premiumsend.uz" },
     mainEntityOfPage: "https://premiumsend.uz/maqolalar/telegram-stars-click-payme-orqali-somda",
@@ -90,7 +90,7 @@ export default function ArticleStarsPaymentUz() {
         <header className="mb-10">
           <div className="flex items-center gap-3 mb-4">
             <span className="text-xs font-semibold px-3 py-1 rounded-full bg-primary-light text-primary">Qo&apos;llanma</span>
-            <time className="text-xs text-muted" dateTime="2026-05-06">2026-yil, 6-may</time>
+            <time className="text-xs text-muted" dateTime="2026-05-07">2026-yil, 7-may</time>
           </div>
           <h1 className="text-3xl md:text-4xl font-extrabold text-foreground leading-tight mb-6">
             Telegram Stars Click va kartaga o&apos;tkazma orqali so&apos;mda

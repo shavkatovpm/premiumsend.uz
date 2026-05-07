@@ -28,7 +28,7 @@ export const metadata: Metadata = {
       "Сравнение реселлеров Telegram Premium по объективным критериям: цена, оплата, гарантии.",
     url: "https://premiumsend.uz/ru/maqolalar/premiumsend-vs-boshqa-resellerlar",
     type: "article",
-    publishedTime: "2026-05-06",
+    publishedTime: "2026-05-07",
   },
 };
 
@@ -40,8 +40,8 @@ export default function ArticleVsResellersRu() {
       "PremiumSend vs другие реселлеры Telegram Premium — объективные критерии сравнения",
     description:
       "Руководство по сравнению реселлеров Telegram Premium по объективным критериям.",
-    datePublished: "2026-05-06",
-    dateModified: "2026-05-06",
+    datePublished: "2026-05-07",
+    dateModified: "2026-05-07",
     author: { "@type": "Organization", name: "Premium Send", url: "https://premiumsend.uz" },
     publisher: { "@type": "Organization", name: "Premium Send", url: "https://premiumsend.uz" },
     mainEntityOfPage: "https://premiumsend.uz/ru/maqolalar/premiumsend-vs-boshqa-resellerlar",
@@ -88,7 +88,7 @@ export default function ArticleVsResellersRu() {
         <header className="mb-10">
           <div className="flex items-center gap-3 mb-4">
             <span className="text-xs font-semibold px-3 py-1 rounded-full bg-purple-100 text-purple-700">Сравнение</span>
-            <time className="text-xs text-muted" dateTime="2026-05-06">6 мая 2026</time>
+            <time className="text-xs text-muted" dateTime="2026-05-07">7 мая 2026</time>
           </div>
           <h1 className="text-3xl md:text-4xl font-extrabold text-foreground leading-tight mb-6">
             PremiumSend vs другие реселлеры Telegram Premium — объективные критерии

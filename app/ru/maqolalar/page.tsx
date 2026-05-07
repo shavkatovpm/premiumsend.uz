@@ -36,7 +36,7 @@ const articles = [
     excerpt:
       "Сравнение реселлеров по 8 универсальным критериям: сайт, оферта, платёжная система, честность. Без конкурентов по имени, объективное руководство — самый дешёвый не всегда лучший.",
     category: "Сравнение",
-    date: "2026-05-06",
+    date: "2026-05-07",
   },
   {
     slug: "telegram-stars-click-payme-orqali-somda",
@@ -44,7 +44,7 @@ const articles = [
     excerpt:
       "Купить Stars через Click или переводом на карту в сумах — StarsJoy.uz от 50 Stars за 12 000 сум, местная карта, без курсовой конвертации. Полное руководство.",
     category: "Руководство",
-    date: "2026-05-06",
+    date: "2026-05-07",
   },
   {
     slug: "6-oylik-telegram-premium-humo-orqali",
@@ -52,7 +52,7 @@ const articles = [
     excerpt:
       "6-месячный Telegram Premium через карту Humo за 235 000 сум — бот показывает карту и сумму, вы переводите через Humo. В месяц 39 167 сум, на 33% дешевле, чем 1-месячный.",
     category: "Руководство",
-    date: "2026-05-06",
+    date: "2026-05-07",
   },
   {
     slug: "telegram-premium-stikerlari-emoji-reaksiyalari",
