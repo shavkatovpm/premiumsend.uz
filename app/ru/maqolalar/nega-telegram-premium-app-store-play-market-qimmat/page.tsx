@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title:
     "Почему Telegram Premium дороже в App Store и Play Market — разбор и дешёвый путь",
   description:
-    "В App Store Telegram Premium 1 месяц ~85 000 сум, в Play Market ~75 000 сум, у местного реселлера — 59 000 сум. Причина: комиссия Apple/Google 30%, конвертация валюты, межбанковские тарифы. Полный разбор и дешёвое решение.",
+    "В App Store Telegram Premium 1 месяц $4.99 (~66 000 сум), в Play Market ~64 000, у местного реселлера 59 000 сум. На 12-месячном тарифе разница 25-28% — комиссия Apple/Google 30% и механизм bulk gift. Полный разбор.",
   keywords: [
     "telegram premium app store дорого",
     "почему telegram premium дороже app store",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     title:
       "Почему Telegram Premium дороже в App Store и Play Market",
     description:
-      "Apple и Google берут 30% комиссии, конвертация валюты добавляет 3-5%. У местного реселлера до 30% дешевле — разбор по причинам.",
+      "Базовая цена $4.99/мес уже включает 30% комиссию Apple/Google. На 1 месяце разница ~10%, на 12 месяцах — 25-28%. Разбор по причинам.",
     url: "https://premiumsend.uz/ru/maqolalar/nega-telegram-premium-app-store-play-market-qimmat",
     type: "article",
     publishedTime: "2026-05-08",
@@ -68,15 +68,15 @@ export default function ArticleAppStorePlayMarketQimmatRu() {
         name: "Почему Telegram Premium дороже в App Store?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Apple App Store берёт с разработчика 30% комиссии за каждую внутреннюю подписку (для малого бизнеса 15%, но Telegram под эту программу не подпадает). Эта потеря закладывается в цену. Кроме того, цена показывается в долларах и конвертируется по внутреннему курсу App Store — обычно на 2-4% выше рыночного. В итоге 1 месяц Premium в App Store обходится в ~85 000 сум, у местного реселлера — 59 000 сум.",
+          text: "Базовая цена Telegram в App Store — $4.99/мес ($13.99 / $24.99 / $44.99 — 3/6/12 месяцев). 30% комиссия Apple уже включена в эту цену — то есть из $4.99 Apple забирает ~$1.50, Telegram получает ~$3.50. При конвертации в сумы 1 месяц получается ~66 000 сум (у местного реселлера 59 000 сум — разница ~10%). Но на 12-месячном тарифе разница больше: $44.99 ~592 000 сум, у реселлера 425 000 сум — на ~28% дешевле.",
         },
       },
       {
         "@type": "Question",
-        name: "Сколько стоит Telegram Premium в Play Market и почему дорого?",
+        name: "Сколько стоит Telegram Premium в Play Market и почему есть разница?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Google Play на текущий момент берёт ~$5.49 за 1 месяц Premium (~75 000 сум). Google тоже забирает 15-30% комиссии, плюс при оплате местной картой добавляется межбанковский cross-border тариф (3-5%). Также если пополняете баланс Play через Click или Payme, они тоже берут свой процент. Итого получается ~25-30% дороже, чем у местного реселлера.",
+          text: "В Google Play Telegram Premium тоже по базовым $4.99/$13.99/$24.99/$44.99 — в сумах примерно 64 000 / 178 000 / 319 000 / 574 000. Google тоже берёт 15-30% комиссию, и она уже включена в $4.99. Чуть дешевле App Store — потому что региональный курс Play ближе к рыночному. По сравнению с местным реселлером разница на 1 месяце маленькая (~8%), на 12 месяцах — ~26%.",
         },
       },
       {
@@ -92,7 +92,7 @@ export default function ArticleAppStorePlayMarketQimmatRu() {
         name: "Как местные реселлеры держат цену ниже?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Местные реселлеры получают Premium не как сервис, а как gift в крупном объёме. Внутренние маркетинговые программы Telegram и многоступенчатые скидки (при крупном объёме до 25-40% ниже) дают такую возможность. Нет комиссии Apple/Google, нет валютной маржи. Поэтому местный реселлер может продавать 1 месяц Premium за 59 000 сум — около 70% цены App Store.",
+          text: "Местные реселлеры получают Premium не как сервис, а как gift в крупном объёме через внутренний bulk-механизм Telegram, где есть скидка за объём. Комиссии Apple/Google 30% на этом пути нет. Поэтому 1 месяц 59 000 сум (~10% дешевле App Store ~66 000), 12 месяцев 425 000 сум (~28% дешевле App Store ~592 000) — чем длиннее тариф, тем выше процент экономии.",
         },
       },
       {
@@ -100,15 +100,15 @@ export default function ArticleAppStorePlayMarketQimmatRu() {
         name: "Где брать Premium — App Store, Play или местный реселлер?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Выбор зависит от трёх факторов: цена, удобство и способ оплаты. Самый дешёвый — местный реселлер (59 000 сум/мес). Самый быстрый — написать Premium Send-боту и оплатить переводом на карту за 5 минут (Click/Payme). Путь App Store/Play выбирает тот, кто платит зарубежной картой и кому сумма в долларах не критична. Для пользователя из Узбекистана, платящего в сумах, местный путь даёт 25-30% экономии.",
+          text: "Выбор зависит от трёх факторов: цена, удобство и способ оплаты. На 1 месяце разница маленькая (5-10%), поэтому если нужно автопродление и есть зарубежная карта — App Store/Play тоже логичны. Но если берёте 6 или 12 месяцев, местный реселлер (235 000 / 425 000 сум) дешевле на ~26-28% — экономия 150 000-170 000 сум в год. Через Premium Send-бота можно оплатить за 5 минут через Click/Payme.",
         },
       },
       {
         "@type": "Question",
-        name: "Какова комиссия Apple/Google?",
+        name: "Какова комиссия Apple/Google и как она влияет на цену Premium?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Apple App Store: стандартно 30%, для малых разработчиков 15% (Apple Small Business Program). Google Play: 15% до первого $1 млн оборота, дальше 30%. Telegram — крупная компания, поэтому на обеих платформах берут 30%. Эта комиссия не накидывается напрямую на цену пользователю, но Telegram учитывает этот расход и устанавливает в App Store/Play цены выше рыночных.",
+          text: "Apple App Store: стандарт 30%, для малых разработчиков 15% (Small Business Program). Google Play: 15% до первого $1 млн оборота, дальше 30%. Telegram — крупная компания, поэтому на обеих платформах 30%. Эта комиссия уже включена в базовую цену $4.99 — то есть Apple/Google забирают ~$1.50 с каждого платежа, Telegram получает ~$3.50. Местный реселлер работает вне этого канала и поэтому без комиссии.",
         },
       },
       {
@@ -166,7 +166,7 @@ export default function ArticleAppStorePlayMarketQimmatRu() {
 
           <div className="bg-primary-light/40 rounded-xl p-5 border border-primary/20 mb-6">
             <p className="text-foreground leading-relaxed font-medium">
-              <strong>Краткий ответ:</strong> в App Store Telegram Premium 1 месяц <strong>~85 000 сум</strong>, в Play Market <strong>~75 000 сум</strong>, у местного реселлера — <strong>59 000 сум</strong>. Причин три: Apple/Google берут <strong>30% комиссии</strong>, конвертация доллара в сум добавляет <strong>2-4%</strong>, и межбанковский cross-border тариф <strong>1-3%</strong> сверху. Местный реселлер же благодаря механизму gift/Stars в Telegram и оплате в сумах продаёт до 30% дешевле.
+              <strong>Краткий ответ:</strong> базовая цена Telegram — <strong>$4.99/мес</strong> ($13.99 / $24.99 / $44.99 — 3/6/12 месяцев). В App Store при конвертации в сумы это <strong>~66 000 сум</strong>, в Play Market <strong>~64 000 сум</strong>, у местного реселлера — <strong>59 000 сум</strong>. На 1 месяце разница небольшая (8-10%), но на <strong>6 и 12 месячных</strong> тарифах у местного реселлера разница достигает <strong>26-28%</strong> (235 000 vs ~329 000; 425 000 vs ~592 000 сум). Причина: 30% комиссия Apple/Google уже включена в $4.99, а местный реселлер работает через механизм bulk gift — без этой комиссии.
             </p>
           </div>
 
@@ -185,45 +185,50 @@ export default function ArticleAppStorePlayMarketQimmatRu() {
               Сравнение цен — App Store, Play Market и местный реселлер
             </h2>
             <p className="text-muted leading-relaxed mb-4">
-              Состояние на май 2026 года. Цены в сумах, при текущем рыночном курсе (~12 750 сум/$1):
+              Состояние на май 2026 года. Базовая цена Telegram: $4.99 (1 мес), $13.99 (3 мес), $24.99 (6 мес), $44.99 (12 мес). Текущий рыночный курс ~12 750 сум/$1:
             </p>
 
             <div className="bg-white rounded-2xl border border-card-border shadow-lg overflow-hidden mb-6">
-              <div className="grid grid-cols-4 bg-section-alt p-4 font-bold text-sm">
+              <div className="grid grid-cols-5 bg-section-alt p-4 font-bold text-sm">
                 <div>Тариф</div>
-                <div className="text-center">App Store</div>
-                <div className="text-center">Play Market</div>
-                <div className="text-center text-primary">Местный реселлер</div>
+                <div className="text-center">$ база</div>
+                <div className="text-center">App Store (сум)</div>
+                <div className="text-center">Play (сум)</div>
+                <div className="text-center text-primary">Реселлер</div>
               </div>
-              <div className="grid grid-cols-4 p-4 border-b border-card-border items-center text-sm">
+              <div className="grid grid-cols-5 p-4 border-b border-card-border items-center text-sm">
                 <div className="font-medium">1 месяц</div>
-                <div className="text-center">~85 000</div>
-                <div className="text-center">~75 000</div>
+                <div className="text-center">$4.99</div>
+                <div className="text-center">~66 000</div>
+                <div className="text-center">~64 000</div>
                 <div className="text-center font-bold text-primary">59 000</div>
               </div>
-              <div className="grid grid-cols-4 p-4 border-b border-card-border items-center text-sm">
+              <div className="grid grid-cols-5 p-4 border-b border-card-border items-center text-sm">
                 <div className="font-medium">3 месяца</div>
-                <div className="text-center">~250 000</div>
-                <div className="text-center">~220 000</div>
+                <div className="text-center">$13.99</div>
+                <div className="text-center">~184 000</div>
+                <div className="text-center">~178 000</div>
                 <div className="text-center font-bold text-primary">175 000</div>
               </div>
-              <div className="grid grid-cols-4 p-4 border-b border-card-border items-center text-sm">
+              <div className="grid grid-cols-5 p-4 border-b border-card-border items-center text-sm">
                 <div className="font-medium">6 месяцев</div>
-                <div className="text-center">~340 000</div>
-                <div className="text-center">~300 000</div>
+                <div className="text-center">$24.99</div>
+                <div className="text-center">~329 000</div>
+                <div className="text-center">~319 000</div>
                 <div className="text-center font-bold text-primary">235 000</div>
               </div>
-              <div className="grid grid-cols-4 p-4 items-center text-sm bg-primary-light/20">
+              <div className="grid grid-cols-5 p-4 items-center text-sm bg-primary-light/20">
                 <div className="font-bold">12 месяцев</div>
-                <div className="text-center">~610 000</div>
-                <div className="text-center">~540 000</div>
+                <div className="text-center">$44.99</div>
+                <div className="text-center">~592 000</div>
+                <div className="text-center">~574 000</div>
                 <div className="text-center font-bold text-primary">425 000</div>
               </div>
             </div>
 
             <div className="bg-section-alt rounded-xl p-5">
               <p className="text-muted text-sm leading-relaxed">
-                <strong className="text-foreground">Экономия:</strong> на 1 месяце ~30% (App Store), ~21% (Play). На 12 месяцах — те же ~30% и ~21%. На годовом тарифе разница в 185 000 сум — заметная сумма.
+                <strong className="text-foreground">Процент экономии:</strong> на 1 месяце небольшой (~10% App Store, ~8% Play), на 3 месяцах разница совсем маленькая (~5% и ~2%). Зато на <strong>6 месяцах 28% и 26%</strong>, на <strong>12 месяцах 28% и 26%</strong> — на длительных тарифах местный реселлер существенно дешевле. Причина: реселлер получает скидку через bulk gift в большом объёме.
               </p>
             </div>
           </section>
@@ -259,7 +264,7 @@ export default function ArticleAppStorePlayMarketQimmatRu() {
             </div>
 
             <p className="text-muted leading-relaxed">
-              <strong className="text-foreground">Расчёт:</strong> рыночная цена Telegram (примерно $4) + комиссия Apple 30% + валютная маржа 3% + банковский тариф 2% = ~$5.5 → ~70 000 сум. Из-за Apple и валюты 1 месяц Premium доходит до ~85 000 сум.
+              <strong className="text-foreground">Важный нюанс:</strong> Telegram установил $4.99 так, чтобы после удержания Apple/Google 30% комиссии оставался профит. То есть 30% уже заложены в $4.99. Пользователь платит $4.99 → Apple забирает ~$1.50, Telegram получает ~$3.50. Местный реселлер же работает не через канал Apple/Google, а через внутренний механизм gift в Telegram — поэтому «экономит» эту комиссию и даже после своей маржи продаёт дешевле.
             </p>
           </section>
 
@@ -294,7 +299,7 @@ export default function ArticleAppStorePlayMarketQimmatRu() {
             </ul>
 
             <p className="text-muted leading-relaxed mb-4">
-              Но Play тоже дороже местного реселлера на ~21% — комиссия Google (15-30%) никуда не девается, и Telegram вынужден держать цену на Play выше рыночной.
+              Но Play тоже дороже местного реселлера на 12-месячном тарифе на ~26% — комиссия Google уже включена в $4.99, и Telegram не меняет базовую цену для Play.
             </p>
 
             <div className="bg-white rounded-xl p-5 border border-card-border shadow-sm">
@@ -311,34 +316,34 @@ export default function ArticleAppStorePlayMarketQimmatRu() {
               Как местные реселлеры продают дешевле?
             </h2>
             <p className="text-muted leading-relaxed mb-4">
-              Местные реселлеры (например Premium Send) получают Premium не через канал App Store/Play, а через <strong>механизм gift в Telegram</strong>. Это даёт несколько процентов экономии:
+              Местные реселлеры (например Premium Send) получают Premium не через канал App Store/Play, а через <strong>механизм bulk gift в Telegram</strong>. Это даёт уход от комиссий и скидку за объём:
             </p>
 
             <div className="bg-white rounded-2xl border border-card-border shadow-lg overflow-hidden mb-6">
               <div className="grid grid-cols-2 bg-section-alt p-4 font-bold text-sm">
-                <div>Причина</div>
-                <div className="text-center">Экономия в %</div>
+                <div>Фактор</div>
+                <div className="text-center">Влияние</div>
               </div>
               <div className="grid grid-cols-2 p-4 border-b border-card-border items-center text-sm">
-                <div className="font-medium">Нет комиссии Apple/Google</div>
-                <div className="text-center text-green-600">~30%</div>
+                <div className="font-medium">Комиссия Apple/Google 30%</div>
+                <div className="text-center text-green-600">Нет (gift-канал)</div>
               </div>
               <div className="grid grid-cols-2 p-4 border-b border-card-border items-center text-sm">
                 <div className="font-medium">Скидка за крупный объём</div>
-                <div className="text-center text-green-600">~10-20%</div>
+                <div className="text-center text-green-600">~10-20% ниже</div>
               </div>
               <div className="grid grid-cols-2 p-4 border-b border-card-border items-center text-sm">
-                <div className="font-medium">Нет валютной маржи (в сумах)</div>
-                <div className="text-center text-green-600">~3-5%</div>
+                <div className="font-medium">Оплата в сумах (нет валютной маржи)</div>
+                <div className="text-center text-green-600">Нет</div>
               </div>
               <div className="grid grid-cols-2 p-4 items-center text-sm bg-primary-light/20">
-                <div className="font-bold">Нет cross-border тарифа</div>
-                <div className="text-center text-green-600 font-bold">~1-3%</div>
+                <div className="font-bold">Маржа самого реселлера</div>
+                <div className="text-center font-bold">~5-15% сверху</div>
               </div>
             </div>
 
             <p className="text-muted leading-relaxed mb-4">
-              Своя маржа реселлера (5-15%) тоже учтена, но даже после её включения суммарная экономия пользователя — ~25-30% от цены App Store.
+              После учёта маржи реселлера итоговая экономия для пользователя: ~10% на 1 месяце, ~26-28% на 6-12 месяцах. Самая большая выгода — на длительных тарифах, где скидка за объём работает в полную силу.
             </p>
 
             <div className="bg-section-alt rounded-xl p-5">
@@ -382,8 +387,8 @@ export default function ArticleAppStorePlayMarketQimmatRu() {
               {[
                 { step: "1", title: "Откройте Telegram", desc: "Settings → Telegram Premium → посмотрите тарифы. На iPhone отображается цена App Store, на Android — Play. Цены — в сумах или долларах." },
                 { step: "2", title: "Сравните с местным реселлером", desc: "Напишите @PremiumSendBot → /start → откройте раздел тарифов Premium. Видите конкретные суммы: 1 месяц 59 000, 3 месяца 175 000, 6 месяцев 235 000, 12 месяцев 425 000 сум." },
-                { step: "3", title: "Посчитайте разницу", desc: "Вычтите цену местного реселлера из цены Apple/Play. Обычно получается экономия 25 000-185 000 сум — в зависимости от тарифа. На 12 месяцах разница максимальная — до ~185 000 сум." },
-                { step: "4", title: "Выберите удобный путь", desc: "Принимайте решение по скорости, цене и способу оплаты. Оплата в сумах, экономия до 30%, активация за 5 минут — местный реселлер; автопродление и Family Sharing — App Store/Play." },
+                { step: "3", title: "Посчитайте разницу", desc: "Вычтите цену местного реселлера из цены Apple/Play. На 1 месяце разница маленькая (~5 000-7 000 сум), на 6 месяцах ~85 000 сум, на 12 месяцах — ~150 000-170 000 сум. Чем длиннее тариф, тем больше процент экономии." },
+                { step: "4", title: "Выберите удобный путь", desc: "Принимайте решение по скорости, цене и способу оплаты. Оплата в сумах, экономия 26-28% на 6-12 месяцах, активация за 5 минут — местный реселлер; автопродление и Family Sharing — App Store/Play." },
               ].map((item, i) => (
                 <div key={i} className="flex items-start gap-4">
                   <div className="w-10 h-10 rounded-full bg-primary text-white text-sm font-bold flex items-center justify-center flex-shrink-0">
@@ -414,15 +419,15 @@ export default function ArticleAppStorePlayMarketQimmatRu() {
               </div>
               <div className="grid grid-cols-2 p-4 border-b border-card-border items-center text-sm">
                 <div className="font-medium">App Store (1 мес × 12)</div>
-                <div className="text-center">85 000 × 12 = 1 020 000 сум</div>
+                <div className="text-center">$4.99 × 12 = $59.88 → ~792 000 сум</div>
               </div>
               <div className="grid grid-cols-2 p-4 border-b border-card-border items-center text-sm">
                 <div className="font-medium">App Store (12 мес сразу)</div>
-                <div className="text-center">~610 000 сум</div>
+                <div className="text-center">$44.99 → ~592 000 сум</div>
               </div>
               <div className="grid grid-cols-2 p-4 border-b border-card-border items-center text-sm">
                 <div className="font-medium">Play Market (12 мес)</div>
-                <div className="text-center">~540 000 сум</div>
+                <div className="text-center">$44.99 → ~574 000 сум</div>
               </div>
               <div className="grid grid-cols-2 p-4 items-center text-sm bg-primary-light/20">
                 <div className="font-bold text-primary">Местный реселлер (12 мес)</div>
@@ -431,7 +436,7 @@ export default function ArticleAppStorePlayMarketQimmatRu() {
             </div>
 
             <p className="text-muted leading-relaxed">
-              <strong className="text-foreground">Экономия в год:</strong> местный путь дешевле Apple на ~185 000 сум, дешевле Play на ~115 000 сум. За два года разница 230 000-370 000 сум — это несколько раз цена 1 месяца тарифа.
+              <strong className="text-foreground">Экономия в год:</strong> местный реселлер дешевле Apple на ~167 000 сум, дешевле Play на ~149 000 сум. Если оплачивать помесячно (автопродление), за 12 месяцев в Apple набегает ~792 000 сум — на 367 000 сум выше местного реселлера. То есть самая большая выгода — на длительных (6, 12 мес) тарифах.
             </p>
           </section>
 
@@ -467,12 +472,12 @@ export default function ArticleAppStorePlayMarketQimmatRu() {
               </h3>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                 <div className="text-center">
-                  <p className="text-2xl font-extrabold text-primary">~30%</p>
+                  <p className="text-2xl font-extrabold text-primary">~28%</p>
                   <p className="text-sm text-muted">экономия от App Store (12 мес)</p>
                 </div>
                 <div className="text-center">
-                  <p className="text-2xl font-extrabold text-primary">~21%</p>
-                  <p className="text-sm text-muted">экономия от Play Market</p>
+                  <p className="text-2xl font-extrabold text-primary">~26%</p>
+                  <p className="text-sm text-muted">экономия от Play Market (12 мес)</p>
                 </div>
                 <div className="text-center">
                   <p className="text-2xl font-extrabold text-primary">5 мин.</p>
@@ -504,7 +509,7 @@ export default function ArticleAppStorePlayMarketQimmatRu() {
               </div>
               <div className="relative">
                 <p className="text-white/90 text-lg leading-relaxed mb-6">
-                  Telegram Premium в App Store и Play Market дороже из-за комиссии Apple/Google (30%), валютной конвертации и межбанковских тарифов. Чтобы платить в сумах и сэкономить до 30%, откройте <strong className="text-white">@PremiumSendBot</strong>: 1 месяц 59 000, 6 месяцев 235 000, 12 месяцев 425 000 сум.
+                  Базовая цена Telegram — $4.99/мес, и комиссия Apple/Google 30% уже включена в неё. Местный реселлер обходит эту комиссию через bulk gift и на 6-12 месячных тарифах даёт <strong>экономию 26-28%</strong>. <strong className="text-white">@PremiumSendBot</strong> — 1 месяц 59 000, 6 месяцев 235 000, 12 месяцев 425 000 сум.
                 </p>
                 <Link href="https://t.me/premiumsendbot" target="_blank" className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg">
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">

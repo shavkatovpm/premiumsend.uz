@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title:
     "Nega Telegram Premium App Store va Play Market'da qimmatroq — sabablari va arzon yo'l",
   description:
-    "App Store'da Telegram Premium 1 oylik ~85 000 so'm, Play Market'da ~75 000 so'm — mahalliy resellerda esa 59 000 so'm. Sabab: Apple/Google 30% komissiya, valyuta konvertatsiya, banklararo tariflar. To'liq tahlil va arzon yechim.",
+    "App Store'da Telegram Premium 1 oylik $4.99 (~66 000 so'm), Play Market'da ~64 000, mahalliy reseller'da 59 000 so'm. 12 oylik tarifda farq 25-28% — Apple/Google 30% komissiya va bulk gift mexanizmi sabab. To'liq tahlil.",
   keywords: [
     "telegram premium app store qimmat",
     "telegram premium play market narxi",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     title:
       "Nega Telegram Premium App Store va Play Market'da qimmatroq",
     description:
-      "Apple va Google 30% komissiya oladi, valyuta konvertatsiyasi qo'shimcha 3-5% qo'shadi. Mahalliy reseller'da esa 30% gacha arzon — sababli tahlil.",
+      "$4.99/oylik bazada Apple/Google 30% komissiyasi narxga kiritilgan. 1 oylikda farq kichik (~10%), 12 oylikda esa 25-28% — sababli tahlil.",
     url: "https://premiumsend.uz/maqolalar/nega-telegram-premium-app-store-play-market-qimmat",
     type: "article",
     publishedTime: "2026-05-08",
@@ -68,15 +68,15 @@ export default function ArticleAppStorePlayMarketQimmatUz() {
         name: "Nega Telegram Premium App Store'da qimmatroq?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Apple App Store har bir ichki obuna uchun ishlab chiqaruvchidan 30% komissiya oladi (kichik kompaniyalar uchun 15%, lekin Telegram bu kategoriyaga kirmaydi). Bu yo'qotish narxga qo'shiladi. Bundan tashqari, narx dollarda ko'rsatiladi va so'mga konvertatsiya kursi App Store'ning ichki kursi bo'yicha hisoblanadi — bozor kursidan 2-4% yuqoriroq. Natijada 1 oylik Premium App Store'da ~85 000 so'mga, mahalliy reseller'da esa 59 000 so'mga tushadi.",
+          text: "Telegram bazaviy narxi App Store'da $4.99/oy ($13.99 / $24.99 / $44.99 — 3/6/12 oylik). Bu narxga Apple'ning 30% komissiyasi zaten kiritilgan — ya'ni Telegram $4.99 olganda Apple ~$1.50 olib qoladi, Telegram ~$3.50 oladi. So'mga aylantirilganda 1 oylik ~66 000 so'm chiqadi (mahalliy reseller'da 59 000 so'm — ~10% farq). Lekin 12 oylik tarifda farq kattaroq: $44.99 ~592 000 so'm, reseller'da 425 000 so'm — ~28% past.",
         },
       },
       {
         "@type": "Question",
-        name: "Play Market'da Telegram Premium qancha turadi va nega qimmat?",
+        name: "Play Market'da Telegram Premium qancha turadi va nega farq bor?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Google Play Market 1 oylik Premium uchun shu daqiqada ~$5.49 oladi (~75 000 so'm). Google ham 15-30% komissiya oladi va to'lov mahalliy karta bilan amalga oshirilganda banklararo cross-border tarif (3-5%) qo'shiladi. Bundan tashqari, Play balans to'ldirish uchun Click yoki Payme'dan foydalansangiz, ular ham o'z foizini olishadi. Hammasini qo'shganda mahalliy reseller'dan ~25-30% qimmat tushadi.",
+          text: "Google Play da Telegram Premium ham bazaviy $4.99/$13.99/$24.99/$44.99 narxida — so'mga aylantirilganda taxminan 64 000 / 178 000 / 319 000 / 574 000. Google ham 15-30% komissiya oladi va u $4.99 narxiga zaten kiritilgan. App Store'dan biroz arzonroq — chunki Play'ning regional kursi Apple'nikiga qaraganda bozor kursiga yaqinroq. Mahalliy reseller'dan farqi 1 oylikda kichik (~8%), 12 oylikda esa ~26%.",
         },
       },
       {
@@ -92,7 +92,7 @@ export default function ArticleAppStorePlayMarketQimmatUz() {
         name: "Mahalliy reseller'lar narxni qanday past tutadi?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Mahalliy reseller'lar Telegram Premium'ni xizmat sifatida emas, gift sifatida ko'p miqdorda chiqarib oladi. Telegram'ning ichki marketing dasturlari va bosqichli chegirmalar (yiriklab olganda 25-40% past) imkonini beradi. Apple/Google komissiyasi yo'q, valyuta konvertatsiya soliqlari yo'q. Shu sababli mahalliy reseller 1 oylik Premium'ni 59 000 so'mga (App Store narxining ~70% i) sotib bera oladi.",
+          text: "Mahalliy reseller'lar Telegram Premium'ni xizmat sifatida emas, gift sifatida ko'p miqdorda chiqarib oladi. Telegram'ning ichki bulk gift mexanizmi orqali yiriklab olganda chegirmalar mavjud. Apple/Google 30% komissiyasi shu yo'lda yo'q. Shu sababli 1 oylik 59 000 so'm (App Store ~66 000 dan ~10% past), 12 oylik 425 000 so'm (App Store ~592 000 dan ~28% past) — uzun muddatli tarif qancha yiriklashsa, foiz tejash shuncha katta.",
         },
       },
       {
@@ -100,15 +100,15 @@ export default function ArticleAppStorePlayMarketQimmatUz() {
         name: "Premium qaerdan olish — App Store, Play yoki mahalliy reseller?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Tanlov uchta omilga bog'liq: narx, qulaylik va to'lov usuli. Eng arzon — mahalliy reseller (59 000 so'm/oy). Eng tezkor — Premium Send botiga yozish va kartaga o'tkazma orqali 5 daqiqada (Click/Payme bilan). App Store va Play yo'lini esa kim chet el kartasi bilan to'lasa va dollar miqdori muhim bo'lmasa tanlaydi. O'zbekistonlik so'mda to'lovchi foydalanuvchi uchun mahalliy yo'l 25-30% tejash beradi.",
+          text: "Tanlov uchta omilga bog'liq: narx, qulaylik va to'lov usuli. 1 oylikda farq kichik (5-10%), shu sababli avtoyangilanish kerak bo'lsa va chet el kartasi bo'lsa App Store/Play ham mantiqli. Lekin 6 yoki 12 oylik tarif olsangiz, mahalliy reseller (235 000 / 425 000 so'm) ~26-28% arzon — yiliga ~150 000-170 000 so'm tejash. Premium Send botiga yozsangiz, 5 daqiqada Click/Payme bilan to'lab ola olasiz.",
         },
       },
       {
         "@type": "Question",
-        name: "Apple/Google komissiyasi qancha?",
+        name: "Apple/Google komissiyasi qancha va u Premium narxiga qanday ta'sir qiladi?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Apple App Store: standart 30%, kichik dasturchilar uchun 15% (Apple Small Business Program). Google Play: 15% birinchi $1 mln aylanmagacha, undan keyin 30%. Telegram yirik kompaniya bo'lgani uchun har ikkala platformada 30% komissiya oladi. Bu komissiya bevosita foydalanuvchi narxiga qo'shilmaydi, lekin Telegram bu xarajatni e'tiborga olib App Store/Play narxlarini bozor narxidan yuqoriroq belgilaydi.",
+          text: "Apple App Store: standart 30%, kichik dasturchilar uchun 15% (Small Business Program). Google Play: 15% birinchi $1 mln aylanmagacha, undan keyin 30%. Telegram yirik kompaniya bo'lgani uchun ikkala platformada 30% komissiya oladi. Bu komissiya $4.99 bazaviy narxga zaten kiritilgan — ya'ni Apple/Google har bir to'lovdan ~$1.50 olib qoladi, Telegram ~$3.50 oladi. Mahalliy reseller esa bu kanaldan tashqarida ishlagani uchun komissiyasi yo'q.",
         },
       },
       {
@@ -166,7 +166,7 @@ export default function ArticleAppStorePlayMarketQimmatUz() {
 
           <div className="bg-primary-light/40 rounded-xl p-5 border border-primary/20 mb-6">
             <p className="text-foreground leading-relaxed font-medium">
-              <strong>Qisqacha javob:</strong> App Store&apos;da Telegram Premium 1 oylik <strong>~85 000 so&apos;m</strong>, Play Market&apos;da <strong>~75 000 so&apos;m</strong>, mahalliy reseller&apos;da esa <strong>59 000 so&apos;m</strong>. Sabab uchta: Apple/Google <strong>30% komissiya</strong> oladi, dollar→so&apos;m konvertatsiyasi <strong>2-4%</strong> qo&apos;shadi va banklararo cross-border to&apos;lov tarifi <strong>1-3%</strong> qo&apos;shimcha bo&apos;ladi. Mahalliy reseller esa Telegram&apos;ning gift/Stars mexanizmi va so&apos;mda to&apos;lov tufayli ~30% gacha arzon sotadi.
+              <strong>Qisqacha javob:</strong> Telegram&apos;ning rasmiy bazaviy narxi <strong>$4.99/oy</strong> ($13.99 / $24.99 / $44.99 — 3/6/12 oylik). App Store&apos;da bu so&apos;mga aylantirilganda <strong>~66 000 so&apos;m</strong>, Play Market&apos;da <strong>~64 000 so&apos;m</strong>, mahalliy reseller&apos;da esa <strong>59 000 so&apos;m</strong>. 1 oylikda farq kichik (8-10%), lekin <strong>6 va 12 oylik</strong> tariflarda mahalliy reseller&apos;da farq <strong>26-28% gacha</strong> chiqadi (235 000 vs ~329 000; 425 000 vs ~592 000 so&apos;m). Sabab: Apple/Google 30% komissiyasi $4.99 narxiga zaten kiritilgan, mahalliy reseller esa bulk gift mexanizmi orqali ishlagani uchun bu komissiyasiz ish ko&apos;radi.
             </p>
           </div>
 
@@ -185,45 +185,50 @@ export default function ArticleAppStorePlayMarketQimmatUz() {
               Narx farqi — App Store, Play Market va mahalliy reseller
             </h2>
             <p className="text-muted leading-relaxed mb-4">
-              2026-yil may holati. Narxlar so&apos;mda, joriy bozor kursi (~12 750 so&apos;m/$1) bo&apos;yicha hisoblangan:
+              2026-yil may holati. Telegram bazaviy narxi: $4.99 (1 oy), $13.99 (3 oy), $24.99 (6 oy), $44.99 (12 oy). Joriy bozor kursi ~12 750 so&apos;m/$1:
             </p>
 
             <div className="bg-white rounded-2xl border border-card-border shadow-lg overflow-hidden mb-6">
-              <div className="grid grid-cols-4 bg-section-alt p-4 font-bold text-sm">
+              <div className="grid grid-cols-5 bg-section-alt p-4 font-bold text-sm">
                 <div>Tarif</div>
-                <div className="text-center">App Store</div>
-                <div className="text-center">Play Market</div>
-                <div className="text-center text-primary">Mahalliy reseller</div>
+                <div className="text-center">$ baza</div>
+                <div className="text-center">App Store (so&apos;m)</div>
+                <div className="text-center">Play (so&apos;m)</div>
+                <div className="text-center text-primary">Reseller</div>
               </div>
-              <div className="grid grid-cols-4 p-4 border-b border-card-border items-center text-sm">
+              <div className="grid grid-cols-5 p-4 border-b border-card-border items-center text-sm">
                 <div className="font-medium">1 oylik</div>
-                <div className="text-center">~85 000</div>
-                <div className="text-center">~75 000</div>
+                <div className="text-center">$4.99</div>
+                <div className="text-center">~66 000</div>
+                <div className="text-center">~64 000</div>
                 <div className="text-center font-bold text-primary">59 000</div>
               </div>
-              <div className="grid grid-cols-4 p-4 border-b border-card-border items-center text-sm">
+              <div className="grid grid-cols-5 p-4 border-b border-card-border items-center text-sm">
                 <div className="font-medium">3 oylik</div>
-                <div className="text-center">~250 000</div>
-                <div className="text-center">~220 000</div>
+                <div className="text-center">$13.99</div>
+                <div className="text-center">~184 000</div>
+                <div className="text-center">~178 000</div>
                 <div className="text-center font-bold text-primary">175 000</div>
               </div>
-              <div className="grid grid-cols-4 p-4 border-b border-card-border items-center text-sm">
+              <div className="grid grid-cols-5 p-4 border-b border-card-border items-center text-sm">
                 <div className="font-medium">6 oylik</div>
-                <div className="text-center">~340 000</div>
-                <div className="text-center">~300 000</div>
+                <div className="text-center">$24.99</div>
+                <div className="text-center">~329 000</div>
+                <div className="text-center">~319 000</div>
                 <div className="text-center font-bold text-primary">235 000</div>
               </div>
-              <div className="grid grid-cols-4 p-4 items-center text-sm bg-primary-light/20">
+              <div className="grid grid-cols-5 p-4 items-center text-sm bg-primary-light/20">
                 <div className="font-bold">12 oylik</div>
-                <div className="text-center">~610 000</div>
-                <div className="text-center">~540 000</div>
+                <div className="text-center">$44.99</div>
+                <div className="text-center">~592 000</div>
+                <div className="text-center">~574 000</div>
                 <div className="text-center font-bold text-primary">425 000</div>
               </div>
             </div>
 
             <div className="bg-section-alt rounded-xl p-5">
               <p className="text-muted text-sm leading-relaxed">
-                <strong className="text-foreground">Tejash:</strong> 1 oylikda ~30% (App Store), ~21% (Play). 12 oylikda ~30% va ~21%. Yiliga 12 000 so&apos;mlik Premium tarifida bu summa ham sezilarli.
+                <strong className="text-foreground">Tejash foizi:</strong> 1 oylikda kichik (~10% App Store, ~8% Play), 3 oylikda mos farq juda kichik (~5% va ~2%). Lekin <strong>6 oylikda 28% va 26%</strong>, <strong>12 oylikda 28% va 26%</strong> — uzun muddatli tariflarda mahalliy reseller sezilarli arzon. Sabab: reseller bulk gift mexanizmi orqali yirik miqdorda chegirma oladi.
               </p>
             </div>
           </section>
@@ -259,7 +264,7 @@ export default function ArticleAppStorePlayMarketQimmatUz() {
             </div>
 
             <p className="text-muted leading-relaxed">
-              <strong className="text-foreground">Hisob:</strong> Telegram&apos;ning bozor narxi (taxminan $4) + Apple komissiyasi 30% + valyuta marjasi 3% + bank tarifi 2% = ~$5.5 → ~70 000 so&apos;m. Apple va valyuta sababli 1 oylik Premium narxi ~85 000 so&apos;mga yetadi.
+              <strong className="text-foreground">Muhim nuance:</strong> Telegram $4.99 narxni shunday belgiladi-ki, Apple/Google 30% komissiyani undan olib qo&apos;yganidan keyin ham foyda qolsin. Ya&apos;ni 30% komissiya $4.99 narxiga zaten kiritilgan. Foydalanuvchi $4.99 to&apos;laydi → Apple ~$1.50 olib qoladi, Telegram ~$3.50 oladi. Mahalliy reseller esa Apple/Google kanali orqali emas, Telegram&apos;ning ichki gift mexanizmi orqali ishlaydi — shu sababli 30% komissiyani &quot;tejaydi&quot; va o&apos;z marjasini qo&apos;ygandan keyin ham foydalanuvchiga arzonroq sotadi.
             </p>
           </section>
 
@@ -294,7 +299,7 @@ export default function ArticleAppStorePlayMarketQimmatUz() {
             </ul>
 
             <p className="text-muted leading-relaxed mb-4">
-              Lekin Play ham mahalliy reseller&apos;dan ~21% qimmat — chunki Google komissiyasi (15-30%) hech qachon nolga tushmaydi va Telegram bozor narxini Play uchun balansli belgilashga majbur.
+              Lekin Play ham mahalliy reseller&apos;dan 12 oylik tarifda ~26% qimmat — chunki Google komissiyasi $4.99 narxiga zaten kiritilgan va Telegram Play uchun bazaviy narxni o&apos;zgartirmaydi.
             </p>
 
             <div className="bg-white rounded-xl p-5 border border-card-border shadow-sm">
@@ -311,34 +316,34 @@ export default function ArticleAppStorePlayMarketQimmatUz() {
               Mahalliy reseller'lar qanday qilib arzonroq sotishadi?
             </h2>
             <p className="text-muted leading-relaxed mb-4">
-              Mahalliy reseller&apos;lar (Premium Send kabi) Premium&apos;ni Apple/Google App Store kanalidan emas, <strong>Telegram&apos;ning gift mexanizmi</strong> orqali oladi. Bu bir necha foiz tejashga olib keladi:
+              Mahalliy reseller&apos;lar (Premium Send kabi) Premium&apos;ni Apple/Google App Store kanalidan emas, <strong>Telegram&apos;ning bulk gift mexanizmi</strong> orqali oladi. Bu komissiyalardan qutulish va yiriklab olish chegirmasini beradi:
             </p>
 
             <div className="bg-white rounded-2xl border border-card-border shadow-lg overflow-hidden mb-6">
               <div className="grid grid-cols-2 bg-section-alt p-4 font-bold text-sm">
-                <div>Sabab</div>
-                <div className="text-center">Foiz tejash</div>
+                <div>Omil</div>
+                <div className="text-center">Ta&apos;sir</div>
               </div>
               <div className="grid grid-cols-2 p-4 border-b border-card-border items-center text-sm">
-                <div className="font-medium">Apple/Google komissiyasi yo&apos;q</div>
-                <div className="text-center text-green-600">~30%</div>
+                <div className="font-medium">Apple/Google 30% komissiyasi</div>
+                <div className="text-center text-green-600">Yo&apos;q (gift kanalida)</div>
               </div>
               <div className="grid grid-cols-2 p-4 border-b border-card-border items-center text-sm">
-                <div className="font-medium">Yirik miqdorda chegirma</div>
-                <div className="text-center text-green-600">~10-20%</div>
+                <div className="font-medium">Yiriklab olish chegirmasi</div>
+                <div className="text-center text-green-600">~10-20% past</div>
               </div>
               <div className="grid grid-cols-2 p-4 border-b border-card-border items-center text-sm">
-                <div className="font-medium">Valyuta marjasi yo&apos;q (so&apos;mda)</div>
-                <div className="text-center text-green-600">~3-5%</div>
+                <div className="font-medium">So&apos;mda to&apos;lov (valyuta marjasi yo&apos;q)</div>
+                <div className="text-center text-green-600">Yo&apos;q</div>
               </div>
               <div className="grid grid-cols-2 p-4 items-center text-sm bg-primary-light/20">
-                <div className="font-bold">Cross-border tarif yo&apos;q</div>
-                <div className="text-center text-green-600 font-bold">~1-3%</div>
+                <div className="font-bold">Reseller&apos;ning o&apos;z marjasi</div>
+                <div className="text-center font-bold">~5-15% qo&apos;shimcha</div>
               </div>
             </div>
 
             <p className="text-muted leading-relaxed mb-4">
-              Reseller&apos;ning o&apos;z marjasi (5-15%) ham bor, lekin yuqoridagi tejashlar bu marjani qoplagandan keyin ham foydalanuvchiga ~25-30% past narx beradi.
+              Yuqoridagi omillar reseller marjasini qoplagandan keyin ham foydalanuvchiga 1 oylikda ~10%, 6-12 oylikda ~26-28% past narx beradi. Eng katta tejash uzun muddatli tariflarda chiqadi — chunki bulk chegirmasi shu yerda eng kuchli ishlaydi.
             </p>
 
             <div className="bg-section-alt rounded-xl p-5">
@@ -382,8 +387,8 @@ export default function ArticleAppStorePlayMarketQimmatUz() {
               {[
                 { step: "1", title: "Telegram dasturini oching", desc: "Settings → Telegram Premium → tariflarni ko'ring. iPhone'da App Store narxi, Android'da Play narxi ko'rinadi. Narxlar so'mda yoki dollarda bo'ladi." },
                 { step: "2", title: "Mahalliy reseller narxini taqqoslang", desc: "@PremiumSendBot ga yozing → /start bosing → Premium tariflar bo'limini oching. Aniq so'm narxi ko'rinadi: 1 oylik 59 000, 3 oylik 175 000, 6 oylik 235 000, 12 oylik 425 000 so'm." },
-                { step: "3", title: "Farqni hisoblang", desc: "Mahalliy narxni Apple/Play narxidan ayiring. Odatda 25 000-185 000 so'm tejash chiqadi, tarifga qarab. 12 oylik tarifda farq eng katta — ~185 000 so'mgacha." },
-                { step: "4", title: "Sizga qulay yo'lni tanlang", desc: "Tezkorlik, narx va to'lov usuli bo'yicha tanlang. So'mda to'lov, 30% gacha tejash, 5 daqiqada faollashish — mahalliy reseller; avtomatik yangilanish va family sharing — App Store/Play." },
+                { step: "3", title: "Farqni hisoblang", desc: "Mahalliy narxni Apple/Play narxidan ayiring. 1 oylikda farq kichik (~5 000-7 000 so'm), 6 oylikda ~85 000 so'm, 12 oylikda esa ~150 000-170 000 so'm tejash chiqadi. Uzun muddatli tarif qancha yiriklashsa, foiz tejash shuncha katta." },
+                { step: "4", title: "Sizga qulay yo'lni tanlang", desc: "Tezkorlik, narx va to'lov usuli bo'yicha tanlang. So'mda to'lov, 6-12 oylikda 26-28% tejash, 5 daqiqada faollashish — mahalliy reseller; avtomatik yangilanish va family sharing — App Store/Play." },
               ].map((item, i) => (
                 <div key={i} className="flex items-start gap-4">
                   <div className="w-10 h-10 rounded-full bg-primary text-white text-sm font-bold flex items-center justify-center flex-shrink-0">
@@ -414,15 +419,15 @@ export default function ArticleAppStorePlayMarketQimmatUz() {
               </div>
               <div className="grid grid-cols-2 p-4 border-b border-card-border items-center text-sm">
                 <div className="font-medium">App Store (1 oylik × 12)</div>
-                <div className="text-center">85 000 × 12 = 1 020 000 so&apos;m</div>
+                <div className="text-center">$4.99 × 12 = $59.88 → ~792 000 so&apos;m</div>
               </div>
               <div className="grid grid-cols-2 p-4 border-b border-card-border items-center text-sm">
                 <div className="font-medium">App Store (12 oylik to&apos;g&apos;ridan)</div>
-                <div className="text-center">~610 000 so&apos;m</div>
+                <div className="text-center">$44.99 → ~592 000 so&apos;m</div>
               </div>
               <div className="grid grid-cols-2 p-4 border-b border-card-border items-center text-sm">
                 <div className="font-medium">Play Market (12 oylik)</div>
-                <div className="text-center">~540 000 so&apos;m</div>
+                <div className="text-center">$44.99 → ~574 000 so&apos;m</div>
               </div>
               <div className="grid grid-cols-2 p-4 items-center text-sm bg-primary-light/20">
                 <div className="font-bold text-primary">Mahalliy reseller (12 oylik)</div>
@@ -431,7 +436,7 @@ export default function ArticleAppStorePlayMarketQimmatUz() {
             </div>
 
             <p className="text-muted leading-relaxed">
-              <strong className="text-foreground">Yiliga tejash:</strong> mahalliy yo&apos;l Apple&apos;dan ~185 000 so&apos;m, Play&apos;dan ~115 000 so&apos;m past. Ikki yilda esa farq 230 000-370 000 so&apos;m bo&apos;ladi — bu 1 oylik tarif narxining bir necha karra.
+              <strong className="text-foreground">Yiliga tejash:</strong> mahalliy reseller Apple&apos;dan ~167 000 so&apos;m, Play&apos;dan ~149 000 so&apos;m past. Agar oylik to&apos;lov qilib chiqilsa (avtoyangilanish), 12 oyda Apple&apos;da ~792 000 so&apos;m sarflanadi — mahalliy reseller&apos;dan 367 000 so&apos;m yuqori. Demak, eng katta tejash — uzun muddatli (6, 12 oylik) tariflar uchun.
             </p>
           </section>
 
@@ -467,12 +472,12 @@ export default function ArticleAppStorePlayMarketQimmatUz() {
               </h3>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                 <div className="text-center">
-                  <p className="text-2xl font-extrabold text-primary">~30%</p>
+                  <p className="text-2xl font-extrabold text-primary">~28%</p>
                   <p className="text-sm text-muted">App Store&apos;dan tejash (12 oylik)</p>
                 </div>
                 <div className="text-center">
-                  <p className="text-2xl font-extrabold text-primary">~21%</p>
-                  <p className="text-sm text-muted">Play Market&apos;dan tejash</p>
+                  <p className="text-2xl font-extrabold text-primary">~26%</p>
+                  <p className="text-sm text-muted">Play Market&apos;dan tejash (12 oylik)</p>
                 </div>
                 <div className="text-center">
                   <p className="text-2xl font-extrabold text-primary">5 daq.</p>
@@ -504,7 +509,7 @@ export default function ArticleAppStorePlayMarketQimmatUz() {
               </div>
               <div className="relative">
                 <p className="text-white/90 text-lg leading-relaxed mb-6">
-                  App Store va Play Market'da Telegram Premium qimmat — Apple/Google komissiyasi (30%), valyuta konvertatsiyasi va banklararo tariflar sababli. So&apos;mda to&apos;lab, ~30% gacha tejash uchun <strong className="text-white">@PremiumSendBot</strong> ni oching: 1 oylik 59 000, 6 oylik 235 000, 12 oylik 425 000 so&apos;m.
+                  Telegram bazaviy narxi $4.99/oy — Apple/Google 30% komissiyasi unga zaten kiritilgan. Mahalliy reseller bu komissiyasiz va bulk gift orqali 6-12 oylik tariflarda <strong>26-28% tejash</strong> beradi. <strong className="text-white">@PremiumSendBot</strong> da 1 oylik 59 000, 6 oylik 235 000, 12 oylik 425 000 so&apos;m.
                 </p>
                 <Link href="https://t.me/premiumsendbot" target="_blank" className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg">
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
