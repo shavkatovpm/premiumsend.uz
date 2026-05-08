@@ -31,6 +31,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "nega-telegram-premium-app-store-play-market-qimmat",
+    title: "Почему Telegram Premium дороже в App Store и Play Market",
+    excerpt:
+      "В App Store 1 месяц ~85 000 сум, в Play ~75 000, у местного реселлера 59 000 сум. Причина: 30% комиссии Apple/Google, валютная маржа и межбанковский cross-border тариф. Полный разбор причин.",
+    category: "Вопрос-ответ",
+    date: "2026-05-08",
+  },
+  {
     slug: "premiumsend-vs-boshqa-resellerlar",
     title: "PremiumSend vs другие реселлеры Telegram Premium — объективные критерии",
     excerpt:

@@ -27,6 +27,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "nega-telegram-premium-app-store-play-market-qimmat",
+    title: "Nega Telegram Premium App Store va Play Market'da qimmatroq",
+    excerpt:
+      "App Store'da 1 oylik ~85 000 so'm, Play'da ~75 000, mahalliy reseller'da 59 000 so'm. Sabab: Apple/Google 30% komissiya, valyuta marjasi va banklararo cross-border tarif. To'liq sababli tahlil.",
+    category: "Savol-javob",
+    date: "2026-05-08",
+  },
+  {
     slug: "premiumsend-vs-boshqa-resellerlar",
     title: "PremiumSend vs boshqa Telegram Premium reseller'lar — ob'ektiv mezonlari",
     excerpt:

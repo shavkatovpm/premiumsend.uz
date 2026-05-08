@@ -107,6 +107,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.85,
     },
     {
+      url: `${baseUrl}/maqolalar/nega-telegram-premium-app-store-play-market-qimmat`,
+      lastModified: new Date("2026-05-08"),
+      changeFrequency: "monthly",
+      priority: 0.85,
+    },
+    {
       url: `${baseUrl}/maqolalar/telegram-premium-narxlari`,
       lastModified: new Date("2026-04-30"),
       changeFrequency: "monthly",
@@ -292,6 +298,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       url: `${baseUrl}/ru/maqolalar/premiumsend-vs-boshqa-resellerlar`,
       lastModified: new Date("2026-05-07"),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/ru/maqolalar/nega-telegram-premium-app-store-play-market-qimmat`,
+      lastModified: new Date("2026-05-08"),
       changeFrequency: "monthly",
       priority: 0.8,
     },
