@@ -31,6 +31,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "6-oylik-telegram-premium-click-orqali",
+    title: "6 месяцев Telegram Premium через Click — оплата",
+    excerpt:
+      "6 месячный Telegram Premium через Click за 235 000 сум (39 167 в месяц) — бот показывает карту и сумму, переводите из Click, активация за 5 минут. На ~33% дешевле помесячной оплаты.",
+    category: "Руководство",
+    date: "2026-05-09",
+  },
+  {
     slug: "nega-telegram-premium-app-store-play-market-qimmat",
     title: "Почему Telegram Premium дороже в App Store и Play Market",
     excerpt:

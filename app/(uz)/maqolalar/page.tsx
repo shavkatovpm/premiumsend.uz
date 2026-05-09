@@ -27,6 +27,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "6-oylik-telegram-premium-click-orqali",
+    title: "6 oylik Telegram Premium Click orqali sotib olish",
+    excerpt:
+      "6 oylik Telegram Premium Click ilovasi orqali 235,000 so'mga (oyiga 39,167) — bot karta va summani ko'rsatadi, Click'dan o'tkazasiz, 5 daqiqada faollashish. 1 oylikka nisbatan 33% arzon.",
+    category: "Qo'llanma",
+    date: "2026-05-09",
+  },
+  {
     slug: "nega-telegram-premium-app-store-play-market-qimmat",
     title: "Nega Telegram Premium App Store va Play Market'da qimmatroq",
     excerpt:
