@@ -27,6 +27,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "6-oylik-telegram-premium-sovga-qilish",
+    title: "6 oylik Telegram Premium sovg'a qilish — yaqinlaringiz uchun",
+    excerpt:
+      "6 oylik Telegram Premium gift — 235,000 so'mga (oyiga 39,167), Uzcard/Humo/Click bilan. @PremiumSendBot da username kiritib yuboring. 180 kun davomida har kuni eslatuvchi sovg'a.",
+    category: "Qo'llanma",
+    date: "2026-05-09",
+  },
+  {
     slug: "6-oylik-telegram-premium-click-orqali",
     title: "6 oylik Telegram Premium Click orqali sotib olish",
     excerpt:
