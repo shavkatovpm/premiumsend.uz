@@ -120,7 +120,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${baseUrl}/maqolalar/6-oylik-telegram-premium-sovga-qilish`,
-      lastModified: new Date("2026-05-09"),
+      lastModified: new Date("2026-05-11"),
       changeFrequency: "monthly",
       priority: 0.85,
     },
@@ -327,7 +327,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${baseUrl}/ru/maqolalar/6-oylik-telegram-premium-sovga-qilish`,
-      lastModified: new Date("2026-05-09"),
+      lastModified: new Date("2026-05-11"),
       changeFrequency: "monthly",
       priority: 0.8,
     },

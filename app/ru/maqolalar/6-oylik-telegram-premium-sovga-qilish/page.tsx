@@ -31,7 +31,7 @@ export const metadata: Metadata = {
       "Подарите близким 6 месяцев Telegram Premium — 235 000 сум, Uzcard/Humo. 180 дней ежедневно напоминающий подарок.",
     url: "https://premiumsend.uz/ru/maqolalar/6-oylik-telegram-premium-sovga-qilish",
     type: "article",
-    publishedTime: "2026-05-09",
+    publishedTime: "2026-05-11",
   },
 };
 
@@ -43,8 +43,8 @@ export default function Article6MonthGiftRu() {
       "Подарить 6 месяцев Telegram Premium — полугодовой gift близким",
     description:
       "Подарить 6 месяцев Telegram Premium — через @PremiumSendBot отправить другу, члену семьи или коллеге 6 месячный Premium gift за 235 000 сум — полное руководство.",
-    datePublished: "2026-05-09",
-    dateModified: "2026-05-09",
+    datePublished: "2026-05-11",
+    dateModified: "2026-05-11",
     author: { "@type": "Organization", name: "Premium Send", url: "https://premiumsend.uz" },
     publisher: { "@type": "Organization", name: "Premium Send", url: "https://premiumsend.uz" },
     mainEntityOfPage:
@@ -94,7 +94,7 @@ export default function Article6MonthGiftRu() {
         <header className="mb-10">
           <div className="flex items-center gap-3 mb-4">
             <span className="text-xs font-semibold px-3 py-1 rounded-full bg-primary-light text-primary">Руководство</span>
-            <time className="text-xs text-muted" dateTime="2026-05-09">9 мая 2026 года</time>
+            <time className="text-xs text-muted" dateTime="2026-05-11">11 мая 2026 года</time>
           </div>
           <h1 className="text-3xl md:text-4xl font-extrabold text-foreground leading-tight mb-6">
             Подарить 6 месяцев Telegram Premium — близким

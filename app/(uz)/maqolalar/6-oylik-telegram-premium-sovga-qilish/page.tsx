@@ -31,7 +31,7 @@ export const metadata: Metadata = {
       "Yaqinlaringizga 6 oylik Telegram Premium sovg'a qiling — 235,000 so'm, Uzcard/Humo bilan. 180 kun davomida har kuni eslatuvchi sovg'a.",
     url: "https://premiumsend.uz/maqolalar/6-oylik-telegram-premium-sovga-qilish",
     type: "article",
-    publishedTime: "2026-05-09",
+    publishedTime: "2026-05-11",
   },
 };
 
@@ -43,8 +43,8 @@ export default function Article6MonthGiftUz() {
       "6 oylik Telegram Premium sovg'a qilish — yaqinlaringiz uchun yarim yillik gift",
     description:
       "6 oylik Telegram Premium sovg'a qilish — @PremiumSendBot orqali do'st, oila a'zosi yoki hamkasbga 235,000 so'mga 6 oylik Premium gift yuborish bo'yicha to'liq qo'llanma.",
-    datePublished: "2026-05-09",
-    dateModified: "2026-05-09",
+    datePublished: "2026-05-11",
+    dateModified: "2026-05-11",
     author: { "@type": "Organization", name: "Premium Send", url: "https://premiumsend.uz" },
     publisher: { "@type": "Organization", name: "Premium Send", url: "https://premiumsend.uz" },
     mainEntityOfPage:
@@ -94,7 +94,7 @@ export default function Article6MonthGiftUz() {
         <header className="mb-10">
           <div className="flex items-center gap-3 mb-4">
             <span className="text-xs font-semibold px-3 py-1 rounded-full bg-primary-light text-primary">Qo&apos;llanma</span>
-            <time className="text-xs text-muted" dateTime="2026-05-09">2026-yil, 9-may</time>
+            <time className="text-xs text-muted" dateTime="2026-05-11">2026-yil, 11-may</time>
           </div>
           <h1 className="text-3xl md:text-4xl font-extrabold text-foreground leading-tight mb-6">
             6 oylik Telegram Premium sovg&apos;a qilish — yaqinlaringiz uchun

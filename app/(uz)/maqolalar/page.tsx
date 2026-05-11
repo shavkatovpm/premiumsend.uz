@@ -32,7 +32,7 @@ const articles = [
     excerpt:
       "6 oylik Telegram Premium gift — 235,000 so'mga (oyiga 39,167), Uzcard/Humo/Click bilan. @PremiumSendBot da username kiritib yuboring. 180 kun davomida har kuni eslatuvchi sovg'a.",
     category: "Qo'llanma",
-    date: "2026-05-09",
+    date: "2026-05-11",
   },
   {
     slug: "6-oylik-telegram-premium-click-orqali",
