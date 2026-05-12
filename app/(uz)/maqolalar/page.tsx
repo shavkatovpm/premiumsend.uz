@@ -27,6 +27,22 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "telegram-stars-uzcard-orqali",
+    title: "Telegram Stars Uzcard orqali sotib olish — kartaga o'tkazma",
+    excerpt:
+      "Stars'ni Uzcard kartangiz orqali so'mda sotib olish. @starsjoybot karta va summani beradi, Uzcard ilovasidan P2P o'tkazasiz. 50 Stars = 12 000 so'm, App Store'dan 17% arzon.",
+    category: "Qo'llanma",
+    date: "2026-05-11",
+  },
+  {
+    slug: "6-oylik-telegram-premium-payme-orqali",
+    title: "6 oylik Telegram Premium Payme orqali sotib olish",
+    excerpt:
+      "6 oylik Telegram Premium Payme ilovasi orqali 235,000 so'mga (oyiga 39,167) — bot karta va summani ko'rsatadi, Payme'dan o'tkazasiz, 5 daqiqada faollashish. 1 oylikka nisbatan 33% arzon.",
+    category: "Qo'llanma",
+    date: "2026-05-11",
+  },
+  {
     slug: "6-oylik-telegram-premium-sovga-qilish",
     title: "6 oylik Telegram Premium sovg'a qilish — yaqinlaringiz uchun",
     excerpt:
