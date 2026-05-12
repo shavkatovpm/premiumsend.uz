@@ -30,7 +30,7 @@ export const metadata: Metadata = {
       "Stars'ni Uzcard ilovasidan bot kartasiga o'tkazib sotib olish. 50 Stars 12 000 so'mdan, hech qanday kurs konvertatsiyasiz, mahalliy karta bilan.",
     url: "https://premiumsend.uz/maqolalar/telegram-stars-uzcard-orqali",
     type: "article",
-    publishedTime: "2026-05-11",
+    publishedTime: "2026-05-12",
   },
 };
 
@@ -41,8 +41,8 @@ export default function ArticleStarsUzcardUz() {
     headline: "Telegram Stars Uzcard orqali sotib olish — kartaga o'tkazma yo'li",
     description:
       "Telegram Stars'ni Uzcard kartasi orqali sotib olish — @starsjoybot karta va summani ko'rsatadi, siz Uzcard ilovasidan kartaga P2P o'tkazasiz, Stars bir necha daqiqada akkauntda.",
-    datePublished: "2026-05-11",
-    dateModified: "2026-05-11",
+    datePublished: "2026-05-12",
+    dateModified: "2026-05-12",
     author: { "@type": "Organization", name: "Premium Send", url: "https://premiumsend.uz" },
     publisher: { "@type": "Organization", name: "Premium Send", url: "https://premiumsend.uz" },
     mainEntityOfPage:
@@ -92,7 +92,7 @@ export default function ArticleStarsUzcardUz() {
         <header className="mb-10">
           <div className="flex items-center gap-3 mb-4">
             <span className="text-xs font-semibold px-3 py-1 rounded-full bg-primary-light text-primary">Qo&apos;llanma</span>
-            <time className="text-xs text-muted" dateTime="2026-05-11">2026-yil, 11-may</time>
+            <time className="text-xs text-muted" dateTime="2026-05-12">2026-yil, 12-may</time>
           </div>
           <h1 className="text-3xl md:text-4xl font-extrabold text-foreground leading-tight mb-6">
             Telegram Stars Uzcard orqali sotib olish

@@ -30,7 +30,7 @@ export const metadata: Metadata = {
       "6 oylik Premium Payme ilovasi orqali 235,000 so'mga, oyiga 39,167. Bot karta va summani ko'rsatadi, Payme'dan kartaga o'tkazasiz.",
     url: "https://premiumsend.uz/maqolalar/6-oylik-telegram-premium-payme-orqali",
     type: "article",
-    publishedTime: "2026-05-11",
+    publishedTime: "2026-05-12",
   },
 };
 
@@ -42,8 +42,8 @@ export default function Article6MonthPaymeUz() {
       "6 oylik Telegram Premium Payme orqali sotib olish — 235,000 so'mga",
     description:
       "6 oylik Telegram Premium Payme ilovasi orqali — @PremiumSendBot 235,000 so'mlik kartaga o'tkazma ko'rsatadi, siz Payme'dan o'tkazasiz, tizim avtomatik aniqlaydi va Premium 5 daqiqada faollashadi.",
-    datePublished: "2026-05-11",
-    dateModified: "2026-05-11",
+    datePublished: "2026-05-12",
+    dateModified: "2026-05-12",
     author: { "@type": "Organization", name: "Premium Send", url: "https://premiumsend.uz" },
     publisher: { "@type": "Organization", name: "Premium Send", url: "https://premiumsend.uz" },
     mainEntityOfPage:
@@ -93,7 +93,7 @@ export default function Article6MonthPaymeUz() {
         <header className="mb-10">
           <div className="flex items-center gap-3 mb-4">
             <span className="text-xs font-semibold px-3 py-1 rounded-full bg-primary-light text-primary">Qo&apos;llanma</span>
-            <time className="text-xs text-muted" dateTime="2026-05-11">2026-yil, 11-may</time>
+            <time className="text-xs text-muted" dateTime="2026-05-12">2026-yil, 12-may</time>
           </div>
           <h1 className="text-3xl md:text-4xl font-extrabold text-foreground leading-tight mb-6">
             6 oylik Telegram Premium Payme orqali sotib olish

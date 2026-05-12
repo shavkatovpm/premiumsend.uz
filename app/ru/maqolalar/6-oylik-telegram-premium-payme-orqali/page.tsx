@@ -30,7 +30,7 @@ export const metadata: Metadata = {
       "6 месячный Premium через Payme за 235 000 сум, 39 167 в месяц. Бот показывает карту и сумму, переводите из Payme.",
     url: "https://premiumsend.uz/ru/maqolalar/6-oylik-telegram-premium-payme-orqali",
     type: "article",
-    publishedTime: "2026-05-11",
+    publishedTime: "2026-05-12",
   },
 };
 
@@ -42,8 +42,8 @@ export default function Article6MonthPaymeRu() {
       "6 месяцев Telegram Premium через Payme — 235 000 сум",
     description:
       "6 месячный Telegram Premium через Payme — @PremiumSendBot показывает карту и точную сумму 235 000 сум, вы переводите через Payme, система автоматически распознаёт и активирует Premium за 5 минут.",
-    datePublished: "2026-05-11",
-    dateModified: "2026-05-11",
+    datePublished: "2026-05-12",
+    dateModified: "2026-05-12",
     author: { "@type": "Organization", name: "Premium Send", url: "https://premiumsend.uz" },
     publisher: { "@type": "Organization", name: "Premium Send", url: "https://premiumsend.uz" },
     mainEntityOfPage:
@@ -93,7 +93,7 @@ export default function Article6MonthPaymeRu() {
         <header className="mb-10">
           <div className="flex items-center gap-3 mb-4">
             <span className="text-xs font-semibold px-3 py-1 rounded-full bg-primary-light text-primary">Руководство</span>
-            <time className="text-xs text-muted" dateTime="2026-05-11">11 мая 2026 года</time>
+            <time className="text-xs text-muted" dateTime="2026-05-12">12 мая 2026 года</time>
           </div>
           <h1 className="text-3xl md:text-4xl font-extrabold text-foreground leading-tight mb-6">
             6 месяцев Telegram Premium через Payme — оплата

@@ -36,7 +36,7 @@ const articles = [
     excerpt:
       "Stars через карту Uzcard в сумах. @starsjoybot даёт карту и сумму, P2P перевод из приложения Uzcard. 50 Stars = 12 000 сум, на 17% дешевле App Store.",
     category: "Руководство",
-    date: "2026-05-11",
+    date: "2026-05-12",
   },
   {
     slug: "6-oylik-telegram-premium-payme-orqali",
@@ -44,7 +44,7 @@ const articles = [
     excerpt:
       "6 месячный Telegram Premium через Payme за 235 000 сум (39 167 в месяц) — бот показывает карту и сумму, переводите из Payme, активация за 5 минут. На ~33% дешевле помесячной оплаты.",
     category: "Руководство",
-    date: "2026-05-11",
+    date: "2026-05-12",
   },
   {
     slug: "6-oylik-telegram-premium-sovga-qilish",

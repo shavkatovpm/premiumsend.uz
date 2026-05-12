@@ -30,7 +30,7 @@ export const metadata: Metadata = {
       "Купить Stars через перевод из приложения Uzcard на карту бота. 50 Stars 12 000 сум, без курсовой конвертации, с местной картой.",
     url: "https://premiumsend.uz/ru/maqolalar/telegram-stars-uzcard-orqali",
     type: "article",
-    publishedTime: "2026-05-11",
+    publishedTime: "2026-05-12",
   },
 };
 
@@ -41,8 +41,8 @@ export default function ArticleStarsUzcardRu() {
     headline: "Купить Telegram Stars через Uzcard — путь перевода на карту",
     description:
       "Купить Telegram Stars через карту Uzcard — @starsjoybot показывает карту и сумму, вы из приложения Uzcard переводите P2P на эту карту, Stars приходят за несколько минут.",
-    datePublished: "2026-05-11",
-    dateModified: "2026-05-11",
+    datePublished: "2026-05-12",
+    dateModified: "2026-05-12",
     author: { "@type": "Organization", name: "Premium Send", url: "https://premiumsend.uz" },
     publisher: { "@type": "Organization", name: "Premium Send", url: "https://premiumsend.uz" },
     mainEntityOfPage:
@@ -92,7 +92,7 @@ export default function ArticleStarsUzcardRu() {
         <header className="mb-10">
           <div className="flex items-center gap-3 mb-4">
             <span className="text-xs font-semibold px-3 py-1 rounded-full bg-primary-light text-primary">Руководство</span>
-            <time className="text-xs text-muted" dateTime="2026-05-11">11 мая 2026 года</time>
+            <time className="text-xs text-muted" dateTime="2026-05-12">12 мая 2026 года</time>
           </div>
           <h1 className="text-3xl md:text-4xl font-extrabold text-foreground leading-tight mb-6">
             Купить Telegram Stars через Uzcard
