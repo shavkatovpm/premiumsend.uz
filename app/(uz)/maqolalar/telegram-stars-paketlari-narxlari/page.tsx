@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title:
     "Telegram Stars paketlari 2026: 50, 100, 500, 1000, 5000 — aniq narxlar",
   description:
-    "Barcha Telegram Stars paketlari va so'mdagi aniq narxlari: 50 Stars 12 000, 100 Stars 24 000, 500 Stars 120 000, 1000 Stars 240 000, 5000 Stars 1 200 000. App Store/Fragment bilan taqqoslash, qaysi paket nima uchun.",
+    "Barcha Telegram Stars paketlari va so'mdagi aniq narxlari: 50 Stars 12 000, 100 Stars 24 000, 500 Stars 120 000, 1000 Stars 240 000, 5000 Stars 1 200 000. App Store bilan taqqoslash, qaysi paket nima uchun.",
   keywords: [
     "50 stars",
     "100 stars narxi",
@@ -105,14 +105,14 @@ export default function ArticleStarsPaketlariNarxlariUz() {
 
           <div className="bg-primary-light/40 rounded-xl p-5 border border-primary/20 mb-6">
             <p className="text-foreground leading-relaxed font-medium">
-              <strong>Qisqacha javob:</strong> Telegram Stars StarsJoy.uz da <strong>240 so&apos;m/star</strong> linear tarifda sotiladi. Asosiy paketlar: <strong>50 Stars — 12 000 so&apos;m</strong>, 100 Stars — 24 000, 250 Stars — 60 000, 500 Stars — 120 000, <strong>1000 Stars — 240 000</strong>, 2500 Stars — 600 000, 5000 Stars — 1 200 000 so&apos;m. App Store va Fragment yo&apos;llari 17-20% qimmatroq. Mahalliy paket bilan kurs riski yo&apos;q,{" "}
+              <strong>Qisqacha javob:</strong> Telegram Stars StarsJoy.uz da <strong>240 so&apos;m/star</strong> linear tarifda sotiladi. Asosiy paketlar: <strong>50 Stars — 12 000 so&apos;m</strong>, 100 Stars — 24 000, 250 Stars — 60 000, 500 Stars — 120 000, <strong>1000 Stars — 240 000</strong>, 2500 Stars — 600 000, 5000 Stars — 1 200 000 so&apos;m. App Store va Play Market yo&apos;llari 17-20% qimmatroq. Mahalliy paket bilan kurs riski yo&apos;q,{" "}
               <a href="https://t.me/starsjoybot" target="_blank" rel="noopener" className="text-primary hover:underline">@starsjoybot</a>{" "}
               orqali so&apos;mda to&apos;lov.
             </p>
           </div>
 
           <p className="text-lg text-muted leading-relaxed">
-            Telegram Stars — bu Telegram ichidagi rasmiy ichki valyuta: bot funksiyalari, sticker, donate, Premium gift va boshqa raqamli mahsulotlar uchun ishlatiladi. Lekin Stars'ning narxi qaysi yo&apos;l orqali sotib olinganiga qarab keskin farq qiladi. Quyida barcha paketlar va aniq so&apos;mdagi narxlari, qaysi paket qaysi maqsadga mos kelishi va App Store / Fragment bilan halol taqqoslash.
+            Telegram Stars — bu Telegram ichidagi rasmiy ichki valyuta: bot funksiyalari, sticker, donate, Premium gift va boshqa raqamli mahsulotlar uchun ishlatiladi. Lekin Stars'ning narxi qaysi yo&apos;l orqali sotib olinganiga qarab keskin farq qiladi. Quyida barcha paketlar va aniq so&apos;mdagi narxlari, qaysi paket qaysi maqsadga mos kelishi va App Store bilan halol taqqoslash.
           </p>
         </header>
 
@@ -241,11 +241,11 @@ export default function ArticleStarsPaketlariNarxlariUz() {
             </div>
           </section>
 
-          {/* Section 3 — App Store/Fragment comparison */}
+          {/* Section 3 — App Store comparison */}
           <section>
-            <h2 className="text-2xl font-extrabold text-foreground mb-4">StarsJoy vs App Store vs Fragment — narx taqqoslash</h2>
+            <h2 className="text-2xl font-extrabold text-foreground mb-4">StarsJoy vs App Store vs Play Market — narx taqqoslash</h2>
             <p className="text-muted leading-relaxed mb-6">
-              Bir xil 1000 Stars uchun uch turli yo&apos;ldan narxlar qanday farq qiladi:
+              Bir xil 1000 Stars uchun uchta mashhur yo&apos;ldan narxlar qanday farq qiladi:
             </p>
 
             <div className="bg-white rounded-2xl border border-card-border shadow-lg overflow-hidden mb-6">
@@ -267,23 +267,17 @@ export default function ArticleStarsPaketlariNarxlariUz() {
                 <div className="text-center">~290</div>
                 <div className="text-center text-muted text-xs">dollar narxi, Apple komissiya</div>
               </div>
-              <div className="grid grid-cols-4 p-4 border-b border-card-border items-center text-sm">
+              <div className="grid grid-cols-4 p-4 items-center text-sm">
                 <div className="font-medium">Play Market (in-app)</div>
                 <div className="text-center">~285 000 so&apos;m</div>
                 <div className="text-center">~285</div>
                 <div className="text-center text-muted text-xs">dollar narxi, Google komissiya</div>
               </div>
-              <div className="grid grid-cols-4 p-4 items-center text-sm">
-                <div className="font-medium">Fragment (web)</div>
-                <div className="text-center">~260 000 so&apos;m</div>
-                <div className="text-center">~260</div>
-                <div className="text-center text-muted text-xs">xorijiy karta yoki TON</div>
-              </div>
             </div>
 
             <div className="bg-section-alt rounded-xl p-5">
               <p className="text-muted text-sm leading-relaxed">
-                <strong className="text-foreground">Farq qaerdan kelib chiqadi?</strong> App Store va Play Market Apple/Google'ning 30% platforma komissiyasini foydalanuvchi narxiga qo&apos;shadi. Bundan tashqari valyuta konvertatsiyasi qo&apos;shimcha 5-7% marja olib keladi. Fragment xorijiy yo&apos;l — Uzcard/Humo qabul qilmaydi, kursi suzuvchi. StarsJoy.uz mahalliy reseller — so&apos;mda fiks narx.
+                <strong className="text-foreground">Farq qaerdan kelib chiqadi?</strong> App Store va Play Market Apple/Google'ning 30% platforma komissiyasini foydalanuvchi narxiga qo&apos;shadi. Bundan tashqari valyuta konvertatsiyasi qo&apos;shimcha 5-7% marja olib keladi. StarsJoy.uz mahalliy reseller — so&apos;mda fiks narx, mahalliy karta bilan.
               </p>
             </div>
           </section>
@@ -432,7 +426,7 @@ export default function ArticleStarsPaketlariNarxlariUz() {
                 </div>
                 <div className="text-center">
                   <p className="text-2xl font-extrabold text-primary">17-20%</p>
-                  <p className="text-sm text-muted">App Store/Fragment'dan arzon</p>
+                  <p className="text-sm text-muted">App Store'dan arzon</p>
                 </div>
               </div>
             </div>

@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title:
     "Пакеты Telegram Stars 2026: 50, 100, 500, 1000, 5000 — точные цены",
   description:
-    "Все пакеты Telegram Stars и точные цены в сумах: 50 Stars 12 000, 100 Stars 24 000, 500 Stars 120 000, 1000 Stars 240 000, 5000 Stars 1 200 000. Сравнение с App Store/Fragment, какой пакет для чего.",
+    "Все пакеты Telegram Stars и точные цены в сумах: 50 Stars 12 000, 100 Stars 24 000, 500 Stars 120 000, 1000 Stars 240 000, 5000 Stars 1 200 000. Сравнение с App Store, какой пакет для чего.",
   keywords: [
     "50 stars цена",
     "100 stars сколько",
@@ -105,13 +105,13 @@ export default function ArticleStarsPaketlariNarxlariRu() {
 
           <div className="bg-primary-light/40 rounded-xl p-5 border border-primary/20 mb-6">
             <p className="text-foreground leading-relaxed font-medium">
-              <strong>Краткий ответ:</strong> Telegram Stars в StarsJoy.uz продаются по линейному тарифу <strong>240 сум/star</strong>. Основные пакеты: <strong>50 Stars — 12 000 сум</strong>, 100 Stars — 24 000, 250 Stars — 60 000, 500 Stars — 120 000, <strong>1000 Stars — 240 000</strong>, 2500 Stars — 600 000, 5000 Stars — 1 200 000 сум. Пути через App Store и Fragment на 17-20% дороже. С местным пакетом нет курсового риска, оплата в сумах через{" "}
+              <strong>Краткий ответ:</strong> Telegram Stars в StarsJoy.uz продаются по линейному тарифу <strong>240 сум/star</strong>. Основные пакеты: <strong>50 Stars — 12 000 сум</strong>, 100 Stars — 24 000, 250 Stars — 60 000, 500 Stars — 120 000, <strong>1000 Stars — 240 000</strong>, 2500 Stars — 600 000, 5000 Stars — 1 200 000 сум. Пути через App Store и Play Market на 17-20% дороже. С местным пакетом нет курсового риска, оплата в сумах через{" "}
               <a href="https://t.me/starsjoybot" target="_blank" rel="noopener" className="text-primary hover:underline">@starsjoybot</a>.
             </p>
           </div>
 
           <p className="text-lg text-muted leading-relaxed">
-            Telegram Stars — это официальная внутренняя валюта в Telegram: используется для функций ботов, стикеров, donate, Premium gift и других цифровых товаров. Но цена Stars резко отличается в зависимости от пути покупки. Ниже — все пакеты с точными ценами в сумах, рекомендации по выбору и честное сравнение с App Store / Fragment.
+            Telegram Stars — это официальная внутренняя валюта в Telegram: используется для функций ботов, стикеров, donate, Premium gift и других цифровых товаров. Но цена Stars резко отличается в зависимости от пути покупки. Ниже — все пакеты с точными ценами в сумах, рекомендации по выбору и честное сравнение с App Store.
           </p>
         </header>
 
@@ -240,11 +240,11 @@ export default function ArticleStarsPaketlariNarxlariRu() {
             </div>
           </section>
 
-          {/* Section 3 — App Store/Fragment comparison */}
+          {/* Section 3 — App Store comparison */}
           <section>
-            <h2 className="text-2xl font-extrabold text-foreground mb-4">StarsJoy vs App Store vs Fragment — сравнение цен</h2>
+            <h2 className="text-2xl font-extrabold text-foreground mb-4">StarsJoy vs App Store vs Play Market — сравнение цен</h2>
             <p className="text-muted leading-relaxed mb-6">
-              Как отличаются цены для одинаковых 1000 Stars по трём разным путям:
+              Как отличаются цены для одинаковых 1000 Stars по трём популярным путям:
             </p>
 
             <div className="bg-white rounded-2xl border border-card-border shadow-lg overflow-hidden mb-6">
@@ -266,23 +266,17 @@ export default function ArticleStarsPaketlariNarxlariRu() {
                 <div className="text-center">~290</div>
                 <div className="text-center text-muted text-xs">долларовая цена, Apple комиссия</div>
               </div>
-              <div className="grid grid-cols-4 p-4 border-b border-card-border items-center text-sm">
+              <div className="grid grid-cols-4 p-4 items-center text-sm">
                 <div className="font-medium">Play Market (in-app)</div>
                 <div className="text-center">~285 000 сум</div>
                 <div className="text-center">~285</div>
                 <div className="text-center text-muted text-xs">долларовая цена, Google комиссия</div>
               </div>
-              <div className="grid grid-cols-4 p-4 items-center text-sm">
-                <div className="font-medium">Fragment (web)</div>
-                <div className="text-center">~260 000 сум</div>
-                <div className="text-center">~260</div>
-                <div className="text-center text-muted text-xs">зарубежная карта или TON</div>
-              </div>
             </div>
 
             <div className="bg-section-alt rounded-xl p-5">
               <p className="text-muted text-sm leading-relaxed">
-                <strong className="text-foreground">Откуда берётся разница?</strong> App Store и Play Market добавляют 30% платформенную комиссию Apple/Google в цену для пользователя. Дополнительно конвертация валюты приносит ещё 5-7% маржи. Fragment — зарубежный путь, не принимает Uzcard/Humo, курс плавающий. StarsJoy.uz — местный реселлер, фиксированная цена в сумах.
+                <strong className="text-foreground">Откуда берётся разница?</strong> App Store и Play Market добавляют 30% платформенную комиссию Apple/Google в цену для пользователя. Дополнительно конвертация валюты приносит ещё 5-7% маржи. StarsJoy.uz — местный реселлер, фиксированная цена в сумах, с местной картой.
               </p>
             </div>
           </section>
@@ -431,7 +425,7 @@ export default function ArticleStarsPaketlariNarxlariRu() {
                 </div>
                 <div className="text-center">
                   <p className="text-2xl font-extrabold text-primary">17-20%</p>
-                  <p className="text-sm text-muted">дешевле App Store/Fragment</p>
+                  <p className="text-sm text-muted">дешевле App Store</p>
                 </div>
               </div>
             </div>
