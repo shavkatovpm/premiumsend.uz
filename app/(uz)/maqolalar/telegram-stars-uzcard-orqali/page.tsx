@@ -60,7 +60,7 @@ export default function ArticleStarsUzcardUz() {
       { "@type": "Question", name: "Uzcard balansida pul yetmasa nima bo'ladi?", acceptedAnswer: { "@type": "Answer", text: "Uzcard bank ilovasida balansni oldindan tekshiring. Yetmasa, kartani to'ldiring yoki boshqa kartangizdan (Humo, bank kartasi) o'tkazma qiling. Bot kartasi summa va karta kombinatsiyasi orqali ishlaydi — qaysi karta yuborganingiz muhim emas, faqat aynan ko'rsatilgan summa kelishi kerak." } },
       { "@type": "Question", name: "Stars sotib olish uchun Uzcard yoki Click — qaysi tezroq?", acceptedAnswer: { "@type": "Answer", text: "Click tezroq (1-2 daqiqa, PIN/Face ID). Uzcard bank ilovasi 2-3 daqiqa oladi va SMS kod tasdiqi talab qilinishi mumkin. Lekin Stars akkauntga keladigan vaqt har ikkalasida bir xil — 1-5 daqiqa. Click ilovangiz bo'lmasa Uzcard yoki istalgan boshqa karta ham yaxshi ishlaydi." } },
       { "@type": "Question", name: "Uzcard P2P o'tkazma xavfsizmi?", acceptedAnswer: { "@type": "Answer", text: "Ha. Uzcard P2P o'tkazma — Markaziy bank litsenziyasi bilan ishlovchi rasmiy mexanizm. Karta ma'lumotlari Uzcard serverida saqlanadi, StarsJoy bot ko'rmaydi — faqat 'kartaga summa kelgan' faktini ko'radi. Har P2P o'tkazma uchun chek beriladi, Stars kelmasa pul qaytariladi." } },
-      { "@type": "Question", name: "App Store/Fragment'dan Uzcard bilan to'lab Stars olsa bo'ladimi?", acceptedAnswer: { "@type": "Answer", text: "App Store: Uzcard'ni qisman qo'llab-quvvatlaydi (Apple ID Uzbekistan regionida bo'lsa), lekin Stars narxi yuqori — ~290 so'm/star (StarsJoy'da 240). Fragment: faqat xorijiy karta yoki TON kriptovalyuta qabul qiladi, Uzcard ishlatib bo'lmaydi. Mahalliy yo'l (StarsJoy + Uzcard P2P) eng arzon va to'g'ri usul." } },
+      { "@type": "Question", name: "App Store/Fragment'dan Uzcard bilan to'lab Stars olsa bo'ladimi?", acceptedAnswer: { "@type": "Answer", text: "App Store: Uzcard'ni qisman qo'llab-quvvatlaydi (Apple ID Uzbekistan regionida bo'lsa), lekin Stars narxi yuqori — ~290 so'm/star (StarsJoy'da 240). Fragment: faqat xorijiy karta yoki TON kriptovalyuta qabul qiladi, Uzcard ishlatib bo'lmaydi. Uzcard bilan to'g'ridan-to'g'ri so'mda to'lash uchun mahalliy yo'l (StarsJoy + Uzcard P2P) eng qulay usul." } },
     ],
   };
 
@@ -199,7 +199,7 @@ export default function ArticleStarsUzcardUz() {
 
             <div className="bg-section-alt rounded-xl p-5">
               <p className="text-muted text-sm leading-relaxed">
-                <strong className="text-foreground">App Store/Fragment bilan taqqoslash:</strong> App Store ~290 so&apos;m/star (kurs marjasi bilan), Fragment ~260 so&apos;m/star (xorijiy kartada). StarsJoy.uz da Uzcard P2P orqali 240 so&apos;m/star — <strong>17-20% arzon</strong>, valyuta riski yo&apos;q.
+                <strong className="text-foreground">App Store bilan taqqoslash:</strong> App Store ~290 so&apos;m/star (kurs marjasi bilan), StarsJoy.uz da Uzcard P2P orqali 240 so&apos;m/star — <strong>~17% arzon</strong>, valyuta riski yo&apos;q, mahalliy karta bilan.
               </p>
             </div>
           </section>
@@ -292,17 +292,11 @@ export default function ArticleStarsUzcardUz() {
                 <div className="text-center text-green-600">Bilvosita*</div>
                 <div className="text-center text-green-600">1-3 daqiqa</div>
               </div>
-              <div className="grid grid-cols-4 p-4 border-b border-card-border items-center text-sm">
+              <div className="grid grid-cols-4 p-4 items-center text-sm">
                 <div className="font-medium">App Store</div>
                 <div className="text-center">~14 500 so&apos;m</div>
                 <div className="text-center text-yellow-600">Qisman</div>
                 <div className="text-center">Darhol</div>
-              </div>
-              <div className="grid grid-cols-4 p-4 items-center text-sm">
-                <div className="font-medium">Fragment</div>
-                <div className="text-center">~13 000 so&apos;m</div>
-                <div className="text-center text-red-600">Yo&apos;q</div>
-                <div className="text-center">1-5 daqiqa</div>
               </div>
             </div>
 
@@ -311,7 +305,7 @@ export default function ArticleStarsUzcardUz() {
             </p>
 
             <p className="text-muted leading-relaxed">
-              Uzcard P2P yo&apos;li eng arzon va eng to&apos;g&apos;ri usul — Uzcard kartangizdan bevosita bot kartasiga o&apos;tkazma, hech qanday oraliq kursni o&apos;qimaydi. App Store yo&apos;li ~20% qimmat, Fragment esa Uzcard&apos;ni umuman qabul qilmaydi.
+              Uzcard P2P yo&apos;li Uzcard kartangiz orqali ishlaydigan eng qulay yo&apos;l — bevosita bot kartasiga o&apos;tkazma, hech qanday oraliq kursni o&apos;qimaydi. App Store yo&apos;li ~20% qimmat. Fragment esa Uzcard&apos;ni umuman qabul qilmaydi va xorijiy karta yoki TON talab qiladi.
             </p>
           </section>
 
@@ -353,7 +347,7 @@ export default function ArticleStarsUzcardUz() {
               {[
                 { q: "Uzcard orqali Telegram Stars qanday sotib olinadi?", a: "@starsjoybot da Stars miqdorini tanlang, \"Kartaga o'tkazma\" yo'lini tanlang, bot karta raqami va summani beradi, Uzcard bank ilovasidan shu kartaga P2P o'tkazma qiling. Stars 5 daqiqada akkauntda." },
                 { q: "Uzcard alohida tugma sifatida bormi?", a: "Yo'q. Bot ikkita yo'l beradi: Click va Kartaga o'tkazma. Uzcard orqali to'lash uchun ikkinchi yo'lni tanlaysiz va Uzcard ilovasidan P2P o'tkazma qilasiz." },
-                { q: "50 Stars qancha turadi?", a: "50 Stars Uzcard orqali — 12 000 so'm (StarsJoy.uz, 240 so'm/star). App Store'da ~14 500 so'm, Fragment'da ~13 000. Mahalliy P2P 17-20% arzon." },
+                { q: "50 Stars qancha turadi?", a: "50 Stars Uzcard orqali — 12 000 so'm (StarsJoy.uz, 240 so'm/star). App Store'da ~14 500 so'm — mahalliy P2P ~17% arzon va Uzcard bilan to'g'ridan-to'g'ri ishlaydi." },
                 { q: "Uzcard P2P xavfsizmi?", a: "Ha. Uzcard — Markaziy bank litsenziyali. Karta ma'lumotlari Uzcard serverida, bot ko'rmaydi. Chek beriladi, Stars kelmasa pul qaytariladi." },
                 { q: "Telegram rasmiy ilovasidan Uzcard bilan Stars olsa bo'ladimi?", a: "Yo'q. Telegram Uzcard P2P'ni qabul qilmaydi — faqat Visa/Mastercard yoki Apple/Google Pay. So'mda va Uzcard bilan Stars uchun mahalliy reseller kerak." },
                 { q: "Click vs Uzcard P2P — qaysi yaxshi?", a: "Click tezroq (1-3 daqiqa, PIN/Face ID) va qulayroq. Uzcard P2P 2-5 daqiqa, SMS kod tasdiqi bilan. Stars akkauntga keladigan vaqt har ikkalasida bir xil. Sizda qaysi qulay bo'lsa shuni tanlang." },
@@ -379,7 +373,7 @@ export default function ArticleStarsUzcardUz() {
                 </div>
                 <div className="text-center">
                   <p className="text-2xl font-extrabold text-primary">~17-20%</p>
-                  <p className="text-sm text-muted">App Store/Fragment&apos;dan arzon</p>
+                  <p className="text-sm text-muted">App Store&apos;dan arzon</p>
                 </div>
                 <div className="text-center">
                   <p className="text-2xl font-extrabold text-primary">2-5 daq.</p>

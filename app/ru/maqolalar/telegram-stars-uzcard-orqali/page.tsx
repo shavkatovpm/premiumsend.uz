@@ -60,7 +60,7 @@ export default function ArticleStarsUzcardRu() {
       { "@type": "Question", name: "Что делать, если на балансе Uzcard недостаточно?", acceptedAnswer: { "@type": "Answer", text: "В приложении Uzcard проверьте баланс заранее. Если недостаточно — пополните карту или переведите с другой карты (Humo, банковская). Карта бота работает по комбинации суммы и карты — с какой карты вы перевели не важно, главное чтобы пришла точно указанная сумма." } },
       { "@type": "Question", name: "Uzcard или Click для покупки Stars — что быстрее?", acceptedAnswer: { "@type": "Answer", text: "Click быстрее (1-2 минуты, PIN/Face ID). Приложение Uzcard занимает 2-3 минуты и может потребовать SMS код подтверждения. Но время прихода Stars на аккаунт одинаковое — 1-5 минут. Если у вас нет приложения Click — Uzcard или любая другая карта тоже хорошо работают." } },
       { "@type": "Question", name: "Безопасен ли Uzcard P2P перевод?", acceptedAnswer: { "@type": "Answer", text: "Да. Uzcard P2P перевод — официальный механизм с лицензией Центробанка. Данные карты хранятся на сервере Uzcard, бот StarsJoy не видит — видит только факт 'на карту пришла сумма'. На каждый P2P перевод выдаётся чек, если Stars не пришли — деньги возвращаются." } },
-      { "@type": "Question", name: "Можно ли купить Stars через App Store/Fragment с Uzcard?", acceptedAnswer: { "@type": "Answer", text: "App Store: частично поддерживает Uzcard (если Apple ID в регионе Узбекистан), но цена Stars выше — ~290 сум/star (в StarsJoy 240). Fragment: принимает только зарубежные карты или TON криптовалюту, Uzcard использовать нельзя. Местный путь (StarsJoy + Uzcard P2P) — самый дешёвый и правильный способ." } },
+      { "@type": "Question", name: "Можно ли купить Stars через App Store/Fragment с Uzcard?", acceptedAnswer: { "@type": "Answer", text: "App Store: частично поддерживает Uzcard (если Apple ID в регионе Узбекистан), но цена Stars выше — ~290 сум/star (в StarsJoy 240). Fragment: принимает только зарубежные карты или TON криптовалюту, Uzcard использовать нельзя. Для оплаты в сумах напрямую с Uzcard местный путь (StarsJoy + Uzcard P2P) — самый удобный способ." } },
     ],
   };
 
@@ -199,7 +199,7 @@ export default function ArticleStarsUzcardRu() {
 
             <div className="bg-section-alt rounded-xl p-5">
               <p className="text-muted text-sm leading-relaxed">
-                <strong className="text-foreground">Сравнение с App Store/Fragment:</strong> App Store ~290 сум/star (с курсовой маржей), Fragment ~260 сум/star (с зарубежной картой). В StarsJoy.uz через Uzcard P2P — 240 сум/star, <strong>на 17-20% дешевле</strong>, без валютного риска.
+                <strong className="text-foreground">Сравнение с App Store:</strong> App Store ~290 сум/star (с курсовой маржей). В StarsJoy.uz через Uzcard P2P — 240 сум/star, <strong>~17% дешевле</strong>, без валютного риска, с местной картой.
               </p>
             </div>
           </section>
@@ -292,17 +292,11 @@ export default function ArticleStarsUzcardRu() {
                 <div className="text-center text-green-600">Косвенно*</div>
                 <div className="text-center text-green-600">1-3 минуты</div>
               </div>
-              <div className="grid grid-cols-4 p-4 border-b border-card-border items-center text-sm">
+              <div className="grid grid-cols-4 p-4 items-center text-sm">
                 <div className="font-medium">App Store</div>
                 <div className="text-center">~14 500 сум</div>
                 <div className="text-center text-yellow-600">Частично</div>
                 <div className="text-center">Сразу</div>
-              </div>
-              <div className="grid grid-cols-4 p-4 items-center text-sm">
-                <div className="font-medium">Fragment</div>
-                <div className="text-center">~13 000 сум</div>
-                <div className="text-center text-red-600">Нет</div>
-                <div className="text-center">1-5 минут</div>
               </div>
             </div>
 
@@ -311,7 +305,7 @@ export default function ArticleStarsUzcardRu() {
             </p>
 
             <p className="text-muted leading-relaxed">
-              Путь Uzcard P2P — самый дешёвый и правильный способ — прямой перевод с вашей карты Uzcard на карту бота, без чтения промежуточных курсов. Путь App Store на ~20% дороже, Fragment вообще не принимает Uzcard.
+              Путь Uzcard P2P — самый удобный способ работы с вашей картой Uzcard — прямой перевод с карты на карту бота, без чтения промежуточных курсов. Путь App Store на ~20% дороже. Fragment вообще не принимает Uzcard и требует зарубежную карту или TON.
             </p>
           </section>
 
@@ -353,7 +347,7 @@ export default function ArticleStarsUzcardRu() {
               {[
                 { q: "Как купить Telegram Stars через Uzcard?", a: "В @starsjoybot выберите количество Stars, путь \"Перевод на карту\", бот даёт карту и сумму, из приложения Uzcard сделайте P2P перевод на эту карту. Stars на аккаунте за 5 минут." },
                 { q: "Есть ли Uzcard как отдельная кнопка?", a: "Нет. Бот предлагает два пути: Click и Перевод на карту. Для оплаты через Uzcard выбираете второй путь и делаете P2P перевод из приложения Uzcard." },
-                { q: "Сколько стоят 50 Stars?", a: "50 Stars через Uzcard — 12 000 сум (StarsJoy.uz, 240 сум/star). В App Store ~14 500 сум, в Fragment ~13 000. Местный P2P на 17-20% дешевле." },
+                { q: "Сколько стоят 50 Stars?", a: "50 Stars через Uzcard — 12 000 сум (StarsJoy.uz, 240 сум/star). В App Store ~14 500 сум — местный P2P на ~17% дешевле и работает напрямую с Uzcard." },
                 { q: "Безопасен ли Uzcard P2P?", a: "Да. Uzcard лицензирован Центробанком. Данные карты на сервере Uzcard, бот их не видит. Выдаётся чек, если Stars не пришли — деньги возвращаются." },
                 { q: "Можно ли купить Stars через официальное приложение Telegram с Uzcard?", a: "Нет. Telegram не принимает Uzcard P2P — только Visa/Mastercard или Apple/Google Pay. Для оплаты в сумах с Uzcard нужен местный реселлер." },
                 { q: "Click vs Uzcard P2P — что лучше?", a: "Click быстрее (1-3 минуты, PIN/Face ID) и удобнее. Uzcard P2P 2-5 минут, с подтверждением SMS кодом. Время прихода Stars одинаковое. Выбирайте удобный для вас." },
@@ -379,7 +373,7 @@ export default function ArticleStarsUzcardRu() {
                 </div>
                 <div className="text-center">
                   <p className="text-2xl font-extrabold text-primary">~17-20%</p>
-                  <p className="text-sm text-muted">дешевле App Store/Fragment</p>
+                  <p className="text-sm text-muted">дешевле App Store</p>
                 </div>
                 <div className="text-center">
                   <p className="text-2xl font-extrabold text-primary">2-5 мин.</p>
