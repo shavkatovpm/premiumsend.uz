@@ -31,6 +31,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "telegram-stars-paketlari-narxlari",
+    title: "Пакеты Telegram Stars: 50, 100, 500, 1000, 5000 — точные цены",
+    excerpt:
+      "Все пакеты Stars и точные цены в сумах: 50 Stars 12 000, 1000 Stars 240 000, 5000 Stars 1 200 000 сум. Линейный тариф 240 сум/star, на 17-20% дешевле App Store.",
+    category: "Руководство по ценам",
+    date: "2026-05-13",
+  },
+  {
     slug: "telegram-stars-uzcard-orqali",
     title: "Купить Telegram Stars через Uzcard",
     excerpt:

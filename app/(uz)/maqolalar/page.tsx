@@ -27,6 +27,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "telegram-stars-paketlari-narxlari",
+    title: "Telegram Stars paketlari: 50, 100, 500, 1000, 5000 — aniq narxlar",
+    excerpt:
+      "Stars'ning barcha paketlari va so'mdagi aniq narxlari: 50 Stars 12 000, 1000 Stars 240 000, 5000 Stars 1 200 000 so'm. 240 so'm/star linear tarif, App Store'dan 17-20% arzon.",
+    category: "Narxlar qo'llanmasi",
+    date: "2026-05-13",
+  },
+  {
     slug: "telegram-stars-uzcard-orqali",
     title: "Telegram Stars Uzcard orqali sotib olish — kartaga o'tkazma",
     excerpt:
