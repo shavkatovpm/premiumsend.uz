@@ -31,6 +31,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "12-oylik-telegram-premium-humo-orqali",
+    title: "Telegram Premium на 12 месяцев через Humo",
+    excerpt:
+      "12-месячный Telegram Premium через карту Humo за 425 000 сум (35 417 в месяц) — бот показывает карту и сумму, переводите через Humo, активация за 5 минут на 365 дней. Самая низкая месячная цена, на 39% дешевле помесячного.",
+    category: "Руководство",
+    date: "2026-05-14",
+  },
+  {
     slug: "telegram-stars-paketlari-narxlari",
     title: "Пакеты Telegram Stars: 50, 100, 500, 1000, 5000 — точные цены",
     excerpt:

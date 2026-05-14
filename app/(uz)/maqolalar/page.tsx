@@ -27,6 +27,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "12-oylik-telegram-premium-humo-orqali",
+    title: "12 oylik Telegram Premium Humo orqali sotib olish",
+    excerpt:
+      "12 oylik Telegram Premium Humo karta orqali 425,000 so'mga (oyiga 35,417) — bot karta va summani ko'rsatadi, Humo'dan o'tkazasiz, 5 daqiqada 365 kunga faollashish. Eng arzon oylik narx, 1 oylikka taqqoslab 39% tejamkorlik.",
+    category: "Qo'llanma",
+    date: "2026-05-14",
+  },
+  {
     slug: "telegram-stars-paketlari-narxlari",
     title: "Telegram Stars paketlari: 50, 100, 500, 1000, 5000 — aniq narxlar",
     excerpt:

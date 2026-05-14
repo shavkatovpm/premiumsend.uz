@@ -143,6 +143,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
+      url: `${baseUrl}/maqolalar/12-oylik-telegram-premium-humo-orqali`,
+      lastModified: new Date("2026-05-14"),
+      changeFrequency: "monthly",
+      priority: 0.85,
+    },
+    {
       url: `${baseUrl}/maqolalar/telegram-premium-narxlari`,
       lastModified: new Date("2026-04-30"),
       changeFrequency: "monthly",
@@ -366,6 +372,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date("2026-05-13"),
       changeFrequency: "monthly",
       priority: 0.85,
+    },
+    {
+      url: `${baseUrl}/ru/maqolalar/12-oylik-telegram-premium-humo-orqali`,
+      lastModified: new Date("2026-05-14"),
+      changeFrequency: "monthly",
+      priority: 0.8,
     },
     {
       url: `${baseUrl}/ru/maqolalar/telegram-stars-vs-telegram-premium`,
