@@ -31,6 +31,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "telegram-premium-4gb-fayl-kanal-guruh-limitlari",
+    title: "Telegram Premium: 4 ГБ файл, 1000 каналов и лимиты групп — технические возможности",
+    excerpt:
+      "Premium удваивает все лимиты обычного Telegram: 4 ГБ файлы, 1000 каналов/групп, 20 папок × 200 чатов, 10 закреплённых чатов, 4 аккаунта. Безлимитная скорость загрузки и транскрипция. Полная таблица сравнения.",
+    category: "Техническое руководство",
+    date: "2026-05-16",
+  },
+  {
     slug: "12-oylik-telegram-premium-humo-orqali",
     title: "Telegram Premium на 12 месяцев через Humo",
     excerpt:

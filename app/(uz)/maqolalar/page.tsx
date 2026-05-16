@@ -27,6 +27,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "telegram-premium-4gb-fayl-kanal-guruh-limitlari",
+    title: "Telegram Premium 4 GB fayl, 1000 kanal va guruh limitlari — texnik imkoniyatlar",
+    excerpt:
+      "Premium oddiy Telegram limitlarini ikki barobar oshiradi: 4 GB fayl, 1000 kanal/guruh, 20 papka × 200 chat, 10 pinli chat, 4 akkaunt. Cheklovsiz yuklab olish tezligi, transkripsiya. To'liq jadval bilan taqqoslash.",
+    category: "Texnik qo'llanma",
+    date: "2026-05-16",
+  },
+  {
     slug: "12-oylik-telegram-premium-humo-orqali",
     title: "12 oylik Telegram Premium Humo orqali sotib olish",
     excerpt:
