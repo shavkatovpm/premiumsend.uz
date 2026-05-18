@@ -155,6 +155,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
+      url: `${baseUrl}/maqolalar/telegram-premium-somda-uzs-sotib-olish`,
+      lastModified: new Date("2026-05-18"),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
       url: `${baseUrl}/maqolalar/telegram-premium-narxlari`,
       lastModified: new Date("2026-04-30"),
       changeFrequency: "monthly",
@@ -388,6 +394,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       url: `${baseUrl}/ru/maqolalar/telegram-premium-4gb-fayl-kanal-guruh-limitlari`,
       lastModified: new Date("2026-05-16"),
+      changeFrequency: "monthly",
+      priority: 0.85,
+    },
+    {
+      url: `${baseUrl}/ru/maqolalar/telegram-premium-somda-uzs-sotib-olish`,
+      lastModified: new Date("2026-05-18"),
       changeFrequency: "monthly",
       priority: 0.85,
     },

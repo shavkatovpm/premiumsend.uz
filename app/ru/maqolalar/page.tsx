@@ -31,6 +31,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "telegram-premium-somda-uzs-sotib-olish",
+    title: "Купить Telegram Premium в сумах (UZS) — без валютной конвертации",
+    excerpt:
+      "Premium только в сумах напрямую: 1 месяц 59 000, 12 месяцев 425 000 сум. Uzcard/Humo/Click/Payme/Visa — без долларовой конвертации, валютного риска и комиссии платформы. Полное сравнение с App Store и Fragment.",
+    category: "Руководство по оплате",
+    date: "2026-05-18",
+  },
+  {
     slug: "telegram-premium-4gb-fayl-kanal-guruh-limitlari",
     title: "Telegram Premium: 4 ГБ файл, 1000 каналов и лимиты групп — технические возможности",
     excerpt:

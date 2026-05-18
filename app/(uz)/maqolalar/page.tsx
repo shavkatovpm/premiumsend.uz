@@ -27,6 +27,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "telegram-premium-somda-uzs-sotib-olish",
+    title: "Telegram Premium so'mda (UZS) sotib olish — valyuta konvertatsiyasiz",
+    excerpt:
+      "Premium-ni faqat so'mda to'g'ridan-to'g'ri: 1 oylik 59 000, 12 oylik 425 000 so'm. Uzcard/Humo/Click/Payme/Visa — dollar konvertatsiyasi, kurs riski va platforma komissiyasi yo'q. App Store, Fragment bilan to'liq taqqoslash.",
+    category: "To'lov qo'llanmasi",
+    date: "2026-05-18",
+  },
+  {
     slug: "telegram-premium-4gb-fayl-kanal-guruh-limitlari",
     title: "Telegram Premium 4 GB fayl, 1000 kanal va guruh limitlari — texnik imkoniyatlar",
     excerpt:
