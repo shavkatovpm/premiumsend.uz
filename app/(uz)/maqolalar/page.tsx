@@ -27,6 +27,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "telegram-premium-tugilgan-kun-sovgasi",
+    title: "Telegram Premium tug'ilgan kun sovg'asi — 3, 6 va 12 oylik tariflar",
+    excerpt:
+      "Tug'ilgan kunga zamonaviy sovg'a: Premium 3 oylik 175k, 6 oylik 235k, 12 oylik 425k so'm. Anonim yuboring va alohida tabriknoma xabarini yozing. Yuboruvchi nomi ko'rinmaydi (default) yoki qimmat Visa rejimi orqali ko'rinadi.",
+    category: "Sovg'a g'oyalari",
+    date: "2026-05-19",
+  },
+  {
     slug: "telegram-premium-somda-uzs-sotib-olish",
     title: "Telegram Premium so'mda (UZS) sotib olish — valyuta konvertatsiyasiz",
     excerpt:

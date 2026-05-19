@@ -31,6 +31,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "telegram-premium-tugilgan-kun-sovgasi",
+    title: "Telegram Premium на день рождения — подарок на 3, 6 и 12 месяцев",
+    excerpt:
+      "Современный подарок на день рождения: Premium 3 месяца 175k, 6 месяцев 235k, 12 месяцев 425k сум. Отправьте анонимно и напишите поздравление отдельно. Имя отправителя не видно (по умолчанию) или дорогой режим через Visa.",
+    category: "Идеи подарков",
+    date: "2026-05-19",
+  },
+  {
     slug: "telegram-premium-somda-uzs-sotib-olish",
     title: "Купить Telegram Premium в сумах (UZS) — без валютной конвертации",
     excerpt:

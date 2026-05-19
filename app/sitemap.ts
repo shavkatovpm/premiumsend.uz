@@ -161,6 +161,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
+      url: `${baseUrl}/maqolalar/telegram-premium-tugilgan-kun-sovgasi`,
+      lastModified: new Date("2026-05-19"),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
       url: `${baseUrl}/maqolalar/telegram-premium-narxlari`,
       lastModified: new Date("2026-04-30"),
       changeFrequency: "monthly",
@@ -400,6 +406,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       url: `${baseUrl}/ru/maqolalar/telegram-premium-somda-uzs-sotib-olish`,
       lastModified: new Date("2026-05-18"),
+      changeFrequency: "monthly",
+      priority: 0.85,
+    },
+    {
+      url: `${baseUrl}/ru/maqolalar/telegram-premium-tugilgan-kun-sovgasi`,
+      lastModified: new Date("2026-05-19"),
       changeFrequency: "monthly",
       priority: 0.85,
     },
