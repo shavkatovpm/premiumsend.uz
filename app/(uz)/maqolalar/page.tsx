@@ -27,6 +27,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "premiumbot-ishlamayapti-premium-qayerdan-sotib-olish",
+    title: "Nega PremiumBot ishlamaydi va Telegram Premium qayerdan sotib olinadi?",
+    excerpt:
+      "PremiumBot Uzcard/Humo qabul qilmaydi, narx dollarda, 3D Secure xato beradi. Yechim — PremiumSend orqali so'mda: 1 oylik 59 000, 12 oylik 425 000 so'm. 5 sabab, 4 yo'l taqqoslash, xato kodlari va aniq qadamlar.",
+    category: "Savol-javob",
+    date: "2026-05-21",
+  },
+  {
     slug: "telegram-premium-tugilgan-kun-sovgasi",
     title: "Telegram Premium tug'ilgan kun sovg'asi — 3, 6 va 12 oylik tariflar",
     excerpt:

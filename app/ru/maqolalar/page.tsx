@@ -31,6 +31,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "premiumbot-ishlamayapti-premium-qayerdan-sotib-olish",
+    title: "Почему PremiumBot не работает и где купить Telegram Premium?",
+    excerpt:
+      "PremiumBot не принимает Uzcard/Humo, цена в долларах, ошибки 3D Secure. Решение — PremiumSend в сумах: 1 месяц 59 000, 12 месяцев 425 000 сум. 5 причин, сравнение 4 путей, коды ошибок и точные шаги.",
+    category: "Вопрос-ответ",
+    date: "2026-05-21",
+  },
+  {
     slug: "telegram-premium-tugilgan-kun-sovgasi",
     title: "Telegram Premium на день рождения — подарок на 3, 6 и 12 месяцев",
     excerpt:
