@@ -27,6 +27,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "telegram-premium-ishonchli-saytdan-sotib-olish",
+    title: "Telegram Premium ishonchli saytdan sotib olish: aldovsiz xarid qo'llanmasi",
+    excerpt:
+      "7 ta tekshiruv mezoni, qizil bayroqlar va PremiumSend misolida amaliy qo'llanma. Aniq narxlar (1 oylik 59 000, 12 oylik 425 000 so'm), oferta va aloqa kanali — to'lashdan oldin nimaga qarash kerak.",
+    category: "Xavfsizlik qo'llanmasi",
+    date: "2026-05-22",
+  },
+  {
     slug: "premiumbot-ishlamayapti-premium-qayerdan-sotib-olish",
     title: "Nega PremiumBot ishlamaydi va Telegram Premium qayerdan sotib olinadi?",
     excerpt:

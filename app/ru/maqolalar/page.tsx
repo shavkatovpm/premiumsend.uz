@@ -31,6 +31,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "telegram-premium-ishonchli-saytdan-sotib-olish",
+    title: "Купить Telegram Premium на надёжном сайте: гайд без обмана",
+    excerpt:
+      "7 критериев проверки, красные флаги и пример PremiumSend. Точные цены (1 месяц 59 000, 12 месяцев 425 000 сум), оферта и канал поддержки — на что смотреть до оплаты.",
+    category: "Руководство по безопасности",
+    date: "2026-05-22",
+  },
+  {
     slug: "premiumbot-ishlamayapti-premium-qayerdan-sotib-olish",
     title: "Почему PremiumBot не работает и где купить Telegram Premium?",
     excerpt:
