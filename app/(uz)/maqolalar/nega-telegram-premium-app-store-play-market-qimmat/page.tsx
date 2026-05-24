@@ -22,6 +22,7 @@ export const metadata: Metadata = {
     languages: {
       uz: "https://premiumsend.uz/maqolalar/nega-telegram-premium-app-store-play-market-qimmat",
       ru: "https://premiumsend.uz/ru/maqolalar/nega-telegram-premium-app-store-play-market-qimmat",
+      "x-default": "https://premiumsend.uz/maqolalar/nega-telegram-premium-app-store-play-market-qimmat",
     },
   },
   openGraph: {

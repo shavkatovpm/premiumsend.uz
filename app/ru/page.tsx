@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     languages: {
       uz: "https://premiumsend.uz",
       ru: "https://premiumsend.uz/ru",
+      "x-default": "https://premiumsend.uz",
     },
   },
   openGraph: {

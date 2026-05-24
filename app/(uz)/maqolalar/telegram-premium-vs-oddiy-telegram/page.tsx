@@ -20,6 +20,7 @@ export const metadata: Metadata = {
     languages: {
       uz: "https://premiumsend.uz/maqolalar/telegram-premium-vs-oddiy-telegram",
       ru: "https://premiumsend.uz/ru/maqolalar/telegram-premium-vs-oddiy-telegram",
+      "x-default": "https://premiumsend.uz/maqolalar/telegram-premium-vs-oddiy-telegram",
     },
   },
   openGraph: {

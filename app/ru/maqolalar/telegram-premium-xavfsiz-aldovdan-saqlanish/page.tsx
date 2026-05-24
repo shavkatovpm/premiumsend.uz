@@ -22,6 +22,7 @@ export const metadata: Metadata = {
     languages: {
       uz: "https://premiumsend.uz/maqolalar/telegram-premium-xavfsiz-aldovdan-saqlanish",
       ru: "https://premiumsend.uz/ru/maqolalar/telegram-premium-xavfsiz-aldovdan-saqlanish",
+      "x-default": "https://premiumsend.uz/maqolalar/telegram-premium-xavfsiz-aldovdan-saqlanish",
     },
   },
   openGraph: {

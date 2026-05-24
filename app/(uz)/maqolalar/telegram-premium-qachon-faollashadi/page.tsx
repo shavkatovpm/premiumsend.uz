@@ -22,6 +22,7 @@ export const metadata: Metadata = {
     languages: {
       uz: "https://premiumsend.uz/maqolalar/telegram-premium-qachon-faollashadi",
       ru: "https://premiumsend.uz/ru/maqolalar/telegram-premium-qachon-faollashadi",
+      "x-default": "https://premiumsend.uz/maqolalar/telegram-premium-qachon-faollashadi",
     },
   },
   openGraph: {

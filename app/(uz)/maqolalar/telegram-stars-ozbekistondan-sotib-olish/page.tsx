@@ -22,6 +22,7 @@ export const metadata: Metadata = {
     languages: {
       uz: "https://premiumsend.uz/maqolalar/telegram-stars-ozbekistondan-sotib-olish",
       ru: "https://premiumsend.uz/ru/maqolalar/telegram-stars-ozbekistondan-sotib-olish",
+      "x-default": "https://premiumsend.uz/maqolalar/telegram-stars-ozbekistondan-sotib-olish",
     },
   },
   openGraph: {

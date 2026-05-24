@@ -9,6 +9,11 @@ export const metadata: Metadata = {
     "Telegram Premium sotib olish O'zbekistonda so'mda. 1 oylik 59,000 so'm, 3 oylik 175,000 so'm, 6 oylik 235,000 so'm, 12 oylik 425,000 so'm. UzCard, Humo orqali to'lov. Tez aktivatsiya.",
   alternates: {
     canonical: "https://premiumsend.uz",
+    languages: {
+      uz: "https://premiumsend.uz",
+      ru: "https://premiumsend.uz/ru",
+      "x-default": "https://premiumsend.uz",
+    },
   },
   openGraph: {
     title: "Telegram Premium sotib olish — so'mda to'lab oling",

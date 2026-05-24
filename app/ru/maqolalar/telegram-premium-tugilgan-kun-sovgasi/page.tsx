@@ -24,6 +24,7 @@ export const metadata: Metadata = {
     languages: {
       uz: "https://premiumsend.uz/maqolalar/telegram-premium-tugilgan-kun-sovgasi",
       ru: "https://premiumsend.uz/ru/maqolalar/telegram-premium-tugilgan-kun-sovgasi",
+      "x-default": "https://premiumsend.uz/maqolalar/telegram-premium-tugilgan-kun-sovgasi",
     },
   },
   openGraph: {

@@ -7,6 +7,11 @@ export const metadata: Metadata = {
     "Premium Send xizmatining ommaviy oferta shartnomasi. Telegram Premium obunasini sotib olish shartlari, to'lov tartibi, qaytarish siyosati va boshqa qoidalar.",
   alternates: {
     canonical: "https://premiumsend.uz/oferta",
+    languages: {
+      uz: "https://premiumsend.uz/oferta",
+      ru: "https://premiumsend.uz/ru/oferta",
+      "x-default": "https://premiumsend.uz/oferta",
+    },
   },
 };
 

@@ -20,6 +20,7 @@ export const metadata: Metadata = {
     languages: {
       uz: "https://premiumsend.uz/maqolalar/premiumsend-vs-boshqa-resellerlar",
       ru: "https://premiumsend.uz/ru/maqolalar/premiumsend-vs-boshqa-resellerlar",
+      "x-default": "https://premiumsend.uz/maqolalar/premiumsend-vs-boshqa-resellerlar",
     },
   },
   openGraph: {

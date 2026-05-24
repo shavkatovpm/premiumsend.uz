@@ -22,6 +22,7 @@ export const metadata: Metadata = {
     languages: {
       uz: "https://premiumsend.uz/maqolalar/telegram-premium-stikerlari-emoji-reaksiyalari",
       ru: "https://premiumsend.uz/ru/maqolalar/telegram-premium-stikerlari-emoji-reaksiyalari",
+      "x-default": "https://premiumsend.uz/maqolalar/telegram-premium-stikerlari-emoji-reaksiyalari",
     },
   },
   openGraph: {

@@ -22,6 +22,7 @@ export const metadata: Metadata = {
     languages: {
       uz: "https://premiumsend.uz/maqolalar/telegram-stars-nima",
       ru: "https://premiumsend.uz/ru/maqolalar/telegram-stars-nima",
+      "x-default": "https://premiumsend.uz/maqolalar/telegram-stars-nima",
     },
   },
   openGraph: {

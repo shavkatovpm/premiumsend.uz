@@ -16,6 +16,11 @@ export const metadata: Metadata = {
   ],
   alternates: {
     canonical: "https://premiumsend.uz/maqolalar",
+    languages: {
+      uz: "https://premiumsend.uz/maqolalar",
+      ru: "https://premiumsend.uz/ru/maqolalar",
+      "x-default": "https://premiumsend.uz/maqolalar",
+    },
   },
   openGraph: {
     title: "Telegram Premium haqida maqolalar va qo'llanmalar",

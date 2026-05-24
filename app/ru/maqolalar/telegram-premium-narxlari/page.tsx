@@ -21,6 +21,7 @@ export const metadata: Metadata = {
     languages: {
       uz: "https://premiumsend.uz/maqolalar/telegram-premium-narxlari",
       ru: "https://premiumsend.uz/ru/maqolalar/telegram-premium-narxlari",
+      "x-default": "https://premiumsend.uz/maqolalar/telegram-premium-narxlari",
     },
   },
   openGraph: {

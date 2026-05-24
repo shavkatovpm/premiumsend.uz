@@ -24,6 +24,7 @@ export const metadata: Metadata = {
     languages: {
       uz: "https://premiumsend.uz/maqolalar/premiumbot-ishlamayapti-premium-qayerdan-sotib-olish",
       ru: "https://premiumsend.uz/ru/maqolalar/premiumbot-ishlamayapti-premium-qayerdan-sotib-olish",
+      "x-default": "https://premiumsend.uz/maqolalar/premiumbot-ishlamayapti-premium-qayerdan-sotib-olish",
     },
   },
   openGraph: {

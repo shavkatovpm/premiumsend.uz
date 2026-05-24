@@ -21,6 +21,7 @@ export const metadata: Metadata = {
     languages: {
       uz: "https://premiumsend.uz/12-oylik",
       ru: "https://premiumsend.uz/ru/12-oylik",
+      "x-default": "https://premiumsend.uz/12-oylik",
     },
   },
   openGraph: {

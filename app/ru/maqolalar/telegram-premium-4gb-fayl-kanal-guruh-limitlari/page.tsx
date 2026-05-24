@@ -22,6 +22,7 @@ export const metadata: Metadata = {
     languages: {
       uz: "https://premiumsend.uz/maqolalar/telegram-premium-4gb-fayl-kanal-guruh-limitlari",
       ru: "https://premiumsend.uz/ru/maqolalar/telegram-premium-4gb-fayl-kanal-guruh-limitlari",
+      "x-default": "https://premiumsend.uz/maqolalar/telegram-premium-4gb-fayl-kanal-guruh-limitlari",
     },
   },
   openGraph: {

@@ -1,541 +1,127 @@
 import type { MetadataRoute } from "next";
 
+const baseUrl = "https://premiumsend.uz";
+
+type ArticleEntry = {
+  slug: string;
+  lastModified: string;
+  priority?: number;
+};
+
+const articles: ArticleEntry[] = [
+  { slug: "telegram-premium-ishonchli-saytdan-sotib-olish", lastModified: "2026-05-22", priority: 0.9 },
+  { slug: "premiumbot-ishlamayapti-premium-qayerdan-sotib-olish", lastModified: "2026-05-21", priority: 0.9 },
+  { slug: "telegram-premium-tugilgan-kun-sovgasi", lastModified: "2026-05-19", priority: 0.9 },
+  { slug: "telegram-premium-somda-uzs-sotib-olish", lastModified: "2026-05-18", priority: 0.9 },
+  { slug: "telegram-premium-4gb-fayl-kanal-guruh-limitlari", lastModified: "2026-05-16", priority: 0.9 },
+  { slug: "12-oylik-telegram-premium-humo-orqali", lastModified: "2026-05-14", priority: 0.85 },
+  { slug: "telegram-stars-paketlari-narxlari", lastModified: "2026-05-13", priority: 0.9 },
+  { slug: "telegram-stars-uzcard-orqali", lastModified: "2026-05-12", priority: 0.85 },
+  { slug: "6-oylik-telegram-premium-payme-orqali", lastModified: "2026-05-12", priority: 0.85 },
+  { slug: "6-oylik-telegram-premium-sovga-qilish", lastModified: "2026-05-11", priority: 0.85 },
+  { slug: "6-oylik-telegram-premium-click-orqali", lastModified: "2026-05-09", priority: 0.85 },
+  { slug: "nega-telegram-premium-app-store-play-market-qimmat", lastModified: "2026-05-08", priority: 0.85 },
+  { slug: "premiumsend-vs-boshqa-resellerlar", lastModified: "2026-05-07", priority: 0.85 },
+  { slug: "telegram-stars-click-payme-orqali-somda", lastModified: "2026-05-07", priority: 0.8 },
+  { slug: "6-oylik-telegram-premium-humo-orqali", lastModified: "2026-05-07", priority: 0.85 },
+  { slug: "telegram-premium-stikerlari-emoji-reaksiyalari", lastModified: "2026-05-06", priority: 0.85 },
+  { slug: "telegram-stars-vs-telegram-premium", lastModified: "2026-05-05", priority: 0.85 },
+  { slug: "telegram-premium-xavfsiz-aldovdan-saqlanish", lastModified: "2026-05-05", priority: 0.9 },
+  { slug: "telegram-stars-ozbekistondan-sotib-olish", lastModified: "2026-05-05", priority: 0.85 },
+  { slug: "telegram-premium-payme-orqali", lastModified: "2026-05-05", priority: 0.9 },
+  { slug: "3-oylik-telegram-premium-payme-orqali", lastModified: "2026-05-05", priority: 0.85 },
+  { slug: "telegram-premium-click-orqali", lastModified: "2026-05-03", priority: 0.9 },
+  { slug: "3-oylik-telegram-premium-click-orqali", lastModified: "2026-05-03", priority: 0.85 },
+  { slug: "3-oylik-telegram-premium-humo-orqali", lastModified: "2026-05-03", priority: 0.85 },
+  { slug: "telegram-premium-humo-orqali", lastModified: "2026-05-02", priority: 0.9 },
+  { slug: "telegram-premium-vs-oddiy-telegram", lastModified: "2026-05-02", priority: 0.9 },
+  { slug: "telegram-premium-qachon-faollashadi", lastModified: "2026-05-01", priority: 0.85 },
+  { slug: "telegram-premium-narxlari", lastModified: "2026-04-30", priority: 0.9 },
+  { slug: "telegram-stars-nima", lastModified: "2026-04-30", priority: 0.9 },
+  { slug: "telegram-premium-nima", lastModified: "2026-04-29", priority: 0.9 },
+  { slug: "telegram-premium-eng-arzon-qayerdan-sotib-olish", lastModified: "2026-04-29", priority: 0.9 },
+  { slug: "12-oylik-telegram-premium-uzcard-orqali", lastModified: "2026-04-17", priority: 0.85 },
+  { slug: "6-oylik-telegram-premium-uzcard-orqali", lastModified: "2026-04-17", priority: 0.85 },
+  { slug: "3-oylik-telegram-premium-uzcard-orqali", lastModified: "2026-04-17", priority: 0.85 },
+  { slug: "1-oylik-telegram-premium-uzcard-orqali-sotib-olish", lastModified: "2026-04-08", priority: 0.85 },
+  { slug: "12-oylik-telegram-premium-sovga-qilish", lastModified: "2026-04-08", priority: 0.85 },
+  { slug: "6-oylik-telegram-premium-olishning-eng-yaxshi-usuli", lastModified: "2026-04-08", priority: 0.85 },
+  { slug: "3-oylik-telegram-premium-sovga-qilish", lastModified: "2026-04-08", priority: 0.85 },
+  { slug: "1-oylik-telegram-premium-sotib-olish", lastModified: "2026-04-07", priority: 0.85 },
+  { slug: "3-oylik-telegram-premium-sotib-olish", lastModified: "2026-04-02", priority: 0.85 },
+  { slug: "6-oylik-telegram-premium-sotib-olish", lastModified: "2026-04-02", priority: 0.85 },
+  { slug: "12-oylik-telegram-premium-sotib-olish", lastModified: "2026-04-02", priority: 0.85 },
+];
+
+// "haqida" (uz) maps to "o-nas" (ru); all other root slugs are identical between locales.
+const rootPages: Array<{ uzPath: string; ruPath: string; lastModified: string; priority: number; changeFrequency: MetadataRoute.Sitemap[number]["changeFrequency"] }> = [
+  { uzPath: "", ruPath: "/ru", lastModified: "2026-05-22", priority: 1, changeFrequency: "weekly" },
+  { uzPath: "/1-oylik", ruPath: "/ru/1-oylik", lastModified: "2026-05-22", priority: 0.9, changeFrequency: "monthly" },
+  { uzPath: "/3-oylik", ruPath: "/ru/3-oylik", lastModified: "2026-05-22", priority: 0.9, changeFrequency: "monthly" },
+  { uzPath: "/6-oylik", ruPath: "/ru/6-oylik", lastModified: "2026-05-22", priority: 0.9, changeFrequency: "monthly" },
+  { uzPath: "/12-oylik", ruPath: "/ru/12-oylik", lastModified: "2026-05-22", priority: 0.9, changeFrequency: "monthly" },
+  { uzPath: "/maqolalar", ruPath: "/ru/maqolalar", lastModified: "2026-05-22", priority: 0.8, changeFrequency: "weekly" },
+  { uzPath: "/haqida", ruPath: "/ru/o-nas", lastModified: "2026-05-05", priority: 0.8, changeFrequency: "monthly" },
+  { uzPath: "/oferta", ruPath: "/ru/oferta", lastModified: "2026-04-05", priority: 0.5, changeFrequency: "yearly" },
+];
+
+function buildAlternateLanguages(uzUrl: string, ruUrl: string) {
+  return {
+    uz: uzUrl,
+    ru: ruUrl,
+    "x-default": uzUrl,
+  };
+}
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://premiumsend.uz";
+  const entries: MetadataRoute.Sitemap = [];
 
-  const uzPages: MetadataRoute.Sitemap = [
-    {
-      url: baseUrl,
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 1,
-    },
-    {
-      url: `${baseUrl}/1-oylik`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/3-oylik`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/6-oylik`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/12-oylik`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/oferta`,
-      lastModified: new Date("2026-04-05"),
-      changeFrequency: "yearly",
-      priority: 0.5,
-    },
-    {
-      url: `${baseUrl}/haqida`,
-      lastModified: new Date("2026-05-05"),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/maqolalar`,
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/maqolalar/telegram-premium-xavfsiz-aldovdan-saqlanish`,
-      lastModified: new Date("2026-05-05"),
-      changeFrequency: "monthly",
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/maqolalar/telegram-stars-ozbekistondan-sotib-olish`,
-      lastModified: new Date("2026-05-05"),
-      changeFrequency: "monthly",
-      priority: 0.85,
-    },
-    {
-      url: `${baseUrl}/maqolalar/telegram-premium-payme-orqali`,
-      lastModified: new Date("2026-05-05"),
-      changeFrequency: "monthly",
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/maqolalar/3-oylik-telegram-premium-payme-orqali`,
-      lastModified: new Date("2026-05-05"),
-      changeFrequency: "monthly",
-      priority: 0.85,
-    },
-    {
-      url: `${baseUrl}/maqolalar/telegram-stars-vs-telegram-premium`,
-      lastModified: new Date("2026-05-05"),
-      changeFrequency: "monthly",
-      priority: 0.85,
-    },
-    {
-      url: `${baseUrl}/maqolalar/telegram-premium-stikerlari-emoji-reaksiyalari`,
-      lastModified: new Date("2026-05-06"),
-      changeFrequency: "monthly",
-      priority: 0.85,
-    },
-    {
-      url: `${baseUrl}/maqolalar/6-oylik-telegram-premium-humo-orqali`,
-      lastModified: new Date("2026-05-07"),
-      changeFrequency: "monthly",
-      priority: 0.85,
-    },
-    {
-      url: `${baseUrl}/maqolalar/telegram-stars-click-payme-orqali-somda`,
-      lastModified: new Date("2026-05-07"),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/maqolalar/premiumsend-vs-boshqa-resellerlar`,
-      lastModified: new Date("2026-05-07"),
-      changeFrequency: "monthly",
-      priority: 0.85,
-    },
-    {
-      url: `${baseUrl}/maqolalar/nega-telegram-premium-app-store-play-market-qimmat`,
-      lastModified: new Date("2026-05-08"),
-      changeFrequency: "monthly",
-      priority: 0.85,
-    },
-    {
-      url: `${baseUrl}/maqolalar/6-oylik-telegram-premium-click-orqali`,
-      lastModified: new Date("2026-05-09"),
-      changeFrequency: "monthly",
-      priority: 0.85,
-    },
-    {
-      url: `${baseUrl}/maqolalar/6-oylik-telegram-premium-sovga-qilish`,
-      lastModified: new Date("2026-05-11"),
-      changeFrequency: "monthly",
-      priority: 0.85,
-    },
-    {
-      url: `${baseUrl}/maqolalar/6-oylik-telegram-premium-payme-orqali`,
-      lastModified: new Date("2026-05-12"),
-      changeFrequency: "monthly",
-      priority: 0.85,
-    },
-    {
-      url: `${baseUrl}/maqolalar/telegram-stars-uzcard-orqali`,
-      lastModified: new Date("2026-05-12"),
-      changeFrequency: "monthly",
-      priority: 0.85,
-    },
-    {
-      url: `${baseUrl}/maqolalar/telegram-stars-paketlari-narxlari`,
-      lastModified: new Date("2026-05-13"),
-      changeFrequency: "monthly",
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/maqolalar/12-oylik-telegram-premium-humo-orqali`,
-      lastModified: new Date("2026-05-14"),
-      changeFrequency: "monthly",
-      priority: 0.85,
-    },
-    {
-      url: `${baseUrl}/maqolalar/telegram-premium-4gb-fayl-kanal-guruh-limitlari`,
-      lastModified: new Date("2026-05-16"),
-      changeFrequency: "monthly",
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/maqolalar/telegram-premium-somda-uzs-sotib-olish`,
-      lastModified: new Date("2026-05-18"),
-      changeFrequency: "monthly",
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/maqolalar/telegram-premium-tugilgan-kun-sovgasi`,
-      lastModified: new Date("2026-05-19"),
-      changeFrequency: "monthly",
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/maqolalar/telegram-premium-ishonchli-saytdan-sotib-olish`,
-      lastModified: new Date("2026-05-22"),
-      changeFrequency: "monthly",
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/maqolalar/premiumbot-ishlamayapti-premium-qayerdan-sotib-olish`,
-      lastModified: new Date("2026-05-21"),
-      changeFrequency: "monthly",
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/maqolalar/telegram-premium-narxlari`,
-      lastModified: new Date("2026-04-30"),
-      changeFrequency: "monthly",
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/maqolalar/telegram-stars-nima`,
-      lastModified: new Date("2026-04-30"),
-      changeFrequency: "monthly",
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/maqolalar/telegram-premium-vs-oddiy-telegram`,
-      lastModified: new Date("2026-05-02"),
-      changeFrequency: "monthly",
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/maqolalar/telegram-premium-humo-orqali`,
-      lastModified: new Date("2026-05-02"),
-      changeFrequency: "monthly",
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/maqolalar/3-oylik-telegram-premium-humo-orqali`,
-      lastModified: new Date("2026-05-03"),
-      changeFrequency: "monthly",
-      priority: 0.85,
-    },
-    {
-      url: `${baseUrl}/maqolalar/telegram-premium-click-orqali`,
-      lastModified: new Date("2026-05-03"),
-      changeFrequency: "monthly",
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/maqolalar/3-oylik-telegram-premium-click-orqali`,
-      lastModified: new Date("2026-05-03"),
-      changeFrequency: "monthly",
-      priority: 0.85,
-    },
-    {
-      url: `${baseUrl}/maqolalar/telegram-premium-qachon-faollashadi`,
-      lastModified: new Date("2026-05-01"),
-      changeFrequency: "monthly",
-      priority: 0.85,
-    },
-    {
-      url: `${baseUrl}/maqolalar/telegram-premium-nima`,
-      lastModified: new Date("2026-04-29"),
-      changeFrequency: "monthly",
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/maqolalar/telegram-premium-eng-arzon-qayerdan-sotib-olish`,
-      lastModified: new Date("2026-04-29"),
-      changeFrequency: "monthly",
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/maqolalar/1-oylik-telegram-premium-uzcard-orqali-sotib-olish`,
-      lastModified: new Date("2026-04-08"),
-      changeFrequency: "monthly",
-      priority: 0.85,
-    },
-    {
-      url: `${baseUrl}/maqolalar/1-oylik-telegram-premium-sotib-olish`,
-      lastModified: new Date("2026-04-07"),
-      changeFrequency: "monthly",
-      priority: 0.85,
-    },
-    {
-      url: `${baseUrl}/maqolalar/3-oylik-telegram-premium-sotib-olish`,
-      lastModified: new Date("2026-04-02"),
-      changeFrequency: "monthly",
-      priority: 0.85,
-    },
-    {
-      url: `${baseUrl}/maqolalar/6-oylik-telegram-premium-sotib-olish`,
-      lastModified: new Date("2026-04-02"),
-      changeFrequency: "monthly",
-      priority: 0.85,
-    },
-    {
-      url: `${baseUrl}/maqolalar/12-oylik-telegram-premium-sotib-olish`,
-      lastModified: new Date("2026-04-02"),
-      changeFrequency: "monthly",
-      priority: 0.85,
-    },
-  ];
+  for (const page of rootPages) {
+    const uzUrl = `${baseUrl}${page.uzPath || "/"}`.replace(/\/$/, "") || baseUrl;
+    const ruUrl = `${baseUrl}${page.ruPath}`;
+    const alternates = { languages: buildAlternateLanguages(uzUrl, ruUrl) };
+    const lastModified = new Date(page.lastModified);
 
-  const ruPages: MetadataRoute.Sitemap = [
-    {
-      url: `${baseUrl}/ru`,
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/ru/1-oylik`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/ru/3-oylik`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/ru/6-oylik`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/ru/12-oylik`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/ru/oferta`,
-      lastModified: new Date("2026-04-05"),
-      changeFrequency: "yearly",
-      priority: 0.4,
-    },
-    {
-      url: `${baseUrl}/ru/o-nas`,
-      lastModified: new Date("2026-05-05"),
-      changeFrequency: "monthly",
-      priority: 0.75,
-    },
-    {
-      url: `${baseUrl}/ru/maqolalar`,
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/ru/maqolalar/telegram-premium-xavfsiz-aldovdan-saqlanish`,
-      lastModified: new Date("2026-05-05"),
-      changeFrequency: "monthly",
-      priority: 0.85,
-    },
-    {
-      url: `${baseUrl}/ru/maqolalar/telegram-stars-ozbekistondan-sotib-olish`,
-      lastModified: new Date("2026-05-05"),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/ru/maqolalar/telegram-premium-payme-orqali`,
-      lastModified: new Date("2026-05-05"),
-      changeFrequency: "monthly",
-      priority: 0.85,
-    },
-    {
-      url: `${baseUrl}/ru/maqolalar/3-oylik-telegram-premium-payme-orqali`,
-      lastModified: new Date("2026-05-05"),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/ru/maqolalar/telegram-premium-stikerlari-emoji-reaksiyalari`,
-      lastModified: new Date("2026-05-06"),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/ru/maqolalar/6-oylik-telegram-premium-humo-orqali`,
-      lastModified: new Date("2026-05-07"),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/ru/maqolalar/telegram-stars-click-payme-orqali-somda`,
-      lastModified: new Date("2026-05-07"),
-      changeFrequency: "monthly",
-      priority: 0.75,
-    },
-    {
-      url: `${baseUrl}/ru/maqolalar/premiumsend-vs-boshqa-resellerlar`,
-      lastModified: new Date("2026-05-07"),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/ru/maqolalar/nega-telegram-premium-app-store-play-market-qimmat`,
-      lastModified: new Date("2026-05-08"),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/ru/maqolalar/6-oylik-telegram-premium-click-orqali`,
-      lastModified: new Date("2026-05-09"),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/ru/maqolalar/6-oylik-telegram-premium-sovga-qilish`,
-      lastModified: new Date("2026-05-11"),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/ru/maqolalar/6-oylik-telegram-premium-payme-orqali`,
-      lastModified: new Date("2026-05-12"),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/ru/maqolalar/telegram-stars-uzcard-orqali`,
-      lastModified: new Date("2026-05-12"),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/ru/maqolalar/telegram-stars-paketlari-narxlari`,
-      lastModified: new Date("2026-05-13"),
-      changeFrequency: "monthly",
-      priority: 0.85,
-    },
-    {
-      url: `${baseUrl}/ru/maqolalar/12-oylik-telegram-premium-humo-orqali`,
-      lastModified: new Date("2026-05-14"),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/ru/maqolalar/telegram-premium-4gb-fayl-kanal-guruh-limitlari`,
-      lastModified: new Date("2026-05-16"),
-      changeFrequency: "monthly",
-      priority: 0.85,
-    },
-    {
-      url: `${baseUrl}/ru/maqolalar/telegram-premium-somda-uzs-sotib-olish`,
-      lastModified: new Date("2026-05-18"),
-      changeFrequency: "monthly",
-      priority: 0.85,
-    },
-    {
-      url: `${baseUrl}/ru/maqolalar/telegram-premium-tugilgan-kun-sovgasi`,
-      lastModified: new Date("2026-05-19"),
-      changeFrequency: "monthly",
-      priority: 0.85,
-    },
-    {
-      url: `${baseUrl}/ru/maqolalar/telegram-premium-ishonchli-saytdan-sotib-olish`,
-      lastModified: new Date("2026-05-22"),
-      changeFrequency: "monthly",
-      priority: 0.85,
-    },
-    {
-      url: `${baseUrl}/ru/maqolalar/premiumbot-ishlamayapti-premium-qayerdan-sotib-olish`,
-      lastModified: new Date("2026-05-21"),
-      changeFrequency: "monthly",
-      priority: 0.85,
-    },
-    {
-      url: `${baseUrl}/ru/maqolalar/telegram-stars-vs-telegram-premium`,
-      lastModified: new Date("2026-05-05"),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/ru/maqolalar/telegram-premium-narxlari`,
-      lastModified: new Date("2026-04-30"),
-      changeFrequency: "monthly",
-      priority: 0.85,
-    },
-    {
-      url: `${baseUrl}/ru/maqolalar/telegram-premium-eng-arzon-qayerdan-sotib-olish`,
-      lastModified: new Date("2026-04-29"),
-      changeFrequency: "monthly",
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/ru/maqolalar/telegram-stars-nima`,
-      lastModified: new Date("2026-04-30"),
-      changeFrequency: "monthly",
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/ru/maqolalar/telegram-premium-vs-oddiy-telegram`,
-      lastModified: new Date("2026-05-02"),
-      changeFrequency: "monthly",
-      priority: 0.85,
-    },
-    {
-      url: `${baseUrl}/ru/maqolalar/telegram-premium-humo-orqali`,
-      lastModified: new Date("2026-05-02"),
-      changeFrequency: "monthly",
-      priority: 0.85,
-    },
-    {
-      url: `${baseUrl}/ru/maqolalar/3-oylik-telegram-premium-humo-orqali`,
-      lastModified: new Date("2026-05-03"),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/ru/maqolalar/telegram-premium-click-orqali`,
-      lastModified: new Date("2026-05-03"),
-      changeFrequency: "monthly",
-      priority: 0.85,
-    },
-    {
-      url: `${baseUrl}/ru/maqolalar/3-oylik-telegram-premium-click-orqali`,
-      lastModified: new Date("2026-05-03"),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/ru/maqolalar/telegram-premium-qachon-faollashadi`,
-      lastModified: new Date("2026-05-01"),
-      changeFrequency: "monthly",
-      priority: 0.85,
-    },
-    {
-      url: `${baseUrl}/ru/maqolalar/telegram-premium-nima`,
-      lastModified: new Date("2026-04-29"),
-      changeFrequency: "monthly",
-      priority: 0.85,
-    },
-    {
-      url: `${baseUrl}/ru/maqolalar/1-oylik-telegram-premium-uzcard-orqali-sotib-olish`,
-      lastModified: new Date("2026-04-08"),
-      changeFrequency: "monthly",
-      priority: 0.75,
-    },
-    {
-      url: `${baseUrl}/ru/maqolalar/1-oylik-telegram-premium-sotib-olish`,
-      lastModified: new Date("2026-04-07"),
-      changeFrequency: "monthly",
-      priority: 0.75,
-    },
-    {
-      url: `${baseUrl}/ru/maqolalar/3-oylik-telegram-premium-sotib-olish`,
-      lastModified: new Date("2026-04-07"),
-      changeFrequency: "monthly",
-      priority: 0.75,
-    },
-    {
-      url: `${baseUrl}/ru/maqolalar/6-oylik-telegram-premium-sotib-olish`,
-      lastModified: new Date("2026-04-07"),
-      changeFrequency: "monthly",
-      priority: 0.75,
-    },
-    {
-      url: `${baseUrl}/ru/maqolalar/12-oylik-telegram-premium-sotib-olish`,
-      lastModified: new Date("2026-04-07"),
-      changeFrequency: "monthly",
-      priority: 0.75,
-    },
-  ];
+    entries.push({
+      url: uzUrl,
+      lastModified,
+      changeFrequency: page.changeFrequency,
+      priority: page.priority,
+      alternates,
+    });
 
-  return [...uzPages, ...ruPages];
+    entries.push({
+      url: ruUrl,
+      lastModified,
+      changeFrequency: page.changeFrequency,
+      priority: Math.max(page.priority - 0.1, 0.4),
+      alternates,
+    });
+  }
+
+  for (const article of articles) {
+    const uzUrl = `${baseUrl}/maqolalar/${article.slug}`;
+    const ruUrl = `${baseUrl}/ru/maqolalar/${article.slug}`;
+    const alternates = { languages: buildAlternateLanguages(uzUrl, ruUrl) };
+    const lastModified = new Date(article.lastModified);
+    const priority = article.priority ?? 0.8;
+
+    entries.push({
+      url: uzUrl,
+      lastModified,
+      changeFrequency: "monthly",
+      priority,
+      alternates,
+    });
+
+    entries.push({
+      url: ruUrl,
+      lastModified,
+      changeFrequency: "monthly",
+      priority: Math.max(priority - 0.05, 0.4),
+      alternates,
+    });
+  }
+
+  return entries;
 }

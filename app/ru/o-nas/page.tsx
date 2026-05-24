@@ -19,6 +19,7 @@ export const metadata: Metadata = {
     languages: {
       uz: "https://premiumsend.uz/haqida",
       ru: "https://premiumsend.uz/ru/o-nas",
+      "x-default": "https://premiumsend.uz/haqida",
     },
   },
   openGraph: {

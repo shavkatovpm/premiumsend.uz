@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     languages: {
       uz: "https://premiumsend.uz/oferta",
       ru: "https://premiumsend.uz/ru/oferta",
+      "x-default": "https://premiumsend.uz/oferta",
     },
   },
 };

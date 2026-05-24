@@ -20,6 +20,7 @@ export const metadata: Metadata = {
     languages: {
       uz: "https://premiumsend.uz/maqolalar/telegram-stars-click-payme-orqali-somda",
       ru: "https://premiumsend.uz/ru/maqolalar/telegram-stars-click-payme-orqali-somda",
+      "x-default": "https://premiumsend.uz/maqolalar/telegram-stars-click-payme-orqali-somda",
     },
   },
   openGraph: {

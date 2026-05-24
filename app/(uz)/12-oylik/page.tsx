@@ -18,6 +18,11 @@ export const metadata: Metadata = {
   ],
   alternates: {
     canonical: "https://premiumsend.uz/12-oylik",
+    languages: {
+      uz: "https://premiumsend.uz/12-oylik",
+      ru: "https://premiumsend.uz/ru/12-oylik",
+      "x-default": "https://premiumsend.uz/12-oylik",
+    },
   },
   openGraph: {
     title: "12 oylik Telegram Premium sotib olish — 425,000 so'm | Eng arzon",

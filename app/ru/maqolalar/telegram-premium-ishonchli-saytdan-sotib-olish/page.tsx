@@ -24,6 +24,7 @@ export const metadata: Metadata = {
     languages: {
       uz: "https://premiumsend.uz/maqolalar/telegram-premium-ishonchli-saytdan-sotib-olish",
       ru: "https://premiumsend.uz/ru/maqolalar/telegram-premium-ishonchli-saytdan-sotib-olish",
+      "x-default": "https://premiumsend.uz/maqolalar/telegram-premium-ishonchli-saytdan-sotib-olish",
     },
   },
   openGraph: {
