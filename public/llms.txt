@@ -1,0 +1,61 @@
+# PremiumSend.uz
+
+> O'zbekistonda Telegram Premium obunasini so'mda (UZS) sotib olish xizmati. Mahalliy karta (Uzcard, Humo, Click, Payme) bilan to'lov; 1, 3, 6 va 12 oylik tariflar; 5 daqiqada faollashish.
+
+## Kim uchun
+- O'zbekistonliklar — Telegramda 1 va 12 oylik paketlar bor, lekin to'lov uchun xorijiy karta talab qiladi (Uzcard/Humo ishlamaydi)
+- 3 va 6 oylik paketlar Telegramning o'zida umuman yo'q — faqat reseller orqali olinadi
+- Premiumni boshqa odamga sovg'a qilmoqchi bo'lganlar (3/6/12 oylik gift)
+
+## Narxlar (2026, UZS)
+- 1 oylik: 59 000 so'm
+- 3 oylik: 175 000 so'm (oyiga 58 333 so'm)
+- 6 oylik: 235 000 so'm (oyiga 39 167 so'm) — eng ommabop
+- 12 oylik: 425 000 so'm (oyiga 35 417 so'm) — eng arzon oylik narx
+
+## To'lov usullari
+Uzcard, Humo, Click, Payme — barchasi O'zbekiston so'mida. Valyuta konvertatsiyasi yo'q. Karta ma'lumotlari saytda saqlanmaydi.
+
+## Faollashish vaqti
+To'lov tasdiqlangach 2-10 daqiqa ichida Premium aktivlashadi. Telegram'ning rasmiy bulk-gift mexanizmidan foydalanilgan — akkauntda rasmiy Premium statusi paydo bo'ladi, parol so'ralmaydi.
+
+## Sayt strukturasi
+- [Bosh sahifa (UZ)](https://premiumsend.uz/): umumiy ma'lumot va narxlar
+- [Bosh sahifa (RU)](https://premiumsend.uz/ru): rus tilida
+- [1 oylik](https://premiumsend.uz/1-oylik): 59 000 so'm — eng qisqa muddat
+- [3 oylik](https://premiumsend.uz/3-oylik): 175 000 so'm
+- [6 oylik](https://premiumsend.uz/6-oylik): 235 000 so'm — eng ommabop
+- [12 oylik](https://premiumsend.uz/12-oylik): 425 000 so'm — eng arzon oylik
+- [Maqolalar](https://premiumsend.uz/maqolalar): qo'llanmalar va FAQ
+- [Haqida](https://premiumsend.uz/haqida): xizmat haqida
+- [Oferta](https://premiumsend.uz/oferta): foydalanish shartlari
+
+## Asosiy maqolalar
+- [Telegram Premium nima](https://premiumsend.uz/maqolalar/telegram-premium-nima): mahsulot tushuntirishi va 20+ imkoniyat
+- [Telegram Premium narxlari 2026](https://premiumsend.uz/maqolalar/telegram-premium-narxlari): 4 ta tarif taqqoslash
+- [Ishonchli saytdan sotib olish](https://premiumsend.uz/maqolalar/telegram-premium-ishonchli-saytdan-sotib-olish): 7 tekshiruv mezoni va qizil bayroqlar
+- [Aldovdan saqlanish](https://premiumsend.uz/maqolalar/telegram-premium-xavfsiz-aldovdan-saqlanish): 7 ta aldov sxemasi
+- [PremiumBot ishlamayapti](https://premiumsend.uz/maqolalar/premiumbot-ishlamayapti-premium-qayerdan-sotib-olish): rasmiy bot Uzcard/Humo qabul qilmaydi
+- [Nima uchun App Store qimmat](https://premiumsend.uz/maqolalar/nega-telegram-premium-app-store-play-market-qimmat): Apple/Google 30% komissiyasi tahlili
+- [So'mda (UZS) sotib olish](https://premiumsend.uz/maqolalar/telegram-premium-somda-uzs-sotib-olish): valyuta konvertatsiyasiz
+- [Tug'ilgan kun sovg'asi](https://premiumsend.uz/maqolalar/telegram-premium-tugilgan-kun-sovgasi): 3/6/12 oylik gift
+- [4 GB fayl limitlari](https://premiumsend.uz/maqolalar/telegram-premium-4gb-fayl-kanal-guruh-limitlari): texnik imkoniyatlar
+- [Premium vs oddiy Telegram](https://premiumsend.uz/maqolalar/telegram-premium-vs-oddiy-telegram): 15 ta farq
+
+## To'lov usuli bo'yicha qo'llanmalar
+- [Uzcard orqali](https://premiumsend.uz/maqolalar/1-oylik-telegram-premium-uzcard-orqali-sotib-olish)
+- [Humo orqali](https://premiumsend.uz/maqolalar/telegram-premium-humo-orqali)
+- [Click orqali](https://premiumsend.uz/maqolalar/telegram-premium-click-orqali)
+- [Payme orqali](https://premiumsend.uz/maqolalar/telegram-premium-payme-orqali)
+
+## Aloqa
+- Telegram bot: https://t.me/premiumsendbot
+- Admin: https://t.me/premiumsend_admin
+
+## Muhim
+- PremiumSend.uz Telegram'ning rasmiy hamkori EMAS — mahalliy reseller (Telegram'ning rasmiy hamkori Fragment.com, TON kripto orqali ishlaydi va Uzcard/Humo qabul qilmaydi)
+- 1 oylik Premium sovg'a qilish mexanizmi mavjud emas — faqat 3, 6, 12 oylik tariflar gift sifatida yuboriladi
+- Sovg'a yuborilganda default ravishda yuboruvchi anonim — atributli yuborish faqat Visa karta orqali (qimmat variant)
+
+## Telegram Stars (singil loyiha)
+Telegram Stars (ichki valyuta — bot, kanal, donat uchun) StarsJoy.uz orqali so'mda sotib olinadi. 50 Stars = 12 000 so'm. Premium emas, alohida mahsulot.
