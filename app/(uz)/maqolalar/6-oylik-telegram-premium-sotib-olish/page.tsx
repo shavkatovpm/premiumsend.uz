@@ -3,19 +3,18 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "6 oylik Telegram Premium sotib olish — 235,000 so'm, Uzcard va Humo orqali",
+    "6 oylik Telegram Premium qanday sotib olinadi — qadamma-qadam yo'riqnoma 2026",
   description:
-    "6 oylik Telegram Premium sotib olish O'zbekistonda 235,000 so'mga. Uzcard, Humo kartasi orqali so'mda to'lov. Telegramda 6 oylik paket yo'q — faqat @PremiumSendBot orqali. Bosqichma-bosqich yo'riqnoma.",
+    "6 oylik Telegram Premiumni so'mda qanday olish kerak — bosqichma-bosqich qo'llanma. Telegram'ning o'zida nima uchun yo'qligi, @PremiumSendBot orqali to'lov bosqichlari, oyiga 39 167 so'm hisoblashi.",
   keywords: [
-    "6 oylik Telegram Premium sotib olish",
-    "Telegram Premium 6 oylik",
-    "Telegram Premium Uzcard",
-    "Telegram Premium Humo",
-    "Telegram Premium O'zbekiston",
-    "Telegram Premium so'mda",
-    "Telegram Premium 235000",
-    "Telegram Premium yarim yillik",
-    "PremiumSendBot",
+    "6 oylik Telegram Premium qanday sotib olinadi",
+    "6 oylik Telegram Premium qadamma-qadam",
+    "6 oylik Telegram Premium yo'riqnoma",
+    "telegram premium 6 oylik bosqichlar",
+    "6 oylik premium qo'llanma",
+    "6 oylik premium qanday faollashtirish",
+    "telegram premium yarim yillik qanday olinadi",
+    "6 oylik premium oyiga qancha",
   ],
   alternates: {
     canonical:
@@ -27,9 +26,9 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "6 oylik Telegram Premium sotib olish — 235,000 so'm",
+    title: "6 oylik Telegram Premium qanday sotib olinadi — qadamma-qadam yo'riqnoma",
     description:
-      "Telegramda 6 oylik Premium yo'q. @PremiumSendBot orqali Uzcard, Humo bilan 235,000 so'mga sotib oling.",
+      "Telegram'ning o'zida 6 oylik paket yo'q. @PremiumSendBot orqali bosqichma-bosqich qo'llanma — to'lov, faollashish, oyiga 39 167 so'm.",
     url: "https://premiumsend.uz/maqolalar/6-oylik-telegram-premium-sotib-olish",
     type: "article",
     publishedTime: "2026-04-02",
@@ -41,9 +40,9 @@ export default function Article6Month() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline:
-      "6 oylik Telegram Premium sotib olish — O'zbekistonda 235,000 so'mga",
+      "6 oylik Telegram Premium qanday sotib olinadi — qadamma-qadam yo'riqnoma 2026",
     description:
-      "6 oylik Telegram Premium sotib olish O'zbekistonda Uzcard, Humo kartasi orqali 235,000 so'mga. Batafsil qo'llanma.",
+      "6 oylik Telegram Premiumni so'mda olish bo'yicha bosqichma-bosqich qo'llanma. Telegram'da nima uchun yo'qligi, @PremiumSendBot orqali to'lov va faollashish.",
     datePublished: "2026-04-02",
     dateModified: "2026-04-02",
     author: {
@@ -183,7 +182,7 @@ export default function Article6Month() {
             </time>
           </div>
           <h1 className="text-3xl md:text-4xl font-extrabold text-foreground leading-tight mb-6">
-            6 oylik Telegram Premium sotib olish
+            6 oylik Telegram Premium qanday sotib olinadi — qadamma-qadam yo&apos;riqnoma
           </h1>
           {/* AI/SEO Snippet Definitsiya */}
           <div className="bg-gold-light/50 rounded-xl p-5 border border-gold/20 mb-6">

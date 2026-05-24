@@ -3,21 +3,18 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "Купить Telegram Premium на 12 месяцев — 425 000 сум, через Uzcard и Humo",
+    "Как купить Telegram Premium на 12 месяцев — пошаговая инструкция 2026",
   description:
-    "Купить Telegram Premium на 12 месяцев в Узбекистане за 425 000 сум. Оплата в сумах через Uzcard, Humo. В Telegram 12-месячный пакет есть, но только с иностранной картой. В Premium Send оплата в сумах.",
+    "Как оформить Telegram Premium на 12 месяцев (1 год) за сумы — пошаговое руководство. Почему в самом Telegram требуется иностранная карта, расчёт 35 417 сум/месяц и активация за 5 минут.",
   keywords: [
-    "купить Telegram Premium 12 месяцев",
-    "Telegram Premium 12 месяцев",
-    "Telegram Premium 1 год",
-    "Telegram Premium годовой",
-    "Telegram Premium Uzcard",
-    "Telegram Premium Humo",
-    "Telegram Premium Узбекистан",
-    "Telegram Premium за сумы",
-    "Telegram Premium 425000",
-    "Telegram Premium цена",
-    "PremiumSendBot",
+    "как купить Telegram Premium 12 месяцев",
+    "Telegram Premium 12 месяцев пошагово",
+    "Telegram Premium 12 месяцев инструкция",
+    "telegram premium 1 год руководство",
+    "telegram premium годовой как купить",
+    "telegram premium 12 месяцев в Узбекистане",
+    "telegram premium 1 год туториал",
+    "telegram premium 12 месяцев в месяц",
   ],
   alternates: {
     canonical:
@@ -29,9 +26,9 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Купить Telegram Premium на 12 месяцев — 425 000 сум",
+    title: "Как купить Telegram Premium на 12 месяцев — пошаговая инструкция",
     description:
-      "Купите 12-месячный Telegram Premium в Узбекистане за сумы. Через Uzcard, Humo за 425 000 сум. Через @PremiumSendBot.",
+      "Почему в самом Telegram требуется иностранная карта и как оформить через @PremiumSendBot за сумы — пошаговое руководство.",
     url: "https://premiumsend.uz/ru/maqolalar/12-oylik-telegram-premium-sotib-olish",
     type: "article",
     publishedTime: "2026-04-02",
@@ -43,9 +40,9 @@ export default function Article12Month() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline:
-      "Купить Telegram Premium на 12 месяцев — в Узбекистане за 425 000 сум",
+      "Как купить Telegram Premium на 12 месяцев — пошаговая инструкция 2026",
     description:
-      "Купить Telegram Premium на 12 месяцев в Узбекистане через Uzcard, Humo за 425 000 сум. Подробное руководство.",
+      "Почему в самом Telegram требуется иностранная карта и как оформить через @PremiumSendBot за сумы. Расчёт 35 417 сум/месяц.",
     datePublished: "2026-04-02",
     dateModified: "2026-04-02",
     author: {
@@ -193,7 +190,7 @@ export default function Article12Month() {
             </time>
           </div>
           <h1 className="text-3xl md:text-4xl font-extrabold text-foreground leading-tight mb-6">
-            Купить Telegram Premium на 12 месяцев
+            Как купить Telegram Premium на 12 месяцев — пошаговая инструкция
           </h1>
           {/* AI/SEO Snippet Definition */}
           <div className="bg-green-50 rounded-xl p-5 border border-green-200 mb-6">

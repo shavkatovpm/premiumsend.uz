@@ -3,18 +3,18 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "3 oylik Telegram Premium sotib olish — O'zbekistonda so'mda, Uzcard va Humo orqali",
+    "3 oylik Telegram Premium qanday sotib olinadi — qadamma-qadam yo'riqnoma 2026",
   description:
-    "3 oylik Telegram Premium sotib olish O'zbekistonda 175,000 so'mga. Uzcard, Humo kartasi orqali so'mda to'lov. Telegramda 3 oylik paket yo'q — faqat @PremiumSendBot orqali. Bosqichma-bosqich yo'riqnoma.",
+    "3 oylik Telegram Premiumni so'mda qanday olish kerak — bosqichma-bosqich qo'llanma. Telegram'ning o'zida 3 oylik paket nima uchun yo'qligi, @PremiumSendBot orqali to'lov bosqichlari va faollashish jarayoni.",
   keywords: [
-    "3 oylik Telegram Premium sotib olish",
-    "Telegram Premium 3 oylik",
-    "Telegram Premium Uzcard",
-    "Telegram Premium Humo",
-    "Telegram Premium O'zbekiston",
-    "Telegram Premium so'mda",
-    "Telegram Premium narxi",
-    "PremiumSendBot",
+    "3 oylik Telegram Premium qanday sotib olinadi",
+    "3 oylik Telegram Premium qadamma-qadam",
+    "3 oylik Telegram Premium yo'riqnoma",
+    "telegram premium 3 oylik bosqichlar",
+    "3 oylik premium qo'llanma",
+    "3 oylik premium qanday faollashtirish",
+    "telegram premium 3 oy darslik",
+    "telegram premium 3 oy nega yo'q",
   ],
   alternates: {
     canonical:
@@ -26,9 +26,9 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "3 oylik Telegram Premium sotib olish — O'zbekistonda so'mda",
+    title: "3 oylik Telegram Premium qanday sotib olinadi — qadamma-qadam yo'riqnoma",
     description:
-      "Telegramda 3 oylik Premium yo'q. @PremiumSendBot orqali Uzcard, Humo bilan so'mda sotib oling.",
+      "Telegram'ning o'zida 3 oylik paket yo'q. @PremiumSendBot orqali so'mda olish bo'yicha bosqichma-bosqich qo'llanma — to'lov, faollashish, FAQ.",
     url: "https://premiumsend.uz/maqolalar/3-oylik-telegram-premium-sotib-olish",
     type: "article",
     publishedTime: "2026-04-02",
@@ -40,9 +40,9 @@ export default function Article3Month() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline:
-      "3 oylik Telegram Premium sotib olish — O'zbekistonda so'mda, Uzcard va Humo orqali",
+      "3 oylik Telegram Premium qanday sotib olinadi — qadamma-qadam yo'riqnoma 2026",
     description:
-      "3 oylik Telegram Premium sotib olish O'zbekistonda 175,000 so'mga. Uzcard, Humo kartasi orqali so'mda to'lov. Batafsil qo'llanma.",
+      "3 oylik Telegram Premiumni so'mda olish bo'yicha bosqichma-bosqich qo'llanma. Telegram'da nima uchun yo'qligi, @PremiumSendBot orqali to'lov va faollashish.",
     datePublished: "2026-04-02",
     dateModified: "2026-04-02",
     author: {
@@ -182,7 +182,7 @@ export default function Article3Month() {
             </time>
           </div>
           <h1 className="text-3xl md:text-4xl font-extrabold text-foreground leading-tight mb-6">
-            3 oylik Telegram Premium sotib olish
+            3 oylik Telegram Premium qanday sotib olinadi — qadamma-qadam yo&apos;riqnoma
           </h1>
           {/* AI/SEO Snippet Definitsiya */}
           <div className="bg-primary-light/50 rounded-xl p-5 border border-primary/10 mb-6">

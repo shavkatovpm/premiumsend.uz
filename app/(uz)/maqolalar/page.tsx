@@ -337,33 +337,33 @@ const articles = [
   },
   {
     slug: "1-oylik-telegram-premium-sotib-olish",
-    title: "1 oylik Telegram Premium sotib olish",
+    title: "1 oylik Telegram Premium qanday sotib olinadi — qadamma-qadam yo'riqnoma",
     excerpt:
-      "O'zbekistonda 1 oylik Telegram Premium sotib olish — UzCard, Humo kartasi orqali so'mda to'lov. @premiumsend_admin orqali oson buyurtma. Eng arzon variant — atigi 59,000 so'm.",
+      "1 oylik Premiumni so'mda olish bo'yicha 7 qadamli qo'llanma. PremiumBot Uzcard/Humo qabul qilmayotganda nima qilish kerak, @premiumsend_admin orqali to'lov bosqichlari va 5 daqiqada faollashish.",
     category: "Qo'llanma",
     date: "2026-04-07",
   },
   {
     slug: "3-oylik-telegram-premium-sotib-olish",
-    title: "3 oylik Telegram Premium sotib olish",
+    title: "3 oylik Telegram Premium qanday sotib olinadi — qadamma-qadam yo'riqnoma",
     excerpt:
-      "O'zbekistonda 3 oylik Telegram Premium sotib olish — UzCard, Humo kartasi orqali so'mda to'lov. Click yoki Payme orqali ham kartaga o'tkazma qilish mumkin. Telegramda 3 va 6 oylik paket yo'q — faqat @PremiumSendBot orqali. Bosqichma-bosqich yo'riqnoma.",
+      "3 oylik Premiumni so'mda olish bo'yicha bosqichma-bosqich qo'llanma. Telegram'ning o'zida 3 oylik paket nima uchun yo'q, @PremiumSendBot orqali to'lov va faollashish jarayoni.",
     category: "Qo'llanma",
     date: "2026-04-02",
   },
   {
     slug: "6-oylik-telegram-premium-sotib-olish",
-    title: "6 oylik Telegram Premium sotib olish",
+    title: "6 oylik Telegram Premium qanday sotib olinadi — qadamma-qadam yo'riqnoma",
     excerpt:
-      "O'zbekistonda 6 oylik Telegram Premium sotib olish — 235,000 so'mga. Uzcard, Humo kartasi orqali so'mda to'lov. Telegramda 6 oylik paket yo'q — faqat @PremiumSendBot orqali. Nima uchun 6 oylik eng aqlli tanlov?",
+      "6 oylik Premiumni so'mda olish bo'yicha bosqichma-bosqich qo'llanma. Telegram'da nima uchun 6 oylik paket yo'q, @PremiumSendBot orqali to'lov va oyiga 39 167 so'm hisoblash.",
     category: "Qo'llanma",
     date: "2026-04-02",
   },
   {
     slug: "12-oylik-telegram-premium-sotib-olish",
-    title: "12 oylik Telegram Premium sotib olish",
+    title: "12 oylik Telegram Premium qanday sotib olinadi — qadamma-qadam yo'riqnoma",
     excerpt:
-      "O'zbekistonda 12 oylik Telegram Premium sotib olish — 425,000 so'mga. Oyiga 35,417 so'm — eng arzon variant. Telegramda 12 oylik bor, lekin xorijiy karta kerak. Premium Send da so'mda oling.",
+      "12 oylik (1 yillik) Premiumni so'mda olish bo'yicha qadamma-qadam qo'llanma. Telegram'da xorijiy karta talab qilishi va @PremiumSendBot yechimi, oyiga 35 417 so'm.",
     category: "Qo'llanma",
     date: "2026-04-02",
   },

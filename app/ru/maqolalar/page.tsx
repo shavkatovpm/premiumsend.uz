@@ -337,33 +337,33 @@ const articles = [
   },
   {
     slug: "1-oylik-telegram-premium-sotib-olish",
-    title: "Купить Telegram Premium на 1 месяц",
+    title: "Как купить Telegram Premium на 1 месяц — пошаговая инструкция",
     excerpt:
-      "Купить Telegram Premium на 1 месяц в Узбекистане — оплата в сумах через UzCard, Humo. Через @premiumsend_admin. Самый доступный вариант — всего 59 000 сум.",
+      "Пошаговое руководство: как оформить 1-месячный Premium за сумы. Что делать когда PremiumBot не принимает Uzcard/Humo, как оплатить через @premiumsend_admin и активация за 5 минут.",
     category: "Руководство",
     date: "2026-04-07",
   },
   {
     slug: "3-oylik-telegram-premium-sotib-olish",
-    title: "Купить Telegram Premium на 3 месяца",
+    title: "Как купить Telegram Premium на 3 месяца — пошаговая инструкция",
     excerpt:
-      "Купить Telegram Premium на 3 месяца в Узбекистане — оплата в сумах через UzCard, Humo. Также можно оплатить через Click или Payme переводом на карту. В Telegram нет 3- и 6-месячных пакетов — только через @PremiumSendBot. Пошаговая инструкция.",
+      "Пошаговое руководство: как оформить 3-месячный Premium за сумы. Почему в самом Telegram нет 3-месячного пакета и как купить через @PremiumSendBot за 5 минут.",
     category: "Руководство",
     date: "2026-04-02",
   },
   {
     slug: "6-oylik-telegram-premium-sotib-olish",
-    title: "Купить Telegram Premium на 6 месяцев",
+    title: "Как купить Telegram Premium на 6 месяцев — пошаговая инструкция",
     excerpt:
-      "Купить Telegram Premium на 6 месяцев в Узбекистане — за 235 000 сум. Оплата в сумах через Uzcard, Humo. В Telegram нет 6-месячного пакета — только через @PremiumSendBot. Почему 6 месяцев — самый разумный выбор?",
+      "Пошаговое руководство: как оформить 6-месячный Premium за сумы. Почему в самом Telegram нет 6-месячного пакета, расчёт 39 167 сум/месяц и активация за 5 минут.",
     category: "Руководство",
     date: "2026-04-02",
   },
   {
     slug: "12-oylik-telegram-premium-sotib-olish",
-    title: "Купить Telegram Premium на 12 месяцев",
+    title: "Как купить Telegram Premium на 12 месяцев — пошаговая инструкция",
     excerpt:
-      "Купить Telegram Premium на 12 месяцев в Узбекистане — за 425 000 сум. В месяц всего 35 417 сум — самый выгодный вариант. В Telegram 12-месячный пакет есть, но нужна иностранная карта. В Premium Send оплата в сумах.",
+      "Пошаговое руководство: как оформить 12-месячный (годовой) Premium за сумы. Почему в Telegram требуется иностранная карта и решение через @PremiumSendBot. Расчёт 35 417 сум/месяц.",
     category: "Руководство",
     date: "2026-04-02",
   },

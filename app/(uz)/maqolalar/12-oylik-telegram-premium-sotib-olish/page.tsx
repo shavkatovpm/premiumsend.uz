@@ -3,21 +3,18 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "12 oylik Telegram Premium sotib olish — 425,000 so'm, Uzcard va Humo orqali",
+    "12 oylik Telegram Premium qanday sotib olinadi — qadamma-qadam yo'riqnoma 2026",
   description:
-    "12 oylik Telegram Premium sotib olish O'zbekistonda 425,000 so'mga. Uzcard, Humo kartasi orqali so'mda to'lov. Telegramda 12 oylik bor, lekin faqat xorijiy karta bilan. Premium Send da so'mda oling.",
+    "12 oylik (1 yillik) Telegram Premiumni so'mda qanday olish kerak — bosqichma-bosqich qo'llanma. Telegram'da 12 oylik bor, lekin xorijiy karta talab qiladi. So'mda olish bosqichlari, oyiga 35 417 so'm hisoblash.",
   keywords: [
-    "12 oylik Telegram Premium sotib olish",
-    "Telegram Premium 12 oylik",
-    "Telegram Premium 1 yillik",
-    "Telegram Premium yillik",
-    "Telegram Premium Uzcard",
-    "Telegram Premium Humo",
-    "Telegram Premium O'zbekiston",
-    "Telegram Premium so'mda",
-    "Telegram Premium 425000",
-    "Telegram Premium narxi",
-    "PremiumSendBot",
+    "12 oylik Telegram Premium qanday sotib olinadi",
+    "12 oylik Telegram Premium qadamma-qadam",
+    "12 oylik Telegram Premium yo'riqnoma",
+    "1 yillik telegram premium bosqichlar",
+    "12 oylik premium qo'llanma",
+    "12 oylik premium qanday faollashtirish",
+    "telegram premium 1 yillik qanday olinadi",
+    "12 oylik premium oyiga qancha tushadi",
   ],
   alternates: {
     canonical:
@@ -29,9 +26,9 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "12 oylik Telegram Premium sotib olish — 425,000 so'm",
+    title: "12 oylik Telegram Premium qanday sotib olinadi — qadamma-qadam yo'riqnoma",
     description:
-      "12 oylik Telegram Premium O'zbekistonda so'mda sotib oling. Uzcard, Humo bilan 425,000 so'mga. @PremiumSendBot orqali.",
+      "12 oylik Telegram Premiumni so'mda olish bo'yicha bosqichma-bosqich qo'llanma. Telegram'ning o'zida nima uchun xorijiy karta talab qilishi va @PremiumSendBot yechimi.",
     url: "https://premiumsend.uz/maqolalar/12-oylik-telegram-premium-sotib-olish",
     type: "article",
     publishedTime: "2026-04-02",
@@ -43,9 +40,9 @@ export default function Article12Month() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline:
-      "12 oylik Telegram Premium sotib olish — O'zbekistonda 425,000 so'mga",
+      "12 oylik Telegram Premium qanday sotib olinadi — qadamma-qadam yo'riqnoma 2026",
     description:
-      "12 oylik Telegram Premium sotib olish O'zbekistonda Uzcard, Humo kartasi orqali 425,000 so'mga. Batafsil qo'llanma.",
+      "12 oylik Telegram Premiumni so'mda olish bo'yicha bosqichma-bosqich qo'llanma. Telegram'ning o'zida xorijiy karta talab qilishi va @PremiumSendBot yechimi.",
     datePublished: "2026-04-02",
     dateModified: "2026-04-02",
     author: {
@@ -193,7 +190,7 @@ export default function Article12Month() {
             </time>
           </div>
           <h1 className="text-3xl md:text-4xl font-extrabold text-foreground leading-tight mb-6">
-            12 oylik Telegram Premium sotib olish
+            12 oylik Telegram Premium qanday sotib olinadi — qadamma-qadam yo&apos;riqnoma
           </h1>
           {/* AI/SEO Snippet Definitsiya */}
           <div className="bg-green-50 rounded-xl p-5 border border-green-200 mb-6">

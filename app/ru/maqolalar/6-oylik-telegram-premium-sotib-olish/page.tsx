@@ -3,19 +3,18 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "Купить Telegram Premium на 6 месяцев — 235 000 сум, через Uzcard и Humo",
+    "Как купить Telegram Premium на 6 месяцев — пошаговая инструкция 2026",
   description:
-    "Купить Telegram Premium на 6 месяцев в Узбекистане за 235 000 сум. Оплата в сумах через Uzcard, Humo. В Telegram нет 6-месячного пакета — только через @PremiumSendBot. Пошаговая инструкция.",
+    "Как оформить Telegram Premium на 6 месяцев за сумы — пошаговое руководство. Почему в самом Telegram нет 6-месячного пакета, расчёт 39 167 сум/месяц и активация за 5 минут.",
   keywords: [
-    "купить Telegram Premium 6 месяцев",
-    "Telegram Premium 6 месяцев",
-    "Telegram Premium Uzcard",
-    "Telegram Premium Humo",
-    "Telegram Premium Узбекистан",
-    "Telegram Premium за сумы",
-    "Telegram Premium 235000",
-    "Telegram Premium полугодовой",
-    "PremiumSendBot",
+    "как купить Telegram Premium 6 месяцев",
+    "Telegram Premium 6 месяцев пошагово",
+    "Telegram Premium 6 месяцев инструкция",
+    "telegram premium 6 месяцев руководство",
+    "telegram premium полугодовой как купить",
+    "telegram premium 6 месяцев почему нет",
+    "telegram premium 6 месяцев туториал",
+    "telegram premium 6 месяцев в месяц",
   ],
   alternates: {
     canonical:
@@ -27,9 +26,9 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Купить Telegram Premium на 6 месяцев — 235 000 сум",
+    title: "Как купить Telegram Premium на 6 месяцев — пошаговая инструкция",
     description:
-      "В Telegram нет 6-месячного Premium. Купите через @PremiumSendBot с помощью Uzcard, Humo за 235 000 сум.",
+      "Почему в самом Telegram нет 6-месячного пакета и как оформить через @PremiumSendBot — пошаговое руководство с активацией за 5 минут.",
     url: "https://premiumsend.uz/ru/maqolalar/6-oylik-telegram-premium-sotib-olish",
     type: "article",
     publishedTime: "2026-04-02",
@@ -41,9 +40,9 @@ export default function Article6Month() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline:
-      "Купить Telegram Premium на 6 месяцев — в Узбекистане за 235 000 сум",
+      "Как купить Telegram Premium на 6 месяцев — пошаговая инструкция 2026",
     description:
-      "Купить Telegram Premium на 6 месяцев в Узбекистане через Uzcard, Humo за 235 000 сум. Подробное руководство.",
+      "Почему в самом Telegram нет 6-месячного пакета и как оформить через @PremiumSendBot за сумы. Расчёт 39 167 сум/месяц.",
     datePublished: "2026-04-02",
     dateModified: "2026-04-02",
     author: {
@@ -183,7 +182,7 @@ export default function Article6Month() {
             </time>
           </div>
           <h1 className="text-3xl md:text-4xl font-extrabold text-foreground leading-tight mb-6">
-            Купить Telegram Premium на 6 месяцев
+            Как купить Telegram Premium на 6 месяцев — пошаговая инструкция
           </h1>
           {/* AI/SEO Snippet Definition */}
           <div className="bg-gold-light/50 rounded-xl p-5 border border-gold/20 mb-6">

@@ -3,17 +3,18 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "Купить Telegram Premium на 1 месяц — в Узбекистане за сумы, через Uzcard и Humo",
+    "Как купить Telegram Premium на 1 месяц — пошаговая инструкция 2026",
   description:
-    "Купить Telegram Premium на 1 месяц в Узбекистане за 59 000 сум. Оплата через Uzcard, Humo. Через @premiumsend_admin. Пошаговая инструкция.",
+    "Как купить Telegram Premium на 1 месяц за сумы — пошаговое руководство. Почему PremiumBot не работает с Uzcard/Humo, как оплатить через @premiumsend_admin и активация за 5 минут.",
   keywords: [
-    "купить Telegram Premium 1 месяц",
-    "Telegram Premium 1 месяц цена в сумах",
-    "Telegram Premium Uzcard купить",
-    "Telegram Premium Humo купить",
-    "Telegram Premium Узбекистан",
-    "Telegram Premium за сумы",
-    "Telegram Premium 1 month Uzbekistan buy",
+    "как купить Telegram Premium 1 месяц",
+    "Telegram Premium 1 месяц пошагово",
+    "Telegram Premium 1 месяц инструкция",
+    "telegram premium 1 месяц руководство",
+    "telegram premium 1 месяц как оплатить",
+    "telegram premium 1 месяц как активировать",
+    "telegram premium 1 месяц туториал",
+    "telegram premium 1 месяц гайд",
   ],
   alternates: {
     canonical:
@@ -25,9 +26,9 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Купить Telegram Premium на 1 месяц — в Узбекистане за сумы",
+    title: "Как купить Telegram Premium на 1 месяц — пошаговая инструкция",
     description:
-      "Через @premiumsend_admin купите 1-месячный Telegram Premium за сумы через Uzcard, Humo.",
+      "Пошаговое руководство: как оформить Telegram Premium на 1 месяц через @premiumsend_admin за сумы, и активировать за 5 минут.",
     url: "https://premiumsend.uz/ru/maqolalar/1-oylik-telegram-premium-sotib-olish",
     type: "article",
     publishedTime: "2026-04-07",
@@ -39,9 +40,9 @@ export default function Article1Month() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline:
-      "Купить Telegram Premium на 1 месяц — в Узбекистане за сумы, через Uzcard и Humo",
+      "Как купить Telegram Premium на 1 месяц — пошаговая инструкция 2026",
     description:
-      "Купить Telegram Premium на 1 месяц в Узбекистане за 59 000 сум. Пошаговая инструкция.",
+      "Пошаговое руководство: как оформить Telegram Premium на 1 месяц через @premiumsend_admin за сумы.",
     datePublished: "2026-04-07",
     dateModified: "2026-04-07",
     author: {
@@ -181,7 +182,7 @@ export default function Article1Month() {
             </time>
           </div>
           <h1 className="text-3xl md:text-4xl font-extrabold text-foreground leading-tight mb-6">
-            Купить Telegram Premium на 1 месяц
+            Как купить Telegram Premium на 1 месяц — пошаговая инструкция
           </h1>
           {/* AI/SEO Snippet */}
           <div className="bg-primary-light/50 rounded-xl p-5 border border-primary/10 mb-6">
