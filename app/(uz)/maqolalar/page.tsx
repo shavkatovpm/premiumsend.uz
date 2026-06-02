@@ -32,6 +32,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "telegram-premium-muammolari-xatoliklari",
+    title: "Telegram Premium muammolari va xatoliklari: 12 ta savol-javob va yechim",
+    excerpt:
+      "Premium faollashmadi, birdan yo'qoldi yoki emoji/4 GB ishlamayaptimi? Muammolarni 5 toifaga ajratdik — to'lov, faollashish, funksiya, obuna tugashi va sinxronizatsiya. Har biriga aniq qadamli yechim, xato kodlari jadvali va tezkor tekshiruv ro'yxati.",
+    category: "Muammolar va yechimlar",
+    date: "2026-06-02",
+  },
+  {
     slug: "telegram-premium-ishonchli-saytdan-sotib-olish",
     title: "Telegram Premium ishonchli saytdan sotib olish: aldovsiz xarid qo'llanmasi",
     excerpt:

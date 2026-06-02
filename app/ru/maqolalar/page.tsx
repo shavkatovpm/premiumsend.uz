@@ -32,6 +32,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "telegram-premium-muammolari-xatoliklari",
+    title: "Проблемы и ошибки Telegram Premium: 12 вопросов-ответов и решения",
+    excerpt:
+      "Premium не активировался, внезапно пропал или не работают эмодзи/4 ГБ? Мы разбили проблемы на 5 категорий — оплата, активация, функции, окончание подписки и синхронизация. К каждой точное пошаговое решение, таблица кодов ошибок и быстрый чек-лист.",
+    category: "Проблемы и решения",
+    date: "2026-06-02",
+  },
+  {
     slug: "telegram-premium-ishonchli-saytdan-sotib-olish",
     title: "Купить Telegram Premium на надёжном сайте: гайд без обмана",
     excerpt:
