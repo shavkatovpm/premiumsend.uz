@@ -32,6 +32,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "12-oylik-telegram-premium-click-orqali",
+    title: "12 oylik Telegram Premium Click orqali sotib olish",
+    excerpt:
+      "12 oylik Telegram Premium Click ilovasi orqali 425,000 so'mga (oyiga 35,417) — bot karta va summani ko'rsatadi, Click'dan o'tkazasiz, 5 daqiqada 365 kunga faollashish. Eng arzon oylik narx, 1 oylikka taqqoslab 39% tejamkorlik.",
+    category: "Qo'llanma",
+    date: "2026-06-05",
+  },
+  {
     slug: "telegram-premium-muammolari-xatoliklari",
     title: "Telegram Premium muammolari va xatoliklari: 12 ta savol-javob va yechim",
     excerpt:

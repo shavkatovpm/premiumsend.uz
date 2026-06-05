@@ -3,63 +3,63 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "Telegram Premium на 12 месяцев через Humo — 425 000 сум, перевод на карту",
+    "Telegram Premium на 12 месяцев через Click — 425 000 сум, перевод на карту",
   description:
-    "12-месячный Telegram Premium через карту Humo за 425 000 сум — @PremiumSendBot показывает карту и сумму, вы переводите через Humo, Premium активируется на 365 дней за 5 минут. В месяц 35 417 сум — самая низкая цена.",
+    "12-месячный Telegram Premium через Click за 425 000 сум — @PremiumSendBot показывает карту и сумму, вы переводите из Click, Premium активируется на 365 дней за 5 минут. В месяц 35 417 сум — самая низкая цена.",
   keywords: [
-    "Telegram Premium на 12 месяцев Humo",
-    "Telegram Premium через Humo 12 месяцев",
-    "годовой Telegram Premium Humo",
-    "купить Telegram Premium Humo 12 месяцев",
-    "12 месяцев Premium Humo",
-    "Telegram Premium 425000 Humo",
-    "Telegram Premium в сумах Humo",
+    "Telegram Premium на 12 месяцев Click",
+    "Telegram Premium через Click 12 месяцев",
+    "годовой Telegram Premium Click",
+    "купить Telegram Premium Click 12 месяцев",
+    "12 месяцев Premium Click",
+    "Telegram Premium 425000 Click",
+    "Telegram Premium в сумах Click",
   ],
   alternates: {
     canonical:
-      "https://premiumsend.uz/ru/maqolalar/12-oylik-telegram-premium-humo-orqali",
+      "https://premiumsend.uz/ru/maqolalar/12-oylik-telegram-premium-click-orqali",
     languages: {
-      uz: "https://premiumsend.uz/maqolalar/12-oylik-telegram-premium-humo-orqali",
-      ru: "https://premiumsend.uz/ru/maqolalar/12-oylik-telegram-premium-humo-orqali",
-      "x-default": "https://premiumsend.uz/maqolalar/12-oylik-telegram-premium-humo-orqali",
+      uz: "https://premiumsend.uz/maqolalar/12-oylik-telegram-premium-click-orqali",
+      ru: "https://premiumsend.uz/ru/maqolalar/12-oylik-telegram-premium-click-orqali",
+      "x-default": "https://premiumsend.uz/maqolalar/12-oylik-telegram-premium-click-orqali",
     },
   },
   openGraph: {
-    title: "Telegram Premium на 12 месяцев через Humo — 425 000 сум",
+    title: "Telegram Premium на 12 месяцев через Click — 425 000 сум",
     description:
-      "12-месячный Telegram Premium через карту Humo за 425 000 сум. Бот показывает карту и сумму, вы переводите через Humo. В месяц 35 417 сум.",
-    url: "https://premiumsend.uz/ru/maqolalar/12-oylik-telegram-premium-humo-orqali",
+      "12-месячный Telegram Premium через Click за 425 000 сум. Бот показывает карту и сумму, вы переводите из Click. В месяц 35 417 сум.",
+    url: "https://premiumsend.uz/ru/maqolalar/12-oylik-telegram-premium-click-orqali",
     type: "article",
-    publishedTime: "2026-05-14",
+    publishedTime: "2026-06-05",
   },
 };
 
-export default function Article12MonthHumoRu() {
+export default function Article12MonthClickRu() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: "Telegram Premium на 12 месяцев через Humo — за 425 000 сум",
+    headline: "Telegram Premium на 12 месяцев через Click — за 425 000 сум",
     description:
-      "Покупка 12-месячного Telegram Premium через Humo — бот показывает карту и сумму, вы переводите, система автоматически определяет, Premium активируется на 365 дней.",
-    datePublished: "2026-05-14",
-    dateModified: "2026-05-14",
+      "Покупка 12-месячного Telegram Premium через Click — бот показывает карту и сумму, вы переводите, система автоматически определяет, Premium активируется на 365 дней.",
+    datePublished: "2026-06-05",
+    dateModified: "2026-06-05",
     author: { "@type": "Organization", name: "Premium Send", url: "https://premiumsend.uz" },
     publisher: { "@type": "Organization", name: "Premium Send", url: "https://premiumsend.uz" },
-    mainEntityOfPage: "https://premiumsend.uz/ru/maqolalar/12-oylik-telegram-premium-humo-orqali",
+    mainEntityOfPage: "https://premiumsend.uz/ru/maqolalar/12-oylik-telegram-premium-click-orqali",
   };
 
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     mainEntity: [
-      { "@type": "Question", name: "Сколько стоит Telegram Premium на 12 месяцев через Humo?", acceptedAnswer: { "@type": "Answer", text: "В Premium Send 12-месячный Telegram Premium через Humo — 425 000 сум, или 35 417 сум в месяц. Цена одинаковая через Uzcard, Click и Payme. По сравнению с 12 раз по 1 месяцу (708 000 сум) — на 39% дешевле, экономия 23 583 сум в месяц. Комиссия 0%, курсового риска нет." } },
-      { "@type": "Question", name: "Как купить 12-месячный Premium через Humo?", acceptedAnswer: { "@type": "Answer", text: "В @PremiumSendBot выбираете 12-месячный тариф, вводите @username получателя Premium. Бот показывает номер карты и точную сумму 425 000 сум. С вашей карты Humo (через приложение банка, SMS-банк или Click/Payme где привязана карта Humo) переводите ровно 425 000 сум на эту карту. Система за 1-5 минут определяет платёж, Premium активируется на 365 дней." } },
-      { "@type": "Question", name: "Почему важно перевести именно 425 000 сум?", acceptedAnswer: { "@type": "Answer", text: "Система определяет платёж по комбинации карты и суммы. При другой сумме автоматическое сопоставление не сработает — Premium активируется вручную после обращения в поддержку с номером чека Humo. Точно 425 000 — самый быстрый путь." } },
-      { "@type": "Question", name: "В Telegram есть 12 месяцев, зачем бот через Humo?", acceptedAnswer: { "@type": "Answer", text: "В Telegram 12-месячный тариф есть (в отличие от 3 и 6 месяцев), но оплата только через Google Pay, Apple Pay или зарубежные карты. Telegram вообще не принимает Humo. Значит владелец Humo не может оплатить годовой Premium в официальном приложении — это единственное препятствие. @PremiumSendBot решает именно это: через P2P-перевод с Humo на карту в сумах активирует 12 месяцев Premium." } },
-      { "@type": "Question", name: "425 000 сум — большая сумма. Безопасна ли оплата через Humo?", acceptedAnswer: { "@type": "Answer", text: "Да. Humo — лицензирована Центральным банком. Механизм: карта-к-карте P2P-перевод, бот не видит данных карты. Банк выдаёт PDF-чек на каждый перевод. 425 000 сум — большая сумма, но уровень безопасности тот же, что и при 59 000 сум. Если Premium не пришёл, деньги возвращаются полностью." } },
-      { "@type": "Question", name: "Что если дневной лимит Humo меньше 425 000 сум?", acceptedAnswer: { "@type": "Answer", text: "В большинстве банков дневной лимит интернет-оплат 200 000-500 000 сум. Владелец Humo может в приложении своего банка временно повысить дневной лимит интернет-оплат до 1 000 000 сум (обычно за 1 минуту). Или через Click/Payme, где привязана карта Humo — там лимит считается иначе." } },
-      { "@type": "Question", name: "Можно ли подарить 12-месячный Premium через Humo?", acceptedAnswer: { "@type": "Answer", text: "Да. Когда бот спрашивает username, указываете аккаунт получателя, остальной процесс не меняется: с Humo переводите 425 000 сум на карту, Premium активируется на этом аккаунте на 365 дней. Это самый длительный и ценный подарок Telegram Premium — идеально для дня рождения, свадьбы, Нового года или диплома." } },
-      { "@type": "Question", name: "Когда Premium активируется после оплаты?", acceptedAnswer: { "@type": "Answer", text: "P2P-перевод Humo подтверждается банком за 1-3 минуты. Затем система за 1-5 минут определяет сумму, и Premium на указанном @username активируется на 365 дней автоматически. Бот присылает сообщение. Следующий год никакой повторной оплаты или продления не требуется." } },
+      { "@type": "Question", name: "Сколько стоит Telegram Premium на 12 месяцев через Click?", acceptedAnswer: { "@type": "Answer", text: "В Premium Send 12-месячный Telegram Premium через Click — 425 000 сум, или 35 417 сум в месяц. Цена одинаковая через Uzcard, Humo и Payme. По сравнению с 12 раз по 1 месяцу (708 000 сум) — на 39% дешевле, экономия 23 583 сум в месяц. Комиссия 0%, курсового риска нет." } },
+      { "@type": "Question", name: "Как купить 12-месячный Premium через Click?", acceptedAnswer: { "@type": "Answer", text: "В @PremiumSendBot выбираете 12-месячный тариф, вводите @username получателя Premium. Бот показывает номер карты и точную сумму 425 000 сум. В приложении Click через функцию 'Перевод на другую карту' переводите ровно 425 000 сум на эту карту. Система за 1-5 минут определяет платёж, Premium активируется на 365 дней." } },
+      { "@type": "Question", name: "Почему важно перевести именно 425 000 сум?", acceptedAnswer: { "@type": "Answer", text: "Система определяет платёж по комбинации карты и суммы. При другой сумме автоматическое сопоставление не сработает — Premium активируется вручную после обращения в поддержку с номером чека Click. Точно 425 000 — самый быстрый путь." } },
+      { "@type": "Question", name: "В Telegram есть 12 месяцев, зачем бот через Click?", acceptedAnswer: { "@type": "Answer", text: "В Telegram 12-месячный тариф есть (в отличие от 3 и 6 месяцев), но оплата только через Google Pay, Apple Pay или зарубежные карты. Telegram вообще не принимает Click. Значит пользователь Click не может оплатить годовой Premium в официальном приложении — это единственное препятствие. @PremiumSendBot решает именно это: через P2P-перевод из Click на карту в сумах активирует 12 месяцев Premium." } },
+      { "@type": "Question", name: "425 000 сум — большая сумма. Безопасна ли оплата через Click?", acceptedAnswer: { "@type": "Answer", text: "Да. Click — лицензирован Центральным банком. Механизм: P2P-перевод на карту, бот не видит данных карты. Click выдаёт PDF-чек на каждый перевод. 425 000 сум — большая сумма, но уровень безопасности тот же, что и при 59 000 сум. Если Premium не пришёл, деньги возвращаются полностью." } },
+      { "@type": "Question", name: "Что если дневной лимит Click меньше 425 000 сум?", acceptedAnswer: { "@type": "Answer", text: "Лимит P2P-переводов в Click обычно высокий (до 10-20 млн сум в день), поэтому 425 000 чаще всего проходит без проблем. Если собственный банковский лимит карты низкий — проверьте карту в Click или временно повысьте лимит интернет-оплат в приложении банка. Если привязана другая карта, можно оплатить с неё." } },
+      { "@type": "Question", name: "Можно ли подарить 12-месячный Premium через Click?", acceptedAnswer: { "@type": "Answer", text: "Да. Когда бот спрашивает username, указываете аккаунт получателя, остальной процесс не меняется: из Click переводите 425 000 сум на карту, Premium активируется на этом аккаунте на 365 дней. Это самый длительный и ценный подарок Telegram Premium — идеально для дня рождения, свадьбы, Нового года или диплома." } },
+      { "@type": "Question", name: "Когда Premium активируется после оплаты?", acceptedAnswer: { "@type": "Answer", text: "P2P-перевод Click подтверждается за 1-2 минуты. Затем система за 1-5 минут определяет сумму, и Premium на указанном @username активируется на 365 дней автоматически. Бот присылает сообщение. Следующий год никакой повторной оплаты или продления не требуется." } },
     ],
   };
 
@@ -69,7 +69,7 @@ export default function Article12MonthHumoRu() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Главная", item: "https://premiumsend.uz/ru" },
       { "@type": "ListItem", position: 2, name: "Статьи", item: "https://premiumsend.uz/ru/maqolalar" },
-      { "@type": "ListItem", position: 3, name: "Telegram Premium на 12 месяцев через Humo", item: "https://premiumsend.uz/ru/maqolalar/12-oylik-telegram-premium-humo-orqali" },
+      { "@type": "ListItem", position: 3, name: "Telegram Premium на 12 месяцев через Click", item: "https://premiumsend.uz/ru/maqolalar/12-oylik-telegram-premium-click-orqali" },
     ],
   };
 
@@ -84,68 +84,68 @@ export default function Article12MonthHumoRu() {
         <span className="mx-2">/</span>
         <Link href="/ru/maqolalar" className="hover:text-primary">Статьи</Link>
         <span className="mx-2">/</span>
-        <span className="text-foreground font-medium">Telegram Premium на 12 месяцев через Humo</span>
+        <span className="text-foreground font-medium">Telegram Premium на 12 месяцев через Click</span>
       </nav>
 
       <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
         <header className="mb-10">
           <div className="flex items-center gap-3 mb-4">
             <span className="text-xs font-semibold px-3 py-1 rounded-full bg-primary-light text-primary">Руководство</span>
-            <time className="text-xs text-muted" dateTime="2026-05-14">14 мая 2026</time>
+            <time className="text-xs text-muted" dateTime="2026-06-05">5 июня 2026</time>
           </div>
           <h1 className="text-3xl md:text-4xl font-extrabold text-foreground leading-tight mb-6">
-            Telegram Premium на 12 месяцев через Humo
+            Telegram Premium на 12 месяцев через Click
           </h1>
 
           <div className="bg-primary-light/40 rounded-xl p-5 border border-primary/20 mb-6">
             <p className="text-foreground leading-relaxed font-medium">
-              <strong>Краткий ответ:</strong> процесс покупки 12-месячного Telegram Premium через Humo — в{" "}
+              <strong>Краткий ответ:</strong> процесс покупки 12-месячного Telegram Premium через Click — в{" "}
               <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
-              выбираете 12-месячный тариф, бот показывает <strong>номер карты и точную сумму 425 000 сум</strong>, вы с карты Humo переводите ровно эту сумму на эту карту. Система автоматически определяет и активирует Premium на 365 дней. В месяц 35 417 сум — самая низкая месячная цена среди всех тарифов.
+              выбираете 12-месячный тариф, бот показывает <strong>номер карты и точную сумму 425 000 сум</strong>, вы из приложения Click переводите ровно эту сумму на эту карту. Система автоматически определяет и активирует Premium на 365 дней. В месяц 35 417 сум — самая низкая месячная цена среди всех тарифов.
             </p>
           </div>
 
           <p className="text-lg text-muted leading-relaxed">
-            12-месячный Premium — самый экономный вариант. Один раз заплатили — целый год все возможности Telegram открыты. По сравнению с 12 раз по 1 месяцу на 39% дешевле, в месяц 35 417 сум — меньше стоимости ежедневного кофе. Humo — одна из самых распространённых национальных платёжных систем Узбекистана, наравне с Uzcard.
+            12-месячный Premium — самый экономный вариант. Один раз заплатили — целый год все возможности Telegram открыты. По сравнению с 12 раз по 1 месяцу на 39% дешевле, в месяц 35 417 сум — меньше стоимости ежедневного кофе. Click — самое распространённое платёжное приложение Узбекистана, а P2P-перевод выполняется за 1-2 минуты.
           </p>
           <p className="text-lg text-muted leading-relaxed mt-4">
-            В этой статье — точная цена 12-месячного Premium через Humo, механизм P2P-перевода между ботом и Humo, пошаговый процесс, решение проблемы дневного лимита, и почему 12-месячный тариф самый экономный вариант.
+            В этой статье — точная цена 12-месячного Premium через Click, механизм P2P-перевода между ботом и Click, пошаговый процесс, вопрос лимитов, и почему 12-месячный тариф самый экономный вариант.
           </p>
         </header>
 
         <div className="prose prose-lg max-w-none space-y-12">
-          {/* Section 1 — В Telegram есть, но Humo не принимается */}
+          {/* Section 1 — В Telegram есть, но Click не принимается */}
           <section>
             <h2 className="text-2xl font-extrabold text-foreground mb-4">
-              В Telegram 12 месяцев есть — но через Humo не оплатить
+              В Telegram 12 месяцев есть — но через Click не оплатить
             </h2>
             <p className="text-muted leading-relaxed mb-4">
               12-месячный тариф отличается от других сроков. 3 и 6 месяцев в официальном приложении Telegram <strong>отсутствуют вообще</strong> — поэтому реселлерские боты единственный вариант. 12 месяцев же в Telegram есть, в меню появляется вариант «Годовой», его можно выбрать. Но при нажатии «Оплатить» начинаются проблемы.
             </p>
             <p className="text-muted leading-relaxed mb-4">
-              Telegram принимает для годовой оплаты три системы: Google Pay (Android), Apple Pay (iOS) и зарубежные банковские карты (Visa, Mastercard). Национальные платёжные системы Узбекистана — <strong>Humo и Uzcard</strong> — не интегрированы с этой экосистемой. Даже если введёте данные карты Humo, платёж не подтвердится.
+              Telegram принимает для годовой оплаты три системы: Google Pay (Android), Apple Pay (iOS) и зарубежные банковские карты (Visa, Mastercard). Местные платёжные приложения Узбекистана — <strong>Click, Payme</strong>, а также карты Humo и Uzcard — не интегрированы с этой экосистемой. В платёжном окне Telegram варианта «Click» нет вообще.
             </p>
             <p className="text-muted leading-relaxed mb-4">
-              Это не техническая проблема Humo. Humo прекрасно работает внутри Узбекистана — межбанковские P2P, Click, Payme, коммунальные платежи. Проблема в том, что Telegram устанавливает годовую цену в долларах и опирается на международные платёжные системы. Значит владелец Humo не может купить годовой Premium через официальное приложение — это барьер на техническом и регуляторном уровне.
+              Это не техническая проблема Click. Click прекрасно работает внутри Узбекистана — P2P-переводы, коммунальные платежи, интернет-магазины. Проблема в том, что Telegram устанавливает годовую цену в долларах и опирается на международные платёжные системы. Значит пользователь Click не может купить годовой Premium через официальное приложение — это барьер на техническом и регуляторном уровне.
             </p>
             <div className="bg-section-alt rounded-xl p-5 mb-4">
               <p className="text-muted text-sm leading-relaxed">
-                <strong className="text-foreground">Практический итог:</strong> если у вас карта Humo и нужен 12-месячный Premium — три пути. Первый: попросить друга за границей оплатить Visa. Второй: открыть зарубежную карту (много документов, время). Третий: @PremiumSendBot — оплата в сумах через P2P-перевод с Humo, активация за 5 минут.
+                <strong className="text-foreground">Практический итог:</strong> если вы пользуетесь Click и нужен 12-месячный Premium — три пути. Первый: попросить друга за границей оплатить Visa. Второй: открыть зарубежную карту (много документов, время). Третий: @PremiumSendBot — оплата в сумах через P2P-перевод из Click, активация за 5 минут.
               </p>
             </div>
             <p className="text-muted leading-relaxed">
-              Что делает посреднический сервис? Принимает оплату через Humo переводом на карту, затем внутренними механизмами активирует годовой Premium на вашем аккаунте Telegram. Для вас процесс простой: переведите с Humo и получите 365 дней Premium.
+              Что делает посреднический сервис? Принимает оплату через Click переводом на карту, затем внутренними механизмами активирует годовой Premium на вашем аккаунте Telegram. Для вас процесс простой: переведите из Click и получите 365 дней Premium.
             </p>
           </section>
 
           {/* Section 2 — Pricing */}
           <section>
             <h2 className="text-2xl font-extrabold text-foreground mb-4">
-              12 месяцев Premium через Humo — цена и экономия 283 000 сум
+              12 месяцев Premium через Click — цена и экономия 283 000 сум
             </h2>
             <div className="bg-primary-light/40 border border-primary/20 rounded-xl p-5 mb-6">
               <p className="text-foreground leading-relaxed">
-                <strong>Цена:</strong> 12-месячный Telegram Premium через Humo — <strong>425 000 сум</strong> (35 417 сум/месяц). Сумма, указанная ботом — точно эта, никаких дополнительных комиссий. P2P-перевод Humo тоже без комиссии.
+                <strong>Цена:</strong> 12-месячный Telegram Premium через Click — <strong>425 000 сум</strong> (35 417 сум/месяц). Сумма, указанная ботом — точно эта, никаких дополнительных комиссий. P2P-перевод Click тоже без комиссии.
               </p>
             </div>
 
@@ -194,13 +194,13 @@ export default function Article12MonthHumoRu() {
           {/* Section 3 — Step by step */}
           <section>
             <h2 className="text-2xl font-extrabold text-foreground mb-4">
-              Как купить 12-месячный Premium через Humo — пошагово
+              Как купить 12-месячный Premium через Click — пошагово
             </h2>
             <div className="bg-primary-light/40 border border-primary/20 rounded-xl p-5 mb-6">
               <p className="text-foreground leading-relaxed">
                 <strong>Краткий ответ:</strong>{" "}
                 <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
-                откройте → выберите 12-месячный тариф → введите username → бот даст карту и сумму 425 000 сум → с Humo переведите ровно 425 000 сум на эту карту → Premium активируется на 365 дней за 5 минут.
+                откройте → выберите 12-месячный тариф → введите username → бот даст карту и сумму 425 000 сум → из Click переведите ровно 425 000 сум на эту карту → Premium активируется на 365 дней за 5 минут.
               </p>
             </div>
 
@@ -209,11 +209,10 @@ export default function Article12MonthHumoRu() {
                 { step: "1", title: "Откройте @PremiumSendBot в Telegram", desc: "Введите @PremiumSendBot в поиске. Откройте бот с галочкой верификации. Нажмите /start." },
                 { step: "2", title: "Выберите 12-месячный тариф", desc: "Бот покажет 4 тарифа: 1, 3, 6, 12 месяцев. Нажмите «12 месяцев» — цена 425 000 сум, в месяц 35 417." },
                 { step: "3", title: "Введите username получателя Premium", desc: "Через @ напишите Telegram username. 12 месяцев этот аккаунт будет Premium — проверьте username очень внимательно дважды." },
-                { step: "4", title: "Проверьте баланс и дневной лимит Humo", desc: "425 000 сум — большая сумма. Откройте приложение Humo, убедитесь в достаточном балансе и дневном лимите интернет-оплат. Если лимит низкий — повысьте до 1 000 000 сум в приложении (1 минута)." },
-                { step: "5", title: "Бот покажет номер карты и точную сумму", desc: "На экране номер карты (8600 XXXX XXXX XXXX) и сумма ровно 425 000 сум. Бот может также дать проверочный код в комментарии." },
-                { step: "6", title: "Сделайте P2P-перевод через Humo", desc: "С Humo на указанную карту переведите 425 000 сум. Через приложение банка, выпустившего Humo (Asakabank, Hamkorbank, НБУ, Trustbank, Kapitalbank и другие), SMS-банк, или Click/Payme если карта Humo привязана." },
-                { step: "7", title: "Подтверждение (PIN/SMS-код)", desc: "В зависимости от приложения — PIN, Face ID или SMS-код. На большие суммы банк может запросить дополнительное подтверждение через push — это нормальная мера безопасности." },
-                { step: "8", title: "Premium активируется за 5 минут", desc: "После подтверждения банком система за 1-5 минут определит сумму, и Premium активируется на 365 дней на указанном аккаунте. Бот пришлёт сообщение. Следующий год никакой повторной оплаты или продления." },
+                { step: "4", title: "Бот покажет номер карты и точную сумму", desc: "На экране номер карты (8600 XXXX XXXX XXXX) и сумма ровно 425 000 сум. Бот может также дать проверочный код в комментарии." },
+                { step: "5", title: "Откройте Click и начните P2P-перевод", desc: "Зайдите в приложение Click. Выберите функцию «Перевод на другую карту». Введите указанный ботом номер карты." },
+                { step: "6", title: "Введите ровно 425 000 сум и подтвердите", desc: "Введите сумму ровно 425 000 сум. Подтвердите PIN или Face ID. На большую сумму Click может запросить дополнительное подтверждение — это нормальная мера безопасности." },
+                { step: "7", title: "Premium активируется за 5 минут", desc: "После подтверждения платежа Click система за 1-5 минут определит сумму, и Premium активируется на 365 дней на указанном аккаунте. Бот пришлёт сообщение. Следующий год никакой повторной оплаты или продления." },
               ].map((item, i) => (
                 <div key={i} className="flex items-start gap-4">
                   <div className="w-10 h-10 rounded-full bg-primary text-white text-sm font-bold flex items-center justify-center flex-shrink-0">{item.step}</div>
@@ -234,14 +233,14 @@ export default function Article12MonthHumoRu() {
           <section>
             <div className="hero-gradient rounded-2xl p-6 md:p-8 text-center">
               <p className="text-white/90 leading-relaxed mb-4">
-                Карта Humo готова?{" "}
-                <strong className="text-white">@PremiumSendBot</strong> — выберите 12-месячный тариф, получите карту и сумму 425 000 сум, переведите через Humo. Premium 365 дней без забот.
+                Приложение Click готово?{" "}
+                <strong className="text-white">@PremiumSendBot</strong> — выберите 12-месячный тариф, получите карту и сумму 425 000 сум, переведите из Click. Premium 365 дней без забот.
               </p>
               <Link href="https://t.me/premiumsendbot" target="_blank" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-bold rounded-xl hover:shadow-2xl transition-all">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z" />
                 </svg>
-                Начать с Humo — 12 месяцев
+                Начать с Click — 12 месяцев
               </Link>
             </div>
           </section>
@@ -261,7 +260,7 @@ export default function Article12MonthHumoRu() {
               <li>Premium активируется на указанном @username на 365 дней</li>
             </ul>
             <p className="text-muted leading-relaxed">
-              Если переведёте другую сумму (например, 425 500 или 424 000), обращаетесь в поддержку с номером чека Humo — Premium активируется вручную за 15-30 минут или возвращается разница. Точно 425 000 — самый быстрый автоматический путь. При вводе суммы в банковском приложении будьте внимательны.
+              Если переведёте другую сумму (например, 425 500 или 424 000), обращаетесь в поддержку с номером чека Click — Premium активируется вручную за 15-30 минут или возвращается разница. Точно 425 000 — самый быстрый автоматический путь. При вводе суммы в Click будьте внимательны.
             </p>
           </section>
 
@@ -291,32 +290,32 @@ export default function Article12MonthHumoRu() {
             </p>
           </section>
 
-          {/* Section 6 — Humo limit problem */}
+          {/* Section 6 — Click limit / app issues */}
           <section>
             <h2 className="text-2xl font-extrabold text-foreground mb-4">
-              Что делать, если дневной лимит Humo меньше 425 000 сум?
+              Лимиты и другие проблемы при переводе 425 000 сум через Click
             </h2>
             <p className="text-muted leading-relaxed mb-4">
-              Самая частая практическая проблема. У многих банков для карты Humo дневной лимит интернет-оплат по умолчанию <strong>200 000-500 000 сум</strong>. 425 000 — как раз на этой границе. В некоторых случаях первая попытка отклоняется банком.
+              Дневной лимит P2P-переводов в Click обычно высокий — в большинстве случаев 425 000 сум проходит без проблем. Но иногда из-за ограничения на стороне карты или банка первая попытка может быть отклонена. Ниже самые частые ситуации и решения.
             </p>
 
             <div className="space-y-3 mb-6">
               <div className="bg-white rounded-xl p-5 border border-card-border shadow-sm">
-                <h3 className="font-bold text-foreground mb-1">1️⃣ Повысить лимит — самый правильный путь</h3>
+                <h3 className="font-bold text-foreground mb-1">1️⃣ Низкий лимит карты — повысьте в банке</h3>
                 <p className="text-sm text-muted leading-relaxed">
-                  Откройте мобильное приложение банка, выпустившего Humo (Asakabank, Hamkorbank, НБУ, Trustbank, Kapitalbank и другие банки-эмитенты Humo). «Карты» → выбрать карту → «Лимиты» или «Настройки». Временно повысьте лимит интернет-оплат до 1 000 000 сум. В большинстве банков это срабатывает сразу.
+                  Если у карты в Click низкий лимит интернет-оплат собственного банка, временно повысьте дневной лимит до 1 000 000 сум в мобильном приложении этого банка. В большинстве банков это срабатывает сразу.
                 </p>
               </div>
               <div className="bg-white rounded-xl p-5 border border-card-border shadow-sm">
-                <h3 className="font-bold text-foreground mb-1">2️⃣ Через Click или Payme — альтернатива</h3>
+                <h3 className="font-bold text-foreground mb-1">2️⃣ Привяжите другую карту — альтернатива</h3>
                 <p className="text-sm text-muted leading-relaxed">
-                  Если ваша Humo привязана к Click или Payme, оплачивайте через них. У Click и Payme лимиты считаются банком иначе — обычно до 1-2 млн сум стандартного ограничения нет.
+                  В Click можно привязать несколько карт. Если на одной не хватает баланса или лимита, выберите другую карту и переведите указанную сумму с неё. Или выполните оплату через приложение Payme — результат тот же.
                 </p>
               </div>
               <div className="bg-white rounded-xl p-5 border border-card-border shadow-sm">
-                <h3 className="font-bold text-foreground mb-1">3️⃣ Звонок в банк — если предыдущее не помогает</h3>
+                <h3 className="font-bold text-foreground mb-1">3️⃣ Проверьте баланс заранее</h3>
                 <p className="text-sm text-muted leading-relaxed">
-                  Позвоните в call-центр банка с просьбой «повысить лимит интернет-оплат на один день». По паспортным данным и деталям карты подтвердят, лимит поднимется сразу.
+                  425 000 сум — годовая оплата. Откройте Click и заранее убедитесь, что на карте достаточный баланс. Если не хватает — пополните карту или выберите другую с достаточным балансом.
                 </p>
               </div>
               <div className="bg-white rounded-xl p-5 border border-card-border shadow-sm">
@@ -331,7 +330,7 @@ export default function Article12MonthHumoRu() {
           {/* Section 7 — Safety */}
           <section>
             <h2 className="text-2xl font-extrabold text-foreground mb-4">
-              425 000 сум — большая сумма. Безопасна ли оплата через Humo?
+              425 000 сум — большая сумма. Безопасна ли оплата через Click?
             </h2>
             <p className="text-muted leading-relaxed mb-4">
               Основной психологический барьер 12-месячного пакета — большой размер суммы. «Если деньги уйдут, а Premium не придёт?» — обоснованный и нормальный вопрос. С точки зрения механизма перевод 425 000 сум не отличается от 59 000 сум — точно такой же P2P-перевод.
@@ -339,21 +338,21 @@ export default function Article12MonthHumoRu() {
 
             <div className="space-y-3 mb-6">
               <div className="bg-white rounded-xl p-5 border border-card-border shadow-sm">
-                <h3 className="font-bold text-foreground mb-1">🔐 Данные карты на сервере банка</h3>
+                <h3 className="font-bold text-foreground mb-1">🔐 Данные карты на сервере Click</h3>
                 <p className="text-sm text-muted leading-relaxed">
-                  Номер карты Humo, пароль и CVV сохраняются только на сервере банка. Бот никогда их не видит — бот видит только факт «на карту поступило 425 000 сум».
+                  Номер карты, пароль и CVV сохраняются только на сервере Click. Бот никогда их не видит — бот видит только факт «на карту поступило 425 000 сум».
                 </p>
               </div>
               <div className="bg-white rounded-xl p-5 border border-card-border shadow-sm">
-                <h3 className="font-bold text-foreground mb-1">📋 PDF-чек банка — правовой документ</h3>
+                <h3 className="font-bold text-foreground mb-1">📋 PDF-чек Click — правовой документ</h3>
                 <p className="text-sm text-muted leading-relaxed">
-                  На каждый P2P-перевод банк выдаёт PDF-чек. Чек на 425 000 сум — ваш правовой документ. При проблеме поддержка по номеру чека сразу находит платёж.
+                  На каждый P2P-перевод Click выдаёт PDF-чек. Чек на 425 000 сум — ваш правовой документ. При проблеме поддержка по номеру чека сразу находит платёж.
                 </p>
               </div>
               <div className="bg-white rounded-xl p-5 border border-card-border shadow-sm">
                 <h3 className="font-bold text-foreground mb-1">💰 Если Premium не придёт — деньги вернутся</h3>
                 <p className="text-sm text-muted leading-relaxed">
-                  При технической ошибке 425 000 сум возвращаются полностью. По номеру чека Humo процесс возврата быстрый — в банковской стороне 1-3 рабочих дня.
+                  При технической ошибке 425 000 сум возвращаются полностью. По номеру чека Click процесс возврата быстрый.
                 </p>
               </div>
               <div className="bg-white rounded-xl p-5 border border-card-border shadow-sm">
@@ -375,14 +374,14 @@ export default function Article12MonthHumoRu() {
             <h2 className="text-2xl font-extrabold text-foreground mb-6">Часто задаваемые вопросы</h2>
             <div className="space-y-4">
               {[
-                { q: "Сколько стоит Telegram Premium на 12 месяцев через Humo?", a: "425 000 сум — 35 417 сум в месяц. Самая низкая месячная цена среди всех тарифов. Через Uzcard, Click и Payme — та же цена. Humo не берёт дополнительной комиссии." },
-                { q: "Как купить 12-месячный Premium через Humo?", a: "В @PremiumSendBot выберите 12-месячный тариф, введите username. Бот покажет карту и сумму 425 000 сум. С Humo переведите ровно 425 000 сум. За 5 минут Premium на 365 дней." },
-                { q: "Что если перевести другую сумму?", a: "Система не сможет автоматически сопоставить. Обращаетесь в поддержку с номером чека Humo — Premium активируется вручную за 15-30 минут или возвращается разница. Точно 425 000 всегда быстрее." },
-                { q: "В Telegram есть 12 месяцев, зачем покупать через бот?", a: "В Telegram 12 месяцев есть, но оплата только через Google Pay, Apple Pay или зарубежные карты. Humo и Uzcard в официальном приложении не принимаются. Бот — единственный путь оплаты в сумах." },
-                { q: "Что если дневной лимит Humo меньше нужной суммы?", a: "В приложении банка повысьте дневной лимит интернет-оплат до 1 000 000 сум (1 минута). Или через Click/Payme если карта Humo привязана — там лимит считается иначе." },
-                { q: "Можно ли подарить 12-месячный Premium?", a: "Да. Бот спрашивает username получателя, с Humo переводите 425 000 сум на карту, Premium активируется на этом аккаунте на 365 дней. Годовой ценный подарок — самый крупный Premium-gift." },
+                { q: "Сколько стоит Telegram Premium на 12 месяцев через Click?", a: "425 000 сум — 35 417 сум в месяц. Самая низкая месячная цена среди всех тарифов. Через Uzcard, Humo и Payme — та же цена. Click не берёт дополнительной комиссии." },
+                { q: "Как купить 12-месячный Premium через Click?", a: "В @PremiumSendBot выберите 12-месячный тариф, введите username. Бот покажет карту и сумму 425 000 сум. Из Click переведите ровно 425 000 сум. За 5 минут Premium на 365 дней." },
+                { q: "Что если перевести другую сумму?", a: "Система не сможет автоматически сопоставить. Обращаетесь в поддержку с номером чека Click — Premium активируется вручную за 15-30 минут или возвращается разница. Точно 425 000 всегда быстрее." },
+                { q: "В Telegram есть 12 месяцев, зачем покупать через бот?", a: "В Telegram 12 месяцев есть, но оплата только через Google Pay, Apple Pay или зарубежные карты. Click в официальном приложении не принимается. Бот — единственный путь оплаты в сумах." },
+                { q: "Что если дневной лимит Click меньше нужной суммы?", a: "Лимит P2P в Click обычно высокий, 425 000 чаще всего проходит. Если лимит карты низкий — повысьте в приложении банка, или оплатите с другой карты, привязанной к Click. Через Payme тоже можно." },
+                { q: "Можно ли подарить 12-месячный Premium?", a: "Да. Бот спрашивает username получателя, из Click переводите 425 000 сум на карту, Premium активируется на этом аккаунте на 365 дней. Годовой ценный подарок — самый крупный Premium-gift." },
                 { q: "После 12-месячной оплаты будет авто-продление?", a: "Нет. Через PremiumSend 12 месяцев — разовая оплата. Через год подписка заканчивается автоматически, никакой повторной оплаты или продления не запрашивается. Подписка Telegram через Apple Pay/Google Pay может продлеваться автоматически — здесь контроль у вас." },
-                { q: "Безопасно ли платить через Humo?", a: "Да. Humo лицензирована Центральным банком. Данные карты только на сервере банка, бот их не видит. Если Premium не придёт — деньги возвращаются. Один большой платёж статистически безопаснее 12 маленьких." },
+                { q: "Безопасно ли платить через Click?", a: "Да. Click лицензирован Центральным банком. Данные карты только на сервере Click, бот их не видит. Если Premium не придёт — деньги возвращаются. Один большой платёж статистически безопаснее 12 маленьких." },
                 { q: "12 месяцев или 6 месяцев — что выгоднее?", a: "12 месяцев — 35 417 сум/месяц, на 10% дешевле 6-месячного (39 167). Плюс 365 дней без забот о повторной оплате. Но 425 000 сум нужно собрать сразу — если бюджет позволяет, самый экономный вариант." },
               ].map((faq, i) => (
                 <div key={i} className="bg-white rounded-xl p-6 border border-card-border shadow-sm">
@@ -396,7 +395,7 @@ export default function Article12MonthHumoRu() {
           {/* Trust Block */}
           <section>
             <div className="bg-section-alt rounded-2xl p-6 md:p-8">
-              <h3 className="text-lg font-bold text-foreground mb-4 text-center">12 месяцев через Humo — в цифрах</h3>
+              <h3 className="text-lg font-bold text-foreground mb-4 text-center">12 месяцев через Click — в цифрах</h3>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                 <div className="text-center">
                   <p className="text-2xl font-extrabold text-primary">425 000</p>
@@ -417,14 +416,13 @@ export default function Article12MonthHumoRu() {
           {/* Related */}
           <section>
             <div className="bg-white rounded-2xl p-6 md:p-8 border border-card-border">
-              <h3 className="text-lg font-bold text-foreground mb-4">Другие сроки через Humo</h3>
+              <h3 className="text-lg font-bold text-foreground mb-4">Click и 12 месяцев — другие статьи</h3>
               <ul className="space-y-2 text-sm">
-                <li><Link href="/ru/maqolalar/telegram-premium-humo-orqali" className="text-primary font-semibold hover:underline">Premium через Humo — pillar-руководство</Link></li>
-                <li><Link href="/ru/maqolalar/3-oylik-telegram-premium-humo-orqali" className="text-primary font-semibold hover:underline">3 месяца Premium через Humo (175 000 сум)</Link></li>
-                <li><Link href="/ru/maqolalar/6-oylik-telegram-premium-humo-orqali" className="text-primary font-semibold hover:underline">6 месяцев Premium через Humo (235 000 сум)</Link></li>
+                <li><Link href="/ru/maqolalar/telegram-premium-click-orqali" className="text-primary font-semibold hover:underline">Premium через Click — pillar-руководство</Link></li>
+                <li><Link href="/ru/maqolalar/3-oylik-telegram-premium-click-orqali" className="text-primary font-semibold hover:underline">3 месяца Premium через Click</Link></li>
+                <li><Link href="/ru/maqolalar/6-oylik-telegram-premium-click-orqali" className="text-primary font-semibold hover:underline">6 месяцев Premium через Click (235 000 сум)</Link></li>
+                <li><Link href="/ru/maqolalar/12-oylik-telegram-premium-humo-orqali" className="text-primary font-semibold hover:underline">12 месяцев Premium через Humo</Link></li>
                 <li><Link href="/ru/maqolalar/12-oylik-telegram-premium-sotib-olish" className="text-primary font-semibold hover:underline">12 месяцев Premium — общее руководство</Link></li>
-                <li><Link href="/ru/maqolalar/12-oylik-telegram-premium-click-orqali" className="text-primary font-semibold hover:underline">12 месяцев Premium через Click</Link></li>
-                <li><Link href="/ru/maqolalar/12-oylik-telegram-premium-uzcard-orqali" className="text-primary font-semibold hover:underline">12 месяцев Premium через Uzcard</Link></li>
                 <li><Link href="/ru/maqolalar/telegram-premium-narxlari" className="text-primary font-semibold hover:underline">Сравнение цен Telegram Premium</Link></li>
               </ul>
             </div>
@@ -438,14 +436,14 @@ export default function Article12MonthHumoRu() {
               </div>
               <div className="relative">
                 <p className="text-white/90 text-lg leading-relaxed mb-6">
-                  12-месячный Telegram Premium через Humo — 425 000 сум, 35 417 в месяц (самая низкая месячная цена). Обычный P2P-перевод через Humo на указанную ботом карту, активация за 5 минут, 365 дней без забот.{" "}
+                  12-месячный Telegram Premium через Click — 425 000 сум, 35 417 в месяц (самая низкая месячная цена). Обычный P2P-перевод из Click на указанную ботом карту, активация за 5 минут, 365 дней без забот.{" "}
                   <strong className="text-white">@PremiumSendBot</strong> — начать.
                 </p>
                 <Link href="https://t.me/premiumsendbot" target="_blank" className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg">
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z" />
                   </svg>
-                  Начать с Humo — 12 месяцев
+                  Начать с Click — 12 месяцев
                 </Link>
               </div>
             </div>

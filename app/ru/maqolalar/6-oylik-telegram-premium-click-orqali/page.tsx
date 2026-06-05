@@ -438,6 +438,7 @@ export default function Article6MonthClickRu() {
               <ul className="space-y-2 text-sm">
                 <li><Link href="/ru/maqolalar/telegram-premium-click-orqali" className="text-primary font-semibold hover:underline">Premium через Click — pillar руководство</Link></li>
                 <li><Link href="/ru/maqolalar/3-oylik-telegram-premium-click-orqali" className="text-primary font-semibold hover:underline">3 месячный Premium через Click</Link></li>
+                <li><Link href="/ru/maqolalar/12-oylik-telegram-premium-click-orqali" className="text-primary font-semibold hover:underline">12 месяцев Premium через Click</Link></li>
                 <li><Link href="/ru/maqolalar/6-oylik-telegram-premium-humo-orqali" className="text-primary font-semibold hover:underline">6 месячный Premium через Humo</Link></li>
                 <li><Link href="/ru/maqolalar/6-oylik-telegram-premium-sotib-olish" className="text-primary font-semibold hover:underline">6 месячный Premium — общее руководство</Link></li>
                 <li><Link href="/ru/maqolalar/telegram-premium-narxlari" className="text-primary font-semibold hover:underline">Сравнение цен Premium (1, 3, 6, 12 месяцев)</Link></li>

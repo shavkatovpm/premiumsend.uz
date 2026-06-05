@@ -438,6 +438,7 @@ export default function Article6MonthClickUz() {
               <ul className="space-y-2 text-sm">
                 <li><Link href="/maqolalar/telegram-premium-click-orqali" className="text-primary font-semibold hover:underline">Click orqali Premium — pillar qo&apos;llanma</Link></li>
                 <li><Link href="/maqolalar/3-oylik-telegram-premium-click-orqali" className="text-primary font-semibold hover:underline">3 oylik Premium Click orqali</Link></li>
+                <li><Link href="/maqolalar/12-oylik-telegram-premium-click-orqali" className="text-primary font-semibold hover:underline">12 oylik Premium Click orqali</Link></li>
                 <li><Link href="/maqolalar/6-oylik-telegram-premium-humo-orqali" className="text-primary font-semibold hover:underline">6 oylik Premium Humo orqali</Link></li>
                 <li><Link href="/maqolalar/6-oylik-telegram-premium-sotib-olish" className="text-primary font-semibold hover:underline">6 oylik Premium — umumiy qo&apos;llanma</Link></li>
                 <li><Link href="/maqolalar/telegram-premium-narxlari" className="text-primary font-semibold hover:underline">Premium narxlari taqqoslash (1, 3, 6, 12 oylik)</Link></li>
