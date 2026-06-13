@@ -39,6 +39,7 @@ export default function Article3MonthUzcard() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "3 oylik Telegram Premium Uzcard orqali — O'zbekistonda 175,000 so'mga",
     description:
@@ -147,11 +148,17 @@ export default function Article3MonthUzcard() {
     ],
   };
 
+  const howToSchema = {"@context":"https://schema.org","@type":"HowTo","name":"3 oylik Telegram Premium Uzcard orqali — O'zbekistonda 175,000 so'mga","description":"Bosqichma-bosqich yo'riqnoma: 3 oylik Telegram Premium Uzcard orqali — O'zbekistonda 175,000 so'mga","step":[{"@type":"HowToStep","position":1,"name":"Telegramda botni oching","text":"Telegram qidiruv maydoniga @PremiumSendBot yozing. Rasmiy bot Telegram bilan tasdiqlangan belgisi bilan chiqadi. Shu botni oching va /start tugmasini bosing."},{"@type":"HowToStep","position":2,"name":"Menyudan 3 oylik paketni tanlang","text":"Bot asosiy menyusida barcha paketlar ko'rsatiladi — 1, 3, 6 va 12 oylik. 3 oylik variantini tanlang. Narx darhol ko'rsatiladi: 175,000 so'm."},{"@type":"HowToStep","position":3,"name":"Username kiriting","text":"Premium faollashtirilishi kerak bo'lgan Telegram username'ni kiriting. Bu sizning o'zingizning akkauntingiz yoki boshqa odamning username'i bo'lishi mumkin. Xatolik bo'lmasligi uchun ikki marta tekshiring."},{"@type":"HowToStep","position":4,"name":"Uzcard orqali to'lovni tanlang","text":"Bot sizga mos to'lov usullarini taklif qiladi: Uzcard, Humo, Click yoki Payme. O'zingizga qulay variantni tanlang — narx bir xil qoladi: 175,000 so'm."},{"@type":"HowToStep","position":5,"name":"175,000 so'mni to'lang","text":"Botdagi ko'rsatmalarga amal qilib, tanlangan usul orqali to'lovni amalga oshiring. Jarayon odatdagicha — Uzcard mobil ilovasida yoki Click/Payme da bir necha bosishda tugaydi."},{"@type":"HowToStep","position":6,"name":"Premium faollashishini kuting","text":"To'lov tasdiqlangandan so'ng bot sizga xabar yuboradi. Bir necha daqiqa ichida Premium akkauntda faollashadi — profilingizda Premium badge paydo bo'ladi. Shu bilan jarayon tugaydi."}]};
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
       />
       <script
         type="application/ld+json"

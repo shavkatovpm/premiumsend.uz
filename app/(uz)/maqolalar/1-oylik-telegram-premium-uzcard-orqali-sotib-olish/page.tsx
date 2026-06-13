@@ -40,6 +40,7 @@ export default function ArticlePremiumUzcard() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "1 oylik Telegram Premium Uzcard orqali sotib olish — so'mda to'lov",
     description:

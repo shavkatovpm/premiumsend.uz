@@ -38,6 +38,7 @@ export default function ArticleHumoOrqali() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "Telegram Premium Humo karta orqali sotib olish — qadamma-qadam qo'llanma",
     description:
@@ -131,9 +132,15 @@ export default function ArticleHumoOrqali() {
     ],
   };
 
+  const howToSchema = {"@context":"https://schema.org","@type":"HowTo","name":"Telegram Premium Humo karta orqali sotib olish — qadamma-qadam qo'llanma","description":"Bosqichma-bosqich yo'riqnoma: Telegram Premium Humo karta orqali sotib olish — qadamma-qadam qo'llanma","step":[{"@type":"HowToStep","position":1,"name":"Telegramda @PremiumSendBot ni qidiring","text":"Telegramning yuqori qidiruv qatoriga @PremiumSendBot deb yozing. Tasdiqlangan bot belgisini tekshiring — haqiqiy bot shunday belgi bilan keladi. Oching va /start bosing."},{"@type":"HowToStep","position":2,"name":"Tarifni tanlang","text":"Bot menyusida 4 ta tarif chiqadi: 1, 3, 6 va 12 oylik. Sinab ko'ryapsizmi — 1 oylik (59,000) yetadi. Doimiy foydalanasizmi — 12 oylik (425,000) eng tejamkor. Balansli — 6 oylik (235,000)."},{"@type":"HowToStep","position":3,"name":"Premium kerak akkauntning username ini kiriting","text":"@belgisidan keyin Telegram username ni yozing. Bu o'zingizning yoki sovg'a olayotganingiz uchun boshqa odam akkaunti. Xato yozmaslik muhim — Premium aynan o'sha akkauntda faollashadi."},{"@type":"HowToStep","position":4,"name":"To'lov usulini tanlang — Humo","text":"Ekranda 4 ta variant ko'rinadi: Uzcard, Humo, Click, Payme. \"Humo\" ni bosing. Bot keyingi qadam — to'lov usulini tushuntiradi (P2P, Click ilovasi yoki Payme ilovasi orqali)."},{"@type":"HowToStep","position":5,"name":"Humo karta bilan to'lang","text":"Bot taklif qilgan usulda Humo kartangizdan to'lov amalga oshiring. Eng oson yo'l — Click yoki Payme orqali (kartani ulagan bo'lsangiz). Yoki to'g'ridan-to'g'ri Humo P2P o'tkazma. Komissiya 0%."},{"@type":"HowToStep","position":6,"name":"Premium 5 daqiqada faollashadi","text":"To'lov tasdiqlangach, akkauntda Premium avtomatik yoqiladi. Bot xabar yuboradi. Qo'shimcha tasdiqlash kerak emas. Texnik kechikish bo'lsa 10-15 daqiqaga cho'zilishi mumkin."}]};
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
+      />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 

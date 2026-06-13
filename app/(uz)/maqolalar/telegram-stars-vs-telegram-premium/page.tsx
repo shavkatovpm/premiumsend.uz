@@ -39,6 +39,7 @@ export default function ArticleStarsVsPremiumUz() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "Telegram Stars vs Telegram Premium: qaysini tanlash kerak",
     description:

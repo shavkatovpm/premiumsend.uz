@@ -38,6 +38,7 @@ export default function ArticleStarsPaymentUz() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "Telegram Stars Click va kartaga o'tkazma orqali so'mda — to'liq qo'llanma",
     description:
@@ -73,9 +74,15 @@ export default function ArticleStarsPaymentUz() {
     ],
   };
 
+  const howToSchema = {"@context":"https://schema.org","@type":"HowTo","name":"Telegram Stars Click va kartaga o'tkazma orqali so'mda — to'liq qo'llanma","description":"Bosqichma-bosqich yo'riqnoma: Telegram Stars Click va kartaga o'tkazma orqali so'mda — to'liq qo'llanma","step":[{"@type":"HowToStep","position":1,"name":"Telegramda @starsjoybot ni oching","text":"Telegram qidiruv qatoriga @starsjoybot deb yozing va botni oching. /start tugmasini bosing — bot menyusi (UZ va RU) ochiladi."},{"@type":"HowToStep","position":2,"name":"Stars miqdorini tanlang","text":"Bot tayyor paketlar (50, 100, 250, 500, 1000, 2500, 5000 Stars) yoki o'z miqdoringizni kiritish imkonini beradi. Narx so'mda darhol ko'rinadi."},{"@type":"HowToStep","position":3,"name":"To'lov yo'lini tanlang: Click yoki kartaga o'tkazma","text":"Click ilovasi mavjud bo'lsa — Click ni tanlang, jarayon tezroq. Bo'lmasa — kartaga o'tkazma (Uzcard, Humo, bank ilovasi)."},{"@type":"HowToStep","position":4,"name":"Click yo'li: Click ilovasida to'lash","text":"Click ilovasi orqali to'lov tasdiqlanadi. PIN/Face ID bilan 1-2 daqiqada amalga oshadi."},{"@type":"HowToStep","position":5,"name":"Kartaga o'tkazma yo'li: bot karta raqami va summani beradi","text":"Bot karta raqami va aniq summani ko'rsatadi. Siz Uzcard, Humo bank ilovasi yoki Click/Payme ichida ulangan kartangiz orqali shu kartaga o'tkazasiz. Aynan ko'rsatilgan summa muhim."},{"@type":"HowToStep","position":6,"name":"Stars 1-5 daqiqada akkauntga tushadi","text":"To'lov tasdiqlangach Stars avtomatik akkauntda paydo bo'ladi. Telegram → Settings → Stars bo'limida ko'rishingiz mumkin."}]};
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
+      />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 

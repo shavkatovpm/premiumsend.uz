@@ -26,6 +26,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    locale: "ru_RU",
     title: "Лучший способ получить Telegram Premium на 6 месяцев",
     description:
       "Все способы сравнены. Самый быстрый и удобный — @PremiumSendBot через Uzcard, Humo за 235 000 сум.",
@@ -34,7 +35,7 @@ export const metadata: Metadata = {
     publishedTime: "2026-04-08",
     images: [
       {
-        url: "https://premiumsend.uz/og/6-oylik-eng-yaxshi-usul.png",
+        url: "https://premiumsend.uz/og-image.png",
         width: 1200,
         height: 630,
         alt: "Лучший способ получить Telegram Premium на 6 месяцев — сравнение",
@@ -47,6 +48,7 @@ export default function Article6MonthBestWayRu() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "Лучший способ получить Telegram Premium на 6 месяцев — 2026 год",
     description:
@@ -65,7 +67,6 @@ export default function Article6MonthBestWayRu() {
     },
     mainEntityOfPage:
       "https://premiumsend.uz/ru/maqolalar/6-oylik-telegram-premium-olishning-eng-yaxshi-usuli",
-    image: "https://premiumsend.uz/og/6-oylik-eng-yaxshi-usul.png",
   };
 
   const faqSchema = {

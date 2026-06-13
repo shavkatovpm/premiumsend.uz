@@ -39,6 +39,7 @@ export default function Article12MonthUzcard() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "12 oylik Telegram Premium Uzcard orqali — O'zbekistonda 425,000 so'mga",
     description:
@@ -147,11 +148,17 @@ export default function Article12MonthUzcard() {
     ],
   };
 
+  const howToSchema = {"@context":"https://schema.org","@type":"HowTo","name":"12 oylik Telegram Premium Uzcard orqali — O'zbekistonda 425,000 so'mga","description":"Bosqichma-bosqich yo'riqnoma: 12 oylik Telegram Premium Uzcard orqali — O'zbekistonda 425,000 so'mga","step":[{"@type":"HowToStep","position":1,"name":"Telegramda @PremiumSendBot ni oching","text":"Telegram qidiruvidan @PremiumSendBot ni toping. Tasdiqlangan bot belgisiga e'tibor bering — haqiqiy bot shunday belgi bilan keladi. Oching va /start bosing."},{"@type":"HowToStep","position":2,"name":"Menyudan 12 oylik paketni tanlang","text":"Bot asosiy menyusida barcha paketlar chiqadi. «12 oylik Premium» variantini tanlang. Narx darhol ko'rsatiladi: 425,000 so'm (oyiga 35,417 so'm)."},{"@type":"HowToStep","position":3,"name":"Username kiriting","text":"Premium faollashtirilishi kerak bo'lgan Telegram username'ni yozing. Bu o'zingizning akkauntingiz yoki birovga sovg'a bo'lsa — uning username'i. Xatosiz yozing — 12 oy davomida bu akkaunt Premium bo'ladi."},{"@type":"HowToStep","position":4,"name":"Kartada balans va limitni tekshiring","text":"425,000 so'm — bu kattagina summa. Uzcard mobil ilovasini oching, kartada yetarli balans va kunlik internet to'lov limiti borligiga ishonch hosil qiling. Agar limit past bo'lsa — ilova ichida oshiring."},{"@type":"HowToStep","position":5,"name":"To'lov usulini tanlang va to'lang","text":"Bot Uzcard, Humo, Click va Payme orasidan tanlashni taklif qiladi. Tanlang va botdagi ko'rsatmalarga amal qiling — to'lov odatdagi ilovangiz ichida amalga oshiriladi."},{"@type":"HowToStep","position":6,"name":"365 kunga Premium faollashadi","text":"To'lov tasdiqlangach, 12 oylik Premium akkauntda avtomatik yoqiladi. Keyingi bir yil davomida hech qanday qayta to'lov yoki uzaytirish kerak emas — obuna uzluksiz ishlaydi."}]};
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
       />
       <script
         type="application/ld+json"

@@ -24,6 +24,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    locale: "ru_RU",
     title:
       "Что такое Telegram Premium и какие возможности даёт в 2026 году",
     description:
@@ -38,6 +39,7 @@ export default function ArticleTelegramPremiumNimaRu() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "Что такое Telegram Premium и какие возможности даёт в 2026 году",
     description:

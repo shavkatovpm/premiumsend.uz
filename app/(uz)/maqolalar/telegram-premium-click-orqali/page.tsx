@@ -38,12 +38,13 @@ export default function ArticleClickOrqali() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "Telegram Premium Click orqali sotib olish — qadamma-qadam qo'llanma",
     description:
       "Telegram Premium ni Click ilovasi orqali O'zbekistonda sotib olish — bot ko'rsatgan kartaga Click'dan o'tkazma, barcha tariflar va narxlar.",
     datePublished: "2026-05-05",
-    dateModified: "2026-05-05",
+    dateModified: "2026-05-03",
     author: {
       "@type": "Organization",
       name: "Premium Send",
@@ -139,9 +140,15 @@ export default function ArticleClickOrqali() {
     ],
   };
 
+  const howToSchema = {"@context":"https://schema.org","@type":"HowTo","name":"Telegram Premium Click orqali sotib olish — qadamma-qadam qo'llanma","description":"Bosqichma-bosqich yo'riqnoma: Telegram Premium Click orqali sotib olish — qadamma-qadam qo'llanma","step":[{"@type":"HowToStep","position":1,"name":"Telegramda @PremiumSendBot ni qidiring","text":"Telegram qidiruv qatoriga @PremiumSendBot deb yozing. Tasdiqlangan belgi bilan rasmiy bot chiqadi. Oching va /start tugmasini bosing."},{"@type":"HowToStep","position":2,"name":"Tarifni tanlang","text":"Bot 4 ta tarif chiqaradi: 1, 3, 6 va 12 oylik. Sinash uchun 1 oylik (59,000) yetadi, doimiy uchun 12 oylik (425,000) eng arzon."},{"@type":"HowToStep","position":3,"name":"Premium kerak akkaunt username'ini kiriting","text":"@belgisidan keyin Telegram username yozing. Bu o'zingizning yoki sovg'a olayotgan kishining akkaunti. Xato bo'lsa Premium boshqa akkauntda faollashadi — ikki marta tekshiring."},{"@type":"HowToStep","position":4,"name":"Bot karta raqami va summani ko'rsatadi","text":"Ekranda karta raqami va aniq to'lov summasi chiqadi. Bot izoh sifatida tekshiruv kodi ham berishi mumkin."},{"@type":"HowToStep","position":5,"name":"Click ilovasini oching va P2P o'tkazma boshlang","text":"Click ilovasiga kiring. \"Boshqa kartaga o'tkazma\" funksiyasini tanlang. Bot ko'rsatgan karta raqamini kiriting."},{"@type":"HowToStep","position":6,"name":"Aynan ko'rsatilgan summani kiriting va tasdiqlang","text":"Summani aynan bot ko'rsatgan miqdorda kiriting. 100 so'm farq ham tizimga to'lovni avtomatik aniqlashga to'sqinlik qiladi. PIN yoki Face ID bilan tasdiqlang."},{"@type":"HowToStep","position":7,"name":"Premium 5 daqiqada faollashadi","text":"Click to'lovni tasdiqlangach, tizim 1-5 daqiqada summani aniqlaydi va Premium siz bergan akkauntda yoqiladi."}]};
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
+      />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 

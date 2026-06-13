@@ -40,6 +40,7 @@ export default function ArticleStickersEmojiUz() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "Telegram Premium stikerlari, animatsiyali emoji va premium reaksiyalar — to'liq qo'llanma",
     description:

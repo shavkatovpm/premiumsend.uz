@@ -39,6 +39,7 @@ export default function ArticleTelegramPremiumNima() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "Telegram Premium nima va 2026-yilda qanday imkoniyatlar beradi — to'liq qo'llanma",
     description:

@@ -25,6 +25,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    locale: "ru_RU",
     title:
       "Premium-стикеры, анимированные эмодзи и premium-реакции",
     description:
@@ -39,6 +40,7 @@ export default function ArticleStickersEmojiRu() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "Telegram Premium стикеры, анимированные эмодзи и premium-реакции — полное руководство",
     description:

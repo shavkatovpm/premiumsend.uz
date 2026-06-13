@@ -24,6 +24,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    locale: "ru_RU",
     title: "Telegram Premium через Payme — пошаговое руководство",
     description:
       "Бот показывает карту и точную сумму, вы переводите через Payme, Premium через 5 минут на аккаунте. 4 тарифа, в сумах, без комиссии.",
@@ -37,6 +38,7 @@ export default function ArticlePaymePillarRu() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "Telegram Premium через Payme — пошаговое руководство по покупке",
     description:
@@ -153,11 +155,17 @@ export default function ArticlePaymePillarRu() {
     ],
   };
 
+  const howToSchema = {"@context":"https://schema.org","@type":"HowTo","name":"Telegram Premium через Payme — пошаговое руководство по покупке","description":"Пошаговое руководство: Telegram Premium через Payme — пошаговое руководство по покупке","step":[{"@type":"HowToStep","position":1,"name":"Найдите @PremiumSendBot в Telegram","text":"Введите @PremiumSendBot в поиске Telegram. Откроется официальный бот с галочкой подтверждения. Откройте и нажмите /start."},{"@type":"HowToStep","position":2,"name":"Выберите тариф","text":"Бот покажет 4 тарифа: 1, 3, 6 и 12 месяцев. Для пробы достаточно 1 месяца (59 000), для постоянного использования 12 месяцев (425 000) — самый выгодный."},{"@type":"HowToStep","position":3,"name":"Введите username аккаунта-получателя Premium","text":"Через @ напишите Telegram username. Это ваш аккаунт или того, кому делается подарок. При ошибке Premium активируется на другом аккаунте — проверьте дважды."},{"@type":"HowToStep","position":4,"name":"Бот покажет номер карты и сумму","text":"На экране появятся номер карты (например, 8600 XXXX XXXX XXXX) и точная сумма платежа (например, 175 000 сум). Бот может добавить контрольный код в комментарии — его тоже стоит запомнить."},{"@type":"HowToStep","position":5,"name":"Откройте Payme и начните P2P-перевод","text":"Войдите в приложение Payme. Выберите функцию «Перевод на другую карту» (или аналогичную). Введите номер карты, указанный ботом."},{"@type":"HowToStep","position":6,"name":"Введите именно указанную сумму и подтвердите","text":"Сумму вводите точно в указанном ботом размере. Даже разница в 100 сум помешает системе автоматически определить платёж. Подтвердите PIN или Face ID."},{"@type":"HowToStep","position":7,"name":"Premium активируется за 5 минут","text":"После подтверждения Payme система за 1-5 минут определит сумму, и Premium активируется на указанном вами аккаунте. Бот пришлёт сообщение, в профиле появится значок Premium."}]};
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
       />
       <script
         type="application/ld+json"

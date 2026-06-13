@@ -24,6 +24,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    locale: "ru_RU",
     title: "Купить Telegram Premium на 3 месяца — 175 000 сум",
     description:
       "Купите подписку Telegram Premium на 3 месяца за 175 000 сум. Оплата в узбекских сумах.",

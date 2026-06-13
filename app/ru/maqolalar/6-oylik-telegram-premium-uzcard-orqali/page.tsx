@@ -26,6 +26,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    locale: "ru_RU",
     title: "Telegram Premium на 6 месяцев через Uzcard — 235 000 сум",
     description:
       "Активируйте Telegram Premium на 6 месяцев через Uzcard в сумах. В @PremiumSendBot за 235 000 сум, на 33% дешевле помесячной.",
@@ -39,6 +40,7 @@ export default function Article6MonthUzcardRu() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "Telegram Premium на 6 месяцев через Uzcard — в Узбекистане за 235 000 сум",
     description:
@@ -147,11 +149,17 @@ export default function Article6MonthUzcardRu() {
     ],
   };
 
+  const howToSchema = {"@context":"https://schema.org","@type":"HowTo","name":"Telegram Premium на 6 месяцев через Uzcard — в Узбекистане за 235 000 сум","description":"Пошаговое руководство: Telegram Premium на 6 месяцев через Uzcard — в Узбекистане за 235 000 сум","step":[{"@type":"HowToStep","position":1,"name":"Найдите @PremiumSendBot в Telegram","text":"Введите @PremiumSendBot в поиске Telegram и откройте официального бота. Бот работает внутри приложения Telegram — внешний сайт или дополнительное приложение не нужно."},{"@type":"HowToStep","position":2,"name":"Запустите","text":"Нажмите /start. Бот поприветствует на узбекском языке и откроется главное меню: пакеты, цены, разделы помощи."},{"@type":"HowToStep","position":3,"name":"Выберите 6-месячный пакет","text":"В меню отметьте «6-месячный Premium». Цена сразу отображается — 235 000 сум. Эквивалент в месяц — 39 167 сум."},{"@type":"HowToStep","position":4,"name":"Введите аккаунт","text":"Введите Telegram username, на который нужно активировать Premium. Это может быть ваш или другого человека. Чтобы избежать ошибки в написании — внимательно проверьте."},{"@type":"HowToStep","position":5,"name":"Выберите способ оплаты","text":"Бот предложит варианты оплаты: Uzcard, Humo, Click или Payme. Выберите удобный способ. Цена одинакова во всех способах: 235 000 сум."},{"@type":"HowToStep","position":6,"name":"Совершите оплату","text":"Следуя инструкциям бота, оплатите 235 000 сум. Через мобильное приложение Uzcard, Click или Payme — процесс занимает несколько минут. После подтверждения Premium активируется автоматически."}]};
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
       />
       <script
         type="application/ld+json"

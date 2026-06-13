@@ -24,6 +24,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    locale: "ru_RU",
     title: "Telegram Premium через Click — пошаговое руководство",
     description:
       "Бот показывает карту и точную сумму, вы переводите через Click, Premium через 5 минут на аккаунте. 4 тарифа, в сумах, без комиссии.",
@@ -37,12 +38,13 @@ export default function ArticleClickOrqaliRu() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "Telegram Premium через Click — пошаговое руководство по покупке",
     description:
       "Покупка Telegram Premium через приложение Click в Узбекистане — бот показывает карту и сумму, вы переводите, система автоматически определяет.",
     datePublished: "2026-05-05",
-    dateModified: "2026-05-05",
+    dateModified: "2026-05-03",
     author: { "@type": "Organization", name: "Premium Send", url: "https://premiumsend.uz" },
     publisher: { "@type": "Organization", name: "Premium Send", url: "https://premiumsend.uz" },
     mainEntityOfPage:
@@ -122,9 +124,15 @@ export default function ArticleClickOrqaliRu() {
     ],
   };
 
+  const howToSchema = {"@context":"https://schema.org","@type":"HowTo","name":"Telegram Premium через Click — пошаговое руководство по покупке","description":"Пошаговое руководство: Telegram Premium через Click — пошаговое руководство по покупке","step":[{"@type":"HowToStep","position":1,"name":"Найдите @PremiumSendBot в Telegram","text":"Введите @PremiumSendBot в поиске Telegram. Откроется официальный бот. Нажмите /start."},{"@type":"HowToStep","position":2,"name":"Выберите тариф","text":"Бот покажет 4 тарифа: 1, 3, 6 и 12 месяцев. Для пробы достаточно 1 месяца, для постоянного использования 12 месяцев — самый выгодный."},{"@type":"HowToStep","position":3,"name":"Введите username получателя Premium","text":"Через @ напишите Telegram username. Это ваш аккаунт или того, кому делается подарок. Проверьте дважды."},{"@type":"HowToStep","position":4,"name":"Бот покажет номер карты и сумму","text":"На экране появятся номер карты и точная сумма платежа. Бот может добавить контрольный код в комментарии."},{"@type":"HowToStep","position":5,"name":"Откройте Click и начните P2P-перевод","text":"Войдите в приложение Click. Выберите «Перевод на другую карту». Введите номер карты, указанный ботом."},{"@type":"HowToStep","position":6,"name":"Введите именно указанную сумму и подтвердите","text":"Сумму вводите точно в указанном размере. Даже 100 сум разницы помешает автоматическому определению. Подтвердите PIN или Face ID."},{"@type":"HowToStep","position":7,"name":"Premium активируется за 5 минут","text":"После подтверждения Click система за 1-5 минут определит сумму, и Premium активируется на указанном аккаунте."}]};
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
+      />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 

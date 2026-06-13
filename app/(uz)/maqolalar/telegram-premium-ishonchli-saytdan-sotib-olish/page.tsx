@@ -42,6 +42,7 @@ export default function ArticleTelegramPremiumIshonchliSayt() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "Telegram Premium ishonchli saytdan sotib olish: aldovsiz xarid qo'llanmasi",
     description:

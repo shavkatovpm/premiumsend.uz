@@ -39,6 +39,7 @@ export default function Article3MonthPaymeUz() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "3 oylik Telegram Premium Payme orqali sotib olish — 175,000 so'mga",
     description:
@@ -147,11 +148,17 @@ export default function Article3MonthPaymeUz() {
     ],
   };
 
+  const howToSchema = {"@context":"https://schema.org","@type":"HowTo","name":"3 oylik Telegram Premium Payme orqali sotib olish — 175,000 so'mga","description":"Bosqichma-bosqich yo'riqnoma: 3 oylik Telegram Premium Payme orqali sotib olish — 175,000 so'mga","step":[{"@type":"HowToStep","position":1,"name":"Telegramda @PremiumSendBot ni oching","text":"Telegram qidiruv qatoriga @PremiumSendBot deb yozing. Tasdiqlangan bot belgisi bo'lgan rasmiy botni oching. /start tugmasini bosing — bot menyusini ko'rsatadi."},{"@type":"HowToStep","position":2,"name":"Menyudan 3 oylik tarifni tanlang","text":"Bot 4 ta tarif chiqaradi: 1, 3, 6, 12 oylik. \"3 oylik\" ni bosing. Narx darhol ko'rinadi: 175,000 so'm. Tanlovni qaytarish ham mumkin."},{"@type":"HowToStep","position":3,"name":"Premium kerak akkauntning username'ini kiriting","text":"@belgisidan keyin Telegram username yozing. Bu sizning yoki sovg'a qilayotgan kishining akkaunti. Xato bo'lsa, Premium boshqa akkauntda yoqiladi — qaytarish qiyin. Ikki marta tekshiring."},{"@type":"HowToStep","position":4,"name":"Bot karta raqami va aniq summani ko'rsatadi","text":"Ekranda karta raqami (8600 XXXX XXXX XXXX) va aynan to'lov summasi (175 000 so'm) chiqadi. Bot izoh sifatida tekshiruv kodi ham berishi mumkin."},{"@type":"HowToStep","position":5,"name":"Payme ilovasini oching va P2P o'tkazma boshlang","text":"Payme ilovasiga kiring. \"Boshqa kartaga o'tkazma\" funksiyasini tanlang. Bot ko'rsatgan karta raqamini kiriting."},{"@type":"HowToStep","position":6,"name":"Aynan 175,000 so'mni kiriting va tasdiqlang","text":"Summani aynan 175,000 so'm kiriting. 100 so'm farq ham tizimga to'lovni avtomatik aniqlashga to'sqinlik qiladi. PIN yoki Face ID bilan tasdiqlang."},{"@type":"HowToStep","position":7,"name":"Premium 5 daqiqada faollashadi","text":"Payme to'lovni tasdiqlangach, tizim 1-5 daqiqada summani aniqlaydi va Premium siz bergan akkauntda yoqiladi. Bot xabar yuboradi, profilda Premium belgi paydo bo'ladi."}]};
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
       />
       <script
         type="application/ld+json"

@@ -39,6 +39,7 @@ export default function Article6MonthHumoUz() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "6 oylik Telegram Premium Humo orqali sotib olish — 235,000 so'mga",
     description:
@@ -75,9 +76,15 @@ export default function Article6MonthHumoUz() {
     ],
   };
 
+  const howToSchema = {"@context":"https://schema.org","@type":"HowTo","name":"6 oylik Telegram Premium Humo orqali sotib olish — 235,000 so'mga","description":"Bosqichma-bosqich yo'riqnoma: 6 oylik Telegram Premium Humo orqali sotib olish — 235,000 so'mga","step":[{"@type":"HowToStep","position":1,"name":"Telegramda @PremiumSendBot ni oching","text":"Telegram qidiruv qatoriga @PremiumSendBot deb yozing. Tasdiqlangan bot belgisi bo'lgan rasmiy botni oching. /start tugmasini bosing."},{"@type":"HowToStep","position":2,"name":"Menyudan 6 oylik tarifni tanlang","text":"Bot 4 ta tarif chiqaradi: 1, 3, 6, 12 oylik. \"6 oylik\" ni bosing — narx 235,000 so'm."},{"@type":"HowToStep","position":3,"name":"Premium kerak akkaunt username'ini kiriting","text":"@belgisidan keyin Telegram username yozing. Bu sizning yoki sovg'a oluvchi akkaunt. Ikki marta tekshiring."},{"@type":"HowToStep","position":4,"name":"Bot karta raqami va aniq summani ko'rsatadi","text":"Ekranda karta raqami (8600 XXXX XXXX XXXX) va aynan 235,000 so'm chiqadi. Bot izoh sifatida tekshiruv kodi ham berishi mumkin."},{"@type":"HowToStep","position":5,"name":"Humo orqali P2P o'tkazma qiling","text":"Humo kartangizdan ko'rsatilgan kartaga 235,000 so'm o'tkazasiz. Bu bank ilovasi (Anor, Davr, Asaka va h.k.), SMS-bank yoki Click/Payme ichida Humo karta ulangan bo'lsa o'sha ilovalar orqali bo'ladi."},{"@type":"HowToStep","position":6,"name":"Tasdiqlash (PIN/SMS-kod)","text":"Ilova turiga qarab — PIN, Face ID yoki SMS-kod bilan tasdiqlaysiz. P2P o'tkazma 1-3 daqiqada amalga oshadi."},{"@type":"HowToStep","position":7,"name":"Premium 5 daqiqada faollashadi","text":"Bank to'lovni tasdiqlangach, tizim 1-5 daqiqada summani aniqlaydi va Premium siz bergan akkauntda 6 oyga yoqiladi. Bot xabar yuboradi."}]};
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
+      />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 

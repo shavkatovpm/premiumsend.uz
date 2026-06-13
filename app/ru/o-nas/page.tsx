@@ -23,6 +23,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    locale: "ru_RU",
     title: "О PremiumSend — надёжный сервис Telegram Premium",
     description:
       "Покупка Telegram Premium в сумах в Узбекистане — Click, Payme, Uzcard и Humo за 5 минут. Честный местный реселлер.",

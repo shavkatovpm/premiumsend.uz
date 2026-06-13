@@ -39,6 +39,7 @@ export default function ArticleStarsNima() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "Telegram Stars nima va qayerda ishlatiladi — O'zbekistondan to'liq qo'llanma",
     description:

@@ -28,6 +28,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    locale: "ru_RU",
     title:
       "Купить Telegram Premium на надёжном сайте — гайд без обмана",
     description:
@@ -42,6 +43,7 @@ export default function ArticleTelegramPremiumIshonchliSaytRu() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "Купить Telegram Premium на надёжном сайте: гайд без обмана",
     description:

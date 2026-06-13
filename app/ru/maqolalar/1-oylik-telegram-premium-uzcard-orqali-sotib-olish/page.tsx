@@ -26,6 +26,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    locale: "ru_RU",
     title:
       "Купить Telegram Premium на 1 месяц через Uzcard — оплата в сумах",
     description:
@@ -40,6 +41,7 @@ export default function ArticlePremiumUzcardRu() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "Купить Telegram Premium на 1 месяц через Uzcard — оплата в сумах",
     description:

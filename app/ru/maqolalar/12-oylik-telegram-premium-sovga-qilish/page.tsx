@@ -27,6 +27,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    locale: "ru_RU",
     title: "Подарить Telegram Premium на 12 месяцев — 425 000 сум",
     description:
       "Подарите любому человеку 12-месячный Telegram Premium. Через @PremiumSendBot, оплата Uzcard, Humo в сумах. Вводите username — Premium активируется.",
@@ -40,6 +41,7 @@ export default function Article12MonthGiftRu() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "Подарить Telegram Premium на 12 месяцев — в Узбекистане за сумы, по username",
     description:

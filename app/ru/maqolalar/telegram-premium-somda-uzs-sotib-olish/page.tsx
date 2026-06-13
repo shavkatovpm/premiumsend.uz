@@ -28,6 +28,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    locale: "ru_RU",
     title: "Купить Telegram Premium в сумах — без валютной конвертации",
     description:
       "Telegram Premium напрямую в сумах. Без долларовой конвертации, валютного риска и скрытых комиссий. Принимаются Uzcard, Humo, Click, Payme, Visa.",
@@ -41,6 +42,7 @@ export default function ArticleSomdaUzsRu() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "Купить Telegram Premium в сумах (UZS) — без валютной конвертации",
     description:

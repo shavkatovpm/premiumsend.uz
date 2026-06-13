@@ -28,6 +28,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    locale: "ru_RU",
     title: "Пакеты Telegram Stars 2026 — точные цены от 50 до 5000",
     description:
       "Все пакеты Stars и цены в одном месте. Линейный тариф 240 сум/star, на 17-20% дешевле App Store, без валютного риска.",
@@ -41,6 +42,7 @@ export default function ArticleStarsPaketlariNarxlariRu() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "Пакеты Telegram Stars 2026: 50, 100, 500, 1000, 5000 — точные цены",
     description:

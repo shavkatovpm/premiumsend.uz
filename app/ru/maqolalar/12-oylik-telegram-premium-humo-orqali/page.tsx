@@ -25,6 +25,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    locale: "ru_RU",
     title: "Telegram Premium на 12 месяцев через Humo — 425 000 сум",
     description:
       "12-месячный Telegram Premium через карту Humo за 425 000 сум. Бот показывает карту и сумму, вы переводите через Humo. В месяц 35 417 сум.",
@@ -38,6 +39,7 @@ export default function Article12MonthHumoRu() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline: "Telegram Premium на 12 месяцев через Humo — за 425 000 сум",
     description:
       "Покупка 12-месячного Telegram Premium через Humo — бот показывает карту и сумму, вы переводите, система автоматически определяет, Premium активируется на 365 дней.",
@@ -73,9 +75,15 @@ export default function Article12MonthHumoRu() {
     ],
   };
 
+  const howToSchema = {"@context":"https://schema.org","@type":"HowTo","name":"Telegram Premium на 12 месяцев через Humo — за 425 000 сум","description":"Пошаговое руководство: Telegram Premium на 12 месяцев через Humo — за 425 000 сум","step":[{"@type":"HowToStep","position":1,"name":"Откройте @PremiumSendBot в Telegram","text":"Введите @PremiumSendBot в поиске. Откройте бот с галочкой верификации. Нажмите /start."},{"@type":"HowToStep","position":2,"name":"Выберите 12-месячный тариф","text":"Бот покажет 4 тарифа: 1, 3, 6, 12 месяцев. Нажмите «12 месяцев» — цена 425 000 сум, в месяц 35 417."},{"@type":"HowToStep","position":3,"name":"Введите username получателя Premium","text":"Через @ напишите Telegram username. 12 месяцев этот аккаунт будет Premium — проверьте username очень внимательно дважды."},{"@type":"HowToStep","position":4,"name":"Проверьте баланс и дневной лимит Humo","text":"425 000 сум — большая сумма. Откройте приложение Humo, убедитесь в достаточном балансе и дневном лимите интернет-оплат. Если лимит низкий — повысьте до 1 000 000 сум в приложении (1 минута)."},{"@type":"HowToStep","position":5,"name":"Бот покажет номер карты и точную сумму","text":"На экране номер карты (8600 XXXX XXXX XXXX) и сумма ровно 425 000 сум. Бот может также дать проверочный код в комментарии."},{"@type":"HowToStep","position":6,"name":"Сделайте P2P-перевод через Humo","text":"С Humo на указанную карту переведите 425 000 сум. Через приложение банка, выпустившего Humo (Asakabank, Hamkorbank, НБУ, Trustbank, Kapitalbank и другие), SMS-банк, или Click/Payme если карта Humo привязана."},{"@type":"HowToStep","position":7,"name":"Подтверждение (PIN/SMS-код)","text":"В зависимости от приложения — PIN, Face ID или SMS-код. На большие суммы банк может запросить дополнительное подтверждение через push — это нормальная мера безопасности."},{"@type":"HowToStep","position":8,"name":"Premium активируется за 5 минут","text":"После подтверждения банком система за 1-5 минут определит сумму, и Premium активируется на 365 дней на указанном аккаунте. Бот пришлёт сообщение. Следующий год никакой повторной оплаты или продления."}]};
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
+      />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 

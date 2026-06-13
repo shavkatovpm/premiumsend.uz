@@ -25,6 +25,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    locale: "ru_RU",
     title: "Купить Telegram Premium на 6 месяцев — 235 000 сум | Самый популярный",
     description:
       "Купите подписку Telegram Premium на 6 месяцев за 235 000 сум. 39 167 сум в месяц — лучшее соотношение цена/качество.",

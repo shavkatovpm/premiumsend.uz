@@ -25,6 +25,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    locale: "ru_RU",
     title:
       "Цены Telegram Premium 2026: сравнение тарифов 1, 3, 6, 12 месяцев",
     description:
@@ -39,6 +40,7 @@ export default function ArticleTelegramPremiumNarxlariRu() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "Цены Telegram Premium 2026: сравнение тарифов 1, 3, 6, 12 месяцев",
     description:

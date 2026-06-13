@@ -40,6 +40,7 @@ export default function ArticleStarsBuyUz() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "Telegram Stars O'zbekistondan qanday sotib olinadi — so'mda, 5 daqiqada",
     description:

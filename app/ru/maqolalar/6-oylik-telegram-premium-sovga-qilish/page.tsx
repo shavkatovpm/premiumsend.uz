@@ -26,6 +26,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    locale: "ru_RU",
     title:
       "Подарить 6 месяцев Telegram Premium — полугодовой gift",
     description:
@@ -40,6 +41,7 @@ export default function Article6MonthGiftRu() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "Подарить 6 месяцев Telegram Premium — полугодовой gift близким",
     description:

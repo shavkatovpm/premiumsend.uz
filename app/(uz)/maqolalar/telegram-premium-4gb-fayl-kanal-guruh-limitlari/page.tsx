@@ -40,6 +40,7 @@ export default function ArticleLimitsUz() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "Telegram Premium 4 GB fayl, 1000 kanal va guruh limitlari — texnik imkoniyatlar",
     description:

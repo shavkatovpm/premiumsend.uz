@@ -41,6 +41,7 @@ export default function ArticleEngArzon() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "Telegram Premium eng arzon qayerdan sotib olish — O'zbekistonda 35 417 so'mdan",
     description:

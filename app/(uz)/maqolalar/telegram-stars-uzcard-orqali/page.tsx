@@ -39,6 +39,7 @@ export default function ArticleStarsUzcardUz() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline: "Telegram Stars Uzcard orqali sotib olish — kartaga o'tkazma yo'li",
     description:
       "Telegram Stars'ni Uzcard kartasi orqali sotib olish — @starsjoybot karta va summani ko'rsatadi, siz Uzcard ilovasidan kartaga P2P o'tkazasiz, Stars bir necha daqiqada akkauntda.",
@@ -75,9 +76,15 @@ export default function ArticleStarsUzcardUz() {
     ],
   };
 
+  const howToSchema = {"@context":"https://schema.org","@type":"HowTo","name":"Telegram Stars Uzcard orqali sotib olish — kartaga o'tkazma yo'li","description":"Bosqichma-bosqich yo'riqnoma: Telegram Stars Uzcard orqali sotib olish — kartaga o'tkazma yo'li","step":[{"@type":"HowToStep","position":1,"name":"Telegram'da @starsjoybot ni oching","text":"Qidiruv qatoriga @starsjoybot deb yozing va botni oching. /start tugmasini bosing — bot menyu chiqaradi."},{"@type":"HowToStep","position":2,"name":"Stars miqdorini tanlang","text":"Menyudan kerakli paketni bosing: 50, 100, 250, 500, 1000, 2500, 5000 Stars. Yoki o'zingiz xohlagan miqdorni kiriting (minimum 50 Stars)."},{"@type":"HowToStep","position":3,"name":"To'lov yo'li sifatida \"Kartaga o'tkazma\" ni tanlang","text":"Bot ikkita yo'l beradi: Click (PIN/Face ID, tezroq) va Kartaga o'tkazma (P2P, umumiy). Uzcard orqali to'lash uchun ikkinchi yo'lni tanlang."},{"@type":"HowToStep","position":4,"name":"Bot karta raqami va aniq summani ko'rsatadi","text":"Ekranda karta raqami (8600 XXXX XXXX XXXX) va aynan summa chiqadi (mas. 12 000 so'm 50 Stars uchun). Aynan shu summani o'tkazish kerak."},{"@type":"HowToStep","position":5,"name":"Uzcard bank ilovasini oching va P2P o'tkazma boshlang","text":"Uzcard bank ilovasiga kiring. \"Boshqa kartaga o'tkazma\" funksiyasini tanlang. Bot ko'rsatgan karta raqamini kiriting."},{"@type":"HowToStep","position":6,"name":"Summani kiriting va tasdiqlang","text":"Aynan bot ko'rsatgan summani kiriting (mas. 12 000). SMS kod yoki PIN bilan tasdiqlang. Stars 1-5 daqiqada akkauntingizga tushadi."}]};
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
+      />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 

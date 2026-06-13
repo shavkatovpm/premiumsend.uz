@@ -39,6 +39,7 @@ export default function Article6MonthUzcard() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "6 oylik Telegram Premium Uzcard orqali — O'zbekistonda 235,000 so'mga",
     description:
@@ -147,11 +148,17 @@ export default function Article6MonthUzcard() {
     ],
   };
 
+  const howToSchema = {"@context":"https://schema.org","@type":"HowTo","name":"6 oylik Telegram Premium Uzcard orqali — O'zbekistonda 235,000 so'mga","description":"Bosqichma-bosqich yo'riqnoma: 6 oylik Telegram Premium Uzcard orqali — O'zbekistonda 235,000 so'mga","step":[{"@type":"HowToStep","position":1,"name":"Telegramda @PremiumSendBot ni toping","text":"Telegram qidiruviga @PremiumSendBot yozing va rasmiy botni oching. Bot Telegram ilovasi ichida ishlaydi — tashqi sayt yoki qo'shimcha dastur kerak emas."},{"@type":"HowToStep","position":2,"name":"Ishga tushiring","text":"/start tugmasini bosing. Bot o'zbek tilida salomlashadi va asosiy menyu ochiladi: paketlar, narxlar, yordam bo'limlari."},{"@type":"HowToStep","position":3,"name":"6 oylik paketni tanlang","text":"Menyudan «6 oylik Premium» variantini belgilang. Narx darhol ko'rsatiladi — 235,000 so'm. Oylik ekvivalent — 39,167 so'm."},{"@type":"HowToStep","position":4,"name":"Akkauntni kiriting","text":"Premium faollashtirilishi kerak bo'lgan Telegram username'ni kiriting. O'zingizniki yoki boshqa odamniki bo'lishi mumkin. Yozishda xato bo'lmasligi uchun diqqat bilan tekshiring."},{"@type":"HowToStep","position":5,"name":"To'lov usulini tanlang","text":"Bot sizga to'lov variantlarini taklif qiladi: Uzcard, Humo, Click yoki Payme. O'zingizga qulay usulni tanlang. Narx barcha usullarda bir xil: 235,000 so'm."},{"@type":"HowToStep","position":6,"name":"To'lovni amalga oshiring","text":"Botdagi ko'rsatmalarga amal qilib, 235,000 so'mni to'lang. Uzcard mobil ilovasi, Click yoki Payme orqali — jarayon bir necha daqiqa oladi. Premium tasdiqlangach avtomatik faollashadi."}]};
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
       />
       <script
         type="application/ld+json"

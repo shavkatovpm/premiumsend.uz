@@ -26,6 +26,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    locale: "ru_RU",
     title: "Telegram Premium на 3 месяца через Uzcard — 175 000 сум",
     description:
       "Активируйте Telegram Premium на 3 месяца, оплатив через Uzcard в сумах. Через @PremiumSendBot за 175 000 сум, за несколько минут.",
@@ -39,6 +40,7 @@ export default function Article3MonthUzcardRu() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "Telegram Premium на 3 месяца через Uzcard — в Узбекистане за 175 000 сум",
     description:
@@ -147,11 +149,17 @@ export default function Article3MonthUzcardRu() {
     ],
   };
 
+  const howToSchema = {"@context":"https://schema.org","@type":"HowTo","name":"Telegram Premium на 3 месяца через Uzcard — в Узбекистане за 175 000 сум","description":"Пошаговое руководство: Telegram Premium на 3 месяца через Uzcard — в Узбекистане за 175 000 сум","step":[{"@type":"HowToStep","position":1,"name":"Откройте бота в Telegram","text":"В поиске Telegram введите @PremiumSendBot. Официальный бот появится с подтверждённой меткой Telegram. Откройте его и нажмите /start."},{"@type":"HowToStep","position":2,"name":"Выберите 3-месячный пакет в меню","text":"В главном меню бота показаны все пакеты — 1, 3, 6 и 12 месяцев. Выберите 3-месячный вариант. Цена сразу отображается: 175 000 сум."},{"@type":"HowToStep","position":3,"name":"Введите username","text":"Введите Telegram username, на который нужно активировать Premium. Это может быть ваш аккаунт или другого человека. Чтобы избежать ошибки — проверьте дважды."},{"@type":"HowToStep","position":4,"name":"Выберите оплату через Uzcard","text":"Бот предложит подходящие способы оплаты: Uzcard, Humo, Click или Payme. Выберите удобный для вас вариант — цена остаётся одинаковой: 175 000 сум."},{"@type":"HowToStep","position":5,"name":"Оплатите 175 000 сум","text":"Следуя инструкциям бота, выполните оплату выбранным способом. Процесс обычный — в мобильном приложении Uzcard или Click/Payme занимает несколько кликов."},{"@type":"HowToStep","position":6,"name":"Дождитесь активации Premium","text":"После подтверждения оплаты бот отправит сообщение. За несколько минут Premium активируется на аккаунте — в профиле появится Premium-значок. На этом процесс завершён."}]};
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
       />
       <script
         type="application/ld+json"

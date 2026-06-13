@@ -28,6 +28,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    locale: "ru_RU",
     title:
       "PremiumBot не работает — где купить Telegram Premium?",
     description:
@@ -42,6 +43,7 @@ export default function ArticlePremiumBotIshlamayaptiRu() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "Почему PremiumBot не работает и где купить Telegram Premium?",
     description:

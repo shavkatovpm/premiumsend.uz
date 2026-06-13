@@ -24,6 +24,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    locale: "ru_RU",
     title: "Telegram Stars через Click и перевод на карту в сумах",
     description:
       "Купить Stars через Click или переводом на карту в сумах — StarsJoy.uz от 50 Stars за 12 000 сум.",
@@ -37,6 +38,7 @@ export default function ArticleStarsPaymentRu() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline: "Telegram Stars через Click и перевод на карту в сумах — полное руководство",
     description: "Покупка Telegram Stars через Click и переводом на карту в сумах — пошаговое руководство.",
     datePublished: "2026-05-07",
@@ -70,9 +72,15 @@ export default function ArticleStarsPaymentRu() {
     ],
   };
 
+  const howToSchema = {"@context":"https://schema.org","@type":"HowTo","name":"Telegram Stars через Click и перевод на карту в сумах — полное руководство","description":"Пошаговое руководство: Telegram Stars через Click и перевод на карту в сумах — полное руководство","step":[{"@type":"HowToStep","position":1,"name":"Откройте @starsjoybot в Telegram","text":"Введите @starsjoybot в поиске Telegram, откройте бот. Нажмите /start — откроется меню (UZ и RU)."},{"@type":"HowToStep","position":2,"name":"Выберите количество Stars","text":"Бот предлагает готовые пакеты или возможность ввести произвольное количество. Цена в сумах сразу видна."},{"@type":"HowToStep","position":3,"name":"Выберите путь оплаты: Click или перевод на карту","text":"Если приложение Click установлено — выбирайте Click, путь быстрее. Если нет — перевод на карту (Uzcard, Humo, приложение банка)."},{"@type":"HowToStep","position":4,"name":"Путь Click: оплата в приложении Click","text":"Через Click платёж подтверждается. PIN/Face ID за 1-2 минуты."},{"@type":"HowToStep","position":5,"name":"Путь перевода на карту: бот выдаёт карту и сумму","text":"Бот показывает номер карты и точную сумму. Вы через приложение Uzcard, Humo или Click/Payme с привязанной картой переводите эту сумму. Сумма — точно та."},{"@type":"HowToStep","position":6,"name":"Stars поступают на аккаунт за 1-5 минут","text":"После подтверждения Stars автоматически появляются. Telegram → Настройки → Stars — увидите баланс."}]};
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
+      />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 

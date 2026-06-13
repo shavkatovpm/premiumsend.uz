@@ -26,6 +26,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    locale: "ru_RU",
     title: "Когда активируется Telegram Premium — как считается срок",
     description:
       "Через 5 минут после оплаты, срок по календарным месяцам. Продление, подарок, проблема февраля и решение технических проблем.",
@@ -39,6 +40,7 @@ export default function ArticleQachonFaollashadiRu() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "Когда активируется Telegram Premium и как считается срок — полное руководство",
     description:

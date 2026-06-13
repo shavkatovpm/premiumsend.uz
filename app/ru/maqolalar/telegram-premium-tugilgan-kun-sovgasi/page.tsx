@@ -28,6 +28,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    locale: "ru_RU",
     title:
       "Telegram Premium на день рождения — подарок на 3, 6 и 12 месяцев",
     description:
@@ -42,6 +43,7 @@ export default function ArticleTugilganKunSovgasiRu() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "Telegram Premium на день рождения: тарифы 3, 6 и 12 месяцев",
     description:

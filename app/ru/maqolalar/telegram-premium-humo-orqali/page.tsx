@@ -23,6 +23,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    locale: "ru_RU",
     title:
       "Telegram Premium через карту Humo — пошаговое руководство",
     description:
@@ -37,6 +38,7 @@ export default function ArticleHumoOrqaliRu() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "Telegram Premium через карту Humo — пошаговое руководство",
     description:
@@ -130,9 +132,15 @@ export default function ArticleHumoOrqaliRu() {
     ],
   };
 
+  const howToSchema = {"@context":"https://schema.org","@type":"HowTo","name":"Telegram Premium через карту Humo — пошаговое руководство","description":"Пошаговое руководство: Telegram Premium через карту Humo — пошаговое руководство","step":[{"@type":"HowToStep","position":1,"name":"Найдите @PremiumSendBot в Telegram","text":"В верхней строке поиска Telegram наберите @PremiumSendBot. Проверьте значок верифицированного бота — настоящий бот имеет такой значок. Откройте и нажмите /start."},{"@type":"HowToStep","position":2,"name":"Выберите тариф","text":"В меню бота 4 тарифа: 1, 3, 6 и 12 месяцев. Пробуете — 1 месяц (59 000) подойдёт. Постоянный пользователь — 12 месяцев (425 000) самый выгодный. Сбалансированный — 6 месяцев (235 000)."},{"@type":"HowToStep","position":3,"name":"Введите username аккаунта","text":"После @ напишите Telegram username. Это ваш аккаунт или того, кому делаете подарок. Важно не ошибиться — Premium активируется именно на этом аккаунте."},{"@type":"HowToStep","position":4,"name":"Выберите способ оплаты — Humo","text":"На экране 4 варианта: Uzcard, Humo, Click, Payme. Нажмите \"Humo\". Бот объяснит следующий шаг — способ оплаты (P2P, Click или Payme)."},{"@type":"HowToStep","position":5,"name":"Оплатите картой Humo","text":"Выполните оплату способом, который предложил бот. Самый простой — через Click или Payme (если карта подключена). Или прямой P2P перевод Humo. Комиссия 0%."},{"@type":"HowToStep","position":6,"name":"Premium активируется за 5 минут","text":"После подтверждения оплаты Premium включается на аккаунте автоматически. Бот пришлёт уведомление. Дополнительных подтверждений не нужно. При технической задержке может занять 10-15 минут."}]};
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
+      />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 

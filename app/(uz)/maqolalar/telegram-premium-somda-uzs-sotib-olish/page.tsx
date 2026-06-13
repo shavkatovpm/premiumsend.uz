@@ -42,6 +42,7 @@ export default function ArticleSomdaUzs() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "Telegram Premium so'mda (UZS) sotib olish — valyuta konvertatsiyasiz",
     description:

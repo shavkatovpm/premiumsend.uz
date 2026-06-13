@@ -24,6 +24,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    locale: "ru_RU",
     title: "Telegram Premium на 6 месяцев через Humo — 235 000 сум",
     description:
       "6-месячный Telegram Premium через карту Humo за 235 000 сум. Бот показывает карту и сумму, вы переводите через Humo.",
@@ -37,6 +38,7 @@ export default function Article6MonthHumoRu() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline: "Telegram Premium на 6 месяцев через Humo — за 235 000 сум",
     description:
       "Покупка 6-месячного Telegram Premium через Humo — бот показывает карту и сумму, вы переводите, система автоматически определяет.",
@@ -71,9 +73,15 @@ export default function Article6MonthHumoRu() {
     ],
   };
 
+  const howToSchema = {"@context":"https://schema.org","@type":"HowTo","name":"Telegram Premium на 6 месяцев через Humo — за 235 000 сум","description":"Пошаговое руководство: Telegram Premium на 6 месяцев через Humo — за 235 000 сум","step":[{"@type":"HowToStep","position":1,"name":"Откройте @PremiumSendBot в Telegram","text":"Введите @PremiumSendBot в поиске. Откройте бот. Нажмите /start."},{"@type":"HowToStep","position":2,"name":"Выберите 6-месячный тариф","text":"Бот покажет 4 тарифа. Нажмите «6 месяцев» — цена 235 000 сум."},{"@type":"HowToStep","position":3,"name":"Введите username получателя Premium","text":"Через @ напишите Telegram username. Проверьте дважды."},{"@type":"HowToStep","position":4,"name":"Бот покажет номер карты и точную сумму","text":"На экране номер карты (8600 XXXX XXXX XXXX) и сумма 235 000 сум."},{"@type":"HowToStep","position":5,"name":"С карты Humo переведите P2P","text":"С Humo через приложение банка, SMS-банк или Click/Payme (если карта Humo привязана) переведите 235 000 сум на указанную карту."},{"@type":"HowToStep","position":6,"name":"Подтверждение (PIN/SMS)","text":"В зависимости от приложения — PIN, Face ID или SMS-код. P2P-перевод за 1-3 минуты."},{"@type":"HowToStep","position":7,"name":"Premium активируется за 5 минут","text":"После подтверждения банка система за 1-5 минут определит сумму, и Premium активируется на 6 месяцев."}]};
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
+      />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 

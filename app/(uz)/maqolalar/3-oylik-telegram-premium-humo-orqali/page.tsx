@@ -39,6 +39,7 @@ export default function Article3MonthHumo() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "3 oylik Telegram Premium Humo orqali sotib olish — 175,000 so'mga",
     description:
@@ -147,11 +148,17 @@ export default function Article3MonthHumo() {
     ],
   };
 
+  const howToSchema = {"@context":"https://schema.org","@type":"HowTo","name":"3 oylik Telegram Premium Humo orqali sotib olish — 175,000 so'mga","description":"Bosqichma-bosqich yo'riqnoma: 3 oylik Telegram Premium Humo orqali sotib olish — 175,000 so'mga","step":[{"@type":"HowToStep","position":1,"name":"Telegramda @PremiumSendBot ni oching","text":"Telegram qidiruv qatoriga @PremiumSendBot deb yozing. Tasdiqlangan bot belgisi bo'lgan rasmiy botni oching. /start tugmasini bosing — bot menyuni ko'rsatadi."},{"@type":"HowToStep","position":2,"name":"Menyudan 3 oylik tarifni tanlang","text":"Bot 4 ta tarif chiqaradi: 1, 3, 6, 12 oylik. \"3 oylik\" ni bosing. Narx darhol ko'rinadi: 175,000 so'm. Yana qaytib o'zgartirish ham mumkin."},{"@type":"HowToStep","position":3,"name":"Premium kerak akkauntning username'ini kiriting","text":"@belgisidan keyin Telegram username yozing. Bu sizning yoki sovg'a qilayotgan kishining akkaunti. Username noto'g'ri bo'lsa — Premium boshqa akkauntda faollashib qoladi. Ikki marta tekshiring."},{"@type":"HowToStep","position":4,"name":"To'lov usuli sifatida \"Humo\" ni tanlang","text":"Ekranda 4 ta variant: Uzcard, Humo, Click, Payme. \"Humo\" ni bosing. Bot keyin to'lash usulini taklif qiladi: P2P o'tkazma yoki Click/Payme orqali (Humo ulangan bo'lsa)."},{"@type":"HowToStep","position":5,"name":"Humo karta orqali 175,000 so'm to'lang","text":"Eng oson yo'l — Click yoki Payme ilovasi orqali (kartani ulagan bo'lsangiz — bir bosishda). Yoki to'g'ridan-to'g'ri Humo P2P o'tkazma. Komissiya 0%."},{"@type":"HowToStep","position":6,"name":"5 daqiqada Premium faollashadi","text":"To'lov tasdiqlangach, Premium akkauntda avtomatik yoqiladi. Profilda Premium belgi paydo bo'ladi. Bot xabar yuboradi. Qo'shimcha hech narsa bosish kerak emas."}]};
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
       />
       <script
         type="application/ld+json"

@@ -25,6 +25,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    locale: "ru_RU",
     title: "Telegram Premium на 3 месяца через Humo — 175 000 сум",
     description:
       "3-месячный Telegram Premium картой Humo в сумах. @PremiumSendBot — 175 000 сум, активация за 5 минут.",
@@ -38,6 +39,7 @@ export default function Article3MonthHumoRu() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "Telegram Premium на 3 месяца через карту Humo — за 175 000 сум",
     description:
@@ -146,11 +148,17 @@ export default function Article3MonthHumoRu() {
     ],
   };
 
+  const howToSchema = {"@context":"https://schema.org","@type":"HowTo","name":"Telegram Premium на 3 месяца через карту Humo — за 175 000 сум","description":"Пошаговое руководство: Telegram Premium на 3 месяца через карту Humo — за 175 000 сум","step":[{"@type":"HowToStep","position":1,"name":"Откройте @PremiumSendBot в Telegram","text":"Введите @PremiumSendBot в поиске Telegram. Откройте официального бота с галочкой проверки. Нажмите /start — бот покажет меню."},{"@type":"HowToStep","position":2,"name":"Выберите тариф на 3 месяца","text":"Бот покажет 4 тарифа: 1, 3, 6, 12 месяцев. Нажмите \"3 месяца\". Цена сразу видна: 175 000 сум. Можно вернуться и поменять."},{"@type":"HowToStep","position":3,"name":"Введите username аккаунта для Premium","text":"После @ напишите Telegram username. Это ваш аккаунт или того, кому дарите. Если username неверный — Premium активируется на чужом аккаунте. Проверьте дважды."},{"@type":"HowToStep","position":4,"name":"Выберите способ оплаты — \"Humo\"","text":"На экране 4 варианта: Uzcard, Humo, Click, Payme. Нажмите \"Humo\". Бот предложит способ: P2P-перевод или через Click/Payme (если карта Humo привязана)."},{"@type":"HowToStep","position":5,"name":"Оплатите 175 000 сум картой Humo","text":"Самый быстрый путь — через приложение Click или Payme (если карта привязана — в один клик). Или прямой P2P-перевод Humo. Комиссия 0%."},{"@type":"HowToStep","position":6,"name":"Premium активируется за 5 минут","text":"После подтверждения оплаты Premium включается в аккаунте автоматически. В профиле появляется значок Premium. Бот пришлёт уведомление. Дополнительно ничего нажимать не нужно."}]};
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
       />
       <script
         type="application/ld+json"

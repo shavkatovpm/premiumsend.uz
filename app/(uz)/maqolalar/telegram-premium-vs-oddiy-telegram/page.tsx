@@ -38,6 +38,7 @@ export default function ArticlePremiumVsOddiy() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "Telegram Premium vs oddiy Telegram: 15 ta asosiy farq (2026)",
     description:

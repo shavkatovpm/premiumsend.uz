@@ -40,6 +40,7 @@ export default function ArticleAppStorePlayMarketQimmatUz() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "Nega Telegram Premium App Store va Play Market'da qimmatroq — sabablari va arzon yo'l",
     description:

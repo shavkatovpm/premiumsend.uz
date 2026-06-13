@@ -37,6 +37,7 @@ export default function ArticleVsResellersUz() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "PremiumSend vs boshqa Telegram Premium reseller'lar — ob'ektiv taqqoslash mezonlari",
     description:

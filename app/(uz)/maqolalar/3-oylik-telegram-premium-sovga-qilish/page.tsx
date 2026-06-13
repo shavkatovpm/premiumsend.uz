@@ -40,6 +40,7 @@ export default function Article3MonthGift() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "3 oylik Telegram Premium sovg'a qilish — do'stga gift yuborish yo'riqnomasi",
     description:

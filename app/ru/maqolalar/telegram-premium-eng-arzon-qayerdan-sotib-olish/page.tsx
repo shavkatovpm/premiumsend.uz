@@ -28,6 +28,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    locale: "ru_RU",
     title: "Telegram Premium самый дешёвый — от 35 417 сум в месяц",
     description:
       "Telegram Premium по самой низкой цене — сравнение App Store, Fragment и реселлеров. В Premium Send от 35 417 сум в месяц, оплата в сумах, без скрытых комиссий.",
@@ -41,6 +42,7 @@ export default function ArticleEngArzonRu() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "Telegram Premium самый дешёвый — в Узбекистане от 35 417 сум в месяц",
     description:

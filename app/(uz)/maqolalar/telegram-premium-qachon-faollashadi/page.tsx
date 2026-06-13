@@ -39,6 +39,7 @@ export default function ArticleQachonFaollashadi() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "Telegram Premium qachon faollashadi va muddat qanday hisoblanadi — to'liq qo'llanma",
     description:

@@ -26,6 +26,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    locale: "ru_RU",
     title:
       "Безопасно ли покупать Telegram Premium в Узбекистане? Как не попасться на обман",
     description:
@@ -40,6 +41,7 @@ export default function ArticleSafeBuyRu() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "Безопасно ли покупать Telegram Premium в Узбекистане? Как не попасться на обман",
     description:

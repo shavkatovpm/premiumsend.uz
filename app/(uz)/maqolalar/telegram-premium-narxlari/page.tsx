@@ -39,6 +39,7 @@ export default function ArticleTelegramPremiumNarxlari() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "Telegram Premium narxlari 2026: 1, 3, 6, 12 oylik tariflar taqqoslash",
     description:

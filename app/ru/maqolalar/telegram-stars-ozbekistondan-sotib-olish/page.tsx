@@ -26,6 +26,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    locale: "ru_RU",
     title: "Как купить Telegram Stars в Узбекистане — в сумах, за 5 минут",
     description:
       "Через StarsJoy.uz от 50 Stars за 12 000 сум, через Click и карту. На 17% дешевле App Store, без валюты.",
@@ -39,6 +40,7 @@ export default function ArticleStarsBuyRu() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "Как купить Telegram Stars в Узбекистане — в сумах, за 5 минут",
     description:

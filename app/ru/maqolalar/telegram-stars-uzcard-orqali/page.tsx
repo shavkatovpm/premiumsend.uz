@@ -26,6 +26,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    locale: "ru_RU",
     title: "Telegram Stars через Uzcard — путь перевода на карту",
     description:
       "Купить Stars через перевод из приложения Uzcard на карту бота. 50 Stars 12 000 сум, без курсовой конвертации, с местной картой.",
@@ -39,6 +40,7 @@ export default function ArticleStarsUzcardRu() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline: "Купить Telegram Stars через Uzcard — путь перевода на карту",
     description:
       "Купить Telegram Stars через карту Uzcard — @starsjoybot показывает карту и сумму, вы из приложения Uzcard переводите P2P на эту карту, Stars приходят за несколько минут.",
@@ -75,9 +77,15 @@ export default function ArticleStarsUzcardRu() {
     ],
   };
 
+  const howToSchema = {"@context":"https://schema.org","@type":"HowTo","name":"Купить Telegram Stars через Uzcard — путь перевода на карту","description":"Пошаговое руководство: Купить Telegram Stars через Uzcard — путь перевода на карту","step":[{"@type":"HowToStep","position":1,"name":"Откройте @starsjoybot в Telegram","text":"В строке поиска наберите @starsjoybot и откройте бот. Нажмите /start — бот выведет меню."},{"@type":"HowToStep","position":2,"name":"Выберите количество Stars","text":"Из меню нажмите нужный пакет: 50, 100, 250, 500, 1000, 2500, 5000 Stars. Или введите своё количество (минимум 50 Stars)."},{"@type":"HowToStep","position":3,"name":"В качестве пути оплаты выберите \"Перевод на карту\"","text":"Бот даёт два пути: Click (PIN/Face ID, быстрее) и Перевод на карту (P2P, универсальный). Для оплаты через Uzcard выберите второй путь."},{"@type":"HowToStep","position":4,"name":"Бот показывает номер карты и точную сумму","text":"На экране номер карты (8600 XXXX XXXX XXXX) и точная сумма (например 12 000 сум за 50 Stars). Нужно перевести именно эту сумму."},{"@type":"HowToStep","position":5,"name":"Откройте приложение Uzcard и начните P2P перевод","text":"Зайдите в приложение банка Uzcard. Выберите \"Перевод на другую карту\". Введите указанный ботом номер карты."},{"@type":"HowToStep","position":6,"name":"Введите сумму и подтвердите","text":"Введите ровно указанную ботом сумму (например 12 000). Подтвердите SMS кодом или PIN. Stars поступят на ваш аккаунт за 1-5 минут."}]};
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
+      />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 

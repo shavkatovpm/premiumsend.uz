@@ -39,6 +39,7 @@ export default function Article6MonthPaymeUz() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "6 oylik Telegram Premium Payme orqali sotib olish — 235,000 so'mga",
     description:
@@ -76,9 +77,15 @@ export default function Article6MonthPaymeUz() {
     ],
   };
 
+  const howToSchema = {"@context":"https://schema.org","@type":"HowTo","name":"6 oylik Telegram Premium Payme orqali sotib olish — 235,000 so'mga","description":"Bosqichma-bosqich yo'riqnoma: 6 oylik Telegram Premium Payme orqali sotib olish — 235,000 so'mga","step":[{"@type":"HowToStep","position":1,"name":"Telegramda @PremiumSendBot ni oching","text":"Telegram qidiruv qatoriga @PremiumSendBot deb yozing. Tasdiqlangan bot belgisi bo'lgan rasmiy botni oching. /start tugmasini bosing."},{"@type":"HowToStep","position":2,"name":"Menyudan 6 oylik tarifni tanlang","text":"Bot 4 ta tarif chiqaradi: 1, 3, 6, 12 oylik. \"6 oylik\" ni bosing — narx 235,000 so'm, oyiga 39,167."},{"@type":"HowToStep","position":3,"name":"Premium kerak akkaunt username'ini kiriting","text":"@belgisidan keyin Telegram username yozing. Bu sizning yoki sovg'a oluvchi akkaunt. Ikki marta tekshiring — Premium aynan shu akkauntga 180 kunga yoqiladi."},{"@type":"HowToStep","position":4,"name":"Bot karta raqami va aniq summani ko'rsatadi","text":"Ekranda karta raqami (8600 XXXX XXXX XXXX) va aynan 235,000 so'm chiqadi. Bot izoh sifatida tekshiruv kodi ham berishi mumkin."},{"@type":"HowToStep","position":5,"name":"Payme ilovasini oching va P2P o'tkazma boshlang","text":"Payme ilovasiga kiring. \"Boshqa kartaga o'tkazma\" funksiyasini tanlang. Bot ko'rsatgan karta raqamini kiriting."},{"@type":"HowToStep","position":6,"name":"Aynan 235,000 so'mni kiriting va tasdiqlang","text":"Summani aynan 235,000 so'm kiriting. PIN yoki Face ID bilan tasdiqlang."},{"@type":"HowToStep","position":7,"name":"Premium 5 daqiqada faollashadi","text":"Payme to'lovni tasdiqlangach, tizim 1-5 daqiqada summani aniqlaydi va Premium akkauntda yoqiladi. Profil yonida yulduzcha paydo bo'ladi."}]};
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
+      />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 

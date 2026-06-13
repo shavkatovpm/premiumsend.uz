@@ -26,6 +26,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    locale: "ru_RU",
     title: "Что такое Telegram Stars и где они используются — полное руководство",
     description:
       "Всё о Telegram Stars: что это, как работают, сколько стоят (50 Stars от 12 000 сум), 12+ способов применения и безопасные пути покупки.",
@@ -39,6 +40,7 @@ export default function ArticleStarsNimaRu() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "Что такое Telegram Stars и где они используются — руководство для Узбекистана",
     description:

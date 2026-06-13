@@ -26,6 +26,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    locale: "ru_RU",
     title:
       "Почему Telegram Premium дороже в App Store и Play Market",
     description:
@@ -40,6 +41,7 @@ export default function ArticleAppStorePlayMarketQimmatRu() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "Почему Telegram Premium дороже в App Store и Play Market — разбор и дешёвый путь",
     description:

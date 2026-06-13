@@ -24,6 +24,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    locale: "ru_RU",
     title:
       "Telegram Premium vs обычный Telegram: 15 главных отличий",
     description:
@@ -38,6 +39,7 @@ export default function ArticlePremiumVsOddiyRu() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "Telegram Premium vs обычный Telegram: 15 главных отличий (2026)",
     description:

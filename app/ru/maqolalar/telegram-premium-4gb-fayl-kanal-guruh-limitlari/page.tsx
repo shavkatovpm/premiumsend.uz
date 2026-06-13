@@ -26,6 +26,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    locale: "ru_RU",
     title:
       "Telegram Premium 4 ГБ файлы и другие лимиты — полная техническая таблица",
     description:
@@ -40,6 +41,7 @@ export default function ArticleLimitsRu() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "Telegram Premium: 4 ГБ файл, 1000 каналов и лимиты групп — технические возможности",
     description:

@@ -40,6 +40,7 @@ export default function Article12MonthGift() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "12 oylik Telegram Premium sovg'a qilish — O'zbekistonda so'mda, username orqali",
     description:

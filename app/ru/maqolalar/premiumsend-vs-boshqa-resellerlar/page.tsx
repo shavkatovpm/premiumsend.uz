@@ -24,6 +24,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    locale: "ru_RU",
     title: "PremiumSend vs другие реселлеры — объективные критерии",
     description:
       "Сравнение реселлеров Telegram Premium по объективным критериям: цена, оплата, гарантии.",
@@ -37,6 +38,7 @@ export default function ArticleVsResellersRu() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "PremiumSend vs другие реселлеры Telegram Premium — объективные критерии сравнения",
     description:

@@ -42,6 +42,7 @@ export default function ArticlePremiumBotIshlamayapti() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "Nega PremiumBot ishlamaydi va Telegram Premium qayerdan sotib olinadi?",
     description:

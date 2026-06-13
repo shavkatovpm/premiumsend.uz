@@ -40,6 +40,7 @@ export default function ArticleSafeBuy() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "Telegram Premium O'zbekistondan sotib olish xavfsizmi? Aldovdan saqlanish",
     description:

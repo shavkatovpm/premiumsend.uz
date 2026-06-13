@@ -26,6 +26,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    locale: "ru_RU",
     title: "Как купить Telegram Premium на 6 месяцев — пошаговая инструкция",
     description:
       "Почему в самом Telegram нет 6-месячного пакета и как оформить через @PremiumSendBot — пошаговое руководство с активацией за 5 минут.",
@@ -39,6 +40,7 @@ export default function Article6Month() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "Как купить Telegram Premium на 6 месяцев — пошаговая инструкция 2026",
     description:

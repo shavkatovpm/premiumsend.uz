@@ -41,6 +41,7 @@ export default function ArticleStarsPaketlariNarxlariUz() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "Telegram Stars paketlari 2026: 50, 100, 500, 1000, 5000 — aniq narxlar",
     description:

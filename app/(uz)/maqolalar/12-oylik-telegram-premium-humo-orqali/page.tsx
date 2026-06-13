@@ -40,6 +40,7 @@ export default function Article12MonthHumoUz() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "12 oylik Telegram Premium Humo orqali sotib olish — 425,000 so'mga",
     description:
@@ -77,9 +78,15 @@ export default function Article12MonthHumoUz() {
     ],
   };
 
+  const howToSchema = {"@context":"https://schema.org","@type":"HowTo","name":"12 oylik Telegram Premium Humo orqali sotib olish — 425,000 so'mga","description":"Bosqichma-bosqich yo'riqnoma: 12 oylik Telegram Premium Humo orqali sotib olish — 425,000 so'mga","step":[{"@type":"HowToStep","position":1,"name":"Telegramda @PremiumSendBot ni oching","text":"Telegram qidiruv qatoriga @PremiumSendBot deb yozing. Tasdiqlangan bot belgisi bo'lgan rasmiy botni oching. /start tugmasini bosing."},{"@type":"HowToStep","position":2,"name":"Menyudan 12 oylik tarifni tanlang","text":"Bot 4 ta tarif chiqaradi: 1, 3, 6, 12 oylik. \"12 oylik\" ni bosing — narx 425,000 so'm, oyiga 35,417."},{"@type":"HowToStep","position":3,"name":"Premium kerak akkaunt username'ini kiriting","text":"@belgisidan keyin Telegram username yozing. 12 oy davomida shu akkaunt Premium bo'ladi — username'ni juda diqqat bilan ikki marta tekshiring."},{"@type":"HowToStep","position":4,"name":"Humo karta balans va kunlik limitini tekshiring","text":"425,000 so'm — kattagina summa. Humo mobil ilovasini oching, kartada yetarli balans va kunlik internet to'lov limiti borligini tekshiring. Past bo'lsa — ilova ichida 1,000,000 so'mgacha oshiring (1 daqiqa)."},{"@type":"HowToStep","position":5,"name":"Bot karta raqami va aniq summani ko'rsatadi","text":"Ekranda karta raqami (8600 XXXX XXXX XXXX) va aynan 425,000 so'm chiqadi. Bot izoh sifatida tekshiruv kodi ham berishi mumkin."},{"@type":"HowToStep","position":6,"name":"Humo orqali P2P o'tkazma qiling","text":"Humo kartangizdan ko'rsatilgan kartaga 425,000 so'm o'tkazasiz. Bu Humo karta chiqargan bankning mobil ilovasidan (Asakabank, Hamkorbank, NBU, Trustbank, Kapitalbank va h.k.), SMS-bank orqali, yoki Click/Payme ichida Humo karta ulangan bo'lsa o'sha ilovalar orqali bo'ladi."},{"@type":"HowToStep","position":7,"name":"Tasdiqlash (PIN/SMS-kod)","text":"Ilova turiga qarab — PIN, Face ID yoki SMS-kod bilan tasdiqlaysiz. Katta summalar uchun bank push-bildirishnoma orqali qo'shimcha tasdiqlash so'rashi mumkin — bu normal xavfsizlik chorasi."},{"@type":"HowToStep","position":8,"name":"Premium 5 daqiqada faollashadi","text":"Bank to'lovni tasdiqlangach, tizim 1-5 daqiqada summani aniqlaydi va Premium siz bergan akkauntda 365 kunga yoqiladi. Bot xabar yuboradi. Keyingi bir yil davomida qayta to'lov yoki uzaytirish kerak emas."}]};
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
+      />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 

@@ -25,6 +25,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    locale: "ru_RU",
     title: "Telegram Premium на 3 месяца через Click — 175 000 сум",
     description:
       "3-месячный Telegram Premium через Click за 175 000 сум. Бот показывает карту и сумму, переводите через Click.",
@@ -38,12 +39,13 @@ export default function Article3MonthClickRu() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "Telegram Premium на 3 месяца через Click — за 175 000 сум",
     description:
       "Покупка 3-месячного Telegram Premium через Click — бот выдаёт карту и сумму, вы переводите, система автоматически определяет.",
     datePublished: "2026-05-05",
-    dateModified: "2026-05-05",
+    dateModified: "2026-05-03",
     author: { "@type": "Organization", name: "Premium Send", url: "https://premiumsend.uz" },
     publisher: { "@type": "Organization", name: "Premium Send", url: "https://premiumsend.uz" },
     mainEntityOfPage:
@@ -74,9 +76,15 @@ export default function Article3MonthClickRu() {
     ],
   };
 
+  const howToSchema = {"@context":"https://schema.org","@type":"HowTo","name":"Telegram Premium на 3 месяца через Click — за 175 000 сум","description":"Пошаговое руководство: Telegram Premium на 3 месяца через Click — за 175 000 сум","step":[{"@type":"HowToStep","position":1,"name":"Откройте @PremiumSendBot в Telegram","text":"Введите @PremiumSendBot в поиске Telegram. Откройте бот. Нажмите /start."},{"@type":"HowToStep","position":2,"name":"Выберите 3-месячный тариф","text":"Бот покажет 4 тарифа. Нажмите «3 месяца» — цена 175 000 сум."},{"@type":"HowToStep","position":3,"name":"Введите username получателя Premium","text":"Через @ напишите Telegram username. Проверьте дважды."},{"@type":"HowToStep","position":4,"name":"Бот покажет номер карты и сумму","text":"На экране номер карты и точная сумма 175 000 сум."},{"@type":"HowToStep","position":5,"name":"Откройте Click и начните P2P-перевод","text":"В Click выберите «Перевод на другую карту». Введите номер карты бота."},{"@type":"HowToStep","position":6,"name":"Введите ровно 175 000 сум и подтвердите","text":"Сумму вводите ровно 175 000 сум. Подтвердите PIN или Face ID."},{"@type":"HowToStep","position":7,"name":"Premium активируется за 5 минут","text":"После подтверждения Click система за 1-5 минут определит сумму, и Premium активируется на аккаунте."}]};
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
+      />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 

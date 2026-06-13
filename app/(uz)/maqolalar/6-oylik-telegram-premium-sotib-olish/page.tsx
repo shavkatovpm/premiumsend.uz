@@ -39,6 +39,7 @@ export default function Article6Month() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "6 oylik Telegram Premium qanday sotib olinadi — qadamma-qadam yo'riqnoma 2026",
     description:

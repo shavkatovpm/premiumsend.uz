@@ -25,6 +25,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    locale: "ru_RU",
     title: "Telegram Stars или Premium: что выбрать",
     description:
       "Когда и для кого нужны Stars и Premium — полное сравнение, цены и сценарии использования.",
@@ -38,6 +39,7 @@ export default function ArticleStarsVsPremiumRu() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "Telegram Stars или Premium: что выбрать — полное сравнение",
     description:

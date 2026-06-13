@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     publishedTime: "2026-04-08",
     images: [
       {
-        url: "https://premiumsend.uz/og/6-oylik-eng-yaxshi-usul.png",
+        url: "https://premiumsend.uz/og-image.png",
         width: 1200,
         height: 630,
         alt: "6 oylik Telegram Premium olishning eng yaxshi usuli — taqqoslash",
@@ -47,6 +47,7 @@ export default function Article6MonthBestWay() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "6 oylik Telegram Premium olishning eng yaxshi usuli — 2026 yil",
     description:
@@ -65,7 +66,6 @@ export default function Article6MonthBestWay() {
     },
     mainEntityOfPage:
       "https://premiumsend.uz/maqolalar/6-oylik-telegram-premium-olishning-eng-yaxshi-usuli",
-    image: "https://premiumsend.uz/og/6-oylik-eng-yaxshi-usul.png",
   };
 
   const faqSchema = {

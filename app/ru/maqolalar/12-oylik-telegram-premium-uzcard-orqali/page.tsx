@@ -26,6 +26,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    locale: "ru_RU",
     title: "Telegram Premium на 12 месяцев через Uzcard — 425 000 сум",
     description:
       "Годовой Telegram Premium через Uzcard в сумах. @PremiumSendBot за 425 000 сум, на 39% дешевле помесячной оплаты.",
@@ -39,6 +40,7 @@ export default function Article12MonthUzcardRu() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "Telegram Premium на 12 месяцев через Uzcard — в Узбекистане за 425 000 сум",
     description:
@@ -147,11 +149,17 @@ export default function Article12MonthUzcardRu() {
     ],
   };
 
+  const howToSchema = {"@context":"https://schema.org","@type":"HowTo","name":"Telegram Premium на 12 месяцев через Uzcard — в Узбекистане за 425 000 сум","description":"Пошаговое руководство: Telegram Premium на 12 месяцев через Uzcard — в Узбекистане за 425 000 сум","step":[{"@type":"HowToStep","position":1,"name":"Откройте @PremiumSendBot в Telegram","text":"Найдите @PremiumSendBot через поиск Telegram. Обратите внимание на значок верифицированного бота — настоящий бот имеет такой значок. Откройте и нажмите /start."},{"@type":"HowToStep","position":2,"name":"Выберите 12-месячный пакет в меню","text":"В главном меню бота появятся все пакеты. Выберите «Telegram Premium на 12 месяцев». Цена отобразится сразу: 425 000 сум (35 417 сум в месяц)."},{"@type":"HowToStep","position":3,"name":"Введите username","text":"Напишите Telegram username, на который нужно активировать Premium. Это ваш аккаунт или при подарке — username получателя. Пишите без ошибок — этот аккаунт будет с Premium в течение 12 месяцев."},{"@type":"HowToStep","position":4,"name":"Проверьте баланс и лимит карты","text":"425 000 сум — существенная сумма. Откройте мобильное приложение Uzcard, убедитесь, что на карте достаточно средств и что дневной лимит интернет-платежей достаточен. Если лимит низкий — увеличьте его внутри приложения."},{"@type":"HowToStep","position":5,"name":"Выберите способ оплаты и оплатите","text":"Бот предложит выбор между Uzcard, Humo, Click и Payme. Выберите и следуйте инструкциям бота — оплата производится внутри привычного вам приложения."},{"@type":"HowToStep","position":6,"name":"Premium активируется на 365 дней","text":"После подтверждения оплаты 12-месячный Premium автоматически активируется в аккаунте. В течение следующего года никаких повторных оплат или продлений не требуется — подписка работает непрерывно."}]};
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
       />
       <script
         type="application/ld+json"

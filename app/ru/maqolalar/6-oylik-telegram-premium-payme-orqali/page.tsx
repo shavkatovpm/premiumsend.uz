@@ -26,6 +26,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    locale: "ru_RU",
     title: "6 месяцев Telegram Premium через Payme — 235 000 сум",
     description:
       "6 месячный Premium через Payme за 235 000 сум, 39 167 в месяц. Бот показывает карту и сумму, переводите из Payme.",
@@ -39,6 +40,7 @@ export default function Article6MonthPaymeRu() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "6 месяцев Telegram Premium через Payme — 235 000 сум",
     description:
@@ -76,9 +78,15 @@ export default function Article6MonthPaymeRu() {
     ],
   };
 
+  const howToSchema = {"@context":"https://schema.org","@type":"HowTo","name":"6 месяцев Telegram Premium через Payme — 235 000 сум","description":"Пошаговое руководство: 6 месяцев Telegram Premium через Payme — 235 000 сум","step":[{"@type":"HowToStep","position":1,"name":"Откройте @PremiumSendBot в Telegram","text":"В строке поиска Telegram наберите @PremiumSendBot. Откройте официальный бот с галочкой подтверждения. Нажмите /start."},{"@type":"HowToStep","position":2,"name":"Из меню выберите 6 месячный тариф","text":"Бот выводит 4 тарифа: 1, 3, 6, 12 месяцев. Нажмите \"6 месяцев\" — цена 235 000 сум, в месяц 39 167."},{"@type":"HowToStep","position":3,"name":"Введите username аккаунта для Premium","text":"После @ напишите Telegram username. Это ваш или подарочный аккаунт. Проверьте дважды — Premium активируется именно на этом аккаунте на 180 дней."},{"@type":"HowToStep","position":4,"name":"Бот показывает номер карты и точную сумму","text":"На экране номер карты (8600 XXXX XXXX XXXX) и ровно 235 000 сум. Бот может также дать код проверки в комментарии."},{"@type":"HowToStep","position":5,"name":"Откройте Payme и начните P2P перевод","text":"Зайдите в приложение Payme. Выберите функцию \"Перевод на другую карту\". Введите указанный ботом номер карты."},{"@type":"HowToStep","position":6,"name":"Введите ровно 235 000 сум и подтвердите","text":"Введите сумму ровно 235 000 сум. Подтвердите PIN или Face ID."},{"@type":"HowToStep","position":7,"name":"Premium активируется за 5 минут","text":"После подтверждения платежа Payme, система за 1-5 минут распознаёт сумму и Premium активируется на аккаунте. Рядом с профилем появляется звёздочка."}]};
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
+      />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 

@@ -42,6 +42,7 @@ export default function ArticleTugilganKunSovgasi() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    image: "https://premiumsend.uz/og-image.png",
     headline:
       "Telegram Premium tug'ilgan kun sovg'asi: 3, 6 va 12 oylik tariflar",
     description:
