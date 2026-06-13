@@ -32,6 +32,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "telegram-premium-muddati-tugadi-nima-qilish",
+    title: "Telegram Premium muddati tugadi — nima qilish va qanday tiklash",
+    excerpt:
+      "Muddat tugaganda akkaunt oddiy Telegramga qaytadi, hech narsa o'chmaydi: chatlar, fayllar, kanallar joyida. Nima o'chadi, fayllar saqlanadimi va @PremiumSendBot orqali so'mda 5 daqiqada qanday tiklash — to'liq javob.",
+    category: "Savol-javob",
+    date: "2026-06-13",
+  },
+  {
     slug: "12-oylik-telegram-premium-click-orqali",
     title: "12 oylik Telegram Premium Click orqali sotib olish",
     excerpt:
@@ -404,9 +412,25 @@ export default function ArticlesPage() {
     ],
   };
 
+  const itemListSchema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "Telegram Premium haqida maqolalar",
+    description:
+      "Telegram Premium imkoniyatlari, narxlari va O'zbekistonda sotib olish bo'yicha qo'llanmalar",
+    numberOfItems: articles.length,
+    itemListElement: articles.map((article, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      url: `https://premiumsend.uz/maqolalar/${article.slug}`,
+      name: article.title,
+    })),
+  };
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }} />
 
       {/* Breadcrumb */}
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 text-sm text-muted">

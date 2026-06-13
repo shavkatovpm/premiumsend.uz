@@ -23,6 +23,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    locale: "ru_RU",
     title: "Статьи и руководства о Telegram Premium",
     description:
       "Полезные статьи о Telegram Premium, цены, возможности и руководства по покупке.",
@@ -31,6 +32,14 @@ export const metadata: Metadata = {
 };
 
 const articles = [
+  {
+    slug: "telegram-premium-muddati-tugadi-nima-qilish",
+    title: "Закончился Telegram Premium — что делать и как продлить",
+    excerpt:
+      "Когда срок истекает, аккаунт возвращается к обычному Telegram, ничего не удаляется: чаты, файлы, каналы на месте. Что отключается, сохраняются ли файлы и как восстановить в сумах за 5 минут через @PremiumSendBot.",
+    category: "Вопрос-ответ",
+    date: "2026-06-13",
+  },
   {
     slug: "12-oylik-telegram-premium-click-orqali",
     title: "Telegram Premium на 12 месяцев через Click",
@@ -404,9 +413,25 @@ export default function ArticlesPage() {
     ],
   };
 
+  const itemListSchema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "Статьи о Telegram Premium",
+    description:
+      "Руководства по возможностям, ценам и покупке Telegram Premium в Узбекистане",
+    numberOfItems: articles.length,
+    itemListElement: articles.map((article, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      url: `https://premiumsend.uz/ru/maqolalar/${article.slug}`,
+      name: article.title,
+    })),
+  };
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }} />
 
       {/* Breadcrumb */}
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 text-sm text-muted">
