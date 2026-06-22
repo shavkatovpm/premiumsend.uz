@@ -17,19 +17,21 @@ import { dirname, join } from "node:path";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
 const KEY_PATH = join(ROOT, ".secrets", "gsc-service-account.json");
-const SCOPE = "https://www.googleapis.com/auth/webmasters.readonly";
+const SCOPE_RO = "https://www.googleapis.com/auth/webmasters.readonly";
+const SCOPE_RW = "https://www.googleapis.com/auth/webmasters";
+const SCOPE_INDEXING = "https://www.googleapis.com/auth/indexing";
 
 const b64url = (buf) =>
   Buffer.from(buf).toString("base64").replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
 
-async function getAccessToken() {
+async function getAccessToken(scope = SCOPE_RO) {
   const key = JSON.parse(readFileSync(KEY_PATH, "utf8"));
   const now = Math.floor(Date.now() / 1000);
   const header = b64url(JSON.stringify({ alg: "RS256", typ: "JWT" }));
   const claim = b64url(
     JSON.stringify({
       iss: key.client_email,
-      scope: SCOPE,
+      scope,
       aud: "https://oauth2.googleapis.com/token",
       iat: now,
       exp: now + 3600,
@@ -70,6 +72,39 @@ async function api(path, token, body) {
 async function listSites(token) {
   const data = await api("sites", token);
   return (data.siteEntry || []).map((s) => s.siteUrl);
+}
+
+// Raw call to any absolute Google API URL (used for inspection/indexing hosts).
+async function apiAbs(url, token, { method = "POST", body } = {}) {
+  const res = await fetch(url, {
+    method,
+    headers: {
+      Authorization: `Bearer ${token}`,
+      "Content-Type": "application/json",
+    },
+    body: body ? JSON.stringify(body) : undefined,
+  });
+  const text = await res.text();
+  let data;
+  try { data = text ? JSON.parse(text) : {}; } catch { data = { raw: text }; }
+  return { ok: res.ok, status: res.status, data };
+}
+
+async function submitSitemap(token, siteUrl, feedpath) {
+  const res = await fetch(
+    `https://www.googleapis.com/webmasters/v3/sites/${encodeURIComponent(siteUrl)}/sitemaps/${encodeURIComponent(feedpath)}`,
+    { method: "PUT", headers: { Authorization: `Bearer ${token}` } }
+  );
+  if (!res.ok) {
+    const t = await res.text();
+    throw new Error(`Sitemap submit failed (${res.status}): ${t}`);
+  }
+  return true;
+}
+
+async function listSitemaps(token, siteUrl) {
+  const data = await api(`sites/${encodeURIComponent(siteUrl)}/sitemaps`, token);
+  return data.sitemap || [];
 }
 
 async function resolveSite(token, arg) {
@@ -113,9 +148,67 @@ function fmtRows(rows, keys) {
 }
 
 async function main() {
-  const [cmd = "report", daysArg, siteArg] = process.argv.slice(2);
+  const rest = process.argv.slice(2);
+  const [cmd = "report", daysArg, siteArg] = rest;
   const days = Number(daysArg) || 90;
-  const token = await getAccessToken();
+
+  // --- Indexing / sitemap commands (own scopes, handled before RO token) ---
+
+  if (cmd === "submit-sitemap") {
+    const token = await getAccessToken(SCOPE_RW);
+    const siteUrl = await resolveSite(token, siteArg);
+    const feed = process.argv[3] && process.argv[3].startsWith("http")
+      ? process.argv[3]
+      : "https://premiumsend.uz/sitemap.xml";
+    await submitSitemap(token, siteUrl, feed);
+    console.log(`✅ Sitemap submitted: ${feed}  (property: ${siteUrl})`);
+    const list = await listSitemaps(token, siteUrl);
+    console.log(JSON.stringify(list, null, 2));
+    return;
+  }
+
+  if (cmd === "sitemaps") {
+    const token = await getAccessToken(SCOPE_RW);
+    const siteUrl = await resolveSite(token, siteArg);
+    console.log(JSON.stringify(await listSitemaps(token, siteUrl), null, 2));
+    return;
+  }
+
+  if (cmd === "inspect") {
+    const token = await getAccessToken(SCOPE_RO);
+    const siteUrl = await resolveSite(token, null);
+    const urls = rest.slice(1).filter((u) => u.startsWith("http"));
+    for (const u of urls) {
+      const r = await apiAbs(
+        "https://searchconsole.googleapis.com/v1/urlInspection/index:inspect",
+        token,
+        { body: { inspectionUrl: u, siteUrl } }
+      );
+      const res = r.data?.inspectionResult?.indexStatusResult || {};
+      console.log(`\n${u}`);
+      console.log(`  verdict:   ${res.verdict || r.status}`);
+      console.log(`  coverage:  ${res.coverageState || "-"}`);
+      console.log(`  crawledAs: ${res.crawledAs || "-"}  lastCrawl: ${res.lastCrawlTime || "-"}`);
+      if (!r.ok) console.log(`  error: ${JSON.stringify(r.data)}`);
+    }
+    return;
+  }
+
+  if (cmd === "index") {
+    const token = await getAccessToken(SCOPE_INDEXING);
+    const urls = rest.slice(1).filter((u) => u.startsWith("http"));
+    for (const u of urls) {
+      const r = await apiAbs(
+        "https://indexing.googleapis.com/v3/urlNotifications:publish",
+        token,
+        { body: { url: u, type: "URL_UPDATED" } }
+      );
+      console.log(`${r.ok ? "✅" : "❌ " + r.status}  ${u}${r.ok ? "" : "  " + JSON.stringify(r.data)}`);
+    }
+    return;
+  }
+
+  const token = await getAccessToken(SCOPE_RO);
 
   if (cmd === "sites") {
     const sites = await listSites(token);

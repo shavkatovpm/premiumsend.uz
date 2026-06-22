@@ -6,7 +6,16 @@ Google Search Console API ulangan. Ma'lumotni qayta olish:
 node scripts/gsc.mjs sites          # tasdiqlangan property'lar
 node scripts/gsc.mjs query 90       # so'rovlar (90 kun)
 node scripts/gsc.mjs report 90      # to'liq hisobot -> .secrets/gsc-report-90d.json
+
+# Indekslash:
+node scripts/gsc.mjs submit-sitemap          # sitemap.xml ni GSC'ga yuborish
+node scripts/gsc.mjs sitemaps                # yuborilgan sitemap'lar holati
+node scripts/gsc.mjs index <url> [<url>...]  # Indexing API: crawl signali (URL_UPDATED)
+node scripts/gsc.mjs inspect <url> [<url>...] # URL holati (indexed / discovered)
 ```
+
+> Indexing API yoqilgan va service account Owner — to'g'ridan-to'g'ri URL yuborish ishlaydi.
+> Yangi yoki yangilangan maqoladan keyin: `submit-sitemap` + shu URL'ni `index` qil.
 
 - Property: `sc-domain:premiumsend.uz`
 - Service account: `claude-gsc@cellular-gift-384816.iam.gserviceaccount.com`
