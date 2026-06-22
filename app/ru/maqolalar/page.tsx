@@ -33,6 +33,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "3-oylik-telegram-premium-narxi",
+    title: "Цена Telegram Premium на 3 месяца 2026 — 175 000 сум",
+    excerpt:
+      "Цена Telegram Premium на 3 месяца — 175 000 сум (58 333 в месяц). Почти как месячный тариф, разница всего 2 000 сум. Кому выгодно, сравнение с 1/6/12 месяцами и оплата в сумах.",
+    category: "Цены",
+    date: "2026-06-22",
+  },
+  {
     slug: "telegram-premium-muddati-tugadi-nima-qilish",
     title: "Закончился Telegram Premium — что делать и как продлить",
     excerpt:

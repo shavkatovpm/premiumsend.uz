@@ -32,6 +32,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "3-oylik-telegram-premium-narxi",
+    title: "3 oylik Telegram Premium narxi 2026 — 175,000 so'm",
+    excerpt:
+      "3 oylik Telegram Premium narxi — 175,000 so'm (oyiga 58,333). 1 oylikka deyarli teng, farq atigi 2,000 so'm. Nimaga shuncha, kimga arziydi, 1/6/12 oylik bilan taqqoslash va so'mda to'lov usullari.",
+    category: "Narxlar qo'llanmasi",
+    date: "2026-06-22",
+  },
+  {
     slug: "telegram-premium-muddati-tugadi-nima-qilish",
     title: "Telegram Premium muddati tugadi — nima qilish va qanday tiklash",
     excerpt:
