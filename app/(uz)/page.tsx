@@ -4,9 +4,9 @@ import AnimatedWave from "../components/AnimatedWave";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Telegram Premium sotib olish — so'mda to'lab oling",
+  title: "Telegram Premium sotib olish — UzCard, Humo, so'mda",
   description:
-    "Telegram Premium sotib olish O'zbekistonda so'mda. 1 oylik 59,000 so'm, 3 oylik 175,000 so'm, 6 oylik 235,000 so'm, 12 oylik 425,000 so'm. UzCard, Humo orqali to'lov. Tez aktivatsiya.",
+    "Telegram Premium sotib olish O'zbekistonda so'mda — UzCard, Humo, Click, Payme orqali. 1 oylik 59,000 so'm, 3 oylik 175,000 so'm, 6 oylik 235,000 so'm, 12 oylik 425,000 so'm. Tez aktivatsiya.",
   alternates: {
     canonical: "https://premiumsend.uz",
     languages: {
@@ -16,9 +16,9 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Telegram Premium sotib olish — so'mda to'lab oling",
+    title: "Telegram Premium sotib olish — UzCard, Humo, so'mda",
     description:
-      "Telegram Premium obunasini O'zbekiston so'mida sotib oling. 59,000 so'mdan boshlab. UzCard, Humo.",
+      "Telegram Premium obunasini O'zbekiston so'mida sotib oling. 59,000 so'mdan boshlab. UzCard, Humo, Click, Payme.",
     url: "https://premiumsend.uz",
   },
 };

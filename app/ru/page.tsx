@@ -4,9 +4,9 @@ import AnimatedWave from "../components/AnimatedWave";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Купить Telegram Premium — оплата в сумах",
+  title: "Купить Telegram Premium в Узбекистане — цена в сумах",
   description:
-    "Купить Telegram Premium в Узбекистане за сумы. 1 месяц 59 000 сум, 3 месяца 175 000 сум, 6 месяцев 235 000 сум, 12 месяцев 425 000 сум. Оплата UzCard, Humo. Быстрая активация.",
+    "Купить Telegram Premium в Узбекистане за сумы — UzCard, Humo, Click, Payme. Цена: 1 месяц 59 000 сум, 3 месяца 175 000 сум, 6 месяцев 235 000 сум, 12 месяцев 425 000 сум. Быстрая активация.",
   alternates: {
     canonical: "https://premiumsend.uz/ru",
     languages: {
@@ -17,9 +17,9 @@ export const metadata: Metadata = {
   },
   openGraph: {
     locale: "ru_RU",
-    title: "Купить Telegram Premium — оплата в сумах",
+    title: "Купить Telegram Premium в Узбекистане — цена в сумах",
     description:
-      "Купите подписку Telegram Premium в узбекских сумах. От 59 000 сум. UzCard, Humo.",
+      "Купите подписку Telegram Premium в узбекских сумах. От 59 000 сум. UzCard, Humo, Click, Payme.",
     url: "https://premiumsend.uz/ru",
   },
 };
