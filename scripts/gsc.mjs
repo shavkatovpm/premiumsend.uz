@@ -194,17 +194,29 @@ async function main() {
     return;
   }
 
-  if (cmd === "index") {
+  if (cmd === "index" || cmd === "index-all") {
     const token = await getAccessToken(SCOPE_INDEXING);
-    const urls = rest.slice(1).filter((u) => u.startsWith("http"));
+    let urls;
+    if (cmd === "index-all") {
+      const sm = process.argv[3] && process.argv[3].startsWith("http")
+        ? process.argv[3]
+        : "https://premiumsend.uz/sitemap.xml";
+      const xml = await (await fetch(sm)).text();
+      urls = [...new Set([...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]))];
+    } else {
+      urls = rest.slice(1).filter((u) => u.startsWith("http"));
+    }
+    let ok = 0, fail = 0;
     for (const u of urls) {
       const r = await apiAbs(
         "https://indexing.googleapis.com/v3/urlNotifications:publish",
         token,
         { body: { url: u, type: "URL_UPDATED" } }
       );
-      console.log(`${r.ok ? "✅" : "❌ " + r.status}  ${u}${r.ok ? "" : "  " + JSON.stringify(r.data)}`);
+      if (r.ok) ok++; else fail++;
+      console.log(`${r.ok ? "✅" : "❌ " + r.status}  ${u}${r.ok ? "" : "  " + JSON.stringify(r.data).slice(0, 120)}`);
     }
+    console.error(`\n# ${ok} ok, ${fail} fail / ${urls.length} urls`);
     return;
   }
 
