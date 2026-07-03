@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title:
     "Цены Telegram Premium 2026: сравнение тарифов 1, 3, 6, 12 месяцев",
   description:
-    "Цены Telegram Premium в Узбекистане: 1 месяц — 59 000 сум, 3 месяца — 175 000 сум, 6 месяцев — 235 000 сум, 12 месяцев — 425 000 сум. Какой тариф самый выгодный? @PremiumSendBot, оплата в сумах.",
+    "Telegram Premium в Узбекистане: от 59 000 сум. Сравнение тарифов 1, 3, 6, 12 месяцев в таблице. Оплата UzCard, Humo. Какой тариф выгоднее?",
   keywords: [
     "Telegram Premium цена",
     "Telegram Premium цены",

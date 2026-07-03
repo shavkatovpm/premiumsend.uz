@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title:
     "Пакеты Telegram Stars 2026: 50, 100, 500, 1000, 5000 — точные цены",
   description:
-    "Все пакеты Telegram Stars и точные цены в сумах: 50 Stars 12 000, 100 Stars 24 000, 500 Stars 120 000, 1000 Stars 240 000, 5000 Stars 1 200 000. Сравнение с App Store, какой пакет для чего.",
+    "Цены на Telegram Stars в сумах — от 50 до 5000 Stars. Дешевле, чем в App Store. Оплата UzCard, Humo, доставка за 5 минут.",
   keywords: [
     "50 stars цена",
     "100 stars сколько",

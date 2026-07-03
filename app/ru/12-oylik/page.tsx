@@ -5,7 +5,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Купить Telegram Premium на 12 месяцев — 425 000 сум",
   description:
-    "Купить Telegram Premium на 12 месяцев (1 год) всего за 425 000 сум. 35 417 сум в месяц — самая низкая ежемесячная цена! Оплата в узбекских сумах через UzCard, Humo.",
+    "Telegram Premium на 12 месяцев — 425 000 сум (35 417 сум/мес, самая низкая цена). Оплата UzCard, Humo. Активация за 5 минут.",
   keywords: [
     "купить Telegram Premium 12 месяцев",
     "Telegram Premium 12 месяцев",
