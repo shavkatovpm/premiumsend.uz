@@ -633,7 +633,8 @@ export default function ArticleTelegramPremiumNima() {
               Maxsus mavzular bo&apos;yicha qo&apos;llanmalar:{" "}
               <Link href="/maqolalar/12-oylik-telegram-premium-uzcard-orqali" className="text-primary font-semibold hover:underline">12 oylik Uzcard orqali</Link>,{" "}
               <Link href="/maqolalar/3-oylik-telegram-premium-sovga-qilish" className="text-primary font-semibold hover:underline">sovg&apos;a qilish</Link>,{" "}
-              <Link href="/maqolalar/6-oylik-telegram-premium-olishning-eng-yaxshi-usuli" className="text-primary font-semibold hover:underline">eng yaxshi usul</Link>.
+              <Link href="/maqolalar/6-oylik-telegram-premium-olishning-eng-yaxshi-usuli" className="text-primary font-semibold hover:underline">eng yaxshi usul</Link>. Sotib olgandan keyin ism rangi, emoji status va boshqa sozlamalarni qanday yoqish haqida —{" "}
+              <Link href="/maqolalar/telegram-premium-qanday-yoqiladi-sozlanadi" className="text-primary font-semibold hover:underline">to&apos;liq sozlash qo&apos;llanmasi</Link>.
             </p>
           </section>
 

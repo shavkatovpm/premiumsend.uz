@@ -632,7 +632,8 @@ export default function ArticleTelegramPremiumNimaRu() {
               Специальные руководства:{" "}
               <Link href="/ru/maqolalar/12-oylik-telegram-premium-uzcard-orqali" className="text-primary font-semibold hover:underline">12 месяцев через Uzcard</Link>,{" "}
               <Link href="/ru/maqolalar/3-oylik-telegram-premium-sovga-qilish" className="text-primary font-semibold hover:underline">подарить Premium</Link>,{" "}
-              <Link href="/ru/maqolalar/6-oylik-telegram-premium-olishning-eng-yaxshi-usuli" className="text-primary font-semibold hover:underline">лучший способ</Link>.
+              <Link href="/ru/maqolalar/6-oylik-telegram-premium-olishning-eng-yaxshi-usuli" className="text-primary font-semibold hover:underline">лучший способ</Link>. Как включить цвет имени, эмодзи-статус и другие настройки после покупки — {" "}
+              <Link href="/ru/maqolalar/telegram-premium-qanday-yoqiladi-sozlanadi" className="text-primary font-semibold hover:underline">полное руководство по настройке</Link>.
             </p>
           </section>
 

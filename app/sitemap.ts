@@ -9,6 +9,7 @@ type ArticleEntry = {
 };
 
 const articles: ArticleEntry[] = [
+  { slug: "telegram-premium-qanday-yoqiladi-sozlanadi", lastModified: "2026-07-03", priority: 0.85 },
   { slug: "3-oylik-telegram-premium-narxi", lastModified: "2026-06-22", priority: 0.9 },
   { slug: "telegram-premium-muddati-tugadi-nima-qilish", lastModified: "2026-06-13", priority: 0.9 },
   { slug: "12-oylik-telegram-premium-click-orqali", lastModified: "2026-06-05", priority: 0.85 },

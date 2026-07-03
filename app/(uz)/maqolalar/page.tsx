@@ -32,6 +32,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "telegram-premium-qanday-yoqiladi-sozlanadi",
+    title: "Telegram Premium qanday yoqiladi va sozlanadi — to'liq qo'llanma",
+    excerpt:
+      "Ism rangi, emoji status, animatsiyali profil, ko'p reaksiya va Business funksiyalarini sotib olgandan keyin qanday yoqish kerak — bosqichma-bosqich qo'llanma.",
+    category: "Qo'llanma",
+    date: "2026-07-03",
+  },
+  {
     slug: "3-oylik-telegram-premium-narxi",
     title: "3 oylik Telegram Premium narxi 2026 — 175,000 so'm",
     excerpt:

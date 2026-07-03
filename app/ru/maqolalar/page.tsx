@@ -33,6 +33,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "telegram-premium-qanday-yoqiladi-sozlanadi",
+    title: "Как включить и настроить Telegram Premium — полное руководство",
+    excerpt:
+      "Цвет имени, эмодзи-статус, анимированный профиль, несколько реакций и функции Business — как включить после покупки, пошагово.",
+    category: "Руководство",
+    date: "2026-07-03",
+  },
+  {
     slug: "3-oylik-telegram-premium-narxi",
     title: "Цена Telegram Premium на 3 месяца 2026 — 175 000 сум",
     excerpt:
