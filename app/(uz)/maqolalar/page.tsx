@@ -32,6 +32,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "telegram-premium-arziydimi-youtube-spotify-bilan-taqqoslash",
+    title: "Telegram Premium arziydimi? YouTube Premium va Spotify bilan taqqoslash",
+    excerpt:
+      "Telegram Premium oyiga ~59,000 so'm, YouTube Premium ~15.99$, Spotify ~12.99$. Narx va imkoniyatlar taqqoslashi — 2026-yilgi aniq raqamlar bilan.",
+    category: "Taqqoslash",
+    date: "2026-07-03",
+  },
+  {
     slug: "telegram-premium-qanday-yoqiladi-sozlanadi",
     title: "Telegram Premium qanday yoqiladi va sozlanadi — to'liq qo'llanma",
     excerpt:

@@ -33,6 +33,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "telegram-premium-arziydimi-youtube-spotify-bilan-taqqoslash",
+    title: "Стоит ли Telegram Premium своих денег? Сравнение с YouTube Premium и Spotify",
+    excerpt:
+      "Telegram Premium ~59 000 сум/мес, YouTube Premium ~15.99$, Spotify ~12.99$. Сравнение цены и возможностей — с точными цифрами 2026 года.",
+    category: "Сравнение",
+    date: "2026-07-03",
+  },
+  {
     slug: "telegram-premium-qanday-yoqiladi-sozlanadi",
     title: "Как включить и настроить Telegram Premium — полное руководство",
     excerpt:
