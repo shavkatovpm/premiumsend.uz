@@ -38,7 +38,7 @@ const articles = [
     excerpt:
       "Telegram Premium ~59 000 сум/мес, YouTube Premium ~15.99$, Spotify ~12.99$. Сравнение цены и возможностей — с точными цифрами 2026 года.",
     category: "Сравнение",
-    date: "2026-07-03",
+    date: "2026-07-12",
   },
   {
     slug: "telegram-premium-qanday-yoqiladi-sozlanadi",

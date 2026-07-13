@@ -37,7 +37,7 @@ const articles = [
     excerpt:
       "Telegram Premium oyiga ~59,000 so'm, YouTube Premium ~15.99$, Spotify ~12.99$. Narx va imkoniyatlar taqqoslashi — 2026-yilgi aniq raqamlar bilan.",
     category: "Taqqoslash",
-    date: "2026-07-03",
+    date: "2026-07-12",
   },
   {
     slug: "telegram-premium-qanday-yoqiladi-sozlanadi",

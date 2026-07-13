@@ -29,7 +29,7 @@ export const metadata: Metadata = {
       "Telegram Premium boshqa obunalarga nisbatan qancha arzon — aniq raqamlar bilan taqqoslash.",
     url: "https://premiumsend.uz/maqolalar/telegram-premium-arziydimi-youtube-spotify-bilan-taqqoslash",
     type: "article",
-    publishedTime: "2026-07-03",
+    publishedTime: "2026-07-12",
   },
 };
 
@@ -41,8 +41,8 @@ export default function ArticleArziydimiTaqqoslash() {
     headline: "Telegram Premium arziydimi? YouTube Premium va Spotify bilan taqqoslash",
     description:
       "Telegram Premium narxi va imkoniyatlarini YouTube Premium, Spotify bilan taqqoslab, qaysi biriga arziydiganini ko'rsatamiz.",
-    datePublished: "2026-07-03",
-    dateModified: "2026-07-03",
+    datePublished: "2026-07-12",
+    dateModified: "2026-07-12",
     author: { "@type": "Organization", name: "Premium Send", url: "https://premiumsend.uz" },
     publisher: { "@type": "Organization", name: "Premium Send", url: "https://premiumsend.uz" },
     mainEntityOfPage:
@@ -123,7 +123,7 @@ export default function ArticleArziydimiTaqqoslash() {
             <span className="text-xs font-semibold px-3 py-1 rounded-full bg-primary-light text-primary">
               Taqqoslash
             </span>
-            <time className="text-xs text-muted" dateTime="2026-07-03">2026-yil, 3-iyul</time>
+            <time className="text-xs text-muted" dateTime="2026-07-12">2026-yil, 12-iyul</time>
           </div>
           <h1 className="text-3xl md:text-4xl font-extrabold text-foreground leading-tight mb-6">
             Telegram Premium arziydimi? YouTube Premium va Spotify bilan taqqoslash

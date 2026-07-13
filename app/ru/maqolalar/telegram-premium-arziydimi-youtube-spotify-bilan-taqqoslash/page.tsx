@@ -30,7 +30,7 @@ export const metadata: Metadata = {
       "Насколько Telegram Premium дешевле других подписок — сравнение с точными цифрами.",
     url: "https://premiumsend.uz/ru/maqolalar/telegram-premium-arziydimi-youtube-spotify-bilan-taqqoslash",
     type: "article",
-    publishedTime: "2026-07-03",
+    publishedTime: "2026-07-12",
   },
 };
 
@@ -42,8 +42,8 @@ export default function ArticleArziydimiTaqqoslashRu() {
     headline: "Стоит ли Telegram Premium своих денег? Сравнение с YouTube Premium и Spotify",
     description:
       "Сравниваем цену и возможности Telegram Premium с YouTube Premium и Spotify, чтобы понять, что выгоднее.",
-    datePublished: "2026-07-03",
-    dateModified: "2026-07-03",
+    datePublished: "2026-07-12",
+    dateModified: "2026-07-12",
     author: { "@type": "Organization", name: "Premium Send", url: "https://premiumsend.uz" },
     publisher: { "@type": "Organization", name: "Premium Send", url: "https://premiumsend.uz" },
     mainEntityOfPage:
@@ -124,7 +124,7 @@ export default function ArticleArziydimiTaqqoslashRu() {
             <span className="text-xs font-semibold px-3 py-1 rounded-full bg-primary-light text-primary">
               Сравнение
             </span>
-            <time className="text-xs text-muted" dateTime="2026-07-03">3 июля 2026</time>
+            <time className="text-xs text-muted" dateTime="2026-07-12">12 июля 2026</time>
           </div>
           <h1 className="text-3xl md:text-4xl font-extrabold text-foreground leading-tight mb-6">
             Стоит ли Telegram Premium своих денег? Сравнение с YouTube Premium и Spotify
