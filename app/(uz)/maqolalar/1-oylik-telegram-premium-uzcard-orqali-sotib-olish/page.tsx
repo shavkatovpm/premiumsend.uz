@@ -258,7 +258,7 @@ export default function ArticlePremiumUzcard() {
             </p>
             <p className="text-foreground leading-relaxed font-medium">
               Ha, <strong>1 oylik Telegram Premium Uzcard orqali sotib olish</strong> mumkin — lekin Telegramning o&apos;zi orqali emas.{" "}
-              <Link href="https://t.me/premiumsend_admin" target="_blank" className="text-primary hover:underline">
+              <Link href="https://telegram.me/premiumsend_admin" target="_blank" className="text-primary hover:underline">
                 @premiumsend_admin
               </Link>{" "}
               ga yozing, Uzcard kartangiz bilan <strong>59,000 so&apos;m</strong> to&apos;lang — Premium bir necha daqiqada faollashadi. Xorijiy karta talab qilinmaydi.
@@ -359,7 +359,7 @@ export default function ArticlePremiumUzcard() {
                 <p className="text-sm text-muted">Uzcard kartangiz bilan so&apos;mda to&apos;lang</p>
               </div>
               <Link
-                href="https://t.me/premiumsend_admin"
+                href="https://telegram.me/premiumsend_admin"
                 target="_blank"
                 className="px-5 py-2.5 rounded-xl hero-gradient text-white font-semibold text-sm shadow-lg shadow-primary/25 whitespace-nowrap"
               >
@@ -582,14 +582,14 @@ export default function ArticlePremiumUzcard() {
                 <p className="font-bold text-foreground text-lg">Uzcard yoki Humo — farqi yo&apos;q</p>
                 <p className="text-sm text-muted">
                   Qaysi kartangiz bilan qulay bo&apos;lsa —{" "}
-                  <Link href="https://t.me/premiumsend_admin" target="_blank" className="text-primary hover:underline">
+                  <Link href="https://telegram.me/premiumsend_admin" target="_blank" className="text-primary hover:underline">
                     @premiumsend_admin
                   </Link>{" "}
                   ga yozing
                 </p>
               </div>
               <Link
-                href="https://t.me/premiumsend_admin"
+                href="https://telegram.me/premiumsend_admin"
                 target="_blank"
                 className="px-6 py-3 rounded-xl hero-gradient text-white font-semibold text-sm shadow-lg shadow-primary/25 whitespace-nowrap"
               >
@@ -657,7 +657,7 @@ export default function ArticlePremiumUzcard() {
                   <strong className="text-white">@premiumsend_admin</strong> ga yozing, 59,000 so&apos;m to&apos;lang va Premium imkoniyatlaridan bahramand bo&apos;ling. Butun jarayon 5-10 daqiqa.
                 </p>
                 <Link
-                  href="https://t.me/premiumsend_admin"
+                  href="https://telegram.me/premiumsend_admin"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

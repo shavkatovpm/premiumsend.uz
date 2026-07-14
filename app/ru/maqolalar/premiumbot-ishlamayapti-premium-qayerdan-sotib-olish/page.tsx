@@ -212,7 +212,7 @@ export default function ArticlePremiumBotIshlamayaptiRu() {
             <p className="text-sm font-bold text-primary mb-2">КОРОТКО</p>
             <p className="text-foreground leading-relaxed font-medium">
               PremiumBot у большинства пользователей из Узбекистана не работает — причина: не принимает Uzcard, Humo и местные карты, цена в долларах, 3D Secure часто даёт ошибки. Решение:{" "}
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
               в сумах — <strong>1 месяц 59 000</strong>,{" "}
               <strong>3 месяца 175 000</strong>, <strong>12 месяцев 425 000 сум</strong>. Uzcard, Humo, Click, Payme — все принимаются в сумах. App Store на 25-30% дороже, Fragment не принимает местные карты.
             </p>
@@ -457,7 +457,7 @@ export default function ArticlePremiumBotIshlamayaptiRu() {
                 PremiumBot не работает? Самый быстрый путь — <strong>@PremiumSendBot</strong>. Uzcard, Humo, Click, Payme — все в сумах. <strong>1 месяц 59 000</strong>, <strong>12 месяцев 425 000 сум</strong>. Premium активируется за 3-5 минут.
               </p>
               <Link
-                href="https://t.me/premiumsendbot"
+                href="https://telegram.me/premiumsendbot"
                 target="_blank"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-white font-bold rounded-2xl hover:shadow-xl transition-all"
               >
@@ -706,7 +706,7 @@ export default function ArticlePremiumBotIshlamayaptiRu() {
                   <strong className="text-white">12 месяцев 425 000 сум</strong> — Premium в вашем аккаунте за 3-5 минут.
                 </p>
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

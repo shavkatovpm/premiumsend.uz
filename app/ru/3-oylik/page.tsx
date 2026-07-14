@@ -168,7 +168,7 @@ export default function ThreeMonthPage() {
             Всего <span className="text-white font-bold">175 000 сум</span> (~58 333 сум/мес.)
           </p>
           <Link
-            href="https://t.me/premiumsendbot"
+            href="https://telegram.me/premiumsendbot"
             target="_blank"
             className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
           >
@@ -333,7 +333,7 @@ export default function ThreeMonthPage() {
                 Оформите заказ прямо сейчас и активируйте Telegram Premium за несколько минут
               </p>
               <Link
-                href="https://t.me/premiumsendbot"
+                href="https://telegram.me/premiumsendbot"
                 target="_blank"
                 className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
               >

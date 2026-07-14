@@ -40,11 +40,11 @@ export default function AboutPageRu() {
     url: "https://premiumsend.uz",
     description:
       "Покупка Telegram Premium в сумах в Узбекистане — через Click, Payme, Uzcard и Humo. Местный независимый реселлер.",
-    sameAs: ["https://t.me/premiumsendbot"],
+    sameAs: ["https://telegram.me/premiumsendbot"],
     contactPoint: {
       "@type": "ContactPoint",
       contactType: "customer support",
-      url: "https://t.me/premiumsendbot",
+      url: "https://telegram.me/premiumsendbot",
       availableLanguage: ["Uzbek", "Russian"],
     },
     areaServed: {
@@ -605,7 +605,7 @@ export default function AboutPageRu() {
                     Главный канал заказа. Выбор тарифа, оплата, поддержка — всё в боте.
                   </p>
                   <Link
-                    href="https://t.me/premiumsendbot"
+                    href="https://telegram.me/premiumsendbot"
                     target="_blank"
                     className="inline-flex items-center gap-2 text-primary font-semibold hover:underline"
                   >
@@ -674,7 +674,7 @@ export default function AboutPageRu() {
                   <strong className="text-white">@PremiumSendBot</strong> — начать можно с 1 месяца за 59 000 сум.
                 </p>
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

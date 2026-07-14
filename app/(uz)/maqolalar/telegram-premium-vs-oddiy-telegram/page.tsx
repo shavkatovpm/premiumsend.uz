@@ -167,7 +167,7 @@ export default function ArticlePremiumVsOddiy() {
           <div className="bg-primary-light/40 rounded-xl p-5 border border-primary/20 mb-6">
             <p className="text-foreground leading-relaxed font-medium">
               <strong>Qisqacha javob:</strong> Telegram Premium oddiy versiyadagi cheklovlarni olib tashlaydi va <strong>15+ yangi funksiya</strong> qo&apos;shadi. Asosiy farqlar: fayl <strong>2 GB → 4 GB</strong>, kanal <strong>500 → 1000</strong>, papka <strong>10 → 20</strong>, reaksiya <strong>1 → 3</strong>. Reklamalar o&apos;chiriladi, premium stikerlar ochiladi. Narxi —{" "}
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
               da 59,000 so&apos;mdan boshlab.
             </p>
           </div>
@@ -303,7 +303,7 @@ export default function ArticlePremiumVsOddiy() {
                 <strong className="text-white">@PremiumSendBot</strong> da Uzcard, Humo, Click yoki Payme orqali so&apos;mda — 5 daqiqada faollashtiring.
               </p>
               <Link
-                href="https://t.me/premiumsendbot"
+                href="https://telegram.me/premiumsendbot"
                 target="_blank"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-bold rounded-xl hover:shadow-2xl transition-all"
               >
@@ -418,7 +418,7 @@ export default function ArticlePremiumVsOddiy() {
               Tariflar haqida batafsil:{" "}
               <Link href="/maqolalar/telegram-premium-narxlari" className="text-primary font-semibold hover:underline">narxlar taqqoslash</Link>{" "}
               yoki to&apos;g&apos;ridan-to&apos;g&apos;ri{" "}
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary font-semibold hover:underline">@PremiumSendBot</Link>{" "}
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary font-semibold hover:underline">@PremiumSendBot</Link>{" "}
               orqali boshlang.
             </p>
           </section>
@@ -431,7 +431,7 @@ export default function ArticlePremiumVsOddiy() {
             <div className="bg-primary-light/40 border border-primary/20 rounded-xl p-5 mb-6">
               <p className="text-foreground leading-relaxed">
                 <strong>Qisqa javob:</strong>{" "}
-                <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
+                <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
                 ni Telegramda oching → tarifni tanlang → username kiriting → Uzcard, Humo, Click yoki Payme orqali so&apos;mda to&apos;lang → Premium 5 daqiqada faollashadi.
               </p>
             </div>
@@ -532,7 +532,7 @@ export default function ArticlePremiumVsOddiy() {
                   <strong className="text-white">@PremiumSendBot</strong> da 1 oylikdan boshlab sinab ko&apos;rishingiz mumkin — so&apos;mda to&apos;lov, 5 daqiqada faollashish.
                 </p>
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

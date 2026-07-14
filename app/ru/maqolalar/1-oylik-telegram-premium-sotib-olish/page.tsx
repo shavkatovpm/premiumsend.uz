@@ -189,7 +189,7 @@ export default function Article1Month() {
           {/* AI/SEO Snippet */}
           <div className="bg-primary-light/50 rounded-xl p-5 border border-primary/10 mb-6">
             <p className="text-foreground leading-relaxed font-medium">
-              <strong>1-месячный Telegram Premium</strong> можно купить в Узбекистане через <Link href="https://t.me/premiumsend_admin" target="_blank" className="text-primary hover:underline">@premiumsend_admin</Link> за <strong>59 000 сум</strong>, оплатив картой Uzcard или Humo. Иностранная карта не нужна — оплата в сумах, активация за несколько минут.
+              <strong>1-месячный Telegram Premium</strong> можно купить в Узбекистане через <Link href="https://telegram.me/premiumsend_admin" target="_blank" className="text-primary hover:underline">@premiumsend_admin</Link> за <strong>59 000 сум</strong>, оплатив картой Uzcard или Humo. Иностранная карта не нужна — оплата в сумах, активация за несколько минут.
             </p>
           </div>
           <p className="text-lg text-muted leading-relaxed">
@@ -213,7 +213,7 @@ export default function Article1Month() {
               Для большинства пользователей в Узбекистане это серьёзное препятствие, ведь основные платёжные средства в стране — Uzcard и Humo. Premium Send решает именно эту проблему: вы платите в сумах местной картой, а мы отправляем вам Telegram Premium gift.
             </p>
             <p className="text-muted leading-relaxed mb-6">
-              Процесс максимально простой: напишите <Link href="https://t.me/premiumsend_admin" target="_blank" className="text-primary hover:underline">@premiumsend_admin</Link> в Telegram, выберите 1-месячный пакет, оплатите и получите Premium за несколько минут. Никакие пароли или доступ к аккаунту не требуются — это полностью безопасный процесс.
+              Процесс максимально простой: напишите <Link href="https://telegram.me/premiumsend_admin" target="_blank" className="text-primary hover:underline">@premiumsend_admin</Link> в Telegram, выберите 1-месячный пакет, оплатите и получите Premium за несколько минут. Никакие пароли или доступ к аккаунту не требуются — это полностью безопасный процесс.
             </p>
             <div className="bg-section-alt rounded-xl p-6 mb-4">
               <h3 className="font-bold text-foreground mb-3">
@@ -332,7 +332,7 @@ export default function Article1Month() {
                   <div>
                     <h3 className="font-bold text-foreground mb-2">Напишите @premiumsend_admin в Telegram</h3>
                     <p className="text-sm text-muted leading-relaxed">
-                      Откройте Telegram и напишите <Link href="https://t.me/premiumsend_admin" target="_blank" className="text-primary hover:underline">@premiumsend_admin</Link>. Достаточно написать &laquo;Хочу Premium на 1 месяц&raquo;. Админ отправит вам инструкцию по оплате.
+                      Откройте Telegram и напишите <Link href="https://telegram.me/premiumsend_admin" target="_blank" className="text-primary hover:underline">@premiumsend_admin</Link>. Достаточно написать &laquo;Хочу Premium на 1 месяц&raquo;. Админ отправит вам инструкцию по оплате.
                     </p>
                   </div>
                 </div>
@@ -498,7 +498,7 @@ export default function Article1Month() {
             </div>
 
             <p className="text-muted leading-relaxed">
-              Premium Send — это самый надёжный сервис покупки Telegram Premium в Узбекистане. Тысячи пользователей уже успешно воспользовались нашим сервисом. Если у вас есть вопросы, смело пишите <Link href="https://t.me/premiumsend_admin" target="_blank" className="text-primary hover:underline">@premiumsend_admin</Link>.
+              Premium Send — это самый надёжный сервис покупки Telegram Premium в Узбекистане. Тысячи пользователей уже успешно воспользовались нашим сервисом. Если у вас есть вопросы, смело пишите <Link href="https://telegram.me/premiumsend_admin" target="_blank" className="text-primary hover:underline">@premiumsend_admin</Link>.
             </p>
           </section>
 
@@ -518,7 +518,7 @@ export default function Article1Month() {
               <div className="bg-white rounded-xl p-6 border border-card-border shadow-sm">
                 <h3 className="font-bold text-foreground mb-2">Нужна ли иностранная карта?</h3>
                 <p className="text-muted text-sm leading-relaxed">
-                  Нет. Через <Link href="https://t.me/premiumsend_admin" target="_blank" className="text-primary hover:underline">@premiumsend_admin</Link> можно оплатить картой Uzcard или Humo в сумах. Иностранная карта не требуется.
+                  Нет. Через <Link href="https://telegram.me/premiumsend_admin" target="_blank" className="text-primary hover:underline">@premiumsend_admin</Link> можно оплатить картой Uzcard или Humo в сумах. Иностранная карта не требуется.
                 </p>
               </div>
               <div className="bg-white rounded-xl p-6 border border-card-border shadow-sm">
@@ -561,13 +561,13 @@ export default function Article1Month() {
                 <p className="text-white/80 mb-4">
                   Избавьтесь от рекламы, лимитов на файлы и других ограничений в Telegram.
                   <br />
-                  Напишите <Link href="https://t.me/premiumsend_admin" target="_blank" className="text-white underline font-semibold">@premiumsend_admin</Link> прямо сейчас и активируйте Premium за несколько минут.
+                  Напишите <Link href="https://telegram.me/premiumsend_admin" target="_blank" className="text-white underline font-semibold">@premiumsend_admin</Link> прямо сейчас и активируйте Premium за несколько минут.
                 </p>
                 <p className="text-white/60 text-sm mb-8">
                   Uzcard, Humo, Click, Payme — все способы оплаты принимаются.
                 </p>
                 <Link
-                  href="https://t.me/premiumsend_admin"
+                  href="https://telegram.me/premiumsend_admin"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

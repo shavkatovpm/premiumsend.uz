@@ -88,7 +88,7 @@ export default function Footer({ locale = "uz" }: FooterProps) {
               <ul className="space-y-2.5">
                 <li>
                   <a
-                    href="https://t.me/premiumsendbot"
+                    href="https://telegram.me/premiumsendbot"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-white/60 hover:text-primary text-sm transition-colors flex items-center gap-2"
@@ -193,7 +193,7 @@ export default function Footer({ locale = "uz" }: FooterProps) {
             <ul className="space-y-2.5">
               <li>
                 <a
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white/60 hover:text-primary text-sm transition-colors flex items-center gap-2"

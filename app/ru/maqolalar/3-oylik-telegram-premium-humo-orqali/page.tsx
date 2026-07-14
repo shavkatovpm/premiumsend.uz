@@ -204,7 +204,7 @@ export default function Article3MonthHumoRu() {
           <div className="bg-primary-light/40 rounded-xl p-5 border border-primary/20 mb-6">
             <p className="text-foreground leading-relaxed font-medium">
               <strong>Кратко:</strong> 3-месячный Telegram Premium картой Humo покупается через{" "}
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>. Цена — <strong>175 000 сум</strong> (58 333 сум в месяц), оплата в сумах, без комиссии. Активация — <strong>5 минут</strong>. Официальное приложение Telegram не принимает Humo, и тарифа на 3 месяца там вообще нет.
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>. Цена — <strong>175 000 сум</strong> (58 333 сум в месяц), оплата в сумах, без комиссии. Активация — <strong>5 минут</strong>. Официальное приложение Telegram не принимает Humo, и тарифа на 3 месяца там вообще нет.
             </p>
           </div>
 
@@ -302,7 +302,7 @@ export default function Article3MonthHumoRu() {
             <div className="bg-primary-light/40 border border-primary/20 rounded-xl p-5 mb-6">
               <p className="text-foreground leading-relaxed">
                 <strong>Краткий ответ:</strong> откройте{" "}
-                <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
+                <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
                 → выберите <strong>3 месяца</strong> → введите username → выберите <strong>Humo</strong> → оплатите 175 000 сум → Premium активируется за 5 минут.
               </p>
             </div>
@@ -369,7 +369,7 @@ export default function Article3MonthHumoRu() {
                 <strong className="text-white">@PremiumSendBot</strong> — оплатите 3-месячный Telegram Premium за 175 000 сум в сумах. Активация за 5 минут.
               </p>
               <Link
-                href="https://t.me/premiumsendbot"
+                href="https://telegram.me/premiumsendbot"
                 target="_blank"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-bold rounded-xl hover:shadow-2xl transition-all"
               >
@@ -666,7 +666,7 @@ export default function Article3MonthHumoRu() {
                   <strong className="text-white">@PremiumSendBot</strong> — начните в несколько кликов.
                 </p>
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

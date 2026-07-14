@@ -198,7 +198,7 @@ export default function ArticleTelegramPremiumNima() {
           <div className="bg-primary-light/40 rounded-xl p-5 border border-primary/20 mb-6">
             <p className="text-foreground leading-relaxed font-medium">
               <strong>Qisqacha javob:</strong> Telegram Premium — bu Telegramning oylik yoki yillik obunaga asoslangan kengaytirilgan versiyasi. U <strong>4 GB fayl yuklash</strong>, reklamasiz tajriba, <strong>1000 ta kanalga obuna</strong>, 20+ qo&apos;shimcha funksiya beradi. O&apos;zbekistonda{" "}
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
               orqali <strong>59,000 so&apos;mdan</strong> boshlab so&apos;mda sotib olinadi.
             </p>
           </div>
@@ -425,7 +425,7 @@ export default function ArticleTelegramPremiumNima() {
                 Eng tejamkor variant — <strong className="text-white">12 oylik paket</strong>, oyiga atigi 35,417 so&apos;m. Bir martalik to&apos;lov, 365 kun uzluksiz Premium.
               </p>
               <Link
-                href="https://t.me/premiumsendbot"
+                href="https://telegram.me/premiumsendbot"
                 target="_blank"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-bold rounded-xl hover:shadow-2xl transition-all"
               >
@@ -597,7 +597,7 @@ export default function ArticleTelegramPremiumNima() {
             <div className="bg-primary-light/40 border border-primary/20 rounded-xl p-5 mb-6">
               <p className="text-foreground leading-relaxed">
                 <strong>Qisqa javob:</strong>{" "}
-                <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
+                <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
                 ni Telegramda oching → paketni tanlang (1, 3, 6, 12 oylik) → username kiriting → Uzcard, Humo, Click yoki Payme orqali so&apos;mda to&apos;lang → Premium 5 daqiqada avtomatik faollashadi.
               </p>
             </div>
@@ -720,7 +720,7 @@ export default function ArticleTelegramPremiumNima() {
                   <strong className="text-white">@PremiumSendBot</strong> orqali Uzcard, Humo, Click yoki Payme bilan so&apos;mda — 5 daqiqada faollashadi. 1 oylikdan boshlab, 12 oylikda esa 39% tejamkorlik.
                 </p>
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

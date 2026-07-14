@@ -168,7 +168,7 @@ export default function ArticlePremiumVsOddiyRu() {
           <div className="bg-primary-light/40 rounded-xl p-5 border border-primary/20 mb-6">
             <p className="text-foreground leading-relaxed font-medium">
               <strong>Кратко:</strong> Telegram Premium убирает ограничения обычной версии и добавляет <strong>15+ новых функций</strong>. Главные отличия: файл <strong>2 ГБ → 4 ГБ</strong>, каналы <strong>500 → 1000</strong>, папки <strong>10 → 20</strong>, реакции <strong>1 → 3</strong>. Реклама отключается, премиум-стикеры открываются. Цена — в{" "}
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
               от 59 000 сум.
             </p>
           </div>
@@ -304,7 +304,7 @@ export default function ArticlePremiumVsOddiyRu() {
                 <strong className="text-white">@PremiumSendBot</strong> — оплата Uzcard, Humo, Click или Payme в сумах, активация за 5 минут.
               </p>
               <Link
-                href="https://t.me/premiumsendbot"
+                href="https://telegram.me/premiumsendbot"
                 target="_blank"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-bold rounded-xl hover:shadow-2xl transition-all"
               >
@@ -419,7 +419,7 @@ export default function ArticlePremiumVsOddiyRu() {
               Подробнее о тарифах:{" "}
               <Link href="/ru/maqolalar/telegram-premium-narxlari" className="text-primary font-semibold hover:underline">сравнение цен</Link>{" "}
               или прямо через{" "}
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary font-semibold hover:underline">@PremiumSendBot</Link>.
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary font-semibold hover:underline">@PremiumSendBot</Link>.
             </p>
           </section>
 
@@ -431,7 +431,7 @@ export default function ArticlePremiumVsOddiyRu() {
             <div className="bg-primary-light/40 border border-primary/20 rounded-xl p-5 mb-6">
               <p className="text-foreground leading-relaxed">
                 <strong>Кратко:</strong> откройте{" "}
-                <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
+                <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
                 в Telegram → выберите тариф → введите username → оплатите Uzcard, Humo, Click или Payme в сумах → Premium активируется за 5 минут.
               </p>
             </div>
@@ -532,7 +532,7 @@ export default function ArticlePremiumVsOddiyRu() {
                   <strong className="text-white">@PremiumSendBot</strong> — попробуйте от 1 месяца. Оплата в сумах, активация за 5 минут.
                 </p>
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

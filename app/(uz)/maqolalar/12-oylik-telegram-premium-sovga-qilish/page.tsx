@@ -198,7 +198,7 @@ export default function Article12MonthGift() {
           <div className="bg-amber-50 rounded-xl p-5 border border-amber-200 mb-6">
             <p className="text-foreground leading-relaxed font-medium">
               <strong>12 oylik Telegram Premium sovg&apos;a qilish</strong> — bu istalgan Telegram foydalanuvchisiga bir yillik Premium obunani hadya qilish imkoniyati. O&apos;zbekistonda{" "}
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
               orqali <strong>425,000 so&apos;m</strong>ga, Uzcard va Humo kartasi bilan, faqat username kiritib sovg&apos;a qilish mumkin. Xorijiy karta talab qilinmaydi.
             </p>
           </div>
@@ -269,7 +269,7 @@ export default function Article12MonthGift() {
             <div className="bg-amber-50 border border-amber-200 rounded-xl p-5 mb-6">
               <p className="text-foreground leading-relaxed">
                 <strong>Qisqa javob:</strong> Telegramda{" "}
-                <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
+                <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
                 ni oching → 12 oylik paketni tanlang → sovg&apos;a oluvchining username&apos;ini kiriting → Uzcard yoki Humo orqali 425,000 so&apos;m to&apos;lang → Premium avtomatik faollashadi. Butun jarayon 5 daqiqa.
               </p>
             </div>
@@ -503,7 +503,7 @@ export default function Article12MonthGift() {
                 <Link href="/12-oylik" className="px-5 py-2.5 rounded-xl bg-amber-100 text-amber-700 font-semibold text-sm hover:bg-amber-500 hover:text-white transition-all">
                   Batafsil
                 </Link>
-                <Link href="https://t.me/premiumsendbot" target="_blank" className="px-5 py-2.5 rounded-xl bg-amber-500 text-white font-semibold text-sm shadow-lg shadow-amber-500/25">
+                <Link href="https://telegram.me/premiumsendbot" target="_blank" className="px-5 py-2.5 rounded-xl bg-amber-500 text-white font-semibold text-sm shadow-lg shadow-amber-500/25">
                   Sovg&apos;a qilish
                 </Link>
               </div>
@@ -685,7 +685,7 @@ export default function Article12MonthGift() {
                   <strong className="text-white">@PremiumSendBot</strong> orqali bugunoq 425,000 so&apos;mga, Uzcard yoki Humo kartasi bilan sovg&apos;a qiling.
                 </p>
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-amber-600 font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

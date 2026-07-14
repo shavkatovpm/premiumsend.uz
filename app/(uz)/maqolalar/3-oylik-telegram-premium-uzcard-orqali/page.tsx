@@ -203,7 +203,7 @@ export default function Article3MonthUzcard() {
           <div className="bg-primary-light/40 rounded-xl p-5 border border-primary/20 mb-6">
             <p className="text-foreground leading-relaxed font-medium">
               <strong>3 oylik Telegram Premium Uzcard orqali</strong> sotib olish O&apos;zbekistonda{" "}
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
               orqali amalga oshiriladi. Narx — <strong>175,000 so&apos;m</strong> (oyiga 58,333 so&apos;m). To&apos;lov Uzcard kartasi orqali so&apos;mda, komissiyasiz. Telegram rasmiy ilovasida Uzcard qabul qilinmaydi — bu yagona amaliy yo&apos;l.
             </p>
           </div>
@@ -311,7 +311,7 @@ export default function Article3MonthUzcard() {
             <div className="bg-primary-light/40 border border-primary/20 rounded-xl p-5 mb-6">
               <p className="text-foreground leading-relaxed">
                 <strong>Qisqa javob:</strong>{" "}
-                <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
+                <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
                 ni oching → 3 oylik paketni tanlang → akkauntingiz username&apos;ini kiriting → Uzcard kartasi orqali 175,000 so&apos;m to&apos;lang → Premium avtomatik faollashadi. Jami vaqt — 3-5 daqiqa.
               </p>
             </div>
@@ -503,7 +503,7 @@ export default function Article3MonthUzcard() {
               Agar 3 oylik variant sizga mos bo&apos;lsa —{" "}
               <Link href="/3-oylik" className="text-primary font-semibold hover:underline">paket haqida batafsil ma&apos;lumotni shu yerda</Link>{" "}
               ko&apos;rishingiz yoki to&apos;g&apos;ridan-to&apos;g&apos;ri{" "}
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary font-semibold hover:underline">@PremiumSendBot</Link>{" "}
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary font-semibold hover:underline">@PremiumSendBot</Link>{" "}
               orqali Uzcard bilan buyurtma berishingiz mumkin.
             </p>
           </section>
@@ -632,7 +632,7 @@ export default function Article3MonthUzcard() {
                   <strong className="text-white">@PremiumSendBot</strong> buni bir necha daqiqada, 175,000 so&apos;mga, qo&apos;shimcha komissiyasiz amalga oshiradi.
                 </p>
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

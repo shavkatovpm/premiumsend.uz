@@ -409,7 +409,7 @@ export default function ArticleSafeBuy() {
                 — Click va Payme bilan, PDF chek bilan, faqat username so&apos;raydi. 1 oylik 59 000, 3 oylik 175 000, 6 oylik 235 000, 12 oylik 425 000 so&apos;m.
               </p>
               <Link
-                href="https://t.me/premiumsendbot"
+                href="https://telegram.me/premiumsendbot"
                 target="_blank"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-bold rounded-xl hover:shadow-2xl transition-all"
               >
@@ -800,7 +800,7 @@ export default function ArticleSafeBuy() {
                   <strong className="text-white">@PremiumSendBot</strong> — Click va Payme bilan, PDF chek bilan, faqat username so&apos;raydi. Sinashga 1 oylik 59 000 so&apos;m yetarli.
                 </p>
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

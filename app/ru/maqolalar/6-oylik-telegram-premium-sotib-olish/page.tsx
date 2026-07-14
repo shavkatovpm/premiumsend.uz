@@ -190,7 +190,7 @@ export default function Article6Month() {
           <div className="bg-gold-light/50 rounded-xl p-5 border border-gold/20 mb-6">
             <p className="text-foreground leading-relaxed font-medium">
               <strong>6-месячный Telegram Premium</strong> — это расширенная подписка Telegram, которую в Узбекистане можно купить через{" "}
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
               за <strong>235 000 сум</strong>, оплатив картой Uzcard или Humo. В мессенджере Telegram 6-месячного пакета нет — его можно купить только через Premium Send.
             </p>
           </div>
@@ -354,7 +354,7 @@ export default function Article6Month() {
                 <Link href="/ru/6-oylik" className="px-5 py-2.5 rounded-xl bg-primary-light text-primary font-semibold text-sm hover:bg-primary hover:text-white transition-all">
                   Подробнее
                 </Link>
-                <Link href="https://t.me/premiumsendbot" target="_blank" className="px-5 py-2.5 rounded-xl hero-gradient text-white font-semibold text-sm shadow-lg shadow-primary/25">
+                <Link href="https://telegram.me/premiumsendbot" target="_blank" className="px-5 py-2.5 rounded-xl hero-gradient text-white font-semibold text-sm shadow-lg shadow-primary/25">
                   Купить
                 </Link>
               </div>
@@ -489,7 +489,7 @@ export default function Article6Month() {
                 <p className="font-bold text-foreground text-lg">6-месячный Telegram Premium — 235 000 сум</p>
                 <p className="text-sm text-muted">Сейчас <Link href="/ru/6-oylik" className="text-primary hover:underline">подробнее</Link> или купите напрямую</p>
               </div>
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="px-6 py-3 rounded-xl hero-gradient text-white font-semibold text-sm shadow-lg shadow-primary/25 whitespace-nowrap">
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="px-6 py-3 rounded-xl hero-gradient text-white font-semibold text-sm shadow-lg shadow-primary/25 whitespace-nowrap">
                 Купить
               </Link>
             </div>
@@ -554,7 +554,7 @@ export default function Article6Month() {
                   <strong className="text-white">@PremiumSendBot</strong> — самое удобное и надёжное решение на сегодня. Оформите заказ через Uzcard или Humo за несколько минут и наслаждайтесь возможностями Premium в течение 6 месяцев.
                 </p>
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

@@ -53,7 +53,7 @@ export default function OfertaPage() {
               <p>
                 1.2. Ijrochi premiumsend.uz sayti va{" "}
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="text-primary hover:underline"
                 >
@@ -103,7 +103,7 @@ export default function OfertaPage() {
               <p>
                 3.1. Buyurtma{" "}
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="text-primary hover:underline"
                 >
@@ -169,7 +169,7 @@ export default function OfertaPage() {
               <p>
                 5.3. Qaytarim talabi to&apos;lov o&apos;tkazilgan kundan 24 soat ichida{" "}
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="text-primary hover:underline"
                 >
@@ -219,7 +219,7 @@ export default function OfertaPage() {
               <p>
                 7.1. Barcha murojaat va savollar{" "}
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="text-primary hover:underline"
                 >

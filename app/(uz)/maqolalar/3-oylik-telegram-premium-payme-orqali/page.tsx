@@ -205,7 +205,7 @@ export default function Article3MonthPaymeUz() {
             <p className="text-foreground leading-relaxed font-medium">
               <strong>Qisqacha javob:</strong> 3 oylik Telegram Premium Payme orqali sotib olish jarayoni —{" "}
               <Link
-                href="https://t.me/premiumsendbot"
+                href="https://telegram.me/premiumsendbot"
                 target="_blank"
                 className="text-primary hover:underline"
               >
@@ -330,7 +330,7 @@ export default function Article3MonthPaymeUz() {
               <p className="text-foreground leading-relaxed">
                 <strong>Qisqa javob:</strong>{" "}
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="text-primary hover:underline"
                 >
@@ -407,7 +407,7 @@ export default function Article3MonthPaymeUz() {
                 <strong className="text-white">@PremiumSendBot</strong> da 3 oylik tarif tanlang, karta va 175,000 so&apos;mlik summani olib, Payme&apos;dan o&apos;tkazing. Premium 5 daqiqada akkauntda.
               </p>
               <Link
-                href="https://t.me/premiumsendbot"
+                href="https://telegram.me/premiumsendbot"
                 target="_blank"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-bold rounded-xl hover:shadow-2xl transition-all"
               >
@@ -810,7 +810,7 @@ export default function Article3MonthPaymeUz() {
                   <strong className="text-white">@PremiumSendBot</strong> da bir necha bosishda boshlang.
                 </p>
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

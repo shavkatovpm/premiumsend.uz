@@ -128,7 +128,7 @@ export default function Header({ locale = "uz" }: HeaderProps) {
 
           {/* CTA Button */}
           <Link
-            href="https://t.me/premiumsendbot"
+            href="https://telegram.me/premiumsendbot"
             target="_blank"
             className="hidden md:inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-primary text-white text-sm font-semibold hover:bg-primary-dark transition-all shadow-lg shadow-primary/25"
           >
@@ -239,7 +239,7 @@ export default function Header({ locale = "uz" }: HeaderProps) {
                 {mobileNav.about}
               </Link>
               <Link
-                href="https://t.me/premiumsendbot"
+                href="https://telegram.me/premiumsendbot"
                 target="_blank"
                 onClick={() => setMobileMenuOpen(false)}
                 className="block px-4 py-3 rounded-xl bg-primary text-white text-sm font-semibold text-center mt-2"

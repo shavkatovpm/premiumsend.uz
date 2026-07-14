@@ -198,7 +198,7 @@ export default function Article12Month() {
           <div className="bg-green-50 rounded-xl p-5 border border-green-200 mb-6">
             <p className="text-foreground leading-relaxed font-medium">
               <strong>12-месячный Telegram Premium</strong> — это самый экономичный вариант расширенной подписки Telegram. В Узбекистане можно купить через{" "}
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
               за <strong>425 000 сум</strong> (35 417 сум в месяц), оплатив картой Uzcard или Humo. В Telegram 12-месячный пакет есть, но оплачивается только иностранной картой — в Premium Send оплата в сумах.
             </p>
           </div>
@@ -456,7 +456,7 @@ export default function Article12Month() {
                 <Link href="/ru/12-oylik" className="px-5 py-2.5 rounded-xl bg-green-100 text-green-700 font-semibold text-sm hover:bg-green-600 hover:text-white transition-all">
                   Подробнее
                 </Link>
-                <Link href="https://t.me/premiumsendbot" target="_blank" className="px-5 py-2.5 rounded-xl bg-green-600 text-white font-semibold text-sm shadow-lg shadow-green-600/25">
+                <Link href="https://telegram.me/premiumsendbot" target="_blank" className="px-5 py-2.5 rounded-xl bg-green-600 text-white font-semibold text-sm shadow-lg shadow-green-600/25">
                   Купить
                 </Link>
               </div>
@@ -546,7 +546,7 @@ export default function Article12Month() {
                 <p className="font-bold text-foreground text-lg">12-месячный Telegram Premium — 425 000 сум</p>
                 <p className="text-sm text-muted">Сейчас <Link href="/ru/12-oylik" className="text-primary hover:underline">подробнее</Link> или купите напрямую</p>
               </div>
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="px-6 py-3 rounded-xl bg-green-600 text-white font-semibold text-sm shadow-lg shadow-green-600/25 whitespace-nowrap">
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="px-6 py-3 rounded-xl bg-green-600 text-white font-semibold text-sm shadow-lg shadow-green-600/25 whitespace-nowrap">
                 Купить
               </Link>
             </div>
@@ -611,7 +611,7 @@ export default function Article12Month() {
                   <strong className="text-white">@PremiumSendBot</strong> — самое удобное и надёжное решение на сегодня. Оформите заказ через Uzcard или Humo за несколько минут и наслаждайтесь всеми возможностями годовой подписки Telegram Premium.
                 </p>
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-green-600 font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

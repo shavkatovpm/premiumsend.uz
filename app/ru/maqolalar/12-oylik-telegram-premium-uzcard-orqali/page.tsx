@@ -204,7 +204,7 @@ export default function Article12MonthUzcardRu() {
           <div className="bg-primary-light/40 rounded-xl p-5 border border-primary/20 mb-6">
             <p className="text-foreground leading-relaxed font-medium">
               <strong>Telegram Premium на 12 месяцев через Uzcard</strong> можно оплатить через{" "}
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>. Цена — <strong>425 000 сум</strong> (35 417 сум в месяц), на 39% дешевле, чем по месяцам. В Telegram 12-месячный пакет есть, но Uzcard не принимается — это единственное локальное решение.
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>. Цена — <strong>425 000 сум</strong> (35 417 сум в месяц), на 39% дешевле, чем по месяцам. В Telegram 12-месячный пакет есть, но Uzcard не принимается — это единственное локальное решение.
             </p>
           </div>
           <p className="text-lg text-muted leading-relaxed">
@@ -316,7 +316,7 @@ export default function Article12MonthUzcardRu() {
             <div className="bg-primary-light/40 border border-primary/20 rounded-xl p-5 mb-6">
               <p className="text-foreground leading-relaxed">
                 <strong>Короткий ответ:</strong> откройте{" "}
-                <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
+                <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
                 → выберите 12-месячный пакет → введите username → оплатите 425 000 сум через Uzcard → Premium автоматически активируется на 365 дней. Весь процесс — 5–7 минут.
               </p>
             </div>
@@ -513,7 +513,7 @@ export default function Article12MonthUzcardRu() {
               Но если план годовой подписки чёткий —{" "}
               <Link href="/ru/12-oylik" className="text-primary font-semibold hover:underline">подробнее о 12-месячном пакете</Link>{" "}
               или напрямую через{" "}
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary font-semibold hover:underline">@PremiumSendBot</Link>{" "}
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary font-semibold hover:underline">@PremiumSendBot</Link>{" "}
               с оплатой Uzcard.
             </p>
           </section>
@@ -642,7 +642,7 @@ export default function Article12MonthUzcardRu() {
                   <strong className="text-white">@PremiumSendBot</strong> после одной оплаты через Uzcard даёт Premium на 365 дней. Курс доллара, иностранная карта, ежемесячные заботы — ничего из этого не нужно.
                 </p>
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

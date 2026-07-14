@@ -173,7 +173,7 @@ export default function ArticleHumoOrqaliRu() {
           <div className="bg-primary-light/40 rounded-xl p-5 border border-primary/20 mb-6">
             <p className="text-foreground leading-relaxed font-medium">
               <strong>Кратко:</strong> покупка Telegram Premium картой Humo проходит через{" "}
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>. Цены: <strong>1 месяц — 59 000 сум</strong>, <strong>3 месяца — 175 000 сум</strong>, <strong>6 месяцев — 235 000 сум</strong>, <strong>12 месяцев — 425 000 сум</strong>. Оплата в сумах, без комиссии, активация за 5 минут.
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>. Цены: <strong>1 месяц — 59 000 сум</strong>, <strong>3 месяца — 175 000 сум</strong>, <strong>6 месяцев — 235 000 сум</strong>, <strong>12 месяцев — 425 000 сум</strong>. Оплата в сумах, без комиссии, активация за 5 минут.
             </p>
           </div>
 
@@ -266,7 +266,7 @@ export default function ArticleHumoOrqaliRu() {
             <div className="bg-primary-light/40 border border-primary/20 rounded-xl p-5 mb-6">
               <p className="text-foreground leading-relaxed">
                 <strong>Кратко:</strong> откройте{" "}
-                <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
+                <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
                 → выберите тариф → введите username → оплатите Humo в сумах → Premium активируется за 5 минут. Весь процесс — 5-7 минут.
               </p>
             </div>
@@ -333,7 +333,7 @@ export default function ArticleHumoOrqaliRu() {
                 <strong className="text-white">@PremiumSendBot</strong> — оплатите 1, 3, 6 или 12 месяцев Premium в сумах. Активация за 5 минут.
               </p>
               <Link
-                href="https://t.me/premiumsendbot"
+                href="https://telegram.me/premiumsendbot"
                 target="_blank"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-bold rounded-xl hover:shadow-2xl transition-all"
               >
@@ -577,7 +577,7 @@ export default function ArticleHumoOrqaliRu() {
                   <strong className="text-white">@PremiumSendBot</strong> — начните в несколько кликов. Пробуете — 1 месяц, постоянный пользователь — 12 месяцев.
                 </p>
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

@@ -366,13 +366,13 @@ export default function ArticleQachonFaollashadi() {
             <div className="bg-primary-light/40 border border-primary/20 rounded-2xl p-6 md:p-8 text-center">
               <p className="text-foreground text-lg leading-relaxed mb-4">
                 Premium 5 daqiqa kafolat bilan keladi —{" "}
-                <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline font-bold">
+                <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline font-bold">
                   @PremiumSendBot
                 </Link>{" "}
                 orqali so&apos;mda to&apos;lov, 1 oydan 12 oygacha tariflar.
               </p>
               <Link
-                href="https://t.me/premiumsendbot"
+                href="https://telegram.me/premiumsendbot"
                 target="_blank"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-white font-bold rounded-2xl hover:shadow-xl transition-all"
               >
@@ -617,7 +617,7 @@ export default function ArticleQachonFaollashadi() {
                   Telegram Premium <strong className="text-white">2-5 daqiqada</strong> faollashadi va muddat <strong className="text-white">kalendar oy</strong> bo&apos;yicha hisoblanadi. Yangilashda yo&apos;qotish yo&apos;q, sovg&apos;a qabul qilingan kundan boshlanadi. Premium Send 5 daqiqa kafolat va pul qaytarish bilan ishlaydi.
                 </p>
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

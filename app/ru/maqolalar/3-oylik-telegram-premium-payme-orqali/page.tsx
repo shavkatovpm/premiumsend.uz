@@ -205,7 +205,7 @@ export default function Article3MonthPaymeRu() {
             <p className="text-foreground leading-relaxed font-medium">
               <strong>Краткий ответ:</strong> процесс покупки 3-месячного Telegram Premium через Payme — в{" "}
               <Link
-                href="https://t.me/premiumsendbot"
+                href="https://telegram.me/premiumsendbot"
                 target="_blank"
                 className="text-primary hover:underline"
               >
@@ -330,7 +330,7 @@ export default function Article3MonthPaymeRu() {
               <p className="text-foreground leading-relaxed">
                 <strong>Краткий ответ:</strong>{" "}
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="text-primary hover:underline"
                 >
@@ -407,7 +407,7 @@ export default function Article3MonthPaymeRu() {
                 <strong className="text-white">@PremiumSendBot</strong> — выберите 3-месячный тариф, получите номер карты и сумму 175 000 сум, переведите через Payme. Premium на аккаунте через 5 минут.
               </p>
               <Link
-                href="https://t.me/premiumsendbot"
+                href="https://telegram.me/premiumsendbot"
                 target="_blank"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-bold rounded-xl hover:shadow-2xl transition-all"
               >
@@ -808,7 +808,7 @@ export default function Article3MonthPaymeRu() {
                   <strong className="text-white">@PremiumSendBot</strong> — начать в несколько кликов.
                 </p>
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

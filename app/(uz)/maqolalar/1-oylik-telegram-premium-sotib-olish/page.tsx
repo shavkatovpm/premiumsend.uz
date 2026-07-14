@@ -189,7 +189,7 @@ export default function Article1Month() {
           <div className="bg-primary-light/50 rounded-xl p-5 border border-primary/10 mb-6">
             <p className="text-foreground leading-relaxed font-medium">
               <strong>1 oylik Telegram Premium</strong> — bu Telegramning kengaytirilgan obunasi bo&apos;lib, O&apos;zbekistonda{" "}
-              <Link href="https://t.me/premiumsend_admin" target="_blank" className="text-primary hover:underline">
+              <Link href="https://telegram.me/premiumsend_admin" target="_blank" className="text-primary hover:underline">
                 @premiumsend_admin
               </Link>{" "}
               orqali <strong>59,000 so&apos;m</strong>ga, Uzcard va Humo kartasi bilan sotib olish mumkin. Telegram ilovasida 1 oylik paket mavjud, lekin to&apos;lov faqat xorijiy karta orqali ishlaydi — O&apos;zbekiston kartlari qabul qilinmaydi.
@@ -453,7 +453,7 @@ export default function Article1Month() {
                 <p className="text-sm text-muted">Uzcard, Humo orqali so&apos;mda to&apos;lov</p>
               </div>
               <Link
-                href="https://t.me/premiumsend_admin"
+                href="https://telegram.me/premiumsend_admin"
                 target="_blank"
                 className="px-5 py-2.5 rounded-xl hero-gradient text-white font-semibold text-sm shadow-lg shadow-primary/25 whitespace-nowrap"
               >
@@ -600,14 +600,14 @@ export default function Article1Month() {
                 <p className="font-bold text-foreground text-lg">1 oylik Telegram Premium — 59,000 so&apos;m</p>
                 <p className="text-sm text-muted">
                   Hoziroq{" "}
-                  <Link href="https://t.me/premiumsend_admin" target="_blank" className="text-primary hover:underline">
+                  <Link href="https://telegram.me/premiumsend_admin" target="_blank" className="text-primary hover:underline">
                     @premiumsend_admin
                   </Link>{" "}
                   ga yozing
                 </p>
               </div>
               <Link
-                href="https://t.me/premiumsend_admin"
+                href="https://telegram.me/premiumsend_admin"
                 target="_blank"
                 className="px-6 py-3 rounded-xl hero-gradient text-white font-semibold text-sm shadow-lg shadow-primary/25 whitespace-nowrap"
               >
@@ -674,7 +674,7 @@ export default function Article1Month() {
                   Premium imkoniyatlaridan bahramand bo&apos;ling.
                 </p>
                 <Link
-                  href="https://t.me/premiumsend_admin"
+                  href="https://telegram.me/premiumsend_admin"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

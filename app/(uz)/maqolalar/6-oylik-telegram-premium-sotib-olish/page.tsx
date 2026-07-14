@@ -189,7 +189,7 @@ export default function Article6Month() {
           <div className="bg-gold-light/50 rounded-xl p-5 border border-gold/20 mb-6">
             <p className="text-foreground leading-relaxed font-medium">
               <strong>6 oylik Telegram Premium</strong> — bu Telegramning kengaytirilgan obunasi bo&apos;lib, O&apos;zbekistonda{" "}
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
               orqali <strong>235,000 so&apos;m</strong>ga, Uzcard va Humo kartasi bilan sotib olish mumkin. Telegram messenjerida 6 oylik paket mavjud emas — uni faqat Premium Send orqali olish mumkin.
             </p>
           </div>
@@ -353,7 +353,7 @@ export default function Article6Month() {
                 <Link href="/6-oylik" className="px-5 py-2.5 rounded-xl bg-primary-light text-primary font-semibold text-sm hover:bg-primary hover:text-white transition-all">
                   Batafsil
                 </Link>
-                <Link href="https://t.me/premiumsendbot" target="_blank" className="px-5 py-2.5 rounded-xl hero-gradient text-white font-semibold text-sm shadow-lg shadow-primary/25">
+                <Link href="https://telegram.me/premiumsendbot" target="_blank" className="px-5 py-2.5 rounded-xl hero-gradient text-white font-semibold text-sm shadow-lg shadow-primary/25">
                   Sotib olish
                 </Link>
               </div>
@@ -488,7 +488,7 @@ export default function Article6Month() {
                 <p className="font-bold text-foreground text-lg">6 oylik Telegram Premium — 235,000 so&apos;m</p>
                 <p className="text-sm text-muted">Hoziroq <Link href="/6-oylik" className="text-primary hover:underline">batafsil ma&apos;lumot</Link> yoki to&apos;g&apos;ridan-to&apos;g&apos;ri sotib oling</p>
               </div>
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="px-6 py-3 rounded-xl hero-gradient text-white font-semibold text-sm shadow-lg shadow-primary/25 whitespace-nowrap">
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="px-6 py-3 rounded-xl hero-gradient text-white font-semibold text-sm shadow-lg shadow-primary/25 whitespace-nowrap">
                 Sotib olish
               </Link>
             </div>
@@ -553,7 +553,7 @@ export default function Article6Month() {
                   <strong className="text-white">@PremiumSendBot</strong> bugun uchun eng qulay va ishonchli yechim. Uzcard va Humo kartasi orqali bir necha daqiqada buyurtma bering va 6 oy davomida Premium imkoniyatlaridan to&apos;liq bahramand bo&apos;ling.
                 </p>
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

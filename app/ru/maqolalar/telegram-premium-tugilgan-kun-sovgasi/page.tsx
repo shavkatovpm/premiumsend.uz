@@ -212,7 +212,7 @@ export default function ArticleTugilganKunSovgasiRu() {
             <p className="text-sm font-bold text-primary mb-2">КОРОТКО</p>
             <p className="text-foreground leading-relaxed font-medium">
               Подарите Telegram Premium на день рождения через{" "}
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>:{" "}
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>:{" "}
               <strong>3 месяца 175 000</strong>,{" "}
               <strong>6 месяцев 235 000</strong>, <strong>12 месяцев 425 000 сум</strong>. По умолчанию подарок анонимный — приходит от имени Telegram; чтобы видно было ваше имя, достаточно написать отдельное поздравление. <strong>1 месячный подарок невозможен</strong> (правило Telegram).
             </p>
@@ -430,7 +430,7 @@ export default function ArticleTugilganKunSovgasiRu() {
                 <strong>6 месяцев 235 000</strong>, <strong>12 месяцев 425 000 сум</strong>. Приходит в аккаунт получателя за 3-5 минут.
               </p>
               <Link
-                href="https://t.me/premiumsendbot"
+                href="https://telegram.me/premiumsendbot"
                 target="_blank"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-white font-bold rounded-2xl hover:shadow-xl transition-all"
               >
@@ -680,7 +680,7 @@ export default function ArticleTugilganKunSovgasiRu() {
                   <strong className="text-white">12 месяцев 425 000 сум</strong>. Отправьте анонимно и напишите поздравление отдельно.
                 </p>
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

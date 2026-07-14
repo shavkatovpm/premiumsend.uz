@@ -39,11 +39,11 @@ export default function AboutPageUz() {
     url: "https://premiumsend.uz",
     description:
       "O'zbekistonda Telegram Premium so'mda sotib olish — Click, Payme, Uzcard va Humo orqali. Mahalliy mustaqil reseller.",
-    sameAs: ["https://t.me/premiumsendbot"],
+    sameAs: ["https://telegram.me/premiumsendbot"],
     contactPoint: {
       "@type": "ContactPoint",
       contactType: "customer support",
-      url: "https://t.me/premiumsendbot",
+      url: "https://telegram.me/premiumsendbot",
       availableLanguage: ["Uzbek", "Russian"],
     },
     areaServed: {
@@ -604,7 +604,7 @@ export default function AboutPageUz() {
                     Asosiy buyurtma kanali. Tarif tanlash, to&apos;lov, qo&apos;llab-quvvatlash — hammasi botda.
                   </p>
                   <Link
-                    href="https://t.me/premiumsendbot"
+                    href="https://telegram.me/premiumsendbot"
                     target="_blank"
                     className="inline-flex items-center gap-2 text-primary font-semibold hover:underline"
                   >
@@ -673,7 +673,7 @@ export default function AboutPageUz() {
                   <strong className="text-white">@PremiumSendBot</strong> da 1 oylik 59 000 so&apos;mdan boshlash mumkin.
                 </p>
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

@@ -199,7 +199,7 @@ export default function Article12MonthGiftRu() {
           <div className="bg-amber-50 rounded-xl p-5 border border-amber-200 mb-6">
             <p className="text-foreground leading-relaxed font-medium">
               <strong>Подарить Telegram Premium на 12 месяцев</strong> — это возможность преподнести любому пользователю Telegram годовую Premium-подписку. В Узбекистане через{" "}
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
               за <strong>425 000 сум</strong>, картой Uzcard или Humo, просто введя username. Иностранная карта не нужна.
             </p>
           </div>
@@ -270,7 +270,7 @@ export default function Article12MonthGiftRu() {
             <div className="bg-amber-50 border border-amber-200 rounded-xl p-5 mb-6">
               <p className="text-foreground leading-relaxed">
                 <strong>Короткий ответ:</strong> Откройте{" "}
-                <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
+                <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
                 в Telegram &rarr; выберите 12-месячный пакет &rarr; введите username получателя &rarr; оплатите 425 000 сум через Uzcard или Humo &rarr; Premium активируется автоматически. Весь процесс — 5 минут.
               </p>
             </div>
@@ -504,7 +504,7 @@ export default function Article12MonthGiftRu() {
                 <Link href="/ru/12-oylik" className="px-5 py-2.5 rounded-xl bg-amber-100 text-amber-700 font-semibold text-sm hover:bg-amber-500 hover:text-white transition-all">
                   Подробнее
                 </Link>
-                <Link href="https://t.me/premiumsendbot" target="_blank" className="px-5 py-2.5 rounded-xl bg-amber-500 text-white font-semibold text-sm shadow-lg shadow-amber-500/25">
+                <Link href="https://telegram.me/premiumsendbot" target="_blank" className="px-5 py-2.5 rounded-xl bg-amber-500 text-white font-semibold text-sm shadow-lg shadow-amber-500/25">
                   Подарить
                 </Link>
               </div>
@@ -686,7 +686,7 @@ export default function Article12MonthGiftRu() {
                   <strong className="text-white">@PremiumSendBot</strong> прямо сейчас, за 425 000 сум, картой Uzcard или Humo.
                 </p>
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-amber-600 font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

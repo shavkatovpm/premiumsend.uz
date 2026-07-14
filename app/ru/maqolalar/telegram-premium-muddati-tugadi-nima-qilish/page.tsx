@@ -260,7 +260,7 @@ export default function ArticleSrokIstekRu() {
               отключаются только премиум-возможности. Чтобы продолжить,
               восстановите через{" "}
               <Link
-                href="https://t.me/premiumsendbot"
+                href="https://telegram.me/premiumsendbot"
                 target="_blank"
                 className="text-primary hover:underline"
               >
@@ -393,7 +393,7 @@ export default function ArticleSrokIstekRu() {
                 сумах и активировать за 5 минут. От 59 000 сум за 1 месяц.
               </p>
               <Link
-                href="https://t.me/premiumsendbot"
+                href="https://telegram.me/premiumsendbot"
                 target="_blank"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-bold rounded-xl hover:shadow-2xl transition-all"
               >
@@ -649,7 +649,7 @@ export default function ArticleSrokIstekRu() {
                   35 417 сум в месяц.
                 </p>
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

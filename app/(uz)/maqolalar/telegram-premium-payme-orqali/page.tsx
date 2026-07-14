@@ -211,7 +211,7 @@ export default function ArticlePaymePillarUz() {
             <p className="text-foreground leading-relaxed font-medium">
               <strong>Qisqacha javob:</strong> Telegram Premium Payme orqali sotib olish jarayoni —{" "}
               <Link
-                href="https://t.me/premiumsendbot"
+                href="https://telegram.me/premiumsendbot"
                 target="_blank"
                 className="text-primary hover:underline"
               >
@@ -350,7 +350,7 @@ export default function ArticlePaymePillarUz() {
               <p className="text-foreground leading-relaxed">
                 <strong>Qisqa javob:</strong>{" "}
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="text-primary hover:underline"
                 >
@@ -427,7 +427,7 @@ export default function ArticlePaymePillarUz() {
                 <strong className="text-white">@PremiumSendBot</strong> da tarif tanlang, karta raqami va summa olib, Payme&apos;dan o&apos;tkazing. Premium 5 daqiqada akkauntda.
               </p>
               <Link
-                href="https://t.me/premiumsendbot"
+                href="https://telegram.me/premiumsendbot"
                 target="_blank"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-bold rounded-xl hover:shadow-2xl transition-all"
               >
@@ -775,7 +775,7 @@ export default function ArticlePaymePillarUz() {
                   <strong className="text-white">@PremiumSendBot</strong> da boshlang.
                 </p>
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

@@ -109,13 +109,13 @@ export default function ArticleStarsUzcardUz() {
           <div className="bg-primary-light/40 rounded-xl p-5 border border-primary/20 mb-6">
             <p className="text-foreground leading-relaxed font-medium">
               <strong>Qisqacha javob:</strong> Telegram Stars&apos;ni Uzcard kartangiz orqali sotib olish jarayoni —{" "}
-              <a href="https://t.me/starsjoybot" target="_blank" rel="noopener" className="text-primary hover:underline">@starsjoybot</a>{" "}
+              <a href="https://telegram.me/starsjoybot" target="_blank" rel="noopener" className="text-primary hover:underline">@starsjoybot</a>{" "}
               ni oching, Stars miqdorini tanlang (mas. <strong>50 Stars = 12 000 so&apos;m</strong>), <strong>&quot;Kartaga o&apos;tkazma&quot;</strong> yo&apos;lini tanlang, bot karta raqami va aniq summani ko&apos;rsatadi, Uzcard bank ilovasidan shu kartaga P2P o&apos;tkazma qilasiz. Stars 1-5 daqiqada akkauntga tushadi. So&apos;mda to&apos;lov, kurs konvertatsiyasi yo&apos;q.
             </p>
           </div>
 
           <p className="text-lg text-muted leading-relaxed">
-            Uzcard — O&apos;zbekistondagi eng keng tarqalgan to&apos;lov kartasi. Telegram Stars uchun esa rasmiy yo&apos;llarda (App Store, Fragment) Uzcard bilan to&apos;lash murakkab — kurs riski, qabul qilmaslik muammolari. Mahalliy reseller StarsJoy.uz ([@starsjoybot](https://t.me/starsjoybot)) orqali esa Uzcard kartangiz bilan to&apos;g&apos;ridan-to&apos;g&apos;ri P2P o&apos;tkazma yo&apos;lida Stars olishingiz mumkin — so&apos;mda, mahalliy karta bilan, kurs konvertatsiyasiz.
+            Uzcard — O&apos;zbekistondagi eng keng tarqalgan to&apos;lov kartasi. Telegram Stars uchun esa rasmiy yo&apos;llarda (App Store, Fragment) Uzcard bilan to&apos;lash murakkab — kurs riski, qabul qilmaslik muammolari. Mahalliy reseller StarsJoy.uz ([@starsjoybot](https://telegram.me/starsjoybot)) orqali esa Uzcard kartangiz bilan to&apos;g&apos;ridan-to&apos;g&apos;ri P2P o&apos;tkazma yo&apos;lida Stars olishingiz mumkin — so&apos;mda, mahalliy karta bilan, kurs konvertatsiyasiz.
           </p>
         </header>
 
@@ -218,7 +218,7 @@ export default function ArticleStarsUzcardUz() {
             <div className="bg-primary-light/40 border border-primary/20 rounded-xl p-5 mb-6">
               <p className="text-foreground leading-relaxed">
                 <strong>Qisqa javob:</strong>{" "}
-                <a href="https://t.me/starsjoybot" target="_blank" rel="noopener" className="text-primary hover:underline">@starsjoybot</a>{" "}
+                <a href="https://telegram.me/starsjoybot" target="_blank" rel="noopener" className="text-primary hover:underline">@starsjoybot</a>{" "}
                 ni oching → Stars miqdorini tanlang → &quot;Kartaga o&apos;tkazma&quot; yo&apos;lini tanlang → bot karta va summa beradi → Uzcard ilovasidan P2P o&apos;tkazasiz → Stars 5 daqiqada akkauntda.
               </p>
             </div>
@@ -249,7 +249,7 @@ export default function ArticleStarsUzcardUz() {
               <p className="text-white/90 leading-relaxed mb-4">
                 Uzcard kartangiz bor? <strong className="text-white">@starsjoybot</strong> ni oching, Stars miqdorini tanlang, &quot;Kartaga o&apos;tkazma&quot; yo&apos;lini tanlang. Uzcard ilovasidan oddiy P2P o&apos;tkazma — Stars 5 daqiqada akkauntda.
               </p>
-              <a href="https://t.me/starsjoybot" target="_blank" rel="noopener" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-bold rounded-xl hover:shadow-2xl transition-all">
+              <a href="https://telegram.me/starsjoybot" target="_blank" rel="noopener" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-bold rounded-xl hover:shadow-2xl transition-all">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z" />
                 </svg>
@@ -415,7 +415,7 @@ export default function ArticleStarsUzcardUz() {
                   Uzcard kartangiz orqali Telegram Stars sotib olish — eng arzon va to&apos;g&apos;ri mahalliy yo&apos;l. 240 so&apos;m/star, kurs konvertatsiyasiz, oddiy P2P o&apos;tkazma, 2-5 daqiqada Stars akkauntda.{" "}
                   <strong className="text-white">@starsjoybot</strong> da boshlang.
                 </p>
-                <a href="https://t.me/starsjoybot" target="_blank" rel="noopener" className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg">
+                <a href="https://telegram.me/starsjoybot" target="_blank" rel="noopener" className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg">
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z" />
                   </svg>

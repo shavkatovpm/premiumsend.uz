@@ -203,7 +203,7 @@ export default function ArticleSomdaUzsRu() {
             <p className="text-sm font-bold text-primary mb-2">КОРОТКО</p>
             <p className="text-foreground leading-relaxed font-medium">
               Чтобы купить Telegram Premium <strong>только в сумах (UZS)</strong>, откройте{" "}
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>:{" "}
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>:{" "}
               <strong>1 месяц 59 000 сум</strong>, <strong>3 месяца 175 000</strong>,{" "}
               <strong>6 месяцев 235 000</strong>, <strong>12 месяцев 425 000 сум</strong>. Оплата через Uzcard, Humo, Click, Payme или Visa — без долларовой конвертации, валютного риска и комиссии платформы.
             </p>
@@ -358,7 +358,7 @@ export default function ArticleSomdaUzsRu() {
                 <strong>12 месяцев 425 000 сум</strong>. Никакого доллара или крипты не требуется.
               </p>
               <Link
-                href="https://t.me/premiumsendbot"
+                href="https://telegram.me/premiumsendbot"
                 target="_blank"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-white font-bold rounded-2xl hover:shadow-xl transition-all"
               >
@@ -487,7 +487,7 @@ export default function ArticleSomdaUzsRu() {
             <div className="bg-primary-light/40 border border-primary/20 rounded-xl p-5 mb-6">
               <p className="text-foreground leading-relaxed">
                 <strong>Коротко:</strong> откройте{" "}
-                <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">
+                <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">
                   @PremiumSendBot
                 </Link>{" "}
                 → выберите срок → введите свой username → переведите указанную сумму с сумовой карты → Premium активируется за 3-5 минут. Общее время: 5 минут.
@@ -700,7 +700,7 @@ export default function ArticleSomdaUzsRu() {
                   <strong className="text-white">12 месяцев 425 000 сум</strong>.
                 </p>
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

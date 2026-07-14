@@ -197,7 +197,7 @@ export default function Article6MonthBestWay() {
           <div className="bg-purple-50 rounded-xl p-5 border border-purple-200/40 mb-6">
             <p className="text-foreground leading-relaxed font-medium">
               <strong>6 oylik Telegram Premium olishning eng yaxshi usuli</strong> — bu{" "}
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
               orqali sotib olish. Uzcard yoki Humo kartasi bilan <strong>235,000 so&apos;m</strong>ga, 5 daqiqada, hech qanday xorijiy karta va dollar konvertatsiyasisiz — bu bugungi kunda O&apos;zbekistondagi eng tez, eng qulay va eng ishonchli yo&apos;l.
             </p>
           </div>
@@ -394,7 +394,7 @@ export default function Article6MonthBestWay() {
                 <Link href="/6-oylik" className="px-5 py-2.5 rounded-xl bg-primary-light text-primary font-semibold text-sm hover:bg-primary hover:text-white transition-all">
                   Batafsil
                 </Link>
-                <Link href="https://t.me/premiumsendbot" target="_blank" className="px-5 py-2.5 rounded-xl hero-gradient text-white font-semibold text-sm shadow-lg shadow-primary/25">
+                <Link href="https://telegram.me/premiumsendbot" target="_blank" className="px-5 py-2.5 rounded-xl hero-gradient text-white font-semibold text-sm shadow-lg shadow-primary/25">
                   Sotib olish
                 </Link>
               </div>
@@ -521,7 +521,7 @@ export default function Article6MonthBestWay() {
                 <p className="font-bold text-foreground text-lg">6 oylik Premium — oyiga atigi 39,167 so&apos;m</p>
                 <p className="text-sm text-muted">Hoziroq <Link href="/6-oylik" className="text-primary hover:underline">batafsil ma&apos;lumot</Link> yoki to&apos;g&apos;ridan-to&apos;g&apos;ri sotib oling</p>
               </div>
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="px-6 py-3 rounded-xl hero-gradient text-white font-semibold text-sm shadow-lg shadow-primary/25 whitespace-nowrap">
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="px-6 py-3 rounded-xl hero-gradient text-white font-semibold text-sm shadow-lg shadow-primary/25 whitespace-nowrap">
                 Sotib olish
               </Link>
             </div>
@@ -580,7 +580,7 @@ export default function Article6MonthBestWay() {
                 O&apos;zbekistonda 6 oylik Telegram Premium olishning eng yaxshi usuli — ishonchli reseller bot orqali sotib olish. Buning sababi oddiy: Telegram rasmiy ilovasida 6 oylik variant mavjud emas, Fragment texnik bilim va kripto talab qiladi, tanish orqali olish esa xavfli.
               </p>
               <p className="text-foreground leading-relaxed font-medium mb-3">
-                Premium Send (<Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>) bu imkoniyatni <strong>235,000 so&apos;m</strong>ga taqdim etadi — Uzcard va Humo kartasi bilan, so&apos;mda, 5 daqiqada. Kurs farqi yo&apos;q, konvertatsiya xarajati yo&apos;q, o&apos;zbek tilida qo&apos;llab-quvvatlash bor.
+                Premium Send (<Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>) bu imkoniyatni <strong>235,000 so&apos;m</strong>ga taqdim etadi — Uzcard va Humo kartasi bilan, so&apos;mda, 5 daqiqada. Kurs farqi yo&apos;q, konvertatsiya xarajati yo&apos;q, o&apos;zbek tilida qo&apos;llab-quvvatlash bor.
               </p>
               <p className="text-muted leading-relaxed text-sm">
                 Agar hali Premium sinab ko&apos;rmagan bo&apos;lsangiz — <Link href="/1-oylik" className="text-primary font-semibold hover:underline">1 oylik paketdan (59,000 so&apos;m)</Link> boshlang. Agar uzoq muddatga arzon olmoqchi bo&apos;lsangiz — <Link href="/maqolalar/12-oylik-telegram-premium-sotib-olish" className="text-primary font-semibold hover:underline">12 oylik variant (425,000 so&apos;m)</Link> ni ko&apos;rib chiqing.
@@ -603,7 +603,7 @@ export default function Article6MonthBestWay() {
                   <strong className="text-white">@PremiumSendBot</strong>. Uzcard yoki Humo kartangiz bilan 235,000 so&apos;mga 6 oylik Telegram Premium oling — hoziroq, 5 daqiqada.
                 </p>
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

@@ -99,7 +99,7 @@ export default function UzLayout({
       "O'zbekistonda Telegram Premium obunasini so'mda sotib olish xizmati",
     contactPoint: {
       "@type": "ContactPoint",
-      url: "https://t.me/premiumsendbot",
+      url: "https://telegram.me/premiumsendbot",
       contactType: "customer service",
       availableLanguage: ["Uzbek", "Russian"],
     },

@@ -210,7 +210,7 @@ export default function ArticleTelegramPremiumIshonchliSayt() {
             <p className="text-sm font-bold text-primary mb-2">QISQACHA JAVOB</p>
             <p className="text-foreground leading-relaxed font-medium">
               Telegram Premium uchun ishonchli reseller tanlashning 7 ta belgisi: ochiq sayt va HTTPS, ko&apos;rinadigan oferta, aniq narxlar so&apos;mda, eski Telegram kanali, mahalliy karta qabul qilinadi, Premium 5-10 daqiqada faollashadi va aloqa kanali ishlaydi. Bozordan past narx (12 oylik 50 000 so&apos;m kabi) — 100% aldov.{" "}
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
               orqali tekshirilgan narxlar: <strong>1 oylik 59 000</strong>, <strong>3 oylik 175 000</strong>, <strong>12 oylik 425 000 so&apos;m</strong>.
             </p>
           </div>
@@ -335,7 +335,7 @@ export default function ArticleTelegramPremiumIshonchliSayt() {
                 Tekshirilgan, oferta bilan ishlovchi mahalliy reseller — <strong>@PremiumSendBot</strong>. Uzcard, Humo, Click, Payme barchasi so&apos;mda. <strong>1 oylik 59 000</strong>, <strong>6 oylik 235 000</strong>, <strong>12 oylik 425 000 so&apos;m</strong>. Premium 3-5 daqiqada akkauntda.
               </p>
               <Link
-                href="https://t.me/premiumsendbot"
+                href="https://telegram.me/premiumsendbot"
                 target="_blank"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-white font-bold rounded-2xl hover:shadow-xl transition-all"
               >
@@ -744,7 +744,7 @@ export default function ArticleTelegramPremiumIshonchliSayt() {
                   <strong className="text-white">12 oylik 425 000 so&apos;m</strong> — Premium 3-5 daqiqada akkauntingizda.
                 </p>
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

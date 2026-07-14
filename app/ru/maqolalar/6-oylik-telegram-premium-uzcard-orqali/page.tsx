@@ -204,7 +204,7 @@ export default function Article6MonthUzcardRu() {
           <div className="bg-primary-light/40 rounded-xl p-5 border border-primary/20 mb-6">
             <p className="text-foreground leading-relaxed font-medium">
               Покупка <strong>Telegram Premium на 6 месяцев через Uzcard</strong> в Узбекистане осуществляется через{" "}
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>.{" "}
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>.{" "}
               Цена — <strong>235 000 сум</strong> (39 167 сум в месяц). Экономия 33% по сравнению с 1-месячным. В Telegram нет 6-месячного пакета — только через эти сервисы.
             </p>
           </div>
@@ -313,7 +313,7 @@ export default function Article6MonthUzcardRu() {
             <div className="bg-primary-light/40 border border-primary/20 rounded-xl p-5 mb-6">
               <p className="text-foreground leading-relaxed">
                 <strong>Краткий ответ:</strong>{" "}
-                откройте <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
+                откройте <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
                 → выберите 6-месячный пакет → введите username → оплатите 235 000 сум через Uzcard → Premium активируется автоматически. Процесс — 3-5 минут.
               </p>
             </div>
@@ -503,7 +503,7 @@ export default function Article6MonthUzcardRu() {
               Если разовый расход на покрытие полугода соответствует вашим планам —{" "}
               <Link href="/ru/6-oylik" className="text-primary font-semibold hover:underline">подробнее о 6-месячном пакете</Link>{" "}
               или напрямую через{" "}
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary font-semibold hover:underline">@PremiumSendBot</Link>{" "}
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary font-semibold hover:underline">@PremiumSendBot</Link>{" "}
               можно начать с Uzcard.
             </p>
           </section>
@@ -632,7 +632,7 @@ export default function Article6MonthUzcardRu() {
                   <strong className="text-white">@PremiumSendBot</strong> после одной оплаты через Uzcard даёт возможность спокойно провести следующие полгода.
                 </p>
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

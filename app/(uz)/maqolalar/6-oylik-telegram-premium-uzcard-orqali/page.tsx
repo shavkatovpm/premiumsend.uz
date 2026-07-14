@@ -203,7 +203,7 @@ export default function Article6MonthUzcard() {
           <div className="bg-primary-light/40 rounded-xl p-5 border border-primary/20 mb-6">
             <p className="text-foreground leading-relaxed font-medium">
               <strong>6 oylik Telegram Premium Uzcard orqali</strong> sotib olish O&apos;zbekistonda{" "}
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
               orqali amalga oshiriladi. Narx — <strong>235,000 so&apos;m</strong> (oyiga 39,167 so&apos;m). 1 oylikka nisbatan 33% tejamkorlik. Telegramda 6 oylik paket yo&apos;q — faqat shu servislar orqali.
             </p>
           </div>
@@ -312,7 +312,7 @@ export default function Article6MonthUzcard() {
             <div className="bg-primary-light/40 border border-primary/20 rounded-xl p-5 mb-6">
               <p className="text-foreground leading-relaxed">
                 <strong>Qisqa javob:</strong>{" "}
-                <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
+                <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
                 ni oching → 6 oylik paketni tanlang → username kiriting → Uzcard orqali 235,000 so&apos;m to&apos;lang → Premium avtomatik faollashadi. Jarayon — 3-5 daqiqa.
               </p>
             </div>
@@ -502,7 +502,7 @@ export default function Article6MonthUzcard() {
               Agar bir martalik xarajatda yarim yilni qoplash rejangizga mos kelsa —{" "}
               <Link href="/6-oylik" className="text-primary font-semibold hover:underline">6 oylik paket haqida batafsil</Link>{" "}
               yoki bevosita{" "}
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary font-semibold hover:underline">@PremiumSendBot</Link>{" "}
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary font-semibold hover:underline">@PremiumSendBot</Link>{" "}
               orqali Uzcard bilan boshlashingiz mumkin.
             </p>
           </section>
@@ -631,7 +631,7 @@ export default function Article6MonthUzcard() {
                   <strong className="text-white">@PremiumSendBot</strong> bir marta Uzcard to&apos;lovidan keyin keyingi yarim yilni xotirjam o&apos;tkazish imkonini beradi.
                 </p>
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

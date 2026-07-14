@@ -168,7 +168,7 @@ export default function ArticleTelegramPremiumNarxlari() {
           <div className="bg-primary-light/40 rounded-xl p-5 border border-primary/20 mb-6">
             <p className="text-foreground leading-relaxed font-medium">
               <strong>Qisqacha javob:</strong> O&apos;zbekistonda Telegram Premium narxlari{" "}
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
               da: <strong>1 oylik — 59,000 so&apos;m</strong>, <strong>3 oylik — 175,000 so&apos;m</strong>, <strong>6 oylik — 235,000 so&apos;m</strong>, <strong>12 oylik — 425,000 so&apos;m</strong>. Eng tejamkor — 12 oylik (oyiga 35,417 so&apos;m, 39% tejamkorlik). To&apos;lov so&apos;mda, Uzcard/Humo/Click/Payme.
             </p>
           </div>
@@ -378,7 +378,7 @@ export default function ArticleTelegramPremiumNarxlari() {
                 <strong className="text-white">@PremiumSendBot</strong> da Uzcard, Humo, Click yoki Payme orqali so&apos;mda to&apos;lang — 5 daqiqada Premium faollashadi.
               </p>
               <Link
-                href="https://t.me/premiumsendbot"
+                href="https://telegram.me/premiumsendbot"
                 target="_blank"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-bold rounded-xl hover:shadow-2xl transition-all"
               >
@@ -656,7 +656,7 @@ export default function ArticleTelegramPremiumNarxlari() {
                   <strong className="text-white">@PremiumSendBot</strong> da Uzcard, Humo, Click yoki Payme orqali so&apos;mda — 5 daqiqada faollashtiring.
                 </p>
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

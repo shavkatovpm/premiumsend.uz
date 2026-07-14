@@ -210,7 +210,7 @@ export default function ArticlePremiumBotIshlamayapti() {
             <p className="text-sm font-bold text-primary mb-2">QISQACHA JAVOB</p>
             <p className="text-foreground leading-relaxed font-medium">
               PremiumBot O&apos;zbekistondan ko&apos;pchilik foydalanuvchi uchun ishlamaydi — sababi Uzcard, Humo va mahalliy kartalar qabul qilinmaydi, narx dollarda, va 3D Secure tez-tez xato beradi. Yechim:{" "}
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
               orqali so&apos;mda olish — <strong>1 oylik 59 000</strong>,{" "}
               <strong>3 oylik 175 000</strong>, <strong>12 oylik 425 000 so&apos;m</strong>. Uzcard, Humo, Click, Payme — barchasi so&apos;mda qabul qilinadi. App Store yo&apos;li 25-30% qimmatroq, Fragment esa mahalliy karta umuman qabul qilmaydi.
             </p>
@@ -455,7 +455,7 @@ export default function ArticlePremiumBotIshlamayapti() {
                 PremiumBot ishlamasa — eng tezkor yo&apos;l <strong>@PremiumSendBot</strong>. Uzcard, Humo, Click, Payme barchasi so&apos;mda. <strong>1 oylik 59 000</strong>, <strong>12 oylik 425 000 so&apos;m</strong>. Premium 3-5 daqiqada faollashadi.
               </p>
               <Link
-                href="https://t.me/premiumsendbot"
+                href="https://telegram.me/premiumsendbot"
                 target="_blank"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-white font-bold rounded-2xl hover:shadow-xl transition-all"
               >
@@ -704,7 +704,7 @@ export default function ArticlePremiumBotIshlamayapti() {
                   <strong className="text-white">12 oylik 425 000 so&apos;m</strong> — Premium 3-5 daqiqada akkauntingizda.
                 </p>
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

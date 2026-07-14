@@ -197,7 +197,7 @@ export default function Article3MonthGift() {
           {/* AI/SEO Snippet */}
           <div className="bg-primary-light/50 rounded-xl p-5 border border-primary/10 mb-6">
             <p className="text-foreground leading-relaxed font-medium">
-              <strong>3 oylik Telegram Premium sovg&apos;a qilish</strong> — bu do&apos;stingiz, oila a&apos;zongiz yoki hamkasbingizning Telegram akkauntiga 3 oylik Premium obunani gift sifatida yuborish. O&apos;zbekistonda buning eng oson yo&apos;li — <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link> orqali, <strong>175,000 so&apos;m</strong>ga, Uzcard yoki Humo kartasi bilan to&apos;lab yuborish.
+              <strong>3 oylik Telegram Premium sovg&apos;a qilish</strong> — bu do&apos;stingiz, oila a&apos;zongiz yoki hamkasbingizning Telegram akkauntiga 3 oylik Premium obunani gift sifatida yuborish. O&apos;zbekistonda buning eng oson yo&apos;li — <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link> orqali, <strong>175,000 so&apos;m</strong>ga, Uzcard yoki Humo kartasi bilan to&apos;lab yuborish.
             </p>
           </div>
           <p className="text-lg text-muted leading-relaxed">
@@ -221,7 +221,7 @@ export default function Article3MonthGift() {
               Telegram Premium gift — bu bir foydalanuvchining boshqa odamning akkauntiga Premium obuna sovg&apos;a qilish imkoniyati. Siz to&apos;lovni amalga oshirasiz, lekin Premium boshqa odamning akkauntida faollashadi. Bu mexanizm Telegramning o&apos;zida ham mavjud, lekin juda cheklangan: faqat 1 oylik va 12 oylik variant, faqat xorijiy karta. Gift funksiyasi barcha mamlakatlarda bir xil ishlamaydi — O&apos;zbekiston foydalanuvchilari uchun bu deyarli amalda emas.
             </p>
             <p className="text-muted leading-relaxed mb-4">
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link> orqali esa jarayon ancha sodda. Botga kirasiz, 3 oylik paketni tanlaysiz, sovg&apos;a oluvchining username&apos;ini kiritasiz va Uzcard yoki Humo orqali to&apos;laysiz. Bir necha daqiqadan so&apos;ng Premium o&apos;sha odamning akkauntida paydo bo&apos;ladi. Qabul qiluvchining oldindan rozilik berishi yoki biror narsa qilishi shart emas — gift avtomatik faollashadi.
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link> orqali esa jarayon ancha sodda. Botga kirasiz, 3 oylik paketni tanlaysiz, sovg&apos;a oluvchining username&apos;ini kiritasiz va Uzcard yoki Humo orqali to&apos;laysiz. Bir necha daqiqadan so&apos;ng Premium o&apos;sha odamning akkauntida paydo bo&apos;ladi. Qabul qiluvchining oldindan rozilik berishi yoki biror narsa qilishi shart emas — gift avtomatik faollashadi.
             </p>
             <p className="text-muted leading-relaxed mb-4">
               Telegram premium gift qanday yuboriladi degan savolga javob aslida juda oddiy: username bilsangiz bas, qolganini bot o&apos;zi hal qiladi. Bu aynan WhatsApp&apos;da yoki boshqa messenjerlarda mavjud bo&apos;lmagan imkoniyat — Telegramning o&apos;ziga xos afzalligi.
@@ -312,7 +312,7 @@ export default function Article3MonthGift() {
                 {
                   step: "1",
                   title: "Telegramda @PremiumSendBot ni oching",
-                  desc: "Telegram ilovasida qidiruv maydoniga @PremiumSendBot deb yozing va botni oching. Yoki to'g'ridan-to'g'ri t.me/premiumsendbot havolasiga o'ting.",
+                  desc: "Telegram ilovasida qidiruv maydoniga @PremiumSendBot deb yozing va botni oching. Yoki to'g'ridan-to'g'ri telegram.me/premiumsendbot havolasiga o'ting.",
                 },
                 {
                   step: "2",
@@ -369,7 +369,7 @@ export default function Article3MonthGift() {
                 <Link href="/3-oylik" className="px-5 py-2.5 rounded-xl bg-primary-light text-primary font-semibold text-sm hover:bg-primary hover:text-white transition-all">
                   Batafsil
                 </Link>
-                <Link href="https://t.me/premiumsendbot" target="_blank" className="px-5 py-2.5 rounded-xl hero-gradient text-white font-semibold text-sm shadow-lg shadow-primary/25">
+                <Link href="https://telegram.me/premiumsendbot" target="_blank" className="px-5 py-2.5 rounded-xl hero-gradient text-white font-semibold text-sm shadow-lg shadow-primary/25">
                   Gift yuborish
                 </Link>
               </div>
@@ -574,7 +574,7 @@ export default function Article3MonthGift() {
                 <p className="font-bold text-foreground text-lg">Do&apos;stingizga Premium sovg&apos;a qiling</p>
                 <p className="text-sm text-muted">3 oylik gift — 175,000 so&apos;m, Uzcard/Humo orqali</p>
               </div>
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="px-6 py-3 rounded-xl hero-gradient text-white font-semibold text-sm shadow-lg shadow-primary/25 whitespace-nowrap">
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="px-6 py-3 rounded-xl hero-gradient text-white font-semibold text-sm shadow-lg shadow-primary/25 whitespace-nowrap">
                 Gift yuborish
               </Link>
             </div>
@@ -743,7 +743,7 @@ export default function Article3MonthGift() {
                   <strong className="text-white">@PremiumSendBot</strong> orqali 175,000 so&apos;mga, Uzcard yoki Humo bilan, bir necha daqiqada gift yuboring. Xorijiy karta kerak emas. Murakkab jarayon yo&apos;q.
                 </p>
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

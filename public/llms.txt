@@ -49,8 +49,8 @@ To'lov tasdiqlangach 2-10 daqiqa ichida Premium aktivlashadi. Telegram'ning rasm
 - [Payme orqali](https://premiumsend.uz/maqolalar/telegram-premium-payme-orqali)
 
 ## Aloqa
-- Telegram bot: https://t.me/premiumsendbot
-- Admin: https://t.me/premiumsend_admin
+- Telegram bot: https://telegram.me/premiumsendbot
+- Admin: https://telegram.me/premiumsend_admin
 
 ## Muhim
 - PremiumSend.uz Telegram'ning rasmiy hamkori EMAS — mahalliy reseller (Telegram'ning rasmiy hamkori Fragment.com, TON kripto orqali ishlaydi va Uzcard/Humo qabul qilmaydi)

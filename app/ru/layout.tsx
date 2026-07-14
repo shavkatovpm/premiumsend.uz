@@ -92,7 +92,7 @@ export default function RuLayout({
     description: "Сервис покупки подписки Telegram Premium в узбекских сумах",
     contactPoint: {
       "@type": "ContactPoint",
-      url: "https://t.me/premiumsendbot",
+      url: "https://telegram.me/premiumsendbot",
       contactType: "customer service",
       availableLanguage: ["Uzbek", "Russian"],
     },

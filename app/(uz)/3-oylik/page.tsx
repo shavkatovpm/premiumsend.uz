@@ -167,7 +167,7 @@ export default function ThreeMonthPage() {
             Atigi <span className="text-white font-bold">175,000 so&apos;m</span> (oyiga ~58,333 so&apos;m)
           </p>
           <Link
-            href="https://t.me/premiumsendbot"
+            href="https://telegram.me/premiumsendbot"
             target="_blank"
             className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
           >
@@ -332,7 +332,7 @@ export default function ThreeMonthPage() {
                 Hoziroq buyurtma bering va bir necha daqiqada Telegram Premium faollashsin
               </p>
               <Link
-                href="https://t.me/premiumsendbot"
+                href="https://telegram.me/premiumsendbot"
                 target="_blank"
                 className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
               >

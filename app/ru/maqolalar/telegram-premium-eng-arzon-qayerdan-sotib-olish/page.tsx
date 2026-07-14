@@ -202,7 +202,7 @@ export default function ArticleEngArzonRu() {
             <p className="text-sm font-bold text-primary mb-2">КОРОТКИЙ ОТВЕТ</p>
             <p className="text-foreground leading-relaxed font-medium">
               В Узбекистане <strong>Telegram Premium дешевле всего</strong> через{" "}
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
               — <strong>1 месяц 59 000 сум</strong>, в пересчёте на месяц самый выгодный{" "}
               <strong>12-месячный пакет — 35 417 сум/мес</strong> (425 000 сум). На 30-40% дешевле, чем в App Store и Play Market, без валютной конвертации и скрытых комиссий, оплата в сумах.
             </p>
@@ -426,7 +426,7 @@ export default function ArticleEngArzonRu() {
                 <strong>59 000 сум за 1 месяц</strong> или <strong>425 000 сум за 12 месяцев</strong> (35 417 сум/мес).
               </p>
               <Link
-                href="https://t.me/premiumsendbot"
+                href="https://telegram.me/premiumsendbot"
                 target="_blank"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-white font-bold rounded-2xl hover:shadow-xl transition-all"
               >
@@ -447,7 +447,7 @@ export default function ArticleEngArzonRu() {
             <div className="bg-primary-light/40 border border-primary/20 rounded-xl p-5 mb-6">
               <p className="text-foreground leading-relaxed">
                 <strong>Короткий ответ:</strong> откройте{" "}
-                <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">
+                <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">
                   @PremiumSendBot
                 </Link>{" "}
                 → выберите подходящий тариф (надолго — 12 месяцев) → введите username → оплатите Uzcard/Humo/Click/Payme в сумах → Premium активируется за 3-5 минут. Всего: 5 минут.
@@ -717,7 +717,7 @@ export default function ArticleEngArzonRu() {
                   <strong className="text-white">по 35 417 сум/мес</strong>. Оплата в сумах, без скрытых комиссий, активация за 5 минут.
                 </p>
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

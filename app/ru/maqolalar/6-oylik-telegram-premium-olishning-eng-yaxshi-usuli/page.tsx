@@ -198,7 +198,7 @@ export default function Article6MonthBestWayRu() {
           <div className="bg-purple-50 rounded-xl p-5 border border-purple-200/40 mb-6">
             <p className="text-foreground leading-relaxed font-medium">
               <strong>Лучший способ получить Telegram Premium на 6 месяцев</strong> — через{" "}
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>.{" "}
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>.{" "}
               Оплата картой Uzcard или Humo за <strong>235 000 сум</strong>, за 5 минут, без иностранной карты и конвертации валюты — это самый быстрый, самый удобный и самый надёжный способ в Узбекистане на сегодняшний день.
             </p>
           </div>
@@ -395,7 +395,7 @@ export default function Article6MonthBestWayRu() {
                 <Link href="/ru/6-oylik" className="px-5 py-2.5 rounded-xl bg-primary-light text-primary font-semibold text-sm hover:bg-primary hover:text-white transition-all">
                   Подробнее
                 </Link>
-                <Link href="https://t.me/premiumsendbot" target="_blank" className="px-5 py-2.5 rounded-xl hero-gradient text-white font-semibold text-sm shadow-lg shadow-primary/25">
+                <Link href="https://telegram.me/premiumsendbot" target="_blank" className="px-5 py-2.5 rounded-xl hero-gradient text-white font-semibold text-sm shadow-lg shadow-primary/25">
                   Купить
                 </Link>
               </div>
@@ -522,7 +522,7 @@ export default function Article6MonthBestWayRu() {
                 <p className="font-bold text-foreground text-lg">6-месячный Premium — всего 39 167 сум/мес</p>
                 <p className="text-sm text-muted">Сейчас <Link href="/ru/6-oylik" className="text-primary hover:underline">подробнее</Link> или купите напрямую</p>
               </div>
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="px-6 py-3 rounded-xl hero-gradient text-white font-semibold text-sm shadow-lg shadow-primary/25 whitespace-nowrap">
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="px-6 py-3 rounded-xl hero-gradient text-white font-semibold text-sm shadow-lg shadow-primary/25 whitespace-nowrap">
                 Купить
               </Link>
             </div>
@@ -581,7 +581,7 @@ export default function Article6MonthBestWayRu() {
                 Лучший способ получить Telegram Premium на 6 месяцев в Узбекистане — через надёжного реселлер-бота. Причина проста: в официальном приложении 6-месячного варианта нет, Fragment требует технических знаний и криптовалюту, покупка через знакомых рискованна.
               </p>
               <p className="text-foreground leading-relaxed font-medium mb-3">
-                Premium Send (<Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>) предлагает эту возможность за <strong>235 000 сум</strong> — картой Uzcard и Humo, в сумах, за 5 минут. Без разницы курсов, без расходов на конвертацию, с поддержкой на узбекском языке.
+                Premium Send (<Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>) предлагает эту возможность за <strong>235 000 сум</strong> — картой Uzcard и Humo, в сумах, за 5 минут. Без разницы курсов, без расходов на конвертацию, с поддержкой на узбекском языке.
               </p>
               <p className="text-muted leading-relaxed text-sm">
                 Если ещё не пробовали Premium — начните с <Link href="/ru/1-oylik" className="text-primary font-semibold hover:underline">1-месячного пакета (59 000 сум)</Link>. Если хотите максимальную экономию — рассмотрите <Link href="/ru/maqolalar/12-oylik-telegram-premium-sotib-olish" className="text-primary font-semibold hover:underline">12-месячный вариант (425 000 сум)</Link>.
@@ -604,7 +604,7 @@ export default function Article6MonthBestWayRu() {
                   <strong className="text-white">@PremiumSendBot</strong>. Оплатите картой Uzcard или Humo за 235 000 сум — получите 6-месячный Telegram Premium прямо сейчас, за 5 минут.
                 </p>
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

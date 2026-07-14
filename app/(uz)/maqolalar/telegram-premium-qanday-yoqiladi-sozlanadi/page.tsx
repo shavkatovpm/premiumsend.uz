@@ -256,13 +256,13 @@ export default function ArticleQandayYoqiladiSozlanadi() {
             <div className="bg-primary-light/40 border border-primary/20 rounded-2xl p-6 md:p-8 text-center">
               <p className="text-foreground text-lg leading-relaxed mb-4">
                 Hali Premium olmagansizmi? {" "}
-                <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline font-bold">
+                <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline font-bold">
                   @PremiumSendBot
                 </Link>{" "}
                 orqali so&apos;mda, 5 daqiqada faollashtiring.
               </p>
               <Link
-                href="https://t.me/premiumsendbot"
+                href="https://telegram.me/premiumsendbot"
                 target="_blank"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-white font-bold rounded-2xl hover:shadow-xl transition-all"
               >
@@ -337,7 +337,7 @@ export default function ArticleQandayYoqiladiSozlanadi() {
                   Ism rangi, emoji status va animatsiyali profil — barchasi Sozlamalarda bir necha bosishda yoqiladi. PremiumSend orqali olingan Premium&apos;da bekor qilish tugmasi ham, kutilmagan to&apos;lov ham yo&apos;q.
                 </p>
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

@@ -367,13 +367,13 @@ export default function ArticleQachonFaollashadiRu() {
             <div className="bg-primary-light/40 border border-primary/20 rounded-2xl p-6 md:p-8 text-center">
               <p className="text-foreground text-lg leading-relaxed mb-4">
                 Premium приходит с гарантией 5 минут — через{" "}
-                <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline font-bold">
+                <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline font-bold">
                   @PremiumSendBot
                 </Link>{" "}
                 в сумах, тарифы от 1 до 12 месяцев.
               </p>
               <Link
-                href="https://t.me/premiumsendbot"
+                href="https://telegram.me/premiumsendbot"
                 target="_blank"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-white font-bold rounded-2xl hover:shadow-xl transition-all"
               >
@@ -616,7 +616,7 @@ export default function ArticleQachonFaollashadiRu() {
                   Telegram Premium активируется за <strong className="text-white">2-5 минут</strong>, срок считается по <strong className="text-white">календарным месяцам</strong>. При продлении ничего не теряется, подарок начинается с момента принятия. Premium Send работает с гарантией 5 минут и возвратом денег.
                 </p>
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

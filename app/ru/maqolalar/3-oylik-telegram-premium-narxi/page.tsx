@@ -160,7 +160,7 @@ export default function Article3MesyatsaTsenaRu() {
           <div className="bg-primary-light/40 rounded-xl p-5 border border-primary/20 mb-6">
             <p className="text-foreground leading-relaxed font-medium">
               <strong>Краткий ответ:</strong> цена Telegram Premium на 3 месяца в{" "}
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
               — <strong>175 000 сум</strong>, то есть <strong>58 333 сум в месяц</strong>. Оплата в сумах: Uzcard, Humo, Click или Payme. Полный Premium на 90 дней. Цена почти как у месячного тарифа, но платить каждый месяц не нужно и можно подарить.
             </p>
           </div>
@@ -291,7 +291,7 @@ export default function Article3MesyatsaTsenaRu() {
                 <strong className="text-white">@PremiumSendBot</strong> — оплатите 175 000 сум через Uzcard, Humo, Click или Payme, и Premium на 90 дней активируется за 5 минут.
               </p>
               <Link
-                href="https://t.me/premiumsendbot"
+                href="https://telegram.me/premiumsendbot"
                 target="_blank"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-bold rounded-xl hover:shadow-2xl transition-all"
               >
@@ -442,7 +442,7 @@ export default function Article3MesyatsaTsenaRu() {
                   <strong className="text-white">@PremiumSendBot</strong> — оплата в сумах через Uzcard, Humo, Click или Payme, активация за 5 минут.
                 </p>
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

@@ -211,7 +211,7 @@ export default function ArticleStarsNimaRu() {
               <Link href="https://starsjoy.uz" target="_blank" className="text-primary hover:underline">
                 StarsJoy.uz
               </Link>{" "}
-              ([@starsjoybot](https://t.me/starsjoybot)) в сумах — минимум{" "}
+              ([@starsjoybot](https://telegram.me/starsjoybot)) в сумах — минимум{" "}
               <strong>50 Stars 12 000 сум</strong>.
             </p>
           </div>
@@ -344,13 +344,13 @@ export default function ArticleStarsNimaRu() {
             <div className="bg-primary-light/40 border border-primary/20 rounded-2xl p-6 md:p-8 text-center">
               <p className="text-foreground text-lg leading-relaxed mb-4">
                 Хотите купить Stars? <strong>50 Stars всего 12 000 сум</strong>. Самый удобный путь из Узбекистана — через{" "}
-                <Link href="https://t.me/starsjoybot" target="_blank" className="text-primary hover:underline font-bold">
+                <Link href="https://telegram.me/starsjoybot" target="_blank" className="text-primary hover:underline font-bold">
                   @starsjoybot
                 </Link>{" "}
                 в сумах.
               </p>
               <Link
-                href="https://t.me/starsjoybot"
+                href="https://telegram.me/starsjoybot"
                 target="_blank"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-white font-bold rounded-2xl hover:shadow-xl transition-all"
               >
@@ -489,7 +489,7 @@ export default function ArticleStarsNimaRu() {
             <div className="bg-primary-light/40 border border-primary/20 rounded-xl p-5 mb-6">
               <p className="text-foreground leading-relaxed">
                 <strong>Короткий ответ:</strong> откройте{" "}
-                <Link href="https://t.me/starsjoybot" target="_blank" className="text-primary hover:underline">
+                <Link href="https://telegram.me/starsjoybot" target="_blank" className="text-primary hover:underline">
                   @starsjoybot
                 </Link>{" "}
                 в Telegram → нажмите <strong>/start</strong> → выберите раздел <strong>Stars</strong> в меню → укажите количество (минимум 50 Stars = 12 000 сум) → оплатите через Click или банковскую карту. Stars поступят в аккаунт за несколько минут.
@@ -677,7 +677,7 @@ export default function ArticleStarsNimaRu() {
                   <strong className="text-white">50 Stars — 12 000 сум</strong>, оплата в сумах, гарантия 5 минут.
                 </p>
                 <Link
-                  href="https://t.me/starsjoybot"
+                  href="https://telegram.me/starsjoybot"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

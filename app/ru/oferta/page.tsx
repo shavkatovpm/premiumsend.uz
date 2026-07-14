@@ -37,7 +37,7 @@ export default function OfertaPageRu() {
             <h2 className="text-xl font-bold text-foreground mb-4">&sect; 1. Общие положения</h2>
             <div className="space-y-3 leading-relaxed">
               <p>1.1. Настоящий документ является публичной офертой (далее — &laquo;Оферта&raquo;) сервиса Premium Send (далее — &laquo;Исполнитель&raquo;), определяющей условия приобретения услуги подписки Telegram Premium.</p>
-              <p>1.2. Исполнитель осуществляет деятельность через сайт premiumsend.uz и Telegram-бот <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>.</p>
+              <p>1.2. Исполнитель осуществляет деятельность через сайт premiumsend.uz и Telegram-бот <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>.</p>
               <p>1.3. Оформление заказа через бот означает полное и безоговорочное принятие (акцепт) условий настоящей Оферты.</p>
             </div>
           </section>
@@ -57,7 +57,7 @@ export default function OfertaPageRu() {
           <section>
             <h2 className="text-xl font-bold text-foreground mb-4">&sect; 3. Порядок оформления и оплаты</h2>
             <div className="space-y-3 leading-relaxed">
-              <p>3.1. Заказ оформляется через <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link> в соответствии с инструкциями бота.</p>
+              <p>3.1. Заказ оформляется через <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link> в соответствии с инструкциями бота.</p>
               <p>3.2. Оплата принимается следующими способами: Click, пластиковые карты Uzcard и Humo.</p>
               <p>3.3. После успешной оплаты заказ выполняется в течение 5 минут.</p>
               <p>3.4. Цены указаны в узбекских сумах. Цена определяется курсом и тарифом на момент оформления заказа.</p>
@@ -79,7 +79,7 @@ export default function OfertaPageRu() {
             <div className="space-y-3 leading-relaxed">
               <p>5.1. Цифровые продукты после доставки возврату не подлежат.</p>
               <p>5.2. Если оплата прошла успешно, но заказ не выполнен по техническим причинам, пользователь имеет право на полный возврат средств.</p>
-              <p>5.3. Запрос на возврат должен быть отправлен в течение 24 часов с момента оплаты через <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>. Необходимо приложить скриншот или подтверждение оплаты.</p>
+              <p>5.3. Запрос на возврат должен быть отправлен в течение 24 часов с момента оплаты через <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>. Необходимо приложить скриншот или подтверждение оплаты.</p>
               <p>5.4. Если заказ доставлен другому лицу из-за ввода неверных данных Telegram пользователем, возврат не производится.</p>
               <p>5.5. После выполнения заказа добровольный отказ пользователя не является основанием для возврата.</p>
             </div>
@@ -97,7 +97,7 @@ export default function OfertaPageRu() {
           <section>
             <h2 className="text-xl font-bold text-foreground mb-4">&sect; 7. Служба поддержки</h2>
             <div className="space-y-3 leading-relaxed">
-              <p>7.1. Все обращения и вопросы принимаются через <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>.</p>
+              <p>7.1. Все обращения и вопросы принимаются через <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>.</p>
               <p>7.2. Ответ на обращения предоставляется в течение 24 часов.</p>
               <p>7.3. Исполнитель оставляет за собой право отказать в обслуживании пользователям, проявляющим грубость, угрозы или неподобающее поведение.</p>
             </div>

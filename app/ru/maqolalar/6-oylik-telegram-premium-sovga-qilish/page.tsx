@@ -106,7 +106,7 @@ export default function Article6MonthGiftRu() {
           <div className="bg-primary-light/40 rounded-xl p-5 border border-primary/20 mb-6">
             <p className="text-foreground leading-relaxed font-medium">
               <strong>Краткий ответ:</strong> подарить 6 месяцев Telegram Premium — это отправить на аккаунт друга, члена семьи или коллеги 180 дневную Premium подписку как gift.{" "}
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
               — выбираете 6 месячный тариф, вводите @username получателя, бот показывает перевод на карту 235 000 сум, оплачиваете через Click/Uzcard/Humo. За 5 минут gift активируется на том аккаунте. <strong>В месяц 39 167 сум</strong> — на 33% дешевле помесячного gift.
             </p>
           </div>
@@ -126,7 +126,7 @@ export default function Article6MonthGiftRu() {
               <strong className="text-foreground">Краткий ответ:</strong> вы платите — Premium активируется на 6 месяцев на аккаунте получателя. Достаточно знать username.
             </p>
             <p className="text-muted leading-relaxed mb-4">
-              Механизм Telegram Premium gift — один пользователь оплачивает, а Premium включается на аккаунте другого. Сам Telegram имеет такую функцию (с 2022 года), но для пользователей Узбекистана она почти не работает: только 1 и 12 месячные варианты, только зарубежные карты. 3, 6 месячные gift и оплата в сумах же доступны через <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>.
+              Механизм Telegram Premium gift — один пользователь оплачивает, а Premium включается на аккаунте другого. Сам Telegram имеет такую функцию (с 2022 года), но для пользователей Узбекистана она почти не работает: только 1 и 12 месячные варианты, только зарубежные карты. 3, 6 месячные gift и оплата в сумах же доступны через <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>.
             </p>
             <p className="text-muted leading-relaxed">
               В боте — выбираете 6 месячный тариф, вводите @username получателя и платите через Click/Uzcard/Humo. Получатель ничего не делает — при следующем открытии Telegram видит звёздочку рядом с профилем. 180 дней он будет пользоваться 4 ГБ файлами, анимированными эмодзи, премиум стикерами, Telegram без рекламы и другими Premium функциями.
@@ -222,7 +222,7 @@ export default function Article6MonthGiftRu() {
                 Подарите близким 6 месяцев Telegram Premium.{" "}
                 <strong className="text-white">@PremiumSendBot</strong> — выберите 6 месячный тариф, введите @username получателя, оплатите 235 000 сум. Полугодовой подарок, ежедневно напоминающий.
               </p>
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-bold rounded-xl hover:shadow-2xl transition-all">
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-bold rounded-xl hover:shadow-2xl transition-all">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z" />
                 </svg>
@@ -418,7 +418,7 @@ export default function Article6MonthGiftRu() {
                   6 месячный Telegram Premium gift — полугодовая служба, ежедневно напоминающий подарок. 235 000 сум, 39 167 в месяц, активация за 5 минут. Идеально для дня рождения, праздника, благодарности коллеге или заботы о родителях.{" "}
                   <strong className="text-white">@PremiumSendBot</strong> — начните в нём.
                 </p>
-                <Link href="https://t.me/premiumsendbot" target="_blank" className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg">
+                <Link href="https://telegram.me/premiumsendbot" target="_blank" className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg">
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z" />
                   </svg>

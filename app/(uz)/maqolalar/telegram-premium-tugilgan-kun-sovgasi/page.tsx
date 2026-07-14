@@ -210,7 +210,7 @@ export default function ArticleTugilganKunSovgasi() {
             <p className="text-sm font-bold text-primary mb-2">QISQACHA JAVOB</p>
             <p className="text-foreground leading-relaxed font-medium">
               Tug&apos;ilgan kun sovg&apos;asi sifatida Telegram Premium-ni{" "}
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
               orqali yuboring: <strong>3 oylik 175 000</strong>,{" "}
               <strong>6 oylik 235 000</strong>, <strong>12 oylik 425 000 so&apos;m</strong>. Default sovg&apos;a anonim — Telegram nomidan keladi; yuboruvchi nomi ko&apos;rinishi kerak bo&apos;lsa, alohida tabriknoma xabari yozish kifoya. <strong>1 oylik sovg&apos;a yo&apos;q</strong> (Telegram qoidasi).
             </p>
@@ -428,7 +428,7 @@ export default function ArticleTugilganKunSovgasi() {
                 <strong>6 oylik 235 000</strong>, <strong>12 oylik 425 000 so&apos;m</strong>. 3-5 daqiqada qabul qiluvchining akkauntiga keladi.
               </p>
               <Link
-                href="https://t.me/premiumsendbot"
+                href="https://telegram.me/premiumsendbot"
                 target="_blank"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-white font-bold rounded-2xl hover:shadow-xl transition-all"
               >
@@ -677,7 +677,7 @@ export default function ArticleTugilganKunSovgasi() {
                   <strong className="text-white">12 oylik 425 000 so&apos;m</strong>. Anonim yuboring va tabriknoma xabarini alohida yozing.
                 </p>
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

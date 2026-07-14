@@ -198,7 +198,7 @@ export default function ArticleTelegramPremiumNimaRu() {
           <div className="bg-primary-light/40 rounded-xl p-5 border border-primary/20 mb-6">
             <p className="text-foreground leading-relaxed font-medium">
               <strong>Кратко:</strong> Telegram Premium — это платная версия Telegram с расширенными возможностями. Она даёт <strong>загрузку файлов до 4 ГБ</strong>, безрекламный опыт, <strong>подписку на 1000 каналов</strong> и более 20 эксклюзивных функций. В Узбекистане доступна через{" "}
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
               от <strong>59 000 сум</strong> с оплатой в сумах.
             </p>
           </div>
@@ -425,7 +425,7 @@ export default function ArticleTelegramPremiumNimaRu() {
                 Самый выгодный — <strong className="text-white">годовой тариф</strong>, всего 35 417 сум в месяц. Один платёж — 365 дней непрерывного Premium.
               </p>
               <Link
-                href="https://t.me/premiumsendbot"
+                href="https://telegram.me/premiumsendbot"
                 target="_blank"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-bold rounded-xl hover:shadow-2xl transition-all"
               >
@@ -596,7 +596,7 @@ export default function ArticleTelegramPremiumNimaRu() {
             <div className="bg-primary-light/40 border border-primary/20 rounded-xl p-5 mb-6">
               <p className="text-foreground leading-relaxed">
                 <strong>Кратко:</strong> откройте{" "}
-                <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
+                <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
                 в Telegram → выберите тариф (1, 3, 6 или 12 месяцев) → введите username → оплатите через Uzcard, Humo, Click или Payme в сумах → Premium активируется автоматически за 5 минут.
               </p>
             </div>
@@ -719,7 +719,7 @@ export default function ArticleTelegramPremiumNimaRu() {
                   <strong className="text-white">@PremiumSendBot</strong> с Uzcard, Humo, Click или Payme в сумах — активация за 5 минут. От месяца, в годовом тарифе экономия 39%.
                 </p>
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

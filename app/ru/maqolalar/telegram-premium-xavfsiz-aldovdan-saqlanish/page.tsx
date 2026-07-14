@@ -410,7 +410,7 @@ export default function ArticleSafeBuyRu() {
                 — оплата через Click и Payme, PDF-чек, нужен только @username. 1 месяц 59 000, 3 месяца 175 000, 6 месяцев 235 000, 12 месяцев 425 000 сум.
               </p>
               <Link
-                href="https://t.me/premiumsendbot"
+                href="https://telegram.me/premiumsendbot"
                 target="_blank"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-bold rounded-xl hover:shadow-2xl transition-all"
               >
@@ -801,7 +801,7 @@ export default function ArticleSafeBuyRu() {
                   <strong className="text-white">@PremiumSendBot</strong> — оплата через Click и Payme, PDF-чек, запрашивается только username. Для теста достаточно 1 месяца за 59 000 сум.
                 </p>
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

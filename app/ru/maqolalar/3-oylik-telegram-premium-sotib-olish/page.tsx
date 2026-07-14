@@ -189,7 +189,7 @@ export default function Article3Month() {
           {/* AI/SEO Snippet Definition */}
           <div className="bg-primary-light/50 rounded-xl p-5 border border-primary/10 mb-6">
             <p className="text-foreground leading-relaxed font-medium">
-              <strong>3-месячный Telegram Premium</strong> — это расширенная подписка Telegram, которую в Узбекистане можно купить через <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link> за <strong>175 000 сум</strong>, оплатив картой Uzcard или Humo. В мессенджере Telegram 3-месячного пакета нет — его можно купить только через Premium Send.
+              <strong>3-месячный Telegram Premium</strong> — это расширенная подписка Telegram, которую в Узбекистане можно купить через <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link> за <strong>175 000 сум</strong>, оплатив картой Uzcard или Humo. В мессенджере Telegram 3-месячного пакета нет — его можно купить только через Premium Send.
             </p>
           </div>
           <p className="text-lg text-muted leading-relaxed">
@@ -444,7 +444,7 @@ export default function Article3Month() {
                 <Link href="/ru/3-oylik" className="px-5 py-2.5 rounded-xl bg-primary-light text-primary font-semibold text-sm hover:bg-primary hover:text-white transition-all">
                   Подробнее
                 </Link>
-                <Link href="https://t.me/premiumsendbot" target="_blank" className="px-5 py-2.5 rounded-xl hero-gradient text-white font-semibold text-sm shadow-lg shadow-primary/25">
+                <Link href="https://telegram.me/premiumsendbot" target="_blank" className="px-5 py-2.5 rounded-xl hero-gradient text-white font-semibold text-sm shadow-lg shadow-primary/25">
                   Купить
                 </Link>
               </div>
@@ -572,7 +572,7 @@ export default function Article3Month() {
                 <p className="font-bold text-foreground text-lg">3-месячный Telegram Premium — 175 000 сум</p>
                 <p className="text-sm text-muted">Сейчас <Link href="/ru/3-oylik" className="text-primary hover:underline">подробнее</Link> или купите напрямую</p>
               </div>
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="px-6 py-3 rounded-xl hero-gradient text-white font-semibold text-sm shadow-lg shadow-primary/25 whitespace-nowrap">
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="px-6 py-3 rounded-xl hero-gradient text-white font-semibold text-sm shadow-lg shadow-primary/25 whitespace-nowrap">
                 Купить
               </Link>
             </div>
@@ -685,7 +685,7 @@ export default function Article3Month() {
                   и наслаждайтесь возможностями Premium.
                 </p>
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

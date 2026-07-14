@@ -197,7 +197,7 @@ export default function Article3MonthGiftRu() {
           {/* AI/SEO Snippet */}
           <div className="bg-primary-light/50 rounded-xl p-5 border border-primary/10 mb-6">
             <p className="text-foreground leading-relaxed font-medium">
-              <strong>Подарить Telegram Premium на 3 месяца</strong> — это отправить 3-месячную Premium-подписку на Telegram-аккаунт друга, родственника или коллеги. Самый простой способ в Узбекистане — через <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>, за <strong>175 000 сум</strong>, оплата картой Uzcard или Humo.
+              <strong>Подарить Telegram Premium на 3 месяца</strong> — это отправить 3-месячную Premium-подписку на Telegram-аккаунт друга, родственника или коллеги. Самый простой способ в Узбекистане — через <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>, за <strong>175 000 сум</strong>, оплата картой Uzcard или Humo.
             </p>
           </div>
           <p className="text-lg text-muted leading-relaxed">
@@ -221,7 +221,7 @@ export default function Article3MonthGiftRu() {
               Telegram Premium gift — это возможность подарить Premium-подписку другому пользователю. Вы оплачиваете, а Premium активируется на чужом аккаунте. Этот механизм есть и в самом Telegram, но в очень ограниченном виде: только 1-месячный и 12-месячный вариант, только иностранная карта. Gift-функция работает не во всех странах одинаково — для пользователей Узбекистана она практически недоступна.
             </p>
             <p className="text-muted leading-relaxed mb-4">
-              Через <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link> процесс значительно проще. Вы заходите в бот, выбираете 3-месячный пакет, вводите username получателя и оплачиваете через Uzcard или Humo. Через несколько минут Premium появляется на аккаунте получателя. Предварительное согласие получателя не требуется — gift активируется автоматически.
+              Через <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link> процесс значительно проще. Вы заходите в бот, выбираете 3-месячный пакет, вводите username получателя и оплачиваете через Uzcard или Humo. Через несколько минут Premium появляется на аккаунте получателя. Предварительное согласие получателя не требуется — gift активируется автоматически.
             </p>
             <p className="text-muted leading-relaxed mb-4">
               Как отправить Telegram Premium gift? Ответ очень прост: знаете username — этого достаточно, остальное бот сделает сам. Это уникальная возможность Telegram, которой нет ни в WhatsApp, ни в других мессенджерах.
@@ -312,7 +312,7 @@ export default function Article3MonthGiftRu() {
                 {
                   step: "1",
                   title: "Откройте @PremiumSendBot в Telegram",
-                  desc: "В поиске Telegram введите @PremiumSendBot и откройте бот. Или перейдите напрямую по ссылке t.me/premiumsendbot.",
+                  desc: "В поиске Telegram введите @PremiumSendBot и откройте бот. Или перейдите напрямую по ссылке telegram.me/premiumsendbot.",
                 },
                 {
                   step: "2",
@@ -369,7 +369,7 @@ export default function Article3MonthGiftRu() {
                 <Link href="/ru/3-oylik" className="px-5 py-2.5 rounded-xl bg-primary-light text-primary font-semibold text-sm hover:bg-primary hover:text-white transition-all">
                   Подробнее
                 </Link>
-                <Link href="https://t.me/premiumsendbot" target="_blank" className="px-5 py-2.5 rounded-xl hero-gradient text-white font-semibold text-sm shadow-lg shadow-primary/25">
+                <Link href="https://telegram.me/premiumsendbot" target="_blank" className="px-5 py-2.5 rounded-xl hero-gradient text-white font-semibold text-sm shadow-lg shadow-primary/25">
                   Отправить gift
                 </Link>
               </div>
@@ -574,7 +574,7 @@ export default function Article3MonthGiftRu() {
                 <p className="font-bold text-foreground text-lg">Подарите другу Premium</p>
                 <p className="text-sm text-muted">3-месячный gift — 175 000 сум, через Uzcard/Humo</p>
               </div>
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="px-6 py-3 rounded-xl hero-gradient text-white font-semibold text-sm shadow-lg shadow-primary/25 whitespace-nowrap">
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="px-6 py-3 rounded-xl hero-gradient text-white font-semibold text-sm shadow-lg shadow-primary/25 whitespace-nowrap">
                 Отправить gift
               </Link>
             </div>
@@ -743,7 +743,7 @@ export default function Article3MonthGiftRu() {
                   Через <strong className="text-white">@PremiumSendBot</strong> за 175 000 сум, картой Uzcard или Humo, за несколько минут отправьте gift. Иностранная карта не нужна. Сложных процессов нет.
                 </p>
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

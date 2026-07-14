@@ -157,7 +157,7 @@ export default function Article3OylikNarxi() {
           <div className="bg-primary-light/40 rounded-xl p-5 border border-primary/20 mb-6">
             <p className="text-foreground leading-relaxed font-medium">
               <strong>Qisqacha javob:</strong> 3 oylik Telegram Premium narxi{" "}
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
               da <strong>175,000 so&apos;m</strong> — oyiga <strong>58,333 so&apos;m</strong>. To&apos;lov so&apos;mda: Uzcard, Humo, Click yoki Payme. 90 kunlik to&apos;liq Premium. 1 oylik bilan deyarli teng narx, lekin har oy qayta to&apos;lash shart emas va sovg&apos;a qilsa bo&apos;ladi.
             </p>
           </div>
@@ -289,7 +289,7 @@ export default function Article3OylikNarxi() {
                 <strong className="text-white">@PremiumSendBot</strong> da 175,000 so&apos;mni Uzcard, Humo, Click yoki Payme orqali to&apos;lang — 5 daqiqada 90 kunlik Premium faollashadi.
               </p>
               <Link
-                href="https://t.me/premiumsendbot"
+                href="https://telegram.me/premiumsendbot"
                 target="_blank"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-bold rounded-xl hover:shadow-2xl transition-all"
               >
@@ -441,7 +441,7 @@ export default function Article3OylikNarxi() {
                   <strong className="text-white">@PremiumSendBot</strong> da Uzcard, Humo, Click yoki Payme orqali so&apos;mda — 5 daqiqada faollashtiring.
                 </p>
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

@@ -110,7 +110,7 @@ export default function Article6MonthClickUz() {
           <div className="bg-primary-light/40 rounded-xl p-5 border border-primary/20 mb-6">
             <p className="text-foreground leading-relaxed font-medium">
               <strong>Qisqacha javob:</strong> 6 oylik Telegram Premium Click ilovasi orqali sotib olish jarayoni —{" "}
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
               da 6 oylik tarifni tanlaysiz, bot sizga <strong>karta raqami va aniq 235,000 so&apos;mlik summani</strong> ko&apos;rsatadi, siz Click ilovasidan shu kartaga aynan o&apos;sha summani o&apos;tkazasiz. Tizim to&apos;lovni avtomatik aniqlab, Premium ni 5 daqiqada akkauntga faollashtiradi. <strong>Oyiga 39,167 so&apos;m</strong> — 1 oylikka nisbatan 33% arzon.
             </p>
           </div>
@@ -209,7 +209,7 @@ export default function Article6MonthClickUz() {
             <div className="bg-primary-light/40 border border-primary/20 rounded-xl p-5 mb-6">
               <p className="text-foreground leading-relaxed">
                 <strong>Qisqa javob:</strong>{" "}
-                <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
+                <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
                 ni oching → 6 oylik tarifni tanlang → username kiriting → bot karta va 235,000 so&apos;mlik summa beradi → Click&apos;dan o&apos;sha kartaga 235,000 so&apos;m o&apos;tkazasiz → Premium 5 daqiqada faollashadi.
               </p>
             </div>
@@ -242,7 +242,7 @@ export default function Article6MonthClickUz() {
                 Click ilovangiz tayyormi?{" "}
                 <strong className="text-white">@PremiumSendBot</strong> da 6 oylik tarif tanlang, karta va 235,000 so&apos;mlik summani olib, Click&apos;dan o&apos;tkazing. Oyiga 39,167 so&apos;mga 180 kun Premium.
               </p>
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-bold rounded-xl hover:shadow-2xl transition-all">
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-bold rounded-xl hover:shadow-2xl transition-all">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z" />
                 </svg>
@@ -464,7 +464,7 @@ export default function Article6MonthClickUz() {
                   Click foydalanuvchilari uchun 6 oylik Telegram Premium — eng balansli yo&apos;l. 235,000 so&apos;m, oyiga 39,167 (1 oylikdan 33% arzon), bot ko&apos;rsatgan kartaga Click&apos;dan oddiy P2P o&apos;tkazma, 5 daqiqada faollashish.{" "}
                   <strong className="text-white">@PremiumSendBot</strong> da boshlang.
                 </p>
-                <Link href="https://t.me/premiumsendbot" target="_blank" className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg">
+                <Link href="https://telegram.me/premiumsendbot" target="_blank" className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg">
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z" />
                   </svg>

@@ -201,7 +201,7 @@ export default function ArticleEngArzon() {
             <p className="text-sm font-bold text-primary mb-2">QISQACHA JAVOB</p>
             <p className="text-foreground leading-relaxed font-medium">
               O&apos;zbekistonda <strong>Telegram Premium eng arzon</strong>{" "}
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
               orqali — <strong>1 oylik 59 000 so&apos;m</strong>, oyiga aylantirilganda eng arzon{" "}
               <strong>12 oylik paket — 35 417 so&apos;m/oy</strong> (425 000 so&apos;m). App Store va Play Market&apos;dan 30-40% arzon, valyuta konvertatsiyasi va yashirin komissiyalarsiz, so&apos;mda to&apos;lov.
             </p>
@@ -426,7 +426,7 @@ export default function ArticleEngArzon() {
                 <strong>1 oylik 59 000 so&apos;mdan</strong> yoki <strong>12 oylik 425 000 so&apos;mga</strong> (oyiga 35 417 so&apos;m).
               </p>
               <Link
-                href="https://t.me/premiumsendbot"
+                href="https://telegram.me/premiumsendbot"
                 target="_blank"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-white font-bold rounded-2xl hover:shadow-xl transition-all"
               >
@@ -447,7 +447,7 @@ export default function ArticleEngArzon() {
             <div className="bg-primary-light/40 border border-primary/20 rounded-xl p-5 mb-6">
               <p className="text-foreground leading-relaxed">
                 <strong>Qisqa javob:</strong>{" "}
-                <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">
+                <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">
                   @PremiumSendBot
                 </Link>{" "}
                 ni oching → o&apos;zingizga eng mos tarifni tanlang (uzoq foydalanasizmi — 12 oylik) → username&apos;ingizni kiriting → Uzcard/Humo/Click/Payme orqali so&apos;mda to&apos;lang → Premium 3-5 daqiqada faollashadi. Vaqt jami: 5 daqiqa.
@@ -718,7 +718,7 @@ export default function ArticleEngArzon() {
                   <strong className="text-white">oyiga 35 417 so&apos;m</strong>. So&apos;mda to&apos;lov, qo&apos;shimcha komissiya yo&apos;q, 5 daqiqada faollashish.
                 </p>
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

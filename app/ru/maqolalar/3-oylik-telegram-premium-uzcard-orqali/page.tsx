@@ -204,7 +204,7 @@ export default function Article3MonthUzcardRu() {
           <div className="bg-primary-light/40 rounded-xl p-5 border border-primary/20 mb-6">
             <p className="text-foreground leading-relaxed font-medium">
               Покупка <strong>Telegram Premium на 3 месяца через Uzcard</strong> в Узбекистане осуществляется через{" "}
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>.{" "}
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>.{" "}
               Цена — <strong>175 000 сум</strong> (58 333 сум в месяц). Оплата через Uzcard в сумах, без комиссии. В официальном приложении Telegram Uzcard не принимается — это единственный практичный путь.
             </p>
           </div>
@@ -312,7 +312,7 @@ export default function Article3MonthUzcardRu() {
             <div className="bg-primary-light/40 border border-primary/20 rounded-xl p-5 mb-6">
               <p className="text-foreground leading-relaxed">
                 <strong>Краткий ответ:</strong>{" "}
-                откройте <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
+                откройте <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
                 → выберите 3-месячный пакет → введите username аккаунта → оплатите 175 000 сум через Uzcard → Premium активируется автоматически. Общее время — 3-5 минут.
               </p>
             </div>
@@ -504,7 +504,7 @@ export default function Article3MonthUzcardRu() {
               Если 3-месячный вариант вам подходит —{" "}
               <Link href="/ru/3-oylik" className="text-primary font-semibold hover:underline">подробнее о пакете здесь</Link>{" "}
               или напрямую через{" "}
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary font-semibold hover:underline">@PremiumSendBot</Link>{" "}
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary font-semibold hover:underline">@PremiumSendBot</Link>{" "}
               можно заказать через Uzcard.
             </p>
           </section>
@@ -633,7 +633,7 @@ export default function Article3MonthUzcardRu() {
                   <strong className="text-white">@PremiumSendBot</strong> делает это за несколько минут, за 175 000 сум, без дополнительной комиссии.
                 </p>
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

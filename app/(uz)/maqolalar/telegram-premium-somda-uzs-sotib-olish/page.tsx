@@ -202,7 +202,7 @@ export default function ArticleSomdaUzs() {
             <p className="text-sm font-bold text-primary mb-2">QISQACHA JAVOB</p>
             <p className="text-foreground leading-relaxed font-medium">
               Telegram Premium-ni <strong>faqat so&apos;mda (UZS)</strong> sotib olish uchun{" "}
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
               ni oching: <strong>1 oylik 59 000 so&apos;m</strong>, <strong>3 oylik 175 000</strong>,{" "}
               <strong>6 oylik 235 000</strong>, <strong>12 oylik 425 000 so&apos;m</strong>. To&apos;lov Uzcard, Humo, Click, Payme yoki Visa orqali — dollar konvertatsiyasi, kurs riski va platforma komissiyasi yo&apos;q.
             </p>
@@ -357,7 +357,7 @@ export default function ArticleSomdaUzs() {
                 <strong>12 oylik 425 000 so&apos;m</strong>. Hech qanday dollar yoki kripto talab qilinmaydi.
               </p>
               <Link
-                href="https://t.me/premiumsendbot"
+                href="https://telegram.me/premiumsendbot"
                 target="_blank"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-white font-bold rounded-2xl hover:shadow-xl transition-all"
               >
@@ -486,7 +486,7 @@ export default function ArticleSomdaUzs() {
             <div className="bg-primary-light/40 border border-primary/20 rounded-xl p-5 mb-6">
               <p className="text-foreground leading-relaxed">
                 <strong>Qisqa javob:</strong>{" "}
-                <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">
+                <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">
                   @PremiumSendBot
                 </Link>{" "}
                 ni oching → kerakli muddatni tanlang → username&apos;ingizni kiriting → so&apos;mli kartangizdan ko&apos;rsatilgan summani o&apos;tkazing → 3-5 daqiqada Premium faollashadi. Jami vaqt: 5 daqiqa.
@@ -699,7 +699,7 @@ export default function ArticleSomdaUzs() {
                   <strong className="text-white">12 oylik 425 000 so&apos;m</strong>.
                 </p>
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

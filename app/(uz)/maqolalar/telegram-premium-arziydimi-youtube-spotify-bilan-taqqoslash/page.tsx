@@ -189,13 +189,13 @@ export default function ArticleArziydimiTaqqoslash() {
             <div className="bg-primary-light/40 border border-primary/20 rounded-2xl p-6 md:p-8 text-center">
               <p className="text-foreground text-lg leading-relaxed mb-4">
                 Eng arzon variant — 12 oylik Premium, oyiga atigi 35,417 so&apos;m.{" "}
-                <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline font-bold">
+                <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline font-bold">
                   @PremiumSendBot
                 </Link>{" "}
                 orqali so&apos;mda, 5 daqiqada.
               </p>
               <Link
-                href="https://t.me/premiumsendbot"
+                href="https://telegram.me/premiumsendbot"
                 target="_blank"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-white font-bold rounded-2xl hover:shadow-xl transition-all"
               >
@@ -263,7 +263,7 @@ export default function ArticleArziydimiTaqqoslash() {
                   Telegram Premium YouTube Premium&apos;dan <strong className="text-white">3 baravar</strong>, Spotify&apos;dan <strong className="text-white">2.5 baravar</strong> arzon — va so&apos;mda, xorijiy kartasiz sotib olinadi.
                 </p>
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

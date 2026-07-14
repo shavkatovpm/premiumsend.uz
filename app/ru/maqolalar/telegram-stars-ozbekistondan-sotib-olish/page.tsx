@@ -208,7 +208,7 @@ export default function ArticleStarsBuyRu() {
             <p className="text-foreground leading-relaxed font-medium">
               <strong>Краткий ответ:</strong> Самый удобный способ купить Telegram Stars в Узбекистане — через{" "}
               <Link
-                href="https://t.me/starsjoybot"
+                href="https://telegram.me/starsjoybot"
                 target="_blank"
                 className="text-primary hover:underline"
               >
@@ -249,7 +249,7 @@ export default function ArticleStarsBuyRu() {
               <p className="text-foreground leading-relaxed">
                 Откройте в Telegram{" "}
                 <Link
-                  href="https://t.me/starsjoybot"
+                  href="https://telegram.me/starsjoybot"
                   target="_blank"
                   className="text-primary font-bold hover:underline"
                 >
@@ -409,7 +409,7 @@ export default function ArticleStarsBuyRu() {
                 <strong className="text-white">@starsjoybot</strong> — Click и карта в сумах, на аккаунте через 5 минут. Для теста минимального пакета достаточно.
               </p>
               <Link
-                href="https://t.me/starsjoybot"
+                href="https://telegram.me/starsjoybot"
                 target="_blank"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-bold rounded-xl hover:shadow-2xl transition-all"
               >
@@ -734,7 +734,7 @@ export default function ArticleStarsBuyRu() {
                   <strong className="text-white">@starsjoybot</strong> — от 50 Stars за 12 000 сум. Для теста этого пакета достаточно.
                 </p>
                 <Link
-                  href="https://t.me/starsjoybot"
+                  href="https://telegram.me/starsjoybot"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

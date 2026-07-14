@@ -413,7 +413,7 @@ export default function ArticleStarsVsPremiumRu() {
                     <strong>StarsJoy.uz</strong> в сумах.
                   </p>
                   <Link
-                    href="https://t.me/starsjoybot"
+                    href="https://telegram.me/starsjoybot"
                     target="_blank"
                     className="inline-flex items-center gap-2 px-4 py-2 bg-primary text-white text-sm font-bold rounded-lg hover:shadow-lg transition-all"
                   >
@@ -429,7 +429,7 @@ export default function ArticleStarsVsPremiumRu() {
                     <strong>Premium Send</strong> в сумах.
                   </p>
                   <Link
-                    href="https://t.me/premiumsendbot"
+                    href="https://telegram.me/premiumsendbot"
                     target="_blank"
                     className="inline-flex items-center gap-2 px-4 py-2 bg-primary text-white text-sm font-bold rounded-lg hover:shadow-lg transition-all"
                   >
@@ -600,7 +600,7 @@ export default function ArticleStarsVsPremiumRu() {
                   <strong>Оплата:</strong> Click и карта
                 </p>
                 <Link
-                  href="https://t.me/starsjoybot"
+                  href="https://telegram.me/starsjoybot"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-4 py-2 bg-primary-light text-primary text-sm font-bold rounded-lg hover:shadow-lg transition-all"
                 >
@@ -624,7 +624,7 @@ export default function ArticleStarsVsPremiumRu() {
                   <strong>Оплата:</strong> Click, Payme, Uzcard, Humo
                 </p>
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-4 py-2 bg-primary-light text-primary text-sm font-bold rounded-lg hover:shadow-lg transition-all"
                 >
@@ -779,14 +779,14 @@ export default function ArticleStarsVsPremiumRu() {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3 justify-center">
                   <Link
-                    href="https://t.me/starsjoybot"
+                    href="https://telegram.me/starsjoybot"
                     target="_blank"
                     className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-white text-primary font-bold rounded-xl hover:shadow-2xl transition-all"
                   >
                     ⭐ Stars — @starsjoybot
                   </Link>
                   <Link
-                    href="https://t.me/premiumsendbot"
+                    href="https://telegram.me/premiumsendbot"
                     target="_blank"
                     className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-white text-primary font-bold rounded-xl hover:shadow-2xl transition-all"
                   >

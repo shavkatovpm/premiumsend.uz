@@ -204,7 +204,7 @@ export default function Article3MonthHumo() {
           <div className="bg-primary-light/40 rounded-xl p-5 border border-primary/20 mb-6">
             <p className="text-foreground leading-relaxed font-medium">
               <strong>Qisqacha javob:</strong> 3 oylik Telegram Premium Humo karta orqali{" "}
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
               da sotib olinadi. Narx — <strong>175,000 so&apos;m</strong> (oyiga 58,333 so&apos;m), so&apos;mda to&apos;lov, komissiyasiz. Faollashish vaqti — <strong>5 daqiqa</strong>. Telegram rasmiy ilovasi Humo&apos;ni qabul qilmaydi va 3 oylik tarif u yerda umuman yo&apos;q.
             </p>
           </div>
@@ -303,7 +303,7 @@ export default function Article3MonthHumo() {
             <div className="bg-primary-light/40 border border-primary/20 rounded-xl p-5 mb-6">
               <p className="text-foreground leading-relaxed">
                 <strong>Qisqa javob:</strong>{" "}
-                <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
+                <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
                 ni oching → <strong>3 oylik</strong> tarifni tanlang → username kiriting → <strong>Humo</strong> ni tanlang → 175,000 so&apos;m to&apos;lang → Premium 5 daqiqada faollashadi.
               </p>
             </div>
@@ -370,7 +370,7 @@ export default function Article3MonthHumo() {
                 <strong className="text-white">@PremiumSendBot</strong> da 3 oylik Telegram Premium ni 175,000 so&apos;mga so&apos;mda to&apos;lab oling. Faollashish — 5 daqiqada.
               </p>
               <Link
-                href="https://t.me/premiumsendbot"
+                href="https://telegram.me/premiumsendbot"
                 target="_blank"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-bold rounded-xl hover:shadow-2xl transition-all"
               >
@@ -667,7 +667,7 @@ export default function Article3MonthHumo() {
                   <strong className="text-white">@PremiumSendBot</strong> da bir necha bosishda boshlang.
                 </p>
                 <Link
-                  href="https://t.me/premiumsendbot"
+                  href="https://telegram.me/premiumsendbot"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

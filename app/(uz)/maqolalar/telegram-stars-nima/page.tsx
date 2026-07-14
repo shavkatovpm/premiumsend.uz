@@ -210,7 +210,7 @@ export default function ArticleStarsNima() {
               <Link href="https://starsjoy.uz" target="_blank" className="text-primary hover:underline">
                 StarsJoy.uz
               </Link>{" "}
-              ([@starsjoybot](https://t.me/starsjoybot)) orqali so&apos;mda sotib olinadi — minimal{" "}
+              ([@starsjoybot](https://telegram.me/starsjoybot)) orqali so&apos;mda sotib olinadi — minimal{" "}
               <strong>50 Stars 12 000 so&apos;m</strong>.
             </p>
           </div>
@@ -344,13 +344,13 @@ export default function ArticleStarsNima() {
               <p className="text-foreground text-lg leading-relaxed mb-4">
                 Stars sotib olishni xohlasangiz —{" "}
                 <strong>50 Stars atigi 12 000 so&apos;m</strong>. O&apos;zbekistondan eng oson yo&apos;l —{" "}
-                <Link href="https://t.me/starsjoybot" target="_blank" className="text-primary hover:underline font-bold">
+                <Link href="https://telegram.me/starsjoybot" target="_blank" className="text-primary hover:underline font-bold">
                   @starsjoybot
                 </Link>{" "}
                 orqali so&apos;mda to&apos;lov.
               </p>
               <Link
-                href="https://t.me/starsjoybot"
+                href="https://telegram.me/starsjoybot"
                 target="_blank"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-white font-bold rounded-2xl hover:shadow-xl transition-all"
               >
@@ -489,7 +489,7 @@ export default function ArticleStarsNima() {
             <div className="bg-primary-light/40 border border-primary/20 rounded-xl p-5 mb-6">
               <p className="text-foreground leading-relaxed">
                 <strong>Qisqa javob:</strong>{" "}
-                <Link href="https://t.me/starsjoybot" target="_blank" className="text-primary hover:underline">
+                <Link href="https://telegram.me/starsjoybot" target="_blank" className="text-primary hover:underline">
                   @starsjoybot
                 </Link>{" "}
                 ni Telegram&apos;da oching → <strong>/start</strong> bosing → menyudan <strong>Stars</strong> bo&apos;limini tanlang → kerakli miqdorni ko&apos;rsating (minimum 50 Stars = 12 000 so&apos;m) → Click yoki bank kartasi orqali to&apos;lang. Bir necha daqiqada Stars akkauntda.
@@ -677,7 +677,7 @@ export default function ArticleStarsNima() {
                   <strong className="text-white">50 Stars — 12 000 so&apos;m</strong>, so&apos;mda to&apos;lov, 5 daqiqa kafolat.
                 </p>
                 <Link
-                  href="https://t.me/starsjoybot"
+                  href="https://telegram.me/starsjoybot"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

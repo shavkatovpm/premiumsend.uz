@@ -259,7 +259,7 @@ export default function ArticlePremiumUzcardRu() {
             </p>
             <p className="text-foreground leading-relaxed font-medium">
               Да, <strong>купить Telegram Premium на 1 месяц через Uzcard</strong> можно — но не напрямую через Telegram.{" "}
-              <Link href="https://t.me/premiumsend_admin" target="_blank" className="text-primary hover:underline">
+              <Link href="https://telegram.me/premiumsend_admin" target="_blank" className="text-primary hover:underline">
                 @premiumsend_admin
               </Link>{" "}
               — напишите, оплатите <strong>59 000 сум</strong> картой Uzcard, и Premium активируется за несколько минут. Иностранная карта не требуется.
@@ -360,7 +360,7 @@ export default function ArticlePremiumUzcardRu() {
                 <p className="text-sm text-muted">Оплата картой Uzcard в сумах</p>
               </div>
               <Link
-                href="https://t.me/premiumsend_admin"
+                href="https://telegram.me/premiumsend_admin"
                 target="_blank"
                 className="px-5 py-2.5 rounded-xl hero-gradient text-white font-semibold text-sm shadow-lg shadow-primary/25 whitespace-nowrap"
               >
@@ -582,14 +582,14 @@ export default function ArticlePremiumUzcardRu() {
                 <p className="font-bold text-foreground text-lg">Uzcard или Humo — без разницы</p>
                 <p className="text-sm text-muted">
                   Какая карта удобнее —{" "}
-                  <Link href="https://t.me/premiumsend_admin" target="_blank" className="text-primary hover:underline">
+                  <Link href="https://telegram.me/premiumsend_admin" target="_blank" className="text-primary hover:underline">
                     @premiumsend_admin
                   </Link>{" "}
                   примет обе
                 </p>
               </div>
               <Link
-                href="https://t.me/premiumsend_admin"
+                href="https://telegram.me/premiumsend_admin"
                 target="_blank"
                 className="px-6 py-3 rounded-xl hero-gradient text-white font-semibold text-sm shadow-lg shadow-primary/25 whitespace-nowrap"
               >
@@ -657,7 +657,7 @@ export default function ArticlePremiumUzcardRu() {
                   <strong className="text-white">@premiumsend_admin</strong>, оплатите 59 000 сум и пользуйтесь Premium-возможностями. Весь процесс — 5–10 минут.
                 </p>
                 <Link
-                  href="https://t.me/premiumsend_admin"
+                  href="https://telegram.me/premiumsend_admin"
                   target="_blank"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg"
                 >

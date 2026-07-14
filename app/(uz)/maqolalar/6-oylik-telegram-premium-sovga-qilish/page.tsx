@@ -105,7 +105,7 @@ export default function Article6MonthGiftUz() {
           <div className="bg-primary-light/40 rounded-xl p-5 border border-primary/20 mb-6">
             <p className="text-foreground leading-relaxed font-medium">
               <strong>Qisqacha javob:</strong> 6 oylik Telegram Premium sovg&apos;a qilish — bu do&apos;stingiz, oila a&apos;zongiz yoki hamkasbingizning Telegram akkauntiga 180 kunlik Premium obunani gift sifatida yuborish.{" "}
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link>{" "}
               da 6 oylik tarifni tanlab, oluvchining @username&apos;ini kiritasiz, bot 235 000 so&apos;mlik karta o&apos;tkazma ko&apos;rsatadi, siz Click/Uzcard/Humo orqali to&apos;laysiz. 5 daqiqada gift o&apos;sha akkauntda faollashadi. <strong>Oyiga 39 167 so&apos;m</strong> — 1 oylik giftdan 33% arzon.
             </p>
           </div>
@@ -125,7 +125,7 @@ export default function Article6MonthGiftUz() {
               <strong className="text-foreground">Qisqa javob:</strong> Siz to&apos;laysiz — Premium 6 oyga oluvchining akkauntida faollashadi. Username bilsangiz bas.
             </p>
             <p className="text-muted leading-relaxed mb-4">
-              Telegram Premium gift mexanizmi — bir foydalanuvchi to&apos;lov qiladi, lekin Premium boshqa odamning akkauntida yoqiladi. Telegram&apos;ning o&apos;zida bu funksiya bor (2022-yildan), lekin O&apos;zbekiston foydalanuvchilari uchun deyarli ishlamaydi: faqat 1 va 12 oylik variant, faqat xorijiy karta. 3, 6 oylik gift va so&apos;mda to&apos;lov esa <Link href="https://t.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link> orqali to&apos;liq mavjud.
+              Telegram Premium gift mexanizmi — bir foydalanuvchi to&apos;lov qiladi, lekin Premium boshqa odamning akkauntida yoqiladi. Telegram&apos;ning o&apos;zida bu funksiya bor (2022-yildan), lekin O&apos;zbekiston foydalanuvchilari uchun deyarli ishlamaydi: faqat 1 va 12 oylik variant, faqat xorijiy karta. 3, 6 oylik gift va so&apos;mda to&apos;lov esa <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@PremiumSendBot</Link> orqali to&apos;liq mavjud.
             </p>
             <p className="text-muted leading-relaxed">
               Botga kirasiz, 6 oylik tarifni tanlaysiz, sovg&apos;a oluvchining @username&apos;ini kiritasiz va Click/Uzcard/Humo orqali to&apos;laysiz. Qabul qiluvchi yo&apos;q narsa qilmaydi — Telegram&apos;ni keyingi safar ochganda profil yonida yulduzcha paydo bo&apos;lganini ko&apos;radi. 180 kun davomida 4 GB fayl yuklash, animatsiyali emoji, premium stikerlar, reklamasiz Telegram va boshqa Premium imkoniyatlar uning ixtiyorida bo&apos;ladi.
@@ -221,7 +221,7 @@ export default function Article6MonthGiftUz() {
                 Yaqinlaringizga 6 oylik Telegram Premium sovg&apos;a qiling.{" "}
                 <strong className="text-white">@PremiumSendBot</strong> da 6 oylik tarif tanlang, oluvchining @username&apos;ini kiriting, 235 000 so&apos;m to&apos;lang. Yarim yillik sovg&apos;a, har kuni eslatuvchi.
               </p>
-              <Link href="https://t.me/premiumsendbot" target="_blank" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-bold rounded-xl hover:shadow-2xl transition-all">
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-bold rounded-xl hover:shadow-2xl transition-all">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z" />
                 </svg>
@@ -417,7 +417,7 @@ export default function Article6MonthGiftUz() {
                   6 oylik Telegram Premium gift — yarim yillik xizmat, har kuni eslatuvchi sovg&apos;a. 235 000 so&apos;m, oyiga 39 167, 5 daqiqada faollashish. Tug&apos;ilgan kun, bayram, hamkasb minnatdorchiligi yoki ota-onaga g&apos;amxo&apos;rlik uchun ideal.{" "}
                   <strong className="text-white">@PremiumSendBot</strong> da boshlang.
                 </p>
-                <Link href="https://t.me/premiumsendbot" target="_blank" className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg">
+                <Link href="https://telegram.me/premiumsendbot" target="_blank" className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg">
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z" />
                   </svg>

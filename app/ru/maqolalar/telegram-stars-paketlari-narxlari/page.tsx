@@ -109,7 +109,7 @@ export default function ArticleStarsPaketlariNarxlariRu() {
           <div className="bg-primary-light/40 rounded-xl p-5 border border-primary/20 mb-6">
             <p className="text-foreground leading-relaxed font-medium">
               <strong>Краткий ответ:</strong> Telegram Stars в StarsJoy.uz продаются по линейному тарифу <strong>240 сум/star</strong>. Основные пакеты: <strong>50 Stars — 12 000 сум</strong>, 100 Stars — 24 000, 250 Stars — 60 000, 500 Stars — 120 000, <strong>1000 Stars — 240 000</strong>, 2500 Stars — 600 000, 5000 Stars — 1 200 000 сум. Пути через App Store и Play Market на 17-20% дороже. С местным пакетом нет курсового риска, оплата в сумах через{" "}
-              <a href="https://t.me/starsjoybot" target="_blank" rel="noopener" className="text-primary hover:underline">@starsjoybot</a>.
+              <a href="https://telegram.me/starsjoybot" target="_blank" rel="noopener" className="text-primary hover:underline">@starsjoybot</a>.
             </p>
           </div>
 
@@ -179,7 +179,7 @@ export default function ArticleStarsPaketlariNarxlariRu() {
 
             <div className="bg-section-alt rounded-xl p-5">
               <p className="text-muted text-sm leading-relaxed">
-                <strong className="text-foreground">Логика линейной цены:</strong> одна звезда — 240 сум, и точка. Если нужны 173 Stars, цена 173 × 240 = 41 520 сум. В <a href="https://t.me/starsjoybot" target="_blank" rel="noopener" className="text-primary hover:underline">@starsjoybot</a> помимо готовых пакетов можно ввести своё количество — минимум от 50 Stars.
+                <strong className="text-foreground">Логика линейной цены:</strong> одна звезда — 240 сум, и точка. Если нужны 173 Stars, цена 173 × 240 = 41 520 сум. В <a href="https://telegram.me/starsjoybot" target="_blank" rel="noopener" className="text-primary hover:underline">@starsjoybot</a> помимо готовых пакетов можно ввести своё количество — минимум от 50 Stars.
               </p>
             </div>
           </section>
@@ -290,7 +290,7 @@ export default function ArticleStarsPaketlariNarxlariRu() {
               <p className="text-white/90 leading-relaxed mb-4">
                 Какой бы пакет вы ни выбрали — цена одинаковая, 240 сум/star. <strong className="text-white">@starsjoybot</strong> откройте в Telegram, выберите количество или введите своё, оплатите в сумах. Stars поступят на аккаунт за 1-5 минут.
               </p>
-              <a href="https://t.me/starsjoybot" target="_blank" rel="noopener" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-bold rounded-xl hover:shadow-2xl transition-all">
+              <a href="https://telegram.me/starsjoybot" target="_blank" rel="noopener" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-bold rounded-xl hover:shadow-2xl transition-all">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z" />
                 </svg>
@@ -459,7 +459,7 @@ export default function ArticleStarsPaketlariNarxlariRu() {
                   Цена Stars прозрачна: линейный тариф 240 сум/star, 7 готовых пакетов от 50 до 5000. Выберите подходящее количество под вашу цель и оплатите в сумах — Premium gift, donate или business, всё через один путь.{" "}
                   <strong className="text-white">@starsjoybot</strong> — начните в нём.
                 </p>
-                <a href="https://t.me/starsjoybot" target="_blank" rel="noopener" className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg">
+                <a href="https://telegram.me/starsjoybot" target="_blank" rel="noopener" className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg">
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z" />
                   </svg>

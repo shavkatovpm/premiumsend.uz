@@ -108,7 +108,7 @@ export default function ArticleStarsPaketlariNarxlariUz() {
           <div className="bg-primary-light/40 rounded-xl p-5 border border-primary/20 mb-6">
             <p className="text-foreground leading-relaxed font-medium">
               <strong>Qisqacha javob:</strong> Telegram Stars StarsJoy.uz da <strong>240 so&apos;m/star</strong> linear tarifda sotiladi. Asosiy paketlar: <strong>50 Stars — 12 000 so&apos;m</strong>, 100 Stars — 24 000, 250 Stars — 60 000, 500 Stars — 120 000, <strong>1000 Stars — 240 000</strong>, 2500 Stars — 600 000, 5000 Stars — 1 200 000 so&apos;m. App Store va Play Market yo&apos;llari 17-20% qimmatroq. Mahalliy paket bilan kurs riski yo&apos;q,{" "}
-              <a href="https://t.me/starsjoybot" target="_blank" rel="noopener" className="text-primary hover:underline">@starsjoybot</a>{" "}
+              <a href="https://telegram.me/starsjoybot" target="_blank" rel="noopener" className="text-primary hover:underline">@starsjoybot</a>{" "}
               orqali so&apos;mda to&apos;lov.
             </p>
           </div>
@@ -179,7 +179,7 @@ export default function ArticleStarsPaketlariNarxlariUz() {
 
             <div className="bg-section-alt rounded-xl p-5">
               <p className="text-muted text-sm leading-relaxed">
-                <strong className="text-foreground">Linear narx mantiqi:</strong> bir star — 240 so&apos;m, vassalom. Agar 173 Stars kerak bo&apos;lsa, narx 173 × 240 = 41 520 so&apos;m. <a href="https://t.me/starsjoybot" target="_blank" rel="noopener" className="text-primary hover:underline">@starsjoybot</a> da tayyor paketlardan tashqari o&apos;zingiz xohlagan miqdorni kiritishingiz mumkin — minimum 50 Stars'dan boshlab.
+                <strong className="text-foreground">Linear narx mantiqi:</strong> bir star — 240 so&apos;m, vassalom. Agar 173 Stars kerak bo&apos;lsa, narx 173 × 240 = 41 520 so&apos;m. <a href="https://telegram.me/starsjoybot" target="_blank" rel="noopener" className="text-primary hover:underline">@starsjoybot</a> da tayyor paketlardan tashqari o&apos;zingiz xohlagan miqdorni kiritishingiz mumkin — minimum 50 Stars'dan boshlab.
               </p>
             </div>
           </section>
@@ -290,7 +290,7 @@ export default function ArticleStarsPaketlariNarxlariUz() {
               <p className="text-white/90 leading-relaxed mb-4">
                 Qaysi paketni tanlasangiz ham — narx bir xil 240 so&apos;m/star. <strong className="text-white">@starsjoybot</strong> ni Telegram&apos;da oching, miqdorni tanlang yoki o&apos;zingiz kiriting, so&apos;mda to&apos;lang. Stars 1-5 daqiqada akkauntda.
               </p>
-              <a href="https://t.me/starsjoybot" target="_blank" rel="noopener" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-bold rounded-xl hover:shadow-2xl transition-all">
+              <a href="https://telegram.me/starsjoybot" target="_blank" rel="noopener" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-bold rounded-xl hover:shadow-2xl transition-all">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z" />
                 </svg>
@@ -459,7 +459,7 @@ export default function ArticleStarsPaketlariNarxlariUz() {
                   Stars'ning narxi shaffof: 240 so&apos;m/star linear tarif, 50 dan 5000 gacha 7 ta tayyor paket. Maqsadingizga mos miqdorni tanlang va so&apos;mda to&apos;lang — Premium gift, donate yoki business, hammasi bitta yo&apos;ldan.{" "}
                   <strong className="text-white">@starsjoybot</strong> da boshlang.
                 </p>
-                <a href="https://t.me/starsjoybot" target="_blank" rel="noopener" className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg">
+                <a href="https://telegram.me/starsjoybot" target="_blank" rel="noopener" className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg">
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z" />
                   </svg>
