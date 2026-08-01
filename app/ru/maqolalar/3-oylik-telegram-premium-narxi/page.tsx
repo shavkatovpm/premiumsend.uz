@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { ogBaseRu } from "@/app/shared-metadata";
 
 export const metadata: Metadata = {
   title: "Цена Telegram Premium на 3 месяца 2026 — 175 000 сум",
@@ -24,6 +25,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    ...ogBaseRu,
     locale: "ru_RU",
     title: "Цена Telegram Premium на 3 месяца 2026 — 175 000 сум",
     description:

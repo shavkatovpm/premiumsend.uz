@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { ogBaseUz } from "@/app/shared-metadata";
 
 export const metadata: Metadata = {
   title:
@@ -26,6 +27,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    ...ogBaseUz,
     title: "Telegram Stars nima va qayerda ishlatiladi — to'liq qo'llanma",
     description:
       "Telegram Stars haqida hammasi: nima, qanday ishlaydi, qancha turadi (50 Stars 12 000 so'm), 12+ amaliy foydalanish holati va xavfsiz sotib olish yo'llari.",

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { ogBaseUz } from "@/app/shared-metadata";
 
 export const metadata: Metadata = {
   title: "3 oylik Telegram Premium narxi 2026 — 175,000 so'm",
@@ -24,6 +25,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    ...ogBaseUz,
     title: "3 oylik Telegram Premium narxi 2026 — 175,000 so'm",
     description:
       "3 oylik Telegram Premium narxi O'zbekistonda — 175,000 so'm (oyiga 58,333). Nimaga shuncha, arziydimi va 1/6 oylik bilan taqqoslash.",

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { ogBaseUz } from "@/app/shared-metadata";
 
 export const metadata: Metadata = {
   title:
@@ -26,6 +27,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    ...ogBaseUz,
     title: "3 oylik Telegram Premium Payme orqali — 175,000 so'm",
     description:
       "3 oylik Telegram Premium Payme orqali 175,000 so'mga. Bot ko'rsatgan kartaga Payme'dan aniq summa o'tkazasiz, Premium 5 daqiqada akkauntda.",

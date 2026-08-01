@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { ogBaseUz } from "@/app/shared-metadata";
 
 export const metadata: Metadata = {
   title:
@@ -28,6 +29,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    ...ogBaseUz,
     title: "Telegram Premium eng arzon qayerdan sotib olish — 35 417 so'mdan",
     description:
       "Telegram Premium eng arzon narxda — App Store, Fragment va oraliq botlar bilan taqqoslandi. Premium Send da oyiga 35 417 so'mdan, so'mda to'lov, qo'shimcha komissiyasiz.",

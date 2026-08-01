@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { ogBaseUz } from "@/app/shared-metadata";
 
 export const metadata: Metadata = {
   title:
@@ -23,6 +24,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    ...ogBaseUz,
     title: "PremiumSend haqida — Telegram Premium ishonchli xizmati",
     description:
       "O'zbekistonda Telegram Premium so'mda sotib olish — Click, Payme, Uzcard va Humo bilan 5 daqiqada. Halol mahalliy reseller.",

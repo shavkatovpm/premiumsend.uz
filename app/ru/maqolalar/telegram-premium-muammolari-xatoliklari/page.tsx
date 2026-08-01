@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { ogBaseRu } from "@/app/shared-metadata";
 
 export const metadata: Metadata = {
   title:
@@ -29,6 +30,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    ...ogBaseRu,
     title:
       "Проблемы и ошибки Telegram Premium — полное руководство по решениям",
     description:

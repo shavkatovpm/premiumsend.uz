@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import PricingCard from "../components/PricingCard";
 import AnimatedWave from "../components/AnimatedWave";
 import Link from "next/link";
+import { ogBaseRu } from "@/app/shared-metadata";
 
 export const metadata: Metadata = {
   title: "Купить Telegram Premium в Узбекистане — цена в сумах",
@@ -16,6 +17,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    ...ogBaseRu,
     locale: "ru_RU",
     title: "Купить Telegram Premium в Узбекистане — цена в сумах",
     description:

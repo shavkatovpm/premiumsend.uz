@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import AnimatedWave from "../../components/AnimatedWave";
 import Link from "next/link";
+import { ogBaseUz } from "@/app/shared-metadata";
 
 export const metadata: Metadata = {
   title: "Telegram Premium haqida maqolalar — qo'llanma, narxlar, yangiliklar",
@@ -23,6 +24,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    ...ogBaseUz,
     title: "Telegram Premium haqida maqolalar va qo'llanmalar",
     description:
       "Telegram Premium haqida foydali maqolalar, narxlar, imkoniyatlar va sotib olish bo'yicha qo'llanmalar.",

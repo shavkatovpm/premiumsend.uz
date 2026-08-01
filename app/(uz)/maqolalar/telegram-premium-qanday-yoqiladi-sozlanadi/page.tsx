@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { ogBaseUz } from "@/app/shared-metadata";
 
 export const metadata: Metadata = {
   title:
@@ -26,6 +27,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    ...ogBaseUz,
     title: "Telegram Premium qanday yoqiladi va sozlanadi — to'liq qo'llanma",
     description:
       "Ism rangi, emoji status, animatsiyali profil, ko'p reaksiya va Business funksiyalarini sozlash — bosqichma-bosqich.",

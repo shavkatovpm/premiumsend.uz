@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import PricingCard from "../components/PricingCard";
 import AnimatedWave from "../components/AnimatedWave";
 import Link from "next/link";
+import { ogBaseUz } from "@/app/shared-metadata";
 
 export const metadata: Metadata = {
   title: "Telegram Premium sotib olish — UzCard, Humo, so'mda",
@@ -16,6 +17,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    ...ogBaseUz,
     title: "Telegram Premium sotib olish — UzCard, Humo, so'mda",
     description:
       "Telegram Premium obunasini O'zbekiston so'mida sotib oling. 59,000 so'mdan boshlab. UzCard, Humo, Click, Payme.",

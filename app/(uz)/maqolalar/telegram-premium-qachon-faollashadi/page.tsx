@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { ogBaseUz } from "@/app/shared-metadata";
 
 export const metadata: Metadata = {
   title:
@@ -26,6 +27,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    ...ogBaseUz,
     title: "Telegram Premium qachon faollashadi — muddat qanday hisoblanadi",
     description:
       "To'lovdan keyin 5 daqiqa, muddat kalendar oy bo'yicha. Yangilash, sovg'a, fevral muammosi va faollashmagan holatlar uchun yechim.",

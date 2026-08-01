@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { ogBaseUz } from "@/app/shared-metadata";
 
 export const metadata: Metadata = {
   title:
@@ -28,6 +29,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    ...ogBaseUz,
     title: "Telegram Stars paketlari 2026 — 50 dan 5000 gacha aniq narxlar",
     description:
       "Stars'ning barcha paketlari va narxlari bir joyda. 240 so'm/star linear narx, App Store'dan 17-20% arzon, kurs riski yo'q.",

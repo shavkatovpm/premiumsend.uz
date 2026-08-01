@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import "../globals.css";
+import { ogBaseRu } from "@/app/shared-metadata";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -37,6 +38,7 @@ export const metadata: Metadata = {
     "Telegram Premium Humo",
   ],
   openGraph: {
+    ...ogBaseRu,
     type: "website",
     locale: "ru_RU",
     url: "https://premiumsend.uz/ru",

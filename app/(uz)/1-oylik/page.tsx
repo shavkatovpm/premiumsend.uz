@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import AnimatedWave from "../../components/AnimatedWave";
 import Link from "next/link";
+import { ogBaseUz } from "@/app/shared-metadata";
 
 export const metadata: Metadata = {
   title: "1 oylik Telegram Premium sotib olish — 59,000 so'm",
@@ -25,6 +26,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    ...ogBaseUz,
     title: "1 oylik Telegram Premium sotib olish — 59,000 so'm",
     description:
       "Telegram Premium 1 oylik obunasini 59,000 so'mga sotib oling. O'zbekiston so'mida to'lov.",

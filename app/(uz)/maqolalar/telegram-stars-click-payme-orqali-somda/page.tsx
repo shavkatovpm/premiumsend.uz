@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { ogBaseUz } from "@/app/shared-metadata";
 
 export const metadata: Metadata = {
   title:
@@ -25,6 +26,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    ...ogBaseUz,
     title: "Telegram Stars Click va kartaga o'tkazma orqali so'mda",
     description:
       "Stars'ni Click ilovasi yoki kartaga o'tkazma orqali so'mda sotib oling — StarsJoy.uz da 50 Stars 12 000 so'mdan.",

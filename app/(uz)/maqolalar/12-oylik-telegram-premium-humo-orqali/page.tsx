@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { ogBaseUz } from "@/app/shared-metadata";
 
 export const metadata: Metadata = {
   title:
@@ -27,6 +28,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    ...ogBaseUz,
     title: "12 oylik Telegram Premium Humo orqali — 425,000 so'm",
     description:
       "12 oylik Telegram Premium Humo karta orqali 425,000 so'mga. Bot karta va summani ko'rsatadi, Humo'dan kartaga o'tkazasiz, oyiga 35,417 so'm.",

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { ogBaseUz } from "@/app/shared-metadata";
 
 export const metadata: Metadata = {
   title:
@@ -27,6 +28,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    ...ogBaseUz,
     title: "12 oylik Telegram Premium sovg'a qilish — 425,000 so'm",
     description:
       "Istalgan odamga 12 oylik Telegram Premium sovg'a qiling. @PremiumSendBot orqali Uzcard, Humo bilan so'mda to'lov. Username kiritasiz — Premium faollashadi.",

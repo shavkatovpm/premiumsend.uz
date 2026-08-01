@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { ogBaseUz } from "@/app/shared-metadata";
 
 export const metadata: Metadata = {
   title:
@@ -24,6 +25,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    ...ogBaseUz,
     title: "Telegram Premium arziydimi? YouTube Premium va Spotify bilan taqqoslash",
     description:
       "Telegram Premium boshqa obunalarga nisbatan qancha arzon — aniq raqamlar bilan taqqoslash.",

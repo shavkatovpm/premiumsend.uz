@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { ogBaseUz } from "@/app/shared-metadata";
 
 export const metadata: Metadata = {
   title:
@@ -27,6 +28,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    ...ogBaseUz,
     title: "Telegram Premium muddati tugadi — nima qilish va qanday tiklash",
     description:
       "Muddati tugaganda nima o'chadi, ma'lumot yo'qoladimi va @PremiumSendBot orqali so'mda qanday tiklash. Tugashdan oldin va keyin — to'liq qo'llanma.",

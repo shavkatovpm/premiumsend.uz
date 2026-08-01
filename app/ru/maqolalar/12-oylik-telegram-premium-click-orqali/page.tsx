@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { ogBaseRu } from "@/app/shared-metadata";
 
 export const metadata: Metadata = {
   title:
@@ -25,6 +26,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    ...ogBaseRu,
     title: "Telegram Premium на 12 месяцев через Click — 425 000 сум",
     description:
       "12-месячный Telegram Premium через Click за 425 000 сум. Бот показывает карту и сумму, вы переводите из Click. В месяц 35 417 сум.",
