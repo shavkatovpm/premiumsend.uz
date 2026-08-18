@@ -1,11 +1,11 @@
 # Kontent reja — premiumsend.uz
 
-> Holat: **2026-06-05** holatiga ko'ra tiklangan (commit tarixidan + chop etilgan maqolalardan).
+> Holat: **2026-08-18** holatiga ko'ra yangilangan.
 > Har bir maqola UZ + RU bo'lib chop etiladi. Sub-sahifa slug'lari `app/(uz)/maqolalar/<slug>` va `app/ru/maqolalar/<slug>` ostida.
 
 **Belgilar:** ✅ chop etilgan (UZ+RU) · 🟡 qisman · ⬜ rejada, hali yo'q · ❌ rejadan olib tashlangan
 
-**Jami:** 43 maqola × 2 til = **86 sahifa** chop etilgan.
+**Jami:** 44 maqola × 2 til = **88 sahifa** chop etilgan.
 
 ---
 
@@ -47,7 +47,7 @@
 ### Muddat bo'yicha sub-sahifalar
 | Muddat | Sotib olish | Click | Humo | Payme | Uzcard | Sovg'a |
 |--------|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1 oylik** | ✅ | ⬜ | ⬜ | ⬜ | ✅ | ⬜ |
+| **1 oylik** | ✅ | ✅ | ⬜ | ⬜ | ✅ | ⬜ |
 | **3 oylik** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | **6 oylik** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | **12 oylik** | ✅ | ✅ | ✅ | ⬜ | ✅ | ✅ |

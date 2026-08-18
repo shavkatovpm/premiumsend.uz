@@ -489,6 +489,7 @@ export default function ArticleClickOrqaliRu() {
             <div className="bg-white rounded-2xl p-6 md:p-8 border border-card-border">
               <h3 className="text-lg font-bold text-foreground mb-4">Руководства по тарифам через Click</h3>
               <ul className="space-y-2 text-sm">
+                <li><Link href="/ru/maqolalar/1-oylik-telegram-premium-click-orqali" className="text-primary font-semibold hover:underline">1 месяц Premium через Click (59 000 сум)</Link></li>
                 <li><Link href="/ru/maqolalar/3-oylik-telegram-premium-click-orqali" className="text-primary font-semibold hover:underline">3 месяца Premium через Click (175 000 сум)</Link></li>
                 <li><Link href="/ru/maqolalar/telegram-premium-payme-orqali" className="text-primary font-semibold hover:underline">Premium через Payme (для сравнения)</Link></li>
                 <li><Link href="/ru/maqolalar/telegram-premium-humo-orqali" className="text-primary font-semibold hover:underline">Premium через карту Humo</Link></li>

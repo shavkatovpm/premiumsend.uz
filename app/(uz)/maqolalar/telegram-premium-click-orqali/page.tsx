@@ -541,6 +541,7 @@ export default function ArticleClickOrqali() {
             <div className="bg-white rounded-2xl p-6 md:p-8 border border-card-border">
               <h3 className="text-lg font-bold text-foreground mb-4">Click orqali muddat bo&apos;yicha qo&apos;llanmalar</h3>
               <ul className="space-y-2 text-sm">
+                <li><Link href="/maqolalar/1-oylik-telegram-premium-click-orqali" className="text-primary font-semibold hover:underline">1 oylik Premium Click orqali (59 000 so&apos;m)</Link></li>
                 <li><Link href="/maqolalar/3-oylik-telegram-premium-click-orqali" className="text-primary font-semibold hover:underline">3 oylik Premium Click orqali (175,000 so&apos;m)</Link></li>
                 <li><Link href="/maqolalar/telegram-premium-payme-orqali" className="text-primary font-semibold hover:underline">Payme orqali Premium (taqqoslash uchun)</Link></li>
                 <li><Link href="/maqolalar/telegram-premium-humo-orqali" className="text-primary font-semibold hover:underline">Humo karta orqali Premium</Link></li>

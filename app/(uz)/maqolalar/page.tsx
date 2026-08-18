@@ -34,6 +34,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "1-oylik-telegram-premium-click-orqali",
+    title: "1 oylik Telegram Premium Click orqali sotib olish",
+    excerpt:
+      "1 oylik Premiumni Click orqali 59 000 so'mga oling: @PremiumSendBot, xavfsiz to'lov qadamlari va 2–10 daqiqada faollashish.",
+    category: "Qo'llanma",
+    date: "2026-08-18",
+  },
+  {
     slug: "telegram-premium-arziydimi-youtube-spotify-bilan-taqqoslash",
     title: "Telegram Premium arziydimi? YouTube Premium va Spotify bilan taqqoslash",
     excerpt:
