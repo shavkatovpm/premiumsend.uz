@@ -28,13 +28,13 @@ Har bir yangi blog maqolasi **chop etilishidan oldin** quyidagi 10 ta mezonning 
 rasmiy Telegram (telegram.org, t.me/durov, rasmiy blog) -> ishonchli tex-nashrlar -> boshqalar. Tasdiqlanmagan fakt yozilmaydi.
 
 ## Blog reja (top 10 yangi mavzu)
-1. Telegram Premium muammolari va xatoliklari: savol-javob hub *(birinchi)*
-2. Telegram Premium qanday yoqiladi va sozlanadi — to'liq qo'llanma
-3. Telegram Business: Premium ichidagi biznes imkoniyatlari
-4. Premium obunasini uzaytirish, bekor qilish va qaytarish
-5. Kanal egalari va bloggerlar uchun Premium: Boost, statistika, reaksiyalar
-6. Telegram Premium sovg'asini qanday qabul qilish va faollashtirish
-7. Telegram Premium arziydimi? YouTube Premium, Spotify bilan taqqoslash
-8. Telegram Stories (Hikoyalar) va Premium imkoniyatlari
-9. Telegram Premium iPhone, Android va kompyuterda — farqlar
-10. Telegram Premium 2026: yangi funksiyalar va yil yangilanishlari
+1. ✅ Telegram Premium muammolari va xatoliklari: savol-javob hub *(birinchi)*
+2. ✅ Telegram Premium qanday yoqiladi va sozlanadi — to'liq qo'llanma
+3. ⬜ Telegram Business: Premium ichidagi biznes imkoniyatlari
+4. 🟡 Premium obunasini uzaytirish, bekor qilish va qaytarish *(muddati tugashi qoplangan, bekor qilish/qaytarish alohida emas)*
+5. ⬜ Kanal egalari va bloggerlar uchun Premium: Boost, statistika, reaksiyalar
+6. ⬜ Telegram Premium sovg'asini qanday qabul qilish va faollashtirish
+7. ✅ Telegram Premium arziydimi? YouTube Premium, Spotify bilan taqqoslash
+8. ⬜ Telegram Stories (Hikoyalar) va Premium imkoniyatlari
+9. ⬜ Telegram Premium iPhone, Android va kompyuterda — farqlar
+10. ✅ Telegram Premium 2026: yangi funksiyalar va yil yangilanishlari

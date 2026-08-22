@@ -34,6 +34,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "telegram-premium-2026-yangi-funksiyalar",
+    title: "Telegram Premium 2026: yangi funksiyalar va yil yangilanishlari",
+    excerpt:
+      "Rich Text Editor (32,768 belgigacha), shaxsiy chatda ulashishni taqiqlash va checklist — 2026-yilda Premium'ga qo'shilgan yangiliklar, rasmiy Telegram blogi asosida.",
+    category: "Yangiliklar",
+    date: "2026-08-23",
+  },
+  {
     slug: "1-oylik-telegram-premium-click-orqali",
     title: "1 oylik Telegram Premium Click orqali sotib olish",
     excerpt:

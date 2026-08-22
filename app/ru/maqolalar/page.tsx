@@ -35,6 +35,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "telegram-premium-2026-yangi-funksiyalar",
+    title: "Telegram Premium 2026: новые функции и обновления года",
+    excerpt:
+      "Rich Text Editor (до 32 768 символов), запрет пересылки в личных чатах и чек-листы — новинки Premium 2026 года, по данным официального блога Telegram.",
+    category: "Новости",
+    date: "2026-08-23",
+  },
+  {
     slug: "1-oylik-telegram-premium-click-orqali",
     title: "Telegram Premium на 1 месяц через Click",
     excerpt:
