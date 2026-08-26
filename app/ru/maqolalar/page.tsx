@@ -35,6 +35,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "telegram-business-premium-imkoniyatlari",
+    title: "Telegram Business: бизнес-возможности внутри Premium",
+    excerpt:
+      "Часы работы, быстрые ответы, приветствие и сообщение об отсутствии, бизнес-ссылки и чат-боты — практическое руководство по настройке Telegram Business.",
+    category: "Бизнес-руководство",
+    date: "2026-08-26",
+  },
+  {
     slug: "telegram-premium-2026-yangi-funksiyalar",
     title: "Telegram Premium 2026: новые функции и обновления года",
     excerpt:

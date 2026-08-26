@@ -1,11 +1,11 @@
 # Kontent reja — premiumsend.uz
 
-> Holat: **2026-08-23** holatiga ko'ra yangilangan.
+> Holat: **2026-08-26** holatiga ko'ra yangilangan.
 > Har bir maqola UZ + RU bo'lib chop etiladi. Sub-sahifa slug'lari `app/(uz)/maqolalar/<slug>` va `app/ru/maqolalar/<slug>` ostida.
 
 **Belgilar:** ✅ chop etilgan (UZ+RU) · 🟡 qisman · ⬜ rejada, hali yo'q · ❌ rejadan olib tashlangan
 
-**Jami:** 49 maqola × 2 til = **98 sahifa** chop etilgan.
+**Jami:** 50 maqola × 2 til = **100 sahifa** chop etilgan.
 
 ---
 
@@ -32,7 +32,7 @@
 | — | telegram-premium-arziydimi-youtube-spotify-bilan-taqqoslash | ✅ |
 | — | telegram-premium-muddati-tugadi-nima-qilish | ✅ |
 | — | telegram-premium-2026-yangi-funksiyalar *(top-10 ro'yxati #10)* | ✅ |
-| #15 | *(noma'lum — rejaga kiritilishi kerak)* | ⬜ |
+| #15 | telegram-business-premium-imkoniyatlari *(top-10 ro'yxati #3)* | ✅ |
 | #23 | *(noma'lum — rejaga kiritilishi kerak)* | ⬜ |
 | #24 | *(noma'lum — rejaga kiritilishi kerak)* | ⬜ |
 | #25 | *(noma'lum — rejaga kiritilishi kerak)* | ⬜ |
