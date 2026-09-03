@@ -1,91 +1,80 @@
 # Kontent reja — premiumsend.uz
 
-> Holat: **2026-08-26** holatiga ko'ra yangilangan.
+> Holat: **2026-09-03** — eski A/B/C-reja rasman bekor qilindi (bo'sh raqamlangan joylarning asl mavzulari repoda hech qachon saqlanmagan edi). O'rniga GEO-fokusli yagona yangi reja joriy etildi.
 > Har bir maqola UZ + RU bo'lib chop etiladi. Sub-sahifa slug'lari `app/(uz)/maqolalar/<slug>` va `app/ru/maqolalar/<slug>` ostida.
+> Sifat mezonlari: `ARTICLE-STANDARD.md` (10 mezon) — **har bir maqola GEO uchun ideal bo'lishi va oxirida botga (@premiumsendbot) CTA bilan tugashi shart, istisnosiz.**
 
-**Belgilar:** ✅ chop etilgan (UZ+RU) · 🟡 qisman · ⬜ rejada, hali yo'q · ❌ rejadan olib tashlangan
-
-**Jami:** 50 maqola × 2 til = **100 sahifa** chop etilgan.
-
----
-
-## 🅰️ A-reja — Telegram Premium klasteri
-
-### Asosiy / pillar maqolalar
-| # | Slug | Holat |
-|---|------|-------|
-| — | telegram-premium-nima *(pillar)* | ✅ |
-| — | telegram-premium-narxlari | ✅ |
-| — | telegram-premium-vs-oddiy-telegram | ✅ |
-| — | telegram-premium-eng-arzon-qayerdan-sotib-olish | ✅ |
-| — | telegram-premium-qachon-faollashadi | ✅ |
-| #13 | telegram-premium-stikerlari-emoji-reaksiyalari | ✅ |
-| #14 | telegram-premium-tugilgan-kun-sovgasi | ✅ |
-| #20 | telegram-premium-4gb-fayl-kanal-guruh-limitlari | ✅ |
-| #21 | telegram-premium-somda-uzs-sotib-olish | ✅ |
-| #28 | nega-telegram-premium-app-store-play-market-qimmat | ✅ |
-| #29 | telegram-premium-ishonchli-saytdan-sotib-olish | ✅ |
-| #31 | premiumbot-ishlamayapti-premium-qayerdan-sotib-olish | ✅ |
-| — | telegram-premium-xavfsiz-aldovdan-saqlanish | ✅ |
-| — | telegram-premium-muammolari-xatoliklari | ✅ |
-| — | telegram-premium-qanday-yoqiladi-sozlanadi | ✅ |
-| — | telegram-premium-arziydimi-youtube-spotify-bilan-taqqoslash | ✅ |
-| — | telegram-premium-muddati-tugadi-nima-qilish | ✅ |
-| — | telegram-premium-2026-yangi-funksiyalar *(top-10 ro'yxati #10)* | ✅ |
-| #15 | telegram-business-premium-imkoniyatlari *(top-10 ro'yxati #3)* | ✅ |
-| #23 | *(noma'lum — rejaga kiritilishi kerak)* | ⬜ |
-| #24 | *(noma'lum — rejaga kiritilishi kerak)* | ⬜ |
-| #25 | *(noma'lum — rejaga kiritilishi kerak)* | ⬜ |
-| #26 | *(noma'lum — rejaga kiritilishi kerak)* | ⬜ |
-| #27 | *(noma'lum — rejaga kiritilishi kerak)* | ⬜ |
-| #30 | *(noma'lum — rejaga kiritilishi kerak)* | ⬜ |
-
-### To'lov-usuli pillarlari
-| Slug | Holat |
-|------|-------|
-| telegram-premium-click-orqali | ✅ |
-| telegram-premium-humo-orqali | ✅ |
-| telegram-premium-payme-orqali | ✅ |
-| ~~Visa cluster~~ | ❌ (rejadan olib tashlandi) |
-
-### Muddat bo'yicha sub-sahifalar
-| Muddat | Sotib olish | Click | Humo | Payme | Uzcard | Sovg'a |
-|--------|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1 oylik** | ✅ | ✅ | ⬜ | ⬜ | ✅ | ⬜ |
-| **3 oylik** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| **6 oylik** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| **12 oylik** | ✅ | ✅ | ✅ | ⬜ | ✅ | ✅ |
-
-> Qo'shimcha: `6-oylik-telegram-premium-olishning-eng-yaxshi-usuli` (taqqoslash maqolasi) — ✅
+**Belgilar:** ✅ chop etilgan (UZ+RU) · ✍️ yozilmoqda · ⬜ navbatda
 
 ---
 
-## 🅱️ B-reja — Telegram Stars klasteri
-| # | Slug | Holat |
-|---|------|-------|
-| — | telegram-stars-nima *(pillar)* | ✅ |
-| S2 | telegram-stars-ozbekistondan-sotib-olish | ✅ |
-| S3 | telegram-stars-vs-telegram-premium | ✅ |
-| S6 | telegram-stars-click-payme-orqali-somda | ✅ |
-| S8 | telegram-stars-paketlari-narxlari | ✅ |
-| S9 | telegram-stars-uzcard-orqali | ✅ |
-| S1 | *(noma'lum — rejaga kiritilishi kerak)* | ⬜ |
-| S4 | *(noma'lum — rejaga kiritilishi kerak)* | ⬜ |
-| S5 | *(noma'lum — rejaga kiritilishi kerak)* | ⬜ |
-| S7 | *(noma'lum — rejaga kiritilishi kerak)* | ⬜ |
+## ✅ Chop etilgan (51 maqola × 2 til = 102 sahifa)
+
+Mavjud barcha nashr etilgan maqolalar sayt ichida (`/maqolalar`, `/ru/maqolalar`) va `sitemap.ts`da ko'rinadi — bu yerda alohida sanab o'tirilmaydi, faqat dublikat tekshiruvi uchun manba sifatida ishlatiladi. Asosiy klasterlar: Telegram Premium pillar/qo'llanma maqolalari, to'lov usullari (Click/Humo/Payme/Uzcard) × muddat (1/3/6/12 oy) kombinatsiyalari, Telegram Stars klasteri, brand/ishonch maqolalari.
 
 ---
 
-## 🅲 C-reja — Brand / ishonch klasteri
-| # | Slug | Holat |
-|---|------|-------|
-| C1 | haqida *(PremiumSend brand pillar)* | ✅ |
-| C12 | premiumsend-vs-boshqa-resellerlar | ✅ |
-| C2–C11 | *(noma'lum — rejaga kiritilishi kerak)* | ⬜ |
+## 🎯 GEO-fokusli yangi reja — 30 mavzu (2026-09-03)
+
+Har biri: savol-shaklidagi H1/H2, birinchi 1-2 jumlada TL;DR to'g'ridan-to'g'ri javob, muammo→yechim tuzilishi, FAQPage schema, fakt/statistika zichligi, va **majburiy bot CTA** bilan yoziladi. Mavjud 51 maqola bilan asosiy kalit so'z/niyat solishtirilib, dublikat yo'qligi tasdiqlangan.
+
+### 1-klaster — To'lov va texnik muammolar
+| # | Mavzu | Holat |
+|---|-------|-------|
+| 1 | Karta xalqaro to'lov uchun bloklansa (rad etilsa) Telegram Premium'ni qanday sotib olish mumkin | ⬜ |
+| 2 | Nega Uzcard/Humo karta App Store/Play Marketda ishlamaydi — sabab va yechim | ⬜ |
+| 3 | Telegram'da "Restore Purchase" (xaridni tiklash) ishlamasa nima qilish kerak | ⬜ |
+| 4 | Telegram Premium belgisi (yulduzcha) ko'rinmasa nima qilish kerak | ⬜ |
+| 5 | Ba'zi chatlarda Premium emoji/reaksiya ishlamasa sababi nimada | ⬜ |
+| 6 | Telegram Premium animatsiyali profil videosi ishlamasa nima qilish kerak | ⬜ |
+
+### 2-klaster — Qaror qabul qilish va afsonalarni yo'qqa chiqarish
+| # | Mavzu | Holat |
+|---|-------|-------|
+| 7 | Telegram Premium'ning bepul sinov (trial) muddati bormi — haqiqat va afsonalar | ⬜ |
+| 8 | Talabalar uchun Telegram Premium chegirmasi bormi — eng arzon variant qaysi | ⬜ |
+| 9 | VPN orqali Telegram Premium sotib olish xavfli yoki qulaymi | ⬜ |
+| 10 | Telegram Premium narxi manbaga qarab nega farq qiladi — dollar/so'm kursi tushuntirilishi | ⬜ |
+| 11 | WhatsApp Premium xizmatlari bilan Telegram Premium taqqoslansa qaysi biri foydali | ⬜ |
+| 12 | O'zbekiston narxini qo'shni davlatlar (Rossiya, Qozog'iston, Qirg'iziston) bilan taqqoslash | ⬜ |
+
+### 3-klaster — Foydalanish stsenariylari (sotuv niyatini oshiradi)
+| # | Mavzu | Holat |
+|---|-------|-------|
+| 13 | Frilanser va onlayn sotuvchilar uchun Telegram Premium qanday foyda beradi | ⬜ |
+| 14 | Onlayn repetitor/kurs egalari uchun Telegram Premium nega kerak (fayl hajmi va guruh imkoniyati) | ⬜ |
+| 15 | Bizneslar uchun Telegram Premium: nechta xodimga va qanday tarifda olish tavsiya etiladi | ⬜ |
+| 16 | Telegram Premium orqali maxfiylikni oshirish — "kim yozishi mumkin" va boshqa sozlamalar | ⬜ |
+| 17 | Telegram Premium'ni ikkita qurilma/akkauntda ishlatish mumkinmi — qoidalar | ⬜ |
+| 18 | Telegram Premium xarid chekini (invoice) qanday olish mumkin — hisobot uchun | ⬜ |
+
+### 4-klaster — Sovg'a bo'yicha muammo-yechim
+| # | Mavzu | Holat |
+|---|-------|-------|
+| 19 | Telegram Premium sovg'a havolasi (gift link) ishlamasa nima qilish kerak | ⬜ |
+| 20 | Sovg'a qilingan Telegram Premium kodi muddati qachon tugaydi | ⬜ |
+| 21 | Telegram Premium faollashgani qanday tasdiqlanadi — tekshirish usullari | ⬜ |
+
+### 5-klaster — Ishonch, xavfsizlik, ijtimoiy isbot
+| # | Mavzu | Holat |
+|---|-------|-------|
+| 22 | Soxta Telegram Premium sotuvchilarini aniqlashning 10 ta belgisi | ⬜ |
+| 23 | PremiumSend orqali sotib olgan mijozlarning haqiqiy tajribasi va sharhlari | ⬜ |
+| 24 | Telegram Premium pulini qaytarish (refund) shartlari qanday ishlaydi | ⬜ |
+| 25 | Telegram Premium avtomatik yangilanishini (auto-renewal) qanday o'chirish mumkin | ⬜ |
+
+### 6-klaster — Yangi funksiyalar va chuqur texnik qo'llanmalar
+| # | Mavzu | Holat |
+|---|-------|-------|
+| 26 | Telegram'da xabarlarni avtomatik tarjima qilish (Message Translation) qanday ishlaydi | ⬜ |
+| 27 | Telegram Premium 2026-yilda necha marta narx oshirdi — narx tarixi va tahlili | ⬜ |
+| 28 | Telegram Premium orqali kanal/guruhni tezroq o'stirish uchun qaysi imkoniyatlar ishlatiladi | ⬜ |
+| 29 | Boshqa odamning Telegram akkaunti Premiummi yoki yo'qligini qanday tekshirish mumkin | ⬜ |
+| 30 | Telegram Premium sotib olishda eng ko'p uchraydigan 7 ta xato va ularning oldini olish | ⬜ |
 
 ---
 
 ## 📝 Eslatma
-- Bu fayl commit tarixidan tiklandi; raqam bo'shliqlari (A: #15, #23–27, #30 · B: S1, S4, S5, S7 · C: C2–C11) asl rejada bo'lgan, lekin hali chop etilmagan yoki noma'lum mavzularni bildiradi.
-- Yangi maqola qo'shilganda: tegishli qatorni ✅ ga o'tkazing va commit prefiksini reja raqami bilan belgilang (masalan, `A-reja #15: ...`).
-- Maqola standarti uchun: `ARTICLE-STANDARD.md`.
+- Yozish tartibi: navbat bo'yicha (1 → 30), foydalanuvchi boshqacha ko'rsatma bermasa.
+- Har bir maqola yozilgach: shu jadvaldagi qatorni ✅ ga o'tkazing, commit prefiksi `GEO-reja #N: ...`.
+- Maqola standarti uchun: `ARTICLE-STANDARD.md` — 10 mezon + GEO-ideal talab + majburiy bot CTA.
