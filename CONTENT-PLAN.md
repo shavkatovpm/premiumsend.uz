@@ -21,7 +21,7 @@ Har biri: savol-shaklidagi H1/H2, birinchi 1-2 jumlada TL;DR to'g'ridan-to'g'ri 
 ### 1-klaster — To'lov va texnik muammolar
 | # | Mavzu | Holat |
 |---|-------|-------|
-| 1 | Karta xalqaro to'lov uchun bloklansa (rad etilsa) Telegram Premium'ni qanday sotib olish mumkin | ⬜ |
+| 1 | Karta xalqaro to'lov uchun bloklansa (rad etilsa) Telegram Premium'ni qanday sotib olish mumkin | ✅ (`nega-xalqaro-karta-telegram-premiumni-rad-etadi`) |
 | 2 | Nega Uzcard/Humo karta App Store/Play Marketda ishlamaydi — sabab va yechim | ⬜ |
 | 3 | Telegram'da "Restore Purchase" (xaridni tiklash) ishlamasa nima qilish kerak | ⬜ |
 | 4 | Telegram Premium belgisi (yulduzcha) ko'rinmasa nima qilish kerak | ⬜ |

@@ -9,6 +9,7 @@ type ArticleEntry = {
 };
 
 const articles: ArticleEntry[] = [
+  { slug: "nega-xalqaro-karta-telegram-premiumni-rad-etadi", lastModified: "2026-09-03", priority: 0.9 },
   { slug: "telegram-business-premium-imkoniyatlari", lastModified: "2026-08-26", priority: 0.9 },
   { slug: "telegram-premium-2026-yangi-funksiyalar", lastModified: "2026-08-23", priority: 0.9 },
   { slug: "1-oylik-telegram-premium-click-orqali", lastModified: "2026-08-18", priority: 0.85 },

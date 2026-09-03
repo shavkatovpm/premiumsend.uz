@@ -35,6 +35,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "nega-xalqaro-karta-telegram-premiumni-rad-etadi",
+    title: "Почему международная карта отклоняет оплату Telegram Premium — причина и решение",
+    excerpt:
+      "Блокировка карты почти никогда не означает отсутствие денег. Несовпадение BIN/страны, код телефона и политика банка — технические причины и способ полностью обойти проблему, оплатив в сумах.",
+    category: "Вопрос-ответ",
+    date: "2026-09-03",
+  },
+  {
     slug: "telegram-business-premium-imkoniyatlari",
     title: "Telegram Business: бизнес-возможности внутри Premium",
     excerpt:
