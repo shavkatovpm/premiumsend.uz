@@ -1,17 +1,30 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useState } from "react";
 
 interface HeaderProps {
   locale?: "uz" | "ru";
 }
 
+// "haqida" (uz) maps to "o-nas" (ru); every other path is identical between
+// locales, just with/without the "/ru" prefix — see app/sitemap.ts.
+function getAltPathname(pathname: string, locale: "uz" | "ru"): string {
+  if (locale === "ru") {
+    const rest = pathname.replace(/^\/ru/, "") || "/";
+    return rest === "/o-nas" ? "/haqida" : rest;
+  }
+  if (pathname === "/haqida") return "/ru/o-nas";
+  return pathname === "/" ? "/ru" : `/ru${pathname}`;
+}
+
 export default function Header({ locale = "uz" }: HeaderProps) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const pathname = usePathname();
 
   const prefix = locale === "ru" ? "/ru" : "";
-  const altPrefix = locale === "ru" ? "" : "/ru";
+  const altHref = getAltPathname(pathname, locale);
   const altLabel = locale === "ru" ? "UZ" : "RU";
   const aboutHref = locale === "ru" ? "/ru/o-nas" : "/haqida";
 
@@ -119,7 +132,7 @@ export default function Header({ locale = "uz" }: HeaderProps) {
             </Link>
             {/* Language Switcher */}
             <Link
-              href={`${altPrefix}/`}
+              href={altHref}
               className="ml-2 px-3 py-1.5 rounded-lg text-xs font-bold border border-card-border text-foreground/60 hover:text-primary hover:border-primary transition-all"
             >
               {altLabel}
@@ -141,7 +154,7 @@ export default function Header({ locale = "uz" }: HeaderProps) {
           {/* Mobile menu button */}
           <div className="flex items-center gap-2 md:hidden">
             <Link
-              href={`${altPrefix}/`}
+              href={altHref}
               className="px-3 py-1.5 rounded-lg text-xs font-bold border border-card-border text-foreground/60 hover:text-primary hover:border-primary transition-all"
             >
               {altLabel}
