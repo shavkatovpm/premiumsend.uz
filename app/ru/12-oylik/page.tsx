@@ -201,6 +201,7 @@ export default function TwelveMonthPage() {
             <p>
               Нужен более короткий срок? <Link href="/ru/3-oylik" className="text-primary font-semibold hover:underline">Telegram Premium на 3 месяца</Link> (175 000 сум) для пробы или <Link href="/ru/6-oylik" className="text-primary font-semibold hover:underline">Telegram Premium на 6 месяцев</Link> (235 000 сум) для лучшего соотношения цена/качество.
             </p>
+            <p className="text-sm">Также доступны Telegram Stars — от 50 до 5000, по 300 сум/звезда: <Link href="/ru/stars" className="text-primary font-semibold hover:underline">посмотреть цены Stars</Link>.</p>
           </div>
         </div>
       </section>

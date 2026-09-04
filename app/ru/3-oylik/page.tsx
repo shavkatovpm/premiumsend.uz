@@ -258,6 +258,7 @@ export default function ThreeMonthPage() {
             <p>
               Если вы хотите оформить Telegram Premium на более длительный срок, ознакомьтесь с пакетами <Link href="/ru/6-oylik" className="text-primary font-semibold hover:underline">Telegram Premium на 6 месяцев</Link> (235 000 сум) или <Link href="/ru/12-oylik" className="text-primary font-semibold hover:underline">Telegram Premium на 12 месяцев</Link> (425 000 сум) — ежемесячная стоимость значительно ниже.
             </p>
+            <p className="text-sm">Также доступны Telegram Stars — от 50 до 5000, по 300 сум/звезда: <Link href="/ru/stars" className="text-primary font-semibold hover:underline">посмотреть цены Stars</Link>.</p>
           </div>
         </div>
       </section>

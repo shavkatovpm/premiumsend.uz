@@ -257,6 +257,7 @@ export default function ThreeMonthPage() {
             <p>
               Agar siz Telegram Premiumni uzoqroq muddatga olmoqchi bo&apos;lsangiz, <Link href="/6-oylik" className="text-primary font-semibold hover:underline">6 oylik Telegram Premium</Link> (235,000 so&apos;m) yoki <Link href="/12-oylik" className="text-primary font-semibold hover:underline">12 oylik Telegram Premium</Link> (425,000 so&apos;m) paketlarini ko&apos;rib chiqing — oylik narx ancha arzonroq.
             </p>
+            <p className="text-sm">Telegram Stars ham bor — 50 dan 5000 gacha, 300 so&apos;m/star: <Link href="/stars" className="text-primary font-semibold hover:underline">Stars narxlarini ko&apos;ring</Link>.</p>
           </div>
         </div>
       </section>

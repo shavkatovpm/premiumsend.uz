@@ -137,6 +137,7 @@ export default function OneMonthPage() {
             <p><strong className="text-foreground">Купить Telegram Premium на 1 месяц</strong> — это самый доступный и быстрый способ попробовать возможности Premium. В Telegram есть 1-месячная подписка, но оплатить её можно только иностранной картой — UzCard и Humo не поддерживаются. Через Premium Send оплата в сумах.</p>
             <p>Стоимость Telegram Premium на 1 месяц всего <strong className="text-foreground">59 000 сум</strong>. Оплата в узбекских сумах — через карты UzCard, Humo. Также можно оплатить переводом через Click или Payme. После оплаты Premium активируется в течение нескольких минут.</p>
             <p>Если вы хотите оформить Telegram Premium на более длительный срок, ознакомьтесь с пакетами <Link href="/ru/3-oylik" className="text-primary font-semibold hover:underline">Telegram Premium на 3 месяца</Link> (175 000 сум), <Link href="/ru/6-oylik" className="text-primary font-semibold hover:underline">Telegram Premium на 6 месяцев</Link> (235 000 сум) или <Link href="/ru/12-oylik" className="text-primary font-semibold hover:underline">Telegram Premium на 12 месяцев</Link> (425 000 сум) — ежемесячная стоимость значительно ниже.</p>
+            <p className="text-sm">Также доступны Telegram Stars — от 50 до 5000, по 300 сум/звезда: <Link href="/ru/stars" className="text-primary font-semibold hover:underline">посмотреть цены Stars</Link>.</p>
           </div>
         </div>
       </section>

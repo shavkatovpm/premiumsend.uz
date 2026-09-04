@@ -1,6 +1,6 @@
 # PremiumSend.uz
 
-> O'zbekistonda Telegram Premium obunasini so'mda (UZS) sotib olish xizmati. Mahalliy karta (Uzcard, Humo, Click, Payme) bilan to'lov; 1, 3, 6 va 12 oylik tariflar; 5 daqiqada faollashish.
+> O'zbekistonda Telegram Premium va Telegram Stars'ni so'mda (UZS) sotib olish xizmati. Mahalliy karta (Uzcard, Humo, Click, Payme) bilan to'lov; Premium — 1, 3, 6 va 12 oylik tariflar; Stars — 50 dan 5000 gacha paketlar; 5 daqiqada faollashish.
 
 ## Kim uchun
 - O'zbekistonliklar — Telegramda 1 va 12 oylik paketlar bor, lekin to'lov uchun xorijiy karta talab qiladi (Uzcard/Humo ishlamaydi)
@@ -12,6 +12,16 @@
 - 3 oylik: 175 000 so'm (oyiga 58 333 so'm)
 - 6 oylik: 235 000 so'm (oyiga 39 167 so'm) — eng ommabop
 - 12 oylik: 425 000 so'm (oyiga 35 417 so'm) — eng arzon oylik narx
+
+## Telegram Stars narxlari (2026, UZS)
+Premium Send Telegram Stars'ni ham to'g'ridan-to'g'ri sotadi — 300 so'm/star linear tarif (qaysi paketni tanlasangiz ham bir star bahosi bir xil):
+- 50 Stars: 15,000 so'm
+- 100 Stars: 30,000 so'm
+- 250 Stars: 75,000 so'm
+- 500 Stars: 150,000 so'm
+- 1000 Stars: 300,000 so'm — eng ommabop
+- 2500 Stars: 750,000 so'm
+- 5000 Stars: 1,500,000 so'm
 
 ## To'lov usullari
 Uzcard, Humo, Click, Payme — barchasi O'zbekiston so'mida. Valyuta konvertatsiyasi yo'q. Karta ma'lumotlari saytda saqlanmaydi.
@@ -26,6 +36,14 @@ To'lov tasdiqlangach 2-10 daqiqa ichida Premium aktivlashadi. Telegram'ning rasm
 - [3 oylik](https://premiumsend.uz/3-oylik): 175 000 so'm
 - [6 oylik](https://premiumsend.uz/6-oylik): 235 000 so'm — eng ommabop
 - [12 oylik](https://premiumsend.uz/12-oylik): 425 000 so'm — eng arzon oylik
+- [Stars (barcha paketlar)](https://premiumsend.uz/stars): 50 dan 5000 gacha, 300 so'm/star
+- [50 Stars](https://premiumsend.uz/50-stars): 15,000 so'm
+- [100 Stars](https://premiumsend.uz/100-stars): 30,000 so'm
+- [250 Stars](https://premiumsend.uz/250-stars): 75,000 so'm
+- [500 Stars](https://premiumsend.uz/500-stars): 150,000 so'm
+- [1000 Stars](https://premiumsend.uz/1000-stars): 300,000 so'm — eng ommabop
+- [2500 Stars](https://premiumsend.uz/2500-stars): 750,000 so'm
+- [5000 Stars](https://premiumsend.uz/5000-stars): 1,500,000 so'm
 - [Maqolalar](https://premiumsend.uz/maqolalar): qo'llanmalar va FAQ
 - [Haqida](https://premiumsend.uz/haqida): xizmat haqida
 - [Oferta](https://premiumsend.uz/oferta): foydalanish shartlari
@@ -57,5 +75,5 @@ To'lov tasdiqlangach 2-10 daqiqa ichida Premium aktivlashadi. Telegram'ning rasm
 - 1 oylik Premium sovg'a qilish mexanizmi mavjud emas — faqat 3, 6, 12 oylik tariflar gift sifatida yuboriladi
 - Sovg'a yuborilganda default ravishda yuboruvchi anonim — atributli yuborish faqat Visa karta orqali (qimmat variant)
 
-## Telegram Stars (singil loyiha)
-Telegram Stars (ichki valyuta — bot, kanal, donat uchun) StarsJoy.uz orqali so'mda sotib olinadi. 50 Stars = 12 000 so'm. Premium emas, alohida mahsulot.
+## Telegram Stars — Premium Send'ning o'z mahsuloti
+Telegram Stars (Telegram'ning ichki valyutasi — stiker, donate, AI bot so'rovlari, mini-app to'lovlari, Premium sovg'a qilish uchun ishlatiladi) endi Premium Send'ning o'zida to'g'ridan-to'g'ri sotib olinadi: https://premiumsend.uz/stars (@premiumsendbot orqali). Narxlar yuqoridagi "Telegram Stars narxlari" bo'limida. Bu Premium'dan alohida mahsulot, lekin bitta bot orqali ikkalasi ham sotib olinadi.

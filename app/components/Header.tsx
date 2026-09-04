@@ -7,13 +7,20 @@ interface HeaderProps {
   locale?: "uz" | "ru";
 }
 
+const STARS_PACKAGES = [50, 100, 250, 500, 1000, 2500, 5000];
+const STARS_RATE = 300;
+const fmtPrice = (n: number) => n.toLocaleString("en-US");
+
 export default function Header({ locale = "uz" }: HeaderProps) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [starsMobileOpen, setStarsMobileOpen] = useState(false);
 
   const prefix = locale === "ru" ? "/ru" : "";
   const altPrefix = locale === "ru" ? "" : "/ru";
   const altLabel = locale === "ru" ? "UZ" : "RU";
   const aboutHref = locale === "ru" ? "/ru/o-nas" : "/haqida";
+  const somLabel = locale === "ru" ? "сум" : "so'm";
+  const allStarsLabel = locale === "ru" ? "Все пакеты Stars" : "Barcha Stars paketlari";
 
   const nav = locale === "ru"
     ? {
@@ -22,6 +29,7 @@ export default function Header({ locale = "uz" }: HeaderProps) {
         m3: "3 месяца",
         m6: "6 месяцев",
         m12: "12 месяцев",
+        stars: "Stars",
         articles: "Статьи",
         about: "О нас",
         buy: "Купить",
@@ -32,6 +40,7 @@ export default function Header({ locale = "uz" }: HeaderProps) {
         m3: "3 oylik",
         m6: "6 oylik",
         m12: "12 oylik",
+        stars: "Stars",
         articles: "Maqolalar",
         about: "Biz haqimizda",
         buy: "Sotib olish",
@@ -44,6 +53,7 @@ export default function Header({ locale = "uz" }: HeaderProps) {
         m3: "3 месяца Premium",
         m6: "6 месяцев Premium",
         m12: "12 месяцев Premium",
+        stars: "Telegram Stars",
         articles: "Статьи",
         about: "О нас",
         buy: "Купить",
@@ -54,6 +64,7 @@ export default function Header({ locale = "uz" }: HeaderProps) {
         m3: "3 oylik Premium",
         m6: "6 oylik Premium",
         m12: "12 oylik Premium",
+        stars: "Telegram Stars",
         articles: "Maqolalar",
         about: "Biz haqimizda",
         buy: "Sotib olish",
@@ -105,6 +116,46 @@ export default function Header({ locale = "uz" }: HeaderProps) {
             >
               {nav.m12}
             </Link>
+            <div className="relative group">
+              <Link
+                href={`${prefix}/stars`}
+                className="px-4 py-2 rounded-lg text-sm font-medium text-foreground/70 hover:text-primary hover:bg-primary-light transition-all inline-flex items-center gap-1"
+              >
+                {nav.stars}
+                <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2.5"
+                  className="transition-transform duration-200 group-hover:rotate-180"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M6 9l6 6 6-6" />
+                </svg>
+              </Link>
+              <div className="absolute left-0 top-full pt-2 opacity-0 invisible -translate-y-1 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-200 z-50">
+                <div className="bg-white rounded-xl border border-card-border shadow-xl p-2 w-56">
+                  <Link
+                    href={`${prefix}/stars`}
+                    className="block px-3 py-2 rounded-lg text-sm font-semibold text-primary hover:bg-primary-light transition-all"
+                  >
+                    {allStarsLabel}
+                  </Link>
+                  <div className="my-1 border-t border-card-border" />
+                  {STARS_PACKAGES.map((amount) => (
+                    <Link
+                      key={amount}
+                      href={`${prefix}/${amount}-stars`}
+                      className="flex items-center justify-between px-3 py-2 rounded-lg text-sm text-foreground/80 hover:bg-primary-light hover:text-primary transition-all"
+                    >
+                      <span>{amount} Stars</span>
+                      <span className="text-xs text-muted">{fmtPrice(amount * STARS_RATE)} {somLabel}</span>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            </div>
             <Link
               href={`${prefix}/maqolalar`}
               className="px-4 py-2 rounded-lg text-sm font-medium text-foreground/70 hover:text-primary hover:bg-primary-light transition-all"
@@ -224,6 +275,48 @@ export default function Header({ locale = "uz" }: HeaderProps) {
               >
                 {mobileNav.m12}
               </Link>
+              <div>
+                <button
+                  onClick={() => setStarsMobileOpen(!starsMobileOpen)}
+                  aria-expanded={starsMobileOpen}
+                  className="w-full flex items-center justify-between px-4 py-3 rounded-lg text-sm font-medium hover:bg-primary-light hover:text-primary transition-all"
+                >
+                  <span>{mobileNav.stars}</span>
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2.5"
+                    className={`transition-transform duration-200 ${starsMobileOpen ? "rotate-180" : ""}`}
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M6 9l6 6 6-6" />
+                  </svg>
+                </button>
+                <div className={`overflow-hidden transition-all duration-200 ${starsMobileOpen ? "max-h-96" : "max-h-0"}`}>
+                  <div className="pl-4 pb-1 space-y-1">
+                    <Link
+                      href={`${prefix}/stars`}
+                      onClick={() => setMobileMenuOpen(false)}
+                      className="block px-4 py-2 rounded-lg text-sm font-semibold text-primary hover:bg-primary-light transition-all"
+                    >
+                      {allStarsLabel}
+                    </Link>
+                    {STARS_PACKAGES.map((amount) => (
+                      <Link
+                        key={amount}
+                        href={`${prefix}/${amount}-stars`}
+                        onClick={() => setMobileMenuOpen(false)}
+                        className="flex items-center justify-between px-4 py-2 rounded-lg text-sm text-foreground/70 hover:bg-primary-light hover:text-primary transition-all"
+                      >
+                        <span>{amount} Stars</span>
+                        <span className="text-xs text-muted">{fmtPrice(amount * STARS_RATE)} {somLabel}</span>
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              </div>
               <Link
                 href={`${prefix}/maqolalar`}
                 onClick={() => setMobileMenuOpen(false)}

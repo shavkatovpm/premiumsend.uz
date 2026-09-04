@@ -459,6 +459,50 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Telegram Stars Section */}
+      <section className="py-20 bg-section-alt">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-extrabold text-foreground text-center mb-4">
+            Telegram <span className="gradient-text">Stars</span> ham bor
+          </h2>
+          <p className="text-muted text-center mb-12 max-w-2xl mx-auto">
+            300 so&apos;m/star linear narx — 50 dan 5000 Stars&apos;gacha, so&apos;mda to&apos;lov
+          </p>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 mb-8">
+            <Link href="/50-stars" className="bg-white rounded-2xl p-6 border border-card-border shadow-sm card-hover text-center group">
+              <div className="text-2xl mb-1">⭐</div>
+              <div className="text-lg font-bold text-foreground mb-1">50 Stars</div>
+              <div className="text-xl font-extrabold text-primary">15,000</div>
+              <div className="text-xs text-muted">so&apos;m</div>
+            </Link>
+            <Link href="/100-stars" className="bg-white rounded-2xl p-6 border border-card-border shadow-sm card-hover text-center group">
+              <div className="text-2xl mb-1">⭐</div>
+              <div className="text-lg font-bold text-foreground mb-1">100 Stars</div>
+              <div className="text-xl font-extrabold text-primary">30,000</div>
+              <div className="text-xs text-muted">so&apos;m</div>
+            </Link>
+            <Link href="/500-stars" className="bg-white rounded-2xl p-6 border border-card-border shadow-sm card-hover text-center group">
+              <div className="text-2xl mb-1">⭐</div>
+              <div className="text-lg font-bold text-foreground mb-1">500 Stars</div>
+              <div className="text-xl font-extrabold text-primary">150,000</div>
+              <div className="text-xs text-muted">so&apos;m</div>
+            </Link>
+            <Link href="/1000-stars" className="bg-white rounded-2xl p-6 border-2 border-primary shadow-lg card-hover text-center group relative">
+              <div className="absolute -top-3 left-1/2 -translate-x-1/2 shine-badge text-white text-xs font-bold px-3 py-1 rounded-full">Ommabop</div>
+              <div className="text-2xl mb-1">⭐</div>
+              <div className="text-lg font-bold text-foreground mb-1">1000 Stars</div>
+              <div className="text-xl font-extrabold text-primary">300,000</div>
+              <div className="text-xs text-muted">so&apos;m</div>
+            </Link>
+          </div>
+          <div className="text-center">
+            <Link href="/stars" className="text-primary font-semibold hover:underline">
+              Barcha Stars paketlarini ko&apos;rish →
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -203,6 +203,7 @@ export default function SixMonthPage() {
             <p>
               Другие пакеты: <Link href="/ru/3-oylik" className="text-primary font-semibold hover:underline">Telegram Premium на 3 месяца</Link> (175 000 сум) для пробы, или <Link href="/ru/12-oylik" className="text-primary font-semibold hover:underline">Telegram Premium на 12 месяцев</Link> (425 000 сум) для самой низкой ежемесячной стоимости.
             </p>
+            <p className="text-sm">Также доступны Telegram Stars — от 50 до 5000, по 300 сум/звезда: <Link href="/ru/stars" className="text-primary font-semibold hover:underline">посмотреть цены Stars</Link>.</p>
           </div>
         </div>
       </section>

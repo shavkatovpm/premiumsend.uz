@@ -200,6 +200,7 @@ export default function TwelveMonthPage() {
             <p>
               Qisqaroq muddat kerakmi? <Link href="/3-oylik" className="text-primary font-semibold hover:underline">3 oylik Telegram Premium</Link> (175,000 so&apos;m) sinab ko&apos;rish uchun yoki <Link href="/6-oylik" className="text-primary font-semibold hover:underline">6 oylik Telegram Premium</Link> (235,000 so&apos;m) eng yaxshi narx/sifat uchun.
             </p>
+            <p className="text-sm">Telegram Stars ham bor — 50 dan 5000 gacha, 300 so&apos;m/star: <Link href="/stars" className="text-primary font-semibold hover:underline">Stars narxlarini ko&apos;ring</Link>.</p>
           </div>
         </div>
       </section>

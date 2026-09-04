@@ -202,6 +202,7 @@ export default function SixMonthPage() {
             <p>
               Boshqa paketlar: <Link href="/3-oylik" className="text-primary font-semibold hover:underline">3 oylik Telegram Premium</Link> (175,000 so&apos;m) sinab ko&apos;rish uchun, yoki <Link href="/12-oylik" className="text-primary font-semibold hover:underline">12 oylik Telegram Premium</Link> (425,000 so&apos;m) eng arzon oylik narx uchun.
             </p>
+            <p className="text-sm">Telegram Stars ham bor — 50 dan 5000 gacha, 300 so&apos;m/star: <Link href="/stars" className="text-primary font-semibold hover:underline">Stars narxlarini ko&apos;ring</Link>.</p>
           </div>
         </div>
       </section>
