@@ -34,6 +34,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "nega-xalqaro-karta-telegram-premiumni-rad-etadi",
+    title: "Nega xalqaro karta Telegram Premium to'lovini rad etadi — sabab va yechim",
+    excerpt:
+      "Karta bloklanishi deyarli hech qachon pul yo'qligi emas. BIN/mamlakat mos kelmasligi, telefon kodi va bank siyosati — texnik sabablar va so'mda to'lab muammoni butunlay chetlab o'tish yo'li.",
+    category: "Savol-javob",
+    date: "2026-09-03",
+  },
+  {
     slug: "telegram-business-premium-imkoniyatlari",
     title: "Telegram Business: Premium ichidagi biznes imkoniyatlari",
     excerpt:
