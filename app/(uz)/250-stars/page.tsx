@@ -72,6 +72,21 @@ const PACKAGES = [
   }
 ];
 
+const localPayments = [
+  {
+    "title": "So'mda to'lov",
+    "desc": "UzCard yoki Humo kartangiz bilan to'lang — xorijiy Visa/Mastercard yoki kripto-hamyon shart emas."
+  },
+  {
+    "title": "Valyuta konvertatsiyasiz",
+    "desc": "Narx boshidanoq so'mda ko'rsatiladi — kurs farqi yoki yashirin xarajat yo'q."
+  },
+  {
+    "title": "O'zbekistondan to'g'ridan-to'g'ri",
+    "desc": "Telegram rasmiy ilovasi va Fragment mahalliy karta qabul qilmaydi — biz orqali esa oddiy va tez."
+  }
+];
+
 const useCases = [
   {
     "icon": "🔓",
@@ -126,6 +141,10 @@ const faqData = [
   {
     "q": "Stars necha daqiqada yetkaziladi?",
     "a": "To'lov tasdiqlangandan so'ng Stars odatda bir necha daqiqada akkauntingizga o'tkaziladi. Telegram → Sozlamalar → Stars bo'limida ko'rishingiz mumkin."
+  },
+  {
+    "q": "Stars sotib olish uchun xorijiy karta kerakmi?",
+    "a": "Yo'q. Telegram rasmiy ilovasi Stars uchun xorijiy Visa/Mastercard talab qiladi, Fragment esa kripto-hamyon talab qiladi. Premium Send orqali esa oddiy UzCard yoki Humo kartangiz bilan, to'g'ridan-to'g'ri so'mda to'laysiz."
   }
 ];
 
@@ -204,6 +223,24 @@ export default function Stars250Page() {
             <p className="text-sm leading-relaxed text-foreground">
               <strong>Qisqacha javob:</strong> 250 Telegram Stars narxi Premium Send&apos;da <strong>75,000 so&apos;m</strong> (300 so&apos;m/star). Yirikroq donate va yopiq kontent uchun. @premiumsendbot orqali so&apos;mda to&apos;lab, bir necha daqiqada akkauntingizga Stars tushadi.
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Local payment advantage */}
+      <section className="py-16 bg-section-alt">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-2xl font-extrabold text-foreground text-center mb-10">Nega Premium Send orqali sotib olish kerak?</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {localPayments.map((item, index) => (
+              <div key={index} className="text-center">
+                <div className="w-16 h-16 rounded-full bg-primary-light flex items-center justify-center mx-auto mb-4">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0088cc" strokeWidth="2"><path strokeLinecap="round" strokeLinejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8V7m0 10v1" /></svg>
+                </div>
+                <h3 className="font-bold mb-2">{item.title}</h3>
+                <p className="text-sm text-muted">{item.desc}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>

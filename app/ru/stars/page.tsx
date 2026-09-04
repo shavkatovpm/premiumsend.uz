@@ -69,6 +69,21 @@ const PACKAGES = [
   }
 ];
 
+const localPayments = [
+  {
+    "title": "Оплата в сумах",
+    "desc": "Оплатите картой UzCard или Humo — не нужна иностранная Visa/Mastercard или крипто-кошелёк."
+  },
+  {
+    "title": "Без конвертации валюты",
+    "desc": "Цена сразу указана в сумах — нет курсовой разницы или скрытых расходов."
+  },
+  {
+    "title": "Напрямую из Узбекистана",
+    "desc": "Официальное приложение Telegram и Fragment не принимают местную карту — через нас это просто и быстро."
+  }
+];
+
 const faqData = [
   {
     "q": "Сколько стоят Telegram Stars?",
@@ -155,6 +170,24 @@ export default function StarsHubPage() {
             <p className="text-sm leading-relaxed text-foreground">
               <strong>Короткий ответ:</strong> В Premium Send Telegram Stars продаются по линейному тарифу <strong>300 сум/звезда</strong> — от 50 Stars (15 000 сум) до 5000 Stars (1 500 000 сум). Оплатите в сумах через @premiumsendbot — Stars поступят на аккаунт за несколько минут.
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Local payment advantage */}
+      <section className="py-16 bg-section-alt">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-2xl font-extrabold text-foreground text-center mb-10">Почему покупать через Premium Send?</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {localPayments.map((item, index) => (
+              <div key={index} className="text-center">
+                <div className="w-16 h-16 rounded-full bg-primary-light flex items-center justify-center mx-auto mb-4">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0088cc" strokeWidth="2"><path strokeLinecap="round" strokeLinejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8V7m0 10v1" /></svg>
+                </div>
+                <h3 className="font-bold mb-2">{item.title}</h3>
+                <p className="text-sm text-muted">{item.desc}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
