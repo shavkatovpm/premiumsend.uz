@@ -86,10 +86,10 @@ Foydalanuvchi talabi bilan qo'shildi: sof ma'lumot/muammo-yechim mavzularidan ol
 
 | # | Mavzu | Holat |
 |---|-------|-------|
-| P1 | Telegram Stars'ni so'mda (UZS) sotib olish — valyuta konvertatsiyasiz to'liq qo'llanma | ⬜ |
-| P2 | Humo orqali Telegram Stars sotib olish — to'g'ridan-to'g'ri qo'llanma | ⬜ |
-| P3 | Click orqali Telegram Stars sotib olish — qadamma-qadam | ⬜ |
-| P4 | Payme orqali Telegram Stars sotib olish — qadamma-qadam | ⬜ |
+| P1 | Telegram Stars'ni so'mda (UZS) sotib olish — valyuta konvertatsiyasiz to'liq qo'llanma | ✅ (`telegram-stars-somda-uzs-sotib-olish`) |
+| P2 | Humo orqali Telegram Stars sotib olish — to'g'ridan-to'g'ri qo'llanma | ✅ (`telegram-stars-humo-orqali`) |
+| P3 | Click orqali Telegram Stars sotib olish — qadamma-qadam | ✅ (`telegram-stars-click-orqali`) |
+| P4 | Payme orqali Telegram Stars sotib olish — qadamma-qadam | ✅ (`telegram-stars-payme-orqali`) |
 | P5 | Bank kartasiga to'g'ridan-to'g'ri o'tkazma orqali Telegram Stars sotib olish | ⬜ |
 | P6 | 50 Telegram Stars qanday va qayerdan eng arzon sotib olinadi | ⬜ |
 | P7 | 100 Telegram Stars qanday sotib olinadi — narx va qadamlar | ⬜ |

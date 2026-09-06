@@ -35,6 +35,38 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "telegram-stars-somda-uzs-sotib-olish",
+    title: "Купить Telegram Stars в сумах (UZS) — полное руководство без конвертации валюты",
+    excerpt:
+      "Купить Stars напрямую в сумах — Uzcard/Humo/Click/Payme. 300 сум/star, зачисление через @premiumsendbot за несколько минут.",
+    category: "Руководство по оплате",
+    date: "2026-09-06",
+  },
+  {
+    slug: "telegram-stars-humo-orqali",
+    title: "Купить Telegram Stars через Humo — прямое руководство",
+    excerpt:
+      "Оплата Stars картой Humo — 300 сум/star, все пакеты. Через @premiumsendbot в сумах, без комиссии.",
+    category: "Руководство",
+    date: "2026-09-06",
+  },
+  {
+    slug: "telegram-stars-click-orqali",
+    title: "Купить Telegram Stars через Click — пошагово",
+    excerpt:
+      "Оплата Stars в приложении Click с PIN/Face ID — 300 сум/star, зачисление за несколько минут.",
+    category: "Руководство",
+    date: "2026-09-06",
+  },
+  {
+    slug: "telegram-stars-payme-orqali",
+    title: "Купить Telegram Stars через Payme — пошагово",
+    excerpt:
+      "Оплата Stars в приложении Payme с PIN/Face ID — 300 сум/star, зачисление за несколько минут.",
+    category: "Руководство",
+    date: "2026-09-06",
+  },
+  {
     slug: "uzcard-humo-app-store-play-market-ishlamaydi",
     title: "Почему карта Uzcard/Humo не работает в App Store и Play Market — причина и решение",
     excerpt:

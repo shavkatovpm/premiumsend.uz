@@ -34,6 +34,38 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "telegram-stars-somda-uzs-sotib-olish",
+    title: "Telegram Stars'ni so'mda (UZS) sotib olish — valyuta konvertatsiyasiz to'liq qo'llanma",
+    excerpt:
+      "O'zbekistonda Stars'ni to'g'ridan-to'g'ri so'mda, Uzcard/Humo/Click/Payme bilan sotib olish. 300 so'm/star, @premiumsendbot orqali bir necha daqiqada.",
+    category: "To'lov qo'llanmasi",
+    date: "2026-09-06",
+  },
+  {
+    slug: "telegram-stars-humo-orqali",
+    title: "Humo orqali Telegram Stars sotib olish — to'g'ridan-to'g'ri qo'llanma",
+    excerpt:
+      "Humo karta bilan Stars sotib olish — 300 so'm/star, barcha paketlar. @premiumsendbot orqali so'mda to'lov, komissiyasiz.",
+    category: "Qo'llanma",
+    date: "2026-09-06",
+  },
+  {
+    slug: "telegram-stars-click-orqali",
+    title: "Click orqali Telegram Stars sotib olish — qadamma-qadam",
+    excerpt:
+      "Click ilovasida PIN/Face ID bilan Stars sotib olish — 300 so'm/star, bir necha daqiqada faollashish.",
+    category: "Qo'llanma",
+    date: "2026-09-06",
+  },
+  {
+    slug: "telegram-stars-payme-orqali",
+    title: "Payme orqali Telegram Stars sotib olish — qadamma-qadam",
+    excerpt:
+      "Payme ilovasida PIN/Face ID bilan Stars sotib olish — 300 so'm/star, bir necha daqiqada faollashish.",
+    category: "Qo'llanma",
+    date: "2026-09-06",
+  },
+  {
     slug: "uzcard-humo-app-store-play-market-ishlamaydi",
     title: "Nega Uzcard/Humo karta App Store va Play Marketda ishlamaydi — sabab va yechim",
     excerpt:

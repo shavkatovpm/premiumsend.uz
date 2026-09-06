@@ -9,6 +9,10 @@ type ArticleEntry = {
 };
 
 const articles: ArticleEntry[] = [
+  { slug: "telegram-stars-somda-uzs-sotib-olish", lastModified: "2026-09-06", priority: 0.9 },
+  { slug: "telegram-stars-humo-orqali", lastModified: "2026-09-06", priority: 0.85 },
+  { slug: "telegram-stars-click-orqali", lastModified: "2026-09-06", priority: 0.85 },
+  { slug: "telegram-stars-payme-orqali", lastModified: "2026-09-06", priority: 0.85 },
   { slug: "uzcard-humo-app-store-play-market-ishlamaydi", lastModified: "2026-09-06", priority: 0.9 },
   { slug: "nega-xalqaro-karta-telegram-premiumni-rad-etadi", lastModified: "2026-09-03", priority: 0.9 },
   { slug: "telegram-business-premium-imkoniyatlari", lastModified: "2026-08-26", priority: 0.9 },
