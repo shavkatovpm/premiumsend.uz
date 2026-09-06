@@ -34,6 +34,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "uzcard-humo-app-store-play-market-ishlamaydi",
+    title: "Nega Uzcard/Humo karta App Store va Play Marketda ishlamaydi — sabab va yechim",
+    excerpt:
+      "Apple ID yoki Google Play'ga to'lov usuli sifatida Uzcard/Humo qo'shib bo'lmaydi — bu arxitekturaviy cheklov. Sabab va Telegram Premium'ni so'mda, mahalliy karta bilan olish yo'li.",
+    category: "Savol-javob",
+    date: "2026-09-06",
+  },
+  {
     slug: "nega-xalqaro-karta-telegram-premiumni-rad-etadi",
     title: "Nega xalqaro karta Telegram Premium to'lovini rad etadi — sabab va yechim",
     excerpt:

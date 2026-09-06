@@ -22,7 +22,7 @@ Har biri: savol-shaklidagi H1/H2, birinchi 1-2 jumlada TL;DR to'g'ridan-to'g'ri 
 | # | Mavzu | Holat |
 |---|-------|-------|
 | 1 | Karta xalqaro to'lov uchun bloklansa (rad etilsa) Telegram Premium'ni qanday sotib olish mumkin | ✅ (`nega-xalqaro-karta-telegram-premiumni-rad-etadi`) |
-| 2 | Nega Uzcard/Humo karta App Store/Play Marketda ishlamaydi — sabab va yechim | ⬜ |
+| 2 | Nega Uzcard/Humo karta App Store/Play Marketda ishlamaydi — sabab va yechim | ✅ (`uzcard-humo-app-store-play-market-ishlamaydi`) |
 | 3 | Telegram'da "Restore Purchase" (xaridni tiklash) ishlamasa nima qilish kerak | ⬜ |
 | 4 | Telegram Premium belgisi (yulduzcha) ko'rinmasa nima qilish kerak | ⬜ |
 | 5 | Ba'zi chatlarda Premium emoji/reaksiya ishlamasa sababi nimada | ⬜ |

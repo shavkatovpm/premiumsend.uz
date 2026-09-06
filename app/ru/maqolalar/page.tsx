@@ -35,6 +35,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "uzcard-humo-app-store-play-market-ishlamaydi",
+    title: "Почему карта Uzcard/Humo не работает в App Store и Play Market — причина и решение",
+    excerpt:
+      "В Apple ID или Google Play нельзя добавить Uzcard/Humo как способ оплаты — это архитектурное ограничение. Причина и способ купить Telegram Premium в сумах местной картой.",
+    category: "Вопрос-ответ",
+    date: "2026-09-06",
+  },
+  {
     slug: "nega-xalqaro-karta-telegram-premiumni-rad-etadi",
     title: "Почему международная карта отклоняет оплату Telegram Premium — причина и решение",
     excerpt:
