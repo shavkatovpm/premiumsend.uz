@@ -70,10 +70,10 @@ export default function ArticleStarsSomdaUzsSotibOlishRu() {
     description: "Пошагово: как купить Telegram Stars в сумах в Узбекистане",
     step: [
       { "@type": "HowToStep", position: 1, name: "Откройте @premiumsendbot", text: "В поиске Telegram введите @premiumsendbot, нажмите /start." },
-      { "@type": "HowToStep", position: 2, name: "Выберите пакет Stars", text: "Выберите готовый пакет от 50 до 5000 или введите нужное количество." },
-      { "@type": "HowToStep", position: 3, name: "Выберите способ оплаты", text: "Uzcard, Humo, Click или Payme." },
-      { "@type": "HowToStep", position: 4, name: "Оплатите в сумах", text: "Оплатите указанную сумму через выбранный способ — номер карты в бот не вводится." },
-      { "@type": "HowToStep", position: 5, name: "Stars поступают за несколько минут", text: "После подтверждения оплаты Stars автоматически зачисляются в аккаунт (Настройки → Stars)." },
+      { "@type": "HowToStep", position: 2, name: "Откройте Mini App внутри бота", text: "Через кнопку в меню бота откроется Mini App (веб-приложение)." },
+      { "@type": "HowToStep", position: 3, name: "Выберите количество Stars", text: "Выберите готовый пакет от 50 до 5000 или введите нужное количество." },
+      { "@type": "HowToStep", position: 4, name: "Переведите сумму на указанную карту", text: "Mini App покажет номер карты и точную сумму. Переведите именно эту сумму на эту карту через своё банковское приложение (Uzcard, Humo, Click или Payme)." },
+      { "@type": "HowToStep", position: 5, name: "Stars начисляются автоматически", text: "После поступления оплаты Stars за несколько минут автоматически зачисляются в аккаунт." },
     ],
   };
 
@@ -110,7 +110,7 @@ export default function ArticleStarsSomdaUzsSotibOlishRu() {
         name: "Как проходит оплата — безопасны ли данные карты?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Оплата проходит в собственном официальном приложении Uzcard, Humo, Click или Payme — бот только показывает сумму и реквизиты/ссылку, номер карты или пароль в бот никогда не вводится и не сохраняется.",
+          text: "После выбора количества Mini App показывает номер карты и точную сумму. Вы переводите эту сумму на эту карту через своё банковское приложение (Uzcard, Humo, Click или Payme) — номер вашей карты или пароль в бот никогда не вводятся и не запрашиваются.",
         },
       },
       {
@@ -235,10 +235,10 @@ export default function ArticleStarsSomdaUzsSotibOlishRu() {
             <div className="space-y-4 mb-6">
               {[
                 { step: "1", title: "Откройте @premiumsendbot", desc: "В поиске Telegram введите @premiumsendbot, нажмите /start." },
-                { step: "2", title: "Выберите пакет Stars", desc: "Готовый пакет от 50 до 5000 или введите нужное количество." },
-                { step: "3", title: "Выберите способ оплаты", desc: "Uzcard, Humo, Click или Payme — какая карта у вас есть." },
-                { step: "4", title: "Оплатите в сумах", desc: "Оплатите сумму через своё банковское приложение. Номер карты в бот не вводится." },
-                { step: "5", title: "Stars поступают за несколько минут", desc: "После подтверждения оплаты Stars появятся в Telegram → Настройки → Stars." },
+                { step: "2", title: "Откройте Mini App внутри бота", desc: "Через кнопку в меню бота откроется Mini App (веб-приложение)." },
+                { step: "3", title: "Выберите количество Stars", desc: "Готовый пакет от 50 до 5000 или введите нужное количество." },
+                { step: "4", title: "Переведите сумму на указанную карту", desc: "Mini App покажет номер карты и точную сумму. Переведите её через своё банковское приложение (Uzcard, Humo, Click или Payme)." },
+                { step: "5", title: "Stars начисляются автоматически", desc: "После поступления оплаты Stars за несколько минут появятся в Telegram → Настройки → Stars." },
               ].map((item, i) => (
                 <div key={i} className="flex items-start gap-4">
                   <div className="w-10 h-10 rounded-full bg-primary text-white text-sm font-bold flex items-center justify-center flex-shrink-0">{item.step}</div>
@@ -273,7 +273,7 @@ export default function ArticleStarsSomdaUzsSotibOlishRu() {
           <section>
             <h2 className="text-2xl font-extrabold text-foreground mb-4">Безопасны ли данные моей карты?</h2>
             <p className="text-muted leading-relaxed mb-4">
-              Оплата проходит в <strong>собственном официальном приложении</strong> Uzcard, Humo, Click или Payme. Бот только показывает сумму и реквизиты/ссылку — номер карты, CVV или пароль никогда не вводятся в бот и не сохраняются.
+              Mini App только показывает номер карты и точную сумму. Деньги вы переводите <strong>через своё банковское приложение</strong> (Uzcard, Humo, Click или Payme) — номер карты, CVV или пароль никогда не вводятся в бот или Mini App и не сохраняются.
             </p>
             <p className="text-muted leading-relaxed">
               Общие критерии проверки реселлера (оферта, канал связи, отзывы) — в{" "}
@@ -289,7 +289,7 @@ export default function ArticleStarsSomdaUzsSotibOlishRu() {
                 { q: "Можно ли купить Telegram Stars в Узбекистане в сумах?", a: "Да. Через @premiumsendbot Stars покупаются напрямую в сумах, картой Uzcard/Humo/Click/Payme — без валютной конвертации." },
                 { q: "Сколько стоит 1 Telegram Star в сумах?", a: "300 сум — линейный тариф, цена одинакова для любого пакета. 50 Stars = 15 000 сум, 1000 Stars = 300 000 сум." },
                 { q: "Какие пакеты доступны?", a: "50, 100, 250, 500, 1000 (самый популярный), 2500, 5000 Stars или любое количество на выбор в боте." },
-                { q: "Как проходит оплата — безопасны ли данные карты?", a: "Оплата идёт в официальном приложении Uzcard/Humo/Click/Payme, номер карты в бот не вводится и не сохраняется." },
+                { q: "Как проходит оплата — безопасны ли данные карты?", a: "Mini App показывает номер карты и сумму, вы переводите через своё банковское приложение — данные карты в бот не вводятся и не сохраняются." },
                 { q: "Где Stars появятся после покупки?", a: "За несколько минут в Telegram → Настройки → Stars." },
                 { q: "Это настоящие, официальные Telegram Stars?", a: "Да, локализован только этап оплаты — Stars являются официальным балансом Telegram." },
               ].map((faq, i) => (

@@ -5,7 +5,7 @@ import { ogBaseUz } from "@/app/shared-metadata";
 export const metadata: Metadata = {
   title: "Click orqali Telegram Stars sotib olish — qadamma-qadam",
   description:
-    "Click ilovasi orqali Telegram Stars sotib olish — 300 so'm/star, 50 dan 5000 gacha paketlar. @premiumsendbot orqali PIN/Face ID bilan tez to'lov, bir necha daqiqada yetkazish.",
+    "Click ilovasi orqali Telegram Stars sotib olish — 300 so'm/star, 50 dan 5000 gacha paketlar. @premiumsendbot Mini App'ida karta va summa ko'rsatiladi, Click orqali o'tkazasiz, Stars bir necha daqiqada avtomatik beriladi.",
   keywords: [
     "click orqali telegram stars",
     "telegram stars click",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   openGraph: {
     ...ogBaseUz,
     title: "Click orqali Telegram Stars sotib olish — qadamma-qadam",
-    description: "Click ilovasida PIN/Face ID bilan tez to'lov. 300 so'm/star, bir necha daqiqada faollashish.",
+    description: "Mini App karta va summani ko'rsatadi, Click orqali o'tkazasiz. 300 so'm/star, bir necha daqiqada faollashish.",
     url: "https://premiumsend.uz/maqolalar/telegram-stars-click-orqali",
     type: "article",
     publishedTime: "2026-09-06",
@@ -51,10 +51,10 @@ export default function ArticleStarsClickOrqali() {
     description: "Bosqichma-bosqich: Click ilovasi orqali Telegram Stars sotib olish",
     step: [
       { "@type": "HowToStep", position: 1, name: "@premiumsendbot ni oching", text: "Telegram qidiruvida @premiumsendbot deb yozing, /start bosing." },
-      { "@type": "HowToStep", position: 2, name: "Stars paketini tanlang", text: "50 dan 5000 gacha paketlardan birini tanlang yoki o'zingiz xohlagan sonni kiriting." },
-      { "@type": "HowToStep", position: 3, name: "To'lov usulida Click'ni tanlang", text: "Ko'rsatilgan variantlar orasidan Click'ni bosing." },
-      { "@type": "HowToStep", position: 4, name: "Click ilovasida PIN/Face ID bilan to'lang", text: "Click ilovasi ochiladi, summa avtomatik ko'rsatiladi, PIN yoki Face ID bilan tasdiqlaysiz." },
-      { "@type": "HowToStep", position: 5, name: "Stars bir necha daqiqada tushadi", text: "To'lov tasdiqlangach, Stars Telegram akkauntingizga avtomatik qo'shiladi." },
+      { "@type": "HowToStep", position: 2, name: "Bot ichidagi Mini App'ni oching", text: "Bot menyusidagi tugma orqali Mini App (veb-ilova) ochiladi." },
+      { "@type": "HowToStep", position: 3, name: "Stars miqdorini tanlang", text: "50 dan 5000 gacha paketlardan birini tanlang yoki o'zingiz xohlagan sonni kiriting." },
+      { "@type": "HowToStep", position: 4, name: "Click orqali ko'rsatilgan kartaga o'tkazing", text: "Mini App karta raqami va aniq summani ko'rsatadi. Click ilovangizdagi 'karta orqali pul jo'natish' funksiyasi bilan aynan shu kartaga aynan shu summani o'tkazing." },
+      { "@type": "HowToStep", position: 5, name: "Stars avtomatik beriladi", text: "To'lov tushgach, Stars bir necha daqiqada Telegram akkauntingizga avtomatik qo'shiladi." },
     ],
   };
 
@@ -67,7 +67,7 @@ export default function ArticleStarsClickOrqali() {
         name: "Click orqali Telegram Stars sotib olish mumkinmi?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Ha. @premiumsendbot orqali Click ilovasi bilan Stars so'mda sotib olinadi. Barcha paketlar qo'llab-quvvatlanadi, to'lov 1-2 daqiqada, PIN yoki Face ID bilan.",
+          text: "Ha. @premiumsendbot ichidagi Mini App'da miqdorni tanlaysiz, karta va summa ko'rsatiladi, siz esa Click ilovangiz orqali shu kartaga o'tkazasiz. Barcha paketlar qo'llab-quvvatlanadi, Stars bir necha daqiqada avtomatik beriladi.",
         },
       },
       {
@@ -91,7 +91,7 @@ export default function ArticleStarsClickOrqali() {
         name: "Click orqali to'lov xavfsizmi?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Ha. To'lov Click'ning o'z rasmiy ilovasida amalga oshadi, tasdiqlash PIN yoki Face ID orqali — karta raqami botga hech qachon kiritilmaydi.",
+          text: "Ha. Mini App faqat karta raqami va summani ko'rsatadi, o'tkazmani siz o'zingizning Click ilovangiz ichida amalga oshirasiz — karta raqami botga hech qachon kiritilmaydi va saqlanmaydi.",
         },
       },
       {
@@ -99,7 +99,7 @@ export default function ArticleStarsClickOrqali() {
         name: "Click orqali to'lab Stars qancha vaqtda keladi?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Odatda bir necha daqiqada. Click orqali to'lov eng tez usullardan biri, chunki tasdiqlash darhol amalga oshadi.",
+          text: "Odatda bir necha daqiqada. Click orqali karta-karta o'tkazma tez amalga oshadi, shuning uchun Stars ham tezroq beriladi.",
         },
       },
       {
@@ -153,12 +153,12 @@ export default function ArticleStarsClickOrqali() {
             <p className="text-foreground leading-relaxed font-medium">
               Click ilovasi orqali Telegram Stars{" "}
               <Link href="https://telegram.me/premiumsendbot" target="_blank" className="text-primary hover:underline">@premiumsendbot</Link>{" "}
-              da sotib olinadi. Narx — <strong>300 so&apos;m/star</strong> (50 Stars = 15 000 so&apos;m). To&apos;lov Click ilovasida PIN yoki Face ID bilan 1-2 daqiqada, Stars bir necha daqiqada akkauntga tushadi.
+              da sotib olinadi. Narx — <strong>300 so&apos;m/star</strong> (50 Stars = 15 000 so&apos;m). Bot ichidagi Mini App karta raqami va summani ko&apos;rsatadi, siz Click orqali shu kartaga o&apos;tkazasiz, Stars bir necha daqiqada avtomatik akkauntga tushadi.
             </p>
           </div>
 
           <p className="text-lg text-muted leading-relaxed">
-            Click — O&apos;zbekistondagi eng ommabop mobil to&apos;lov ilovalaridan biri. Telegram Stars sotib olishda Click orqali to&apos;lov eng tez usullardan biri hisoblanadi — kartani oldindan ulagan bo&apos;lsangiz, bir necha bosishda tugaydi.
+            Click — O&apos;zbekistondagi eng ommabop mobil to&apos;lov ilovalaridan biri, karta raqami orqali pul yuborish (P2P) funksiyasiga ega. Telegram Stars sotib olishda Click orqali o&apos;tkazma eng tez usullardan biri hisoblanadi.
           </p>
           <p className="text-lg text-muted leading-relaxed mt-4">
             Quyida — Click orqali Stars sotib olishning to&apos;liq jarayoni: narxlar, bosqichma-bosqich qo&apos;llanma va xavfsizlik.
@@ -195,10 +195,10 @@ export default function ArticleStarsClickOrqali() {
             <div className="space-y-4 mb-6">
               {[
                 { step: "1", title: "@premiumsendbot ni oching", desc: "Telegram qidiruvida @premiumsendbot deb yozing, /start bosing." },
-                { step: "2", title: "Stars paketini tanlang", desc: "50 dan 5000 gacha paketlardan birini tanlang yoki o'zingiz xohlagan sonni kiriting." },
-                { step: "3", title: "To'lov usulida Click'ni tanlang", desc: "Ko'rsatilgan variantlar orasidan Click'ni bosing." },
-                { step: "4", title: "Click ilovasida PIN/Face ID bilan to'lang", desc: "Click ilovasi ochiladi, summa avtomatik ko'rsatiladi, PIN yoki Face ID bilan tasdiqlang." },
-                { step: "5", title: "Stars bir necha daqiqada tushadi", desc: "To'lov tasdiqlangach, Stars Telegram → Sozlamalar → Stars bo'limida ko'rinadi." },
+                { step: "2", title: "Bot ichidagi Mini App'ni oching", desc: "Bot menyusidagi tugma orqali Mini App (veb-ilova) ochiladi." },
+                { step: "3", title: "Stars miqdorini tanlang", desc: "50 dan 5000 gacha paketlardan birini tanlang yoki o'zingiz xohlagan sonni kiriting." },
+                { step: "4", title: "Click orqali ko'rsatilgan kartaga o'tkazing", desc: "Mini App karta raqami va aniq summani ko'rsatadi. Click ilovangizdagi 'karta orqali pul jo'natish' funksiyasi bilan aynan shu summani o'tkazing." },
+                { step: "5", title: "Stars avtomatik beriladi", desc: "To'lov tushgach, Stars bir necha daqiqada Telegram → Sozlamalar → Stars bo'limida ko'rinadi." },
               ].map((item, i) => (
                 <div key={i} className="flex items-start gap-4">
                   <div className="w-10 h-10 rounded-full bg-primary text-white text-sm font-bold flex items-center justify-center flex-shrink-0">{item.step}</div>
@@ -217,7 +217,7 @@ export default function ArticleStarsClickOrqali() {
           <section>
             <div className="hero-gradient rounded-2xl p-6 md:p-8 text-center">
               <p className="text-white/90 leading-relaxed mb-4">
-                Click ilovangiz tayyormi? <strong className="text-white">@premiumsendbot</strong> da Stars&apos;ni PIN/Face ID bilan 1-2 daqiqada to&apos;lab oling.
+                Click ilovangiz tayyormi? <strong className="text-white">@premiumsendbot</strong> Mini App&apos;ida miqdorni tanlang, ko&apos;rsatilgan kartaga Click orqali o&apos;tkazing.
               </p>
               <Link href="https://telegram.me/premiumsendbot" target="_blank" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-bold rounded-xl hover:shadow-2xl transition-all">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z" /></svg>
@@ -229,7 +229,7 @@ export default function ArticleStarsClickOrqali() {
           <section>
             <h2 className="text-2xl font-extrabold text-foreground mb-4">Click orqali to&apos;lov xavfsizmi?</h2>
             <p className="text-muted leading-relaxed mb-4">
-              To&apos;lov to&apos;liq Click&apos;ning o&apos;z rasmiy ilovasi ichida amalga oshadi — tasdiqlash PIN yoki Face ID orqali. Bot karta raqami, CVV yoki PIN kodni hech qachon so&apos;ramaydi va saqlamaydi. Texnik sabab bilan Stars kelmasa, to&apos;lov to&apos;liq qaytariladi.
+              Mini App faqat karta raqami va summani ko&apos;rsatadi. O&apos;tkazmani siz to&apos;liq <strong>o&apos;zingizning Click ilovangiz ichida</strong> amalga oshirasiz. Bot yoki Mini App karta raqami, CVV yoki PIN kodni hech qachon so&apos;ramaydi va saqlamaydi. Texnik sabab bilan Stars kelmasa, to&apos;lov to&apos;liq qaytariladi.
             </p>
             <p className="text-muted leading-relaxed">
               Umumiy reseller tekshirish mezonlari:{" "}
@@ -241,11 +241,11 @@ export default function ArticleStarsClickOrqali() {
             <h2 className="text-2xl font-extrabold text-foreground mb-6">Tez-tez so&apos;raladigan savollar (FAQ)</h2>
             <div className="space-y-4">
               {[
-                { q: "Click orqali Telegram Stars sotib olish mumkinmi?", a: "Ha, @premiumsendbot orqali, barcha paketlar, to'lov 1-2 daqiqada PIN/Face ID bilan." },
+                { q: "Click orqali Telegram Stars sotib olish mumkinmi?", a: "Ha, @premiumsendbot Mini App'ida miqdor tanlanadi, karta va summa ko'rsatiladi, Click orqali o'tkazasiz — barcha paketlar qo'llab-quvvatlanadi." },
                 { q: "Click orqali Stars narxi boshqa usullardan farq qiladimi?", a: "Yo'q, 300 so'm/star barcha to'lov usullari uchun bir xil." },
                 { q: "Click orqali to'lash uchun kartani ilovaga ulash kerakmi?", a: "Ha, Uzcard/Humo kartangizni Click'ga ulashingiz kerak — ulanmagan bo'lsa ilova ichida qo'shish mumkin." },
-                { q: "Click orqali to'lov xavfsizmi?", a: "Ha, to'lov Click'ning rasmiy ilovasida, PIN/Face ID bilan tasdiqlanadi, karta raqami botga kiritilmaydi." },
-                { q: "Click orqali to'lab Stars qancha vaqtda keladi?", a: "Odatda bir necha daqiqada — eng tez usullardan biri." },
+                { q: "Click orqali to'lov xavfsizmi?", a: "Ha, Mini App faqat karta va summani ko'rsatadi, o'tkazmani o'z Click ilovangizda qilasiz — karta raqami botga kiritilmaydi." },
+                { q: "Click orqali to'lab Stars qancha vaqtda keladi?", a: "Odatda bir necha daqiqada — karta-karta o'tkazma tez amalga oshadi." },
                 { q: "Click ilovam bo'lmasa nima qilaman?", a: "Uzcard, Humo P2P yoki Payme'dan foydalanishingiz mumkin, narx bir xil." },
               ].map((faq, i) => (
                 <div key={i} className="bg-white rounded-xl p-6 border border-card-border shadow-sm">
@@ -262,7 +262,7 @@ export default function ArticleStarsClickOrqali() {
               <div className="relative">
                 <p className="text-white/90 text-lg leading-relaxed mb-6">
                   Click orqali Telegram Stars — eng tez usullardan biri.{" "}
-                  <strong className="text-white">@premiumsendbot</strong> da 50 Stars <strong className="text-white">15 000 so&apos;mdan</strong>, PIN/Face ID bilan bir necha daqiqada.
+                  <strong className="text-white">@premiumsendbot</strong> Mini App&apos;ida 50 Stars <strong className="text-white">15 000 so&apos;mdan</strong>, bir necha daqiqada avtomatik.
                 </p>
                 <Link href="https://telegram.me/premiumsendbot" target="_blank" className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-2xl hover:shadow-2xl transition-all text-lg">
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z" /></svg>

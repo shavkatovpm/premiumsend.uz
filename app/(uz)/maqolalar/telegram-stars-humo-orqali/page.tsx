@@ -52,10 +52,10 @@ export default function ArticleStarsHumoOrqali() {
     description: "Bosqichma-bosqich: Humo karta bilan Telegram Stars sotib olish",
     step: [
       { "@type": "HowToStep", position: 1, name: "@premiumsendbot ni oching", text: "Telegram qidiruvida @premiumsendbot deb yozing, /start bosing." },
-      { "@type": "HowToStep", position: 2, name: "Stars paketini tanlang", text: "50 dan 5000 gacha paketlardan birini tanlang yoki o'zingiz xohlagan sonni kiriting." },
-      { "@type": "HowToStep", position: 3, name: "To'lov usulida Humo'ni tanlang", text: "Ko'rsatilgan variantlar orasidan Humo'ni bosing." },
-      { "@type": "HowToStep", position: 4, name: "Humo karta bilan to'lang", text: "Humo mobil ilovasi, Click yoki Payme orqali ko'rsatilgan summani to'lang." },
-      { "@type": "HowToStep", position: 5, name: "Stars bir necha daqiqada tushadi", text: "To'lov tasdiqlangach, Stars Telegram akkauntingizga avtomatik qo'shiladi." },
+      { "@type": "HowToStep", position: 2, name: "Bot ichidagi Mini App'ni oching", text: "Bot menyusidagi tugma orqali Mini App (veb-ilova) ochiladi." },
+      { "@type": "HowToStep", position: 3, name: "Stars miqdorini tanlang", text: "50 dan 5000 gacha paketlardan birini tanlang yoki o'zingiz xohlagan sonni kiriting." },
+      { "@type": "HowToStep", position: 4, name: "Ko'rsatilgan kartaga Humo orqali o'tkazing", text: "Mini App karta raqami va aniq summani ko'rsatadi. Humo ilovangiz orqali aynan shu kartaga aynan shu summani o'tkazing." },
+      { "@type": "HowToStep", position: 5, name: "Stars avtomatik beriladi", text: "To'lov tushgach, Stars bir necha daqiqada Telegram akkauntingizga avtomatik qo'shiladi." },
     ],
   };
 
@@ -92,7 +92,7 @@ export default function ArticleStarsHumoOrqali() {
         name: "Humo karta bilan to'lov xavfsizmi?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Ha. To'lov Humo'ning o'z rasmiy ilovasi, Click yoki Payme orqali amalga oshadi — karta raqami yoki parol botga kiritilmaydi va saqlanmaydi.",
+          text: "Ha. Mini App faqat karta raqami va summani ko'rsatadi, o'tkazmani siz o'zingizning Humo ilovangiz ichida amalga oshirasiz — karta raqami yoki parol botga hech qachon kiritilmaydi va saqlanmaydi.",
         },
       },
       {
@@ -196,10 +196,10 @@ export default function ArticleStarsHumoOrqali() {
             <div className="space-y-4 mb-6">
               {[
                 { step: "1", title: "@premiumsendbot ni oching", desc: "Telegram qidiruvida @premiumsendbot deb yozing, /start bosing." },
-                { step: "2", title: "Stars paketini tanlang", desc: "50 dan 5000 gacha paketlardan birini tanlang yoki o'zingiz xohlagan sonni kiriting." },
-                { step: "3", title: "To'lov usulida Humo'ni tanlang", desc: "Ko'rsatilgan variantlar orasidan Humo'ni bosing." },
-                { step: "4", title: "Humo karta bilan to'lang", desc: "Humo mobil ilovasi, Click yoki Payme orqali ko'rsatilgan summani to'lang. Komissiya yo'q." },
-                { step: "5", title: "Stars bir necha daqiqada tushadi", desc: "To'lov tasdiqlangach, Stars Telegram → Sozlamalar → Stars bo'limida ko'rinadi." },
+                { step: "2", title: "Bot ichidagi Mini App'ni oching", desc: "Bot menyusidagi tugma orqali Mini App (veb-ilova) ochiladi." },
+                { step: "3", title: "Stars miqdorini tanlang", desc: "50 dan 5000 gacha paketlardan birini tanlang yoki o'zingiz xohlagan sonni kiriting." },
+                { step: "4", title: "Ko'rsatilgan kartaga Humo orqali o'tkazing", desc: "Mini App karta raqami va aniq summani ko'rsatadi. Humo ilovangiz orqali aynan shu kartaga aynan shu summani o'tkazing. Komissiya yo'q." },
+                { step: "5", title: "Stars avtomatik beriladi", desc: "To'lov tushgach, Stars bir necha daqiqada Telegram → Sozlamalar → Stars bo'limida ko'rinadi." },
               ].map((item, i) => (
                 <div key={i} className="flex items-start gap-4">
                   <div className="w-10 h-10 rounded-full bg-primary text-white text-sm font-bold flex items-center justify-center flex-shrink-0">{item.step}</div>
@@ -255,7 +255,7 @@ export default function ArticleStarsHumoOrqali() {
           <section>
             <h2 className="text-2xl font-extrabold text-foreground mb-4">Humo bilan to&apos;lash xavfsizmi?</h2>
             <p className="text-muted leading-relaxed mb-4">
-              To&apos;lov mexanizmi shunday: siz to&apos;lovni <strong>o&apos;zingizning Humo ilovangiz ichida</strong> amalga oshirasiz. Bot karta raqami, parol yoki SMS kodni hech qachon so&apos;ramaydi va saqlamaydi. Texnik sabab bilan Stars kelmasa, to&apos;lov to&apos;liq qaytariladi.
+              To&apos;lov mexanizmi shunday: Mini App faqat karta raqami va summani ko&apos;rsatadi, o&apos;tkazmani siz <strong>o&apos;zingizning Humo ilovangiz ichida</strong> amalga oshirasiz. Bot yoki Mini App karta raqami, parol yoki SMS kodni hech qachon so&apos;ramaydi va saqlamaydi. Texnik sabab bilan Stars kelmasa, to&apos;lov to&apos;liq qaytariladi.
             </p>
           </section>
 
@@ -266,7 +266,7 @@ export default function ArticleStarsHumoOrqali() {
                 { q: "Humo karta bilan Telegram Stars sotib olish mumkinmi?", a: "Ha. @premiumsendbot orqali Humo bilan Stars so'mda sotib olinadi, barcha paketlar qo'llab-quvvatlanadi, komissiyasiz." },
                 { q: "Humo orqali Stars narxi Uzcard'dan farq qiladimi?", a: "Yo'q, 300 so'm/star barcha kartalar uchun bir xil." },
                 { q: "Telegram rasmiy ilovasida Humo bilan Stars sotib olsa bo'ladimi?", a: "Yo'q, rasmiy ilova faqat xalqaro Visa/Mastercard qabul qiladi. Humo uchun @premiumsendbot kerak." },
-                { q: "Humo karta bilan to'lov xavfsizmi?", a: "Ha, to'lov Humo'ning o'z ilovasi orqali amalga oshadi, karta ma'lumotlari botga kiritilmaydi." },
+                { q: "Humo karta bilan to'lov xavfsizmi?", a: "Ha, Mini App faqat karta va summani ko'rsatadi, o'tkazmani o'z Humo ilovangizda qilasiz — karta ma'lumotlari botga kiritilmaydi." },
                 { q: "Humo orqali to'lab Stars qancha vaqtda keladi?", a: "Odatda bir necha daqiqada. Kechiksa, bot qo'llab-quvvatlashi yordam beradi." },
                 { q: "Katta miqdorda Stars kerak bo'lsa Humo bilan to'lash mumkinmi?", a: "Ha, botda istalgan miqdorni kiritish mumkin, kunlik limit yetarli bo'lsa." },
               ].map((faq, i) => (

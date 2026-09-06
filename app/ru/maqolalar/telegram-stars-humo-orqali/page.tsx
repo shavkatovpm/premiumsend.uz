@@ -51,10 +51,10 @@ export default function ArticleStarsHumoOrqaliRu() {
     description: "Пошагово: покупка Telegram Stars картой Humo",
     step: [
       { "@type": "HowToStep", position: 1, name: "Откройте @premiumsendbot", text: "В поиске Telegram введите @premiumsendbot, нажмите /start." },
-      { "@type": "HowToStep", position: 2, name: "Выберите пакет Stars", text: "Пакет от 50 до 5000 или введите нужное количество." },
-      { "@type": "HowToStep", position: 3, name: "Выберите способ оплаты — Humo", text: "Среди предложенных вариантов нажмите Humo." },
-      { "@type": "HowToStep", position: 4, name: "Оплатите картой Humo", text: "Оплатите через приложение Humo, Click или Payme." },
-      { "@type": "HowToStep", position: 5, name: "Stars поступают за несколько минут", text: "После подтверждения оплаты Stars автоматически зачисляются." },
+      { "@type": "HowToStep", position: 2, name: "Откройте Mini App внутри бота", text: "Через кнопку в меню бота откроется Mini App." },
+      { "@type": "HowToStep", position: 3, name: "Выберите количество Stars", text: "Пакет от 50 до 5000 или введите нужное количество." },
+      { "@type": "HowToStep", position: 4, name: "Переведите сумму через Humo", text: "Mini App покажет номер карты и точную сумму. Переведите её через приложение Humo на указанную карту." },
+      { "@type": "HowToStep", position: 5, name: "Stars начисляются автоматически", text: "После поступления оплаты Stars автоматически зачисляются." },
     ],
   };
 
@@ -91,7 +91,7 @@ export default function ArticleStarsHumoOrqaliRu() {
         name: "Безопасна ли оплата картой Humo?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Да. Оплата проходит в собственном официальном приложении Humo, Click или Payme — номер карты или пароль в бот не вводятся и не сохраняются.",
+          text: "Да. Mini App только показывает номер карты и сумму, сам перевод вы совершаете в своём приложении Humo — номер карты или пароль в бот не вводятся и не сохраняются.",
         },
       },
       {
@@ -195,10 +195,10 @@ export default function ArticleStarsHumoOrqaliRu() {
             <div className="space-y-4 mb-6">
               {[
                 { step: "1", title: "Откройте @premiumsendbot", desc: "В поиске Telegram введите @premiumsendbot, нажмите /start." },
-                { step: "2", title: "Выберите пакет Stars", desc: "Пакет от 50 до 5000 или введите нужное количество." },
-                { step: "3", title: "Выберите способ оплаты — Humo", desc: "Среди предложенных вариантов нажмите Humo." },
-                { step: "4", title: "Оплатите картой Humo", desc: "Через приложение Humo, Click или Payme. Без комиссии." },
-                { step: "5", title: "Stars поступают за несколько минут", desc: "После подтверждения оплаты — в Telegram → Настройки → Stars." },
+                { step: "2", title: "Откройте Mini App внутри бота", desc: "Через кнопку в меню бота откроется Mini App." },
+                { step: "3", title: "Выберите количество Stars", desc: "Пакет от 50 до 5000 или введите нужное количество." },
+                { step: "4", title: "Переведите сумму через Humo", desc: "Mini App покажет номер карты и точную сумму. Переведите её через приложение Humo. Без комиссии." },
+                { step: "5", title: "Stars начисляются автоматически", desc: "После поступления оплаты — в Telegram → Настройки → Stars." },
               ].map((item, i) => (
                 <div key={i} className="flex items-start gap-4">
                   <div className="w-10 h-10 rounded-full bg-primary text-white text-sm font-bold flex items-center justify-center flex-shrink-0">{item.step}</div>
@@ -254,7 +254,7 @@ export default function ArticleStarsHumoOrqaliRu() {
           <section>
             <h2 className="text-2xl font-extrabold text-foreground mb-4">Безопасна ли оплата картой Humo?</h2>
             <p className="text-muted leading-relaxed mb-4">
-              Механизм оплаты такой: вы совершаете платёж <strong>внутри собственного приложения Humo</strong>. Бот никогда не запрашивает и не сохраняет номер карты, пароль или SMS-код. Если Stars не поступят по технической причине, оплата возвращается полностью.
+              Механизм оплаты такой: Mini App только показывает номер карты и сумму, а сам платёж вы совершаете <strong>внутри собственного приложения Humo</strong>. Бот или Mini App никогда не запрашивают и не сохраняют номер карты, пароль или SMS-код. Если Stars не поступят по технической причине, оплата возвращается полностью.
             </p>
           </section>
 

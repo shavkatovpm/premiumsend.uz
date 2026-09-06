@@ -69,10 +69,10 @@ export default function ArticleStarsSomdaUzsSotibOlish() {
     description: "Bosqichma-bosqich: Telegram Stars'ni O'zbekiston so'mida sotib olish",
     step: [
       { "@type": "HowToStep", position: 1, name: "@premiumsendbot ni oching", text: "Telegram qidiruvida @premiumsendbot deb yozing, /start bosing." },
-      { "@type": "HowToStep", position: 2, name: "Stars paketini tanlang", text: "50 dan 5000 gacha tayyor paketlardan birini tanlang yoki o'zingiz xohlagan sonni kiriting." },
-      { "@type": "HowToStep", position: 3, name: "To'lov usulini tanlang", text: "Uzcard, Humo, Click yoki Payme'dan birini tanlang." },
-      { "@type": "HowToStep", position: 4, name: "So'mda to'lang", text: "Ko'rsatilgan summani tanlangan usul orqali to'lang — karta raqami botga kiritilmaydi." },
-      { "@type": "HowToStep", position: 5, name: "Stars bir necha daqiqada tushadi", text: "To'lov tasdiqlangach, Stars Telegram akkauntingizga (Sozlamalar → Stars) avtomatik qo'shiladi." },
+      { "@type": "HowToStep", position: 2, name: "Bot ichidagi Mini App'ni oching", text: "Bot menyusidagi tugma orqali Mini App (veb-ilova) ochiladi." },
+      { "@type": "HowToStep", position: 3, name: "Stars miqdorini tanlang", text: "50 dan 5000 gacha tayyor paketlardan birini tanlang yoki o'zingiz xohlagan sonni kiriting." },
+      { "@type": "HowToStep", position: 4, name: "Ko'rsatilgan kartaga to'lov summasini o'tkazing", text: "Mini App karta raqami va aniq summani ko'rsatadi. O'zingizning bank ilovangiz (Uzcard, Humo, Click yoki Payme) orqali aynan shu kartaga aynan shu summani o'tkazing." },
+      { "@type": "HowToStep", position: 5, name: "Stars avtomatik beriladi", text: "To'lov tushgach, Stars bir necha daqiqada Telegram akkauntingizga avtomatik qo'shiladi." },
     ],
   };
 
@@ -109,7 +109,7 @@ export default function ArticleStarsSomdaUzsSotibOlish() {
         name: "To'lov qanday amalga oshadi — karta ma'lumotim xavfsizmi?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "To'lov Uzcard, Humo, Click yoki Payme'ning o'z rasmiy ilovasida amalga oshadi — bot faqat summa va to'lov havolasini/rekvizitini ko'rsatadi, karta raqami yoki parol botga hech qachon kiritilmaydi.",
+          text: "Bot ichidagi Mini App miqdorni tanlagach karta raqami va aniq summani ko'rsatadi. Siz o'zingizning bank ilovangiz (Uzcard, Humo, Click yoki Payme) orqali shu kartaga shu summani o'tkazasiz — karta raqamingiz yoki parolingiz botga hech qachon kiritilmaydi va so'ralmaydi.",
         },
       },
       {
@@ -234,10 +234,10 @@ export default function ArticleStarsSomdaUzsSotibOlish() {
             <div className="space-y-4 mb-6">
               {[
                 { step: "1", title: "@premiumsendbot ni oching", desc: "Telegram qidiruv qatoriga @premiumsendbot deb yozing, /start bosing." },
-                { step: "2", title: "Stars paketini tanlang", desc: "50 dan 5000 gacha tayyor paketlardan birini tanlang yoki o'zingiz xohlagan sonni kiriting." },
-                { step: "3", title: "To'lov usulini tanlang", desc: "Uzcard, Humo, Click yoki Payme — qaysi kartangiz bo'lsa, shuni tanlang." },
-                { step: "4", title: "So'mda to'lang", desc: "Ko'rsatilgan summani o'zingizning bank ilovangiz orqali to'lang. Karta raqami botga kiritilmaydi." },
-                { step: "5", title: "Stars bir necha daqiqada tushadi", desc: "To'lov tasdiqlangach, Stars Telegram → Sozlamalar → Stars bo'limida ko'rinadi." },
+                { step: "2", title: "Bot ichidagi Mini App'ni oching", desc: "Bot menyusidagi tugma orqali Mini App (veb-ilova) ochiladi." },
+                { step: "3", title: "Stars miqdorini tanlang", desc: "50 dan 5000 gacha tayyor paketlardan birini tanlang yoki o'zingiz xohlagan sonni kiriting." },
+                { step: "4", title: "Ko'rsatilgan kartaga o'tkazing", desc: "Mini App karta raqami va aniq summani ko'rsatadi. O'zingizning Uzcard, Humo, Click yoki Payme ilovangiz orqali aynan shu kartaga aynan shu summani o'tkazing." },
+                { step: "5", title: "Stars avtomatik beriladi", desc: "To'lov tushgach, Stars bir necha daqiqada Telegram → Sozlamalar → Stars bo'limida ko'rinadi." },
               ].map((item, i) => (
                 <div key={i} className="flex items-start gap-4">
                   <div className="w-10 h-10 rounded-full bg-primary text-white text-sm font-bold flex items-center justify-center flex-shrink-0">{item.step}</div>
@@ -272,7 +272,7 @@ export default function ArticleStarsSomdaUzsSotibOlish() {
           <section>
             <h2 className="text-2xl font-extrabold text-foreground mb-4">Karta ma&apos;lumotim xavfsizmi?</h2>
             <p className="text-muted leading-relaxed mb-4">
-              To&apos;lov Uzcard, Humo, Click yoki Payme&apos;ning <strong>o&apos;z rasmiy ilovasida</strong> amalga oshadi. Bot faqat to&apos;lanadigan summa va rekvizit/havolani ko&apos;rsatadi — karta raqami, CVV yoki parol hech qachon bot ichiga kiritilmaydi va saqlanmaydi.
+              Mini App faqat karta raqami va aniq to&apos;lov summasini ko&apos;rsatadi. Pulni siz <strong>o&apos;zingizning bank ilovangiz</strong> (Uzcard, Humo, Click yoki Payme) orqali shu kartaga o&apos;tkazasiz — karta raqamingiz, CVV yoki parolingiz hech qachon bot yoki Mini App ichiga kiritilmaydi va saqlanmaydi.
             </p>
             <p className="text-muted leading-relaxed">
               Reselleri tanlashda umumiy tekshirish mezonlari (oferta, aloqa kanali, sharhlar) uchun{" "}
@@ -288,7 +288,7 @@ export default function ArticleStarsSomdaUzsSotibOlish() {
                 { q: "Telegram Stars'ni O'zbekistonda so'mda sotib olish mumkinmi?", a: "Ha. @premiumsendbot orqali Stars to'g'ridan-to'g'ri so'mda, Uzcard/Humo/Click/Payme bilan sotib olinadi — valyuta konvertatsiyasi yo'q." },
                 { q: "1 Telegram Star necha so'm turadi?", a: "300 so'm — linear tarif, qaysi paketda ham bir star narxi bir xil. 50 Stars = 15 000 so'm, 1000 Stars = 300 000 so'm." },
                 { q: "Qanday paketlar mavjud?", a: "50, 100, 250, 500, 1000 (eng ommabop), 2500, 5000 Stars — yoki botda o'zingiz xohlagan miqdorni kiritish." },
-                { q: "To'lov qanday amalga oshadi — karta ma'lumotim xavfsizmi?", a: "To'lov Uzcard/Humo/Click/Payme'ning o'z ilovasida amalga oshadi, karta raqami botga kiritilmaydi va saqlanmaydi." },
+                { q: "To'lov qanday amalga oshadi — karta ma'lumotim xavfsizmi?", a: "Mini App karta raqami va summani ko'rsatadi, siz o'z bank ilovangiz orqali shu kartaga o'tkazasiz — karta ma'lumotlaringiz botga kiritilmaydi va saqlanmaydi." },
                 { q: "Stars sotib olgandan keyin qayerda ko'rinadi?", a: "Bir necha daqiqada Telegram → Sozlamalar → Stars bo'limida ko'rinadi." },
                 { q: "Bu haqiqiy, rasmiy Telegram Stars-mi?", a: "Ha, faqat to'lov bosqichi mahalliylashtirilgan — akkauntga tushgan Stars Telegram'ning rasmiy balansi." },
               ].map((faq, i) => (
