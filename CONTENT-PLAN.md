@@ -74,61 +74,83 @@ Har biri: savol-shaklidagi H1/H2, birinchi 1-2 jumlada TL;DR to'g'ridan-to'g'ri 
 
 ---
 
-## ⭐ Telegram Stars GEO-reja — 22 mavzu (2026-09-06)
+## ⭐ Telegram Stars GEO-reja — 37 mavzu (2026-09-06, P-klaster 2026-09-06 kuni +15 kengaytirildi)
 
 Premium Send endi Telegram Stars'ni ham to'g'ridan-to'g'ri sotadi (`/stars`, @premiumsendbot, 300 so'm/star). Bu reja Stars uchun alohida, Premium GEO-reja'dan mustaqil navbat — ikkalasi ham parallel faol, yozish tartibini foydalanuvchi belgilaydi. Har biri yuqoridagi Premium reja bilan bir xil standartga (`ARTICLE-STANDARD.md`, 10 mezon, savol-shaklidagi H1/H2, TL;DR, FAQPage schema, majburiy @premiumsendbot CTA) bo'ysunadi. Mavjud 6 ta Stars maqolasi (`telegram-stars-nima`, `telegram-stars-paketlari-narxlari`, `telegram-stars-uzcard-orqali`, `telegram-stars-click-payme-orqali-somda`, `telegram-stars-ozbekistondan-sotib-olish`, `telegram-stars-vs-telegram-premium`) bilan kalit so'z/niyat solishtirilib, dublikat yo'qligi tasdiqlangan.
 
 > ⚠️ **Fakt-nomuvofiqlik ogohlantirishi:** yuqoridagi 3 ta eski Stars maqolasi hali eski narxni (240 so'm/star, 50 Stars = 12 000 so'm) ko'rsatadi, `llms.txt` va yangi `/stars`, `/50-stars` va h.k. sahifalarida esa joriy narx 300 so'm/star (50 Stars = 15 000 so'm). Bu ARTICLE-STANDARD.md #5 (fakt izchilligi) mezoniga zid — yangi Stars maqolalarini yozishdan oldin yoki bir vaqtda shu 3 ta eski maqolani yangilash tavsiya etiladi.
 
+### 🛒 P-klaster — To'g'ridan-to'g'ri sotib olish (ustuvor — 2026-09-06 dan boshlab birinchi yoziladi)
+
+Foydalanuvchi talabi bilan qo'shildi: sof ma'lumot/muammo-yechim mavzularidan oldin, **sotib olish niyati** (transactional intent) bo'lgan GEO savollari ustuvor yoziladi — "O'zbekistonda so'mda qanday sotib olsa bo'ladi", to'lov usuli (Uzcard/Humo/Click/Payme) bo'yicha to'g'ridan-to'g'ri qo'llanmalar va har bir Stars paketi uchun alohida xarid qo'llanmasi. Bu klaster tugagunicha A-F klasterlariga o'tilmaydi.
+
+| # | Mavzu | Holat |
+|---|-------|-------|
+| P1 | Telegram Stars'ni so'mda (UZS) sotib olish — valyuta konvertatsiyasiz to'liq qo'llanma | ⬜ |
+| P2 | Humo orqali Telegram Stars sotib olish — to'g'ridan-to'g'ri qo'llanma | ⬜ |
+| P3 | Click orqali Telegram Stars sotib olish — qadamma-qadam | ⬜ |
+| P4 | Payme orqali Telegram Stars sotib olish — qadamma-qadam | ⬜ |
+| P5 | Bank kartasiga to'g'ridan-to'g'ri o'tkazma orqali Telegram Stars sotib olish | ⬜ |
+| P6 | 50 Telegram Stars qanday va qayerdan eng arzon sotib olinadi | ⬜ |
+| P7 | 100 Telegram Stars qanday sotib olinadi — narx va qadamlar | ⬜ |
+| P8 | 500 Telegram Stars qanday sotib olinadi — narx va qadamlar | ⬜ |
+| P9 | 1000 Telegram Stars qanday sotib olinadi — eng ommabop paket | ⬜ |
+| P10 | 5000 Telegram Stars qanday sotib olinadi — ko'p miqdorda eng arzon | ⬜ |
+| P11 | Telegram Stars sotib olgandan keyin necha daqiqada hisobga tushadi | ⬜ |
+| P12 | Xorijiy karta bo'lmasa Telegram Stars'ni O'zbekistondan qanday sotib olish mumkin | ⬜ |
+| P13 | Telegram Stars'ni bir necha daqiqada eng tez sotib olish usuli qaysi | ⬜ |
+| P14 | Talabalar va yoshlar uchun eng arzon Telegram Stars sotib olish yo'li qaysi | ⬜ |
+| P15 | Kanal/bloger optom (ko'p miqdorda) Telegram Stars qanday sotib oladi — biznes uchun | ⬜ |
+
 ### A-klaster — To'lov va texnik muammolar
 | # | Mavzu | Holat |
 |---|-------|-------|
 | 1 | Telegram Stars sotib olinmasa yoki xatolik chiqsa: eng ko'p uchraydigan muammolar va yechim | ⬜ |
-| 2 | Humo orqali Telegram Stars sotib olish — to'g'ridan-to'g'ri qo'llanma | ⬜ |
-| 3 | Telegram Stars balansi ko'rinmasa yoki noto'g'ri hisoblansa nima qilish kerak | ⬜ |
-| 4 | Telegram Stars xarid chekini (invoice) qanday olish va tekshirish mumkin | ⬜ |
+| 2 | Telegram Stars balansi ko'rinmasa yoki noto'g'ri hisoblansa nima qilish kerak | ⬜ |
+| 3 | Telegram Stars xarid chekini (invoice) qanday olish va tekshirish mumkin | ⬜ |
 
 ### B-klaster — Narx, qaror va afsonalar
 | # | Mavzu | Holat |
 |---|-------|-------|
-| 5 | 1 Telegram Star necha so'm/dollar turadi — App Store va Play Market bilan solishtirish | ⬜ |
-| 6 | Telegram Stars'ning muddati bormi — eskirib qolish yoki yo'qolish haqida haqiqat | ⬜ |
-| 7 | Telegram Stars'ni pulga (naqd) qaytarib bo'ladimi — refund shartlari | ⬜ |
-| 8 | Fragment.com orqali Stars sotib olish reseller orqali olishdan nimasi bilan farq qiladi | ⬜ |
-| 9 | Telegram Stars sotib olish xavfsizmi — aldov botlaridan qanday saqlanish kerak | ⬜ |
+| 4 | 1 Telegram Star necha so'm/dollar turadi — App Store va Play Market bilan solishtirish | ⬜ |
+| 5 | Telegram Stars'ning muddati bormi — eskirib qolish yoki yo'qolish haqida haqiqat | ⬜ |
+| 6 | Telegram Stars'ni pulga (naqd) qaytarib bo'ladimi — refund shartlari | ⬜ |
+| 7 | Fragment.com orqali Stars sotib olish reseller orqali olishdan nimasi bilan farq qiladi | ⬜ |
+| 8 | Telegram Stars sotib olish xavfsizmi — aldov botlaridan qanday saqlanish kerak | ⬜ |
 
 ### C-klaster — Foydalanish stsenariylari (AI/AEO uchun eng yuqori qiymatli klaster)
 | # | Mavzu | Holat |
 |---|-------|-------|
-| 10 | AI botlar va mini-ilovalarga so'rov yuborish uchun qancha Telegram Stars kerak bo'ladi | ⬜ |
-| 11 | Premium stiker va animatsiyali emoji sotib olish uchun necha Stars kerak | ⬜ |
-| 12 | Telegram Mini Apps'da (o'yin, xizmat) to'lov qilish uchun Stars qanday ishlatiladi | ⬜ |
-| 13 | Kanal yoki blogerga Stars orqali homiylik (donate) qanday yuboriladi | ⬜ |
-| 14 | Kanal/guruh a'zoligi uchun Stars orqali to'lov (paid subscription) qanday ishlaydi | ⬜ |
+| 9 | AI botlar va mini-ilovalarga so'rov yuborish uchun qancha Telegram Stars kerak bo'ladi | ⬜ |
+| 10 | Premium stiker va animatsiyali emoji sotib olish uchun necha Stars kerak | ⬜ |
+| 11 | Telegram Mini Apps'da (o'yin, xizmat) to'lov qilish uchun Stars qanday ishlatiladi | ⬜ |
+| 12 | Kanal yoki blogerga Stars orqali homiylik (donate) qanday yuboriladi | ⬜ |
+| 13 | Kanal/guruh a'zoligi uchun Stars orqali to'lov (paid subscription) qanday ishlaydi | ⬜ |
 
 ### D-klaster — Sovg'a va ijtimoiy foydalanish
 | # | Mavzu | Holat |
 |---|-------|-------|
-| 15 | Boshqa foydalanuvchiga Telegram Stars qanday sovg'a qilinadi — qadamma-qadam | ⬜ |
-| 16 | Stars orqali Telegram Premium'ni sovg'a qilib bo'ladimi — shartlari | ⬜ |
-| 17 | Tug'ilgan kun yoki bayram uchun Telegram Stars sovg'a qilish g'oyasi | ⬜ |
+| 14 | Boshqa foydalanuvchiga Telegram Stars qanday sovg'a qilinadi — qadamma-qadam | ⬜ |
+| 15 | Stars orqali Telegram Premium'ni sovg'a qilib bo'ladimi — shartlari | ⬜ |
+| 16 | Tug'ilgan kun yoki bayram uchun Telegram Stars sovg'a qilish g'oyasi | ⬜ |
 
 ### E-klaster — Kanal/dasturchi monetizatsiyasi (biznes/bloger auditoriyasi)
 | # | Mavzu | Holat |
 |---|-------|-------|
-| 18 | Telegram kanal egalari Stars orqali qanday pul ishlaydi — monetizatsiya qo'llanmasi | ⬜ |
-| 19 | Bot dasturchilari uchun Stars orqali daromad olish qanday ishlaydi | ⬜ |
-| 20 | Telegram Stars'ni USD/UZS'ga konvertatsiya qilish shartlari, minimal miqdor va komissiya | ⬜ |
+| 17 | Telegram kanal egalari Stars orqali qanday pul ishlaydi — monetizatsiya qo'llanmasi | ⬜ |
+| 18 | Bot dasturchilari uchun Stars orqali daromad olish qanday ishlaydi | ⬜ |
+| 19 | Telegram Stars'ni USD/UZS'ga konvertatsiya qilish shartlari, minimal miqdor va komissiya | ⬜ |
 
 ### F-klaster — Taqqoslash va yangiliklar
 | # | Mavzu | Holat |
 |---|-------|-------|
-| 21 | Telegram Stars vs Discord Nitro/TikTok Coins — raqamli sovg'a valyutalarini solishtirish | ⬜ |
-| 22 | Telegram Stars 2026-yilda qanday yangi imkoniyatlar va o'zgarishlar oldi | ⬜ |
+| 20 | Telegram Stars vs Discord Nitro/TikTok Coins — raqamli sovg'a valyutalarini solishtirish | ⬜ |
+| 21 | Telegram Stars 2026-yilda qanday yangi imkoniyatlar va o'zgarishlar oldi | ⬜ |
 
 ---
 
 ## 📝 Eslatma
-- Yozish tartibi: har bir reja o'z ichida navbat bo'yicha (1 → oxiri), foydalanuvchi boshqacha ko'rsatma bermasa. Premium GEO-reja va Stars GEO-reja parallel navbatlar — ikkisidan birini tanlab davom ettirish mumkin.
-- Har bir maqola yozilgach: shu jadvaldagi qatorni ✅ ga o'tkazing, commit prefiksi Premium uchun `GEO-reja #N: ...`, Stars uchun `Stars-reja #N: ...`.
-- Maqola standarti uchun: `ARTICLE-STANDARD.md` — 10 mezon + GEO-ideal talab + majburiy bot CTA.
+- **Ustuvorlik (2026-09-06 dan):** Stars P-klaster (sotib olish/transactional intent, P1→P15) — barcha boshqa navbatlardan (Premium GEO-reja va Stars A-F klasterlari) oldin yoziladi, foydalanuvchi boshqacha ko'rsatma bermaguncha.
+- P-klaster tugagach: Premium GEO-reja va Stars A-F klasterlari parallel navbatlar — ikkisidan birini tanlab davom ettirish mumkin, har biri o'z ichida raqam tartibida (1 → oxiri).
+- Har bir maqola yozilgach: shu jadvaldagi qatorni ✅ ga o'tkazing, commit prefiksi Premium uchun `GEO-reja #N: ...`, Stars uchun `Stars-reja #N: ...` (P-klaster uchun `Stars-reja #PN: ...`).
+- Maqola standarti uchun: `ARTICLE-STANDARD.md` — 10 mezon + GEO-ideal talab + majburiy bot CTA. P-klaster maqolalari qo'shimcha ravishda tegishli narx sahifasiga (`/50-stars`, `/100-stars` va h.k. yoki `/stars`) va boshqa P-klaster maqolalariga ichki havola berishi shart (klaster ichida silsila hosil qilish uchun).
