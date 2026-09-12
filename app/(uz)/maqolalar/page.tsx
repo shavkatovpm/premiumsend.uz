@@ -34,6 +34,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "stars-sotib-olishning-necha-yoli-bor",
+    title: "Telegram Stars sotib olishning nechta yo'li bor — O'zbekistonda qaysi biri qulay?",
+    excerpt:
+      "3 ta yo'l: rasmiy ilova (dollar, xalqaro karta), Fragment (TON kripto), mahalliy reseller (so'mda). Qaysi biri kimga mos — to'liq taqqoslash va qaror jadvali.",
+    category: "Taqqoslash",
+    date: "2026-09-12",
+  },
+  {
     slug: "ai-botlarga-necha-stars-kerak",
     title: "AI botlarga so'rov yuborish uchun necha Telegram Stars kerak bo'ladi?",
     excerpt:

@@ -35,6 +35,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "stars-sotib-olishning-necha-yoli-bor",
+    title: "Сколько способов купить Telegram Stars — какой удобен в Узбекистане?",
+    excerpt:
+      "3 способа: официальное приложение (доллары, межд. карта), Fragment (TON крипто), локальный реселлер (в сумах). Сравнение и таблица решения.",
+    category: "Сравнение",
+    date: "2026-09-12",
+  },
+  {
     slug: "ai-botlarga-necha-stars-kerak",
     title: "Сколько Telegram Stars нужно для запроса к AI-боту?",
     excerpt:

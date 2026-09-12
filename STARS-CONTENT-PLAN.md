@@ -32,7 +32,7 @@ Tarif: **300 so'm/star, chiziqli** (qaysi paket tanlansa ham 1 star narxi bir xi
 
 | # | Query (foydalanuvchi/AI savoli) | Slug g'oyasi | Holat | Izoh |
 |---|---|---|---|---|
-| 1.1 | Telegram Stars qayerdan sotib olsam bo'ladi O'zbekistonda | `stars-sotib-olish-ozbekiston` | ⬜ | Pillar/hub — `telegram-stars-ozbekistondan-sotib-olish` mavjud, lekin eski botga CTA qiladi; bu yangi sahifa mustaqil yoziladi, eskisiga tegilmaydi |
+| 1.1 | Telegram Stars sotib olishning nechta yo'li bor — O'zbekistonda qaysi biri qulay | `stars-sotib-olishning-necha-yoli-bor` | ✅ | Qayta ko'rib chiqildi: P1 bilan konflikt bo'lgani uchun "qanday sotib olish" o'rniga 3 ta yo'l (rasmiy ilova/Fragment/mahalliy reseller) taqqoslash burchagiga o'zgartirildi — Premium'dagi "eng arzon qayerdan" vs "so'mda sotib olish" naqshiga o'xshab |
 | 1.2 | 50 stars qancha turadi va qanday olish mumkin | `50-stars-narxi-va-xarid` | ⬜ | → `/50-stars`ga ichki havola |
 | 1.3 | 100 stars qancha turadi | `100-stars-narxi-va-xarid` | ⬜ | → `/100-stars` |
 | 1.4 | 250 stars qancha turadi | `250-stars-narxi-va-xarid` | ⬜ | → `/250-stars` |
