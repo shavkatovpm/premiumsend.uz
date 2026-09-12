@@ -34,6 +34,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "ai-botlarga-necha-stars-kerak",
+    title: "AI botlarga so'rov yuborish uchun necha Telegram Stars kerak bo'ladi?",
+    excerpt:
+      "Yagona rasmiy tarif yo'q — har bir bot narxni o'zi belgilaydi. Necha Stars zaxira qilish kerakligini hisoblash va @premiumsendbot orqali so'mda sotib olish.",
+    category: "Foydalanish qo'llanmasi",
+    date: "2026-09-12",
+  },
+  {
     slug: "telegram-stars-somda-uzs-sotib-olish",
     title: "Telegram Stars'ni so'mda (UZS) sotib olish — valyuta konvertatsiyasiz to'liq qo'llanma",
     excerpt:

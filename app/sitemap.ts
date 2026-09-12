@@ -9,6 +9,7 @@ type ArticleEntry = {
 };
 
 const articles: ArticleEntry[] = [
+  { slug: "ai-botlarga-necha-stars-kerak", lastModified: "2026-09-12", priority: 0.85 },
   { slug: "telegram-stars-somda-uzs-sotib-olish", lastModified: "2026-09-06", priority: 0.9 },
   { slug: "telegram-stars-humo-orqali", lastModified: "2026-09-06", priority: 0.85 },
   { slug: "telegram-stars-click-orqali", lastModified: "2026-09-06", priority: 0.85 },

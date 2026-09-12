@@ -35,6 +35,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "ai-botlarga-necha-stars-kerak",
+    title: "Сколько Telegram Stars нужно для запроса к AI-боту?",
+    excerpt:
+      "Единого тарифа нет — каждый бот сам устанавливает цену. Как посчитать нужный запас Stars и купить их через @premiumsendbot.",
+    category: "Руководство по использованию",
+    date: "2026-09-12",
+  },
+  {
     slug: "telegram-stars-somda-uzs-sotib-olish",
     title: "Купить Telegram Stars в сумах (UZS) — полное руководство без конвертации валюты",
     excerpt:

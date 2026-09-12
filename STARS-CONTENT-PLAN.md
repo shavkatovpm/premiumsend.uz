@@ -26,6 +26,8 @@ Tarif: **300 so'm/star, chiziqli** (qaysi paket tanlansa ham 1 star narxi bir xi
 
 ---
 
+> ⚠️ **2026-09-12 aniqlandi:** Tier 1.2–1.8 (denominatsiya bo'yicha) va 1.9 (Uzcard) mavjud `/50-stars`…`/5000-stars` narx sahifalari va eski maqolalar bilan bir xil asosiy kalit so'zga to'g'ri keladi — ARTICLE-STANDARD.md #3 (dublikat taqiqi) sababli **yozilmaydi**, faqat yozilishi mumkin bo'lgan variant sifatida jadvalda qoldirilgan. Shu sabab yozish tartibi Tier 2/3'ga o'tkazildi (birinchi yozilgan: 3.1).
+
 ## Tier 1 — Xarid tayyor (transactional, eng yuqori ustuvorlik, birinchi yoziladi)
 
 | # | Query (foydalanuvchi/AI savoli) | Slug g'oyasi | Holat | Izoh |
@@ -59,7 +61,7 @@ Tarif: **300 so'm/star, chiziqli** (qaysi paket tanlansa ham 1 star narxi bir xi
 
 | # | Query | Slug g'oyasi | Holat |
 |---|---|---|---|
-| 3.1 | AI botga so'rov yuborish uchun necha stars kerak | `ai-botlarga-stars-sorash` | ⬜ |
+| 3.1 | AI botga so'rov yuborish uchun necha stars kerak | `ai-botlarga-necha-stars-kerak` | ✅ |
 | 3.2 | Kanal/blogerga stars orqali donat qanday yuboriladi | `kanalga-stars-donat-yuborish` | ⬜ |
 | 3.3 | Boshqa odamga stars sovg'a qilish qanday ishlaydi | `stars-sovga-qilish` | ⬜ |
 | 3.4 | Stars orqali obuna (paid subscription) uchun to'lov qanday | `stars-orqali-obuna-tolovi` | ⬜ |
