@@ -34,6 +34,22 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "stars-kartaga-otkazma",
+    title: "Kartaga to'g'ridan-to'g'ri o'tkazib Telegram Stars sotib olsa bo'ladimi?",
+    excerpt:
+      "Ha, bo'ladi — @premiumsendbot'da Mini App karta va summani ko'rsatadi, siz P2P o'tkazma qilasiz. Qanday ishlaydi, xavfsizmi va bosqichma-bosqich qo'llanma.",
+    category: "To'lov qo'llanmasi",
+    date: "2026-09-16",
+  },
+  {
+    slug: "1-stars-necha-som-appstore-taqqoslash",
+    title: "1 dona Telegram Stars necha so'm turadi — App Store narxi bilan solishtirish",
+    excerpt:
+      "Premium Send'da 1 Stars — 300 so'm. App Store'da rasman ~235 so'm, Fragment'da ~165-177 so'm — lekin bularni O'zbekistondan to'g'ridan-to'g'ri to'lab bo'lmaydi. Halol taqqoslash.",
+    category: "Narxlar qo'llanmasi",
+    date: "2026-09-16",
+  },
+  {
     slug: "stars-sotib-olishning-necha-yoli-bor",
     title: "Telegram Stars sotib olishning nechta yo'li bor — O'zbekistonda qaysi biri qulay?",
     excerpt:

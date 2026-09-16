@@ -35,6 +35,22 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "stars-kartaga-otkazma",
+    title: "Можно ли купить Telegram Stars, переведя деньги напрямую на карту?",
+    excerpt:
+      "Да — Mini App в @premiumsendbot показывает карту и сумму, вы делаете P2P-перевод. Как это работает, безопасно ли и пошаговое руководство.",
+    category: "Руководство по оплате",
+    date: "2026-09-16",
+  },
+  {
+    slug: "1-stars-necha-som-appstore-taqqoslash",
+    title: "Сколько стоит 1 Telegram Stars в сумах — сравнение с ценой App Store",
+    excerpt:
+      "В Premium Send 1 Stars — 300 сум. В App Store официально ~235 сум, во Fragment ~165-177 сум — но это нельзя оплатить напрямую из Узбекистана. Честное сравнение.",
+    category: "Руководство по ценам",
+    date: "2026-09-16",
+  },
+  {
     slug: "stars-sotib-olishning-necha-yoli-bor",
     title: "Сколько способов купить Telegram Stars — какой удобен в Узбекистане?",
     excerpt:

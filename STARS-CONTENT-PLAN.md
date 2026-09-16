@@ -44,13 +44,13 @@ Tarif: **300 so'm/star, chiziqli** (qaysi paket tanlansa ham 1 star narxi bir xi
 | 1.10 | Humo bilan stars sotib olsam bo'ladimi | — | ✅ | Mavjud (`telegram-stars-humo-orqali`, P2) — to'g'ri botga CTA qiladi, qayta yozilmaydi |
 | 1.11 | Click orqali stars sotib olsam bo'ladimi | — | ✅ | Mavjud (`telegram-stars-click-orqali`, P3) — to'g'ri |
 | 1.12 | Payme orqali stars sotib olsam bo'ladimi | — | ✅ | Mavjud (`telegram-stars-payme-orqali`, P4) — to'g'ri |
-| 1.13 | Kartaga to'g'ridan-to'g'ri o'tkazib stars olish mumkinmi | `stars-kartaga-otkazma` | ⬜ | Bank P2P umumiy qo'llanma |
+| 1.13 | Kartaga to'g'ridan-to'g'ri o'tkazib stars olish mumkinmi | `stars-kartaga-otkazma` | ✅ | Bank P2P umumiy qo'llanma |
 
 ## Tier 2 — Qaror oldi (commercial investigation)
 
 | # | Query | Slug g'oyasi | Holat |
 |---|---|---|---|
-| 2.1 | 1 stars necha so'm — App Store bilan solishtirsa | `1-stars-necha-som-appstore-taqqoslash` | ⬜ |
+| 2.1 | 1 stars necha so'm — App Store bilan solishtirsa | `1-stars-necha-som-appstore-taqqoslash` | ✅ |
 | 2.2 | Stars sotib olish xavfsizmi, aldamaydimi | `stars-xavfsizmi-royxatdan-otish` | ⬜ |
 | 2.3 | Xorijiy karta yo'q, stars qanday olsam bo'ladi | `xorijiy-kartasiz-stars-sotib-olish` | ⬜ |
 | 2.4 | Stars qancha vaqtda hisobga tushadi | `stars-yetkazish-vaqti` | ⬜ |
