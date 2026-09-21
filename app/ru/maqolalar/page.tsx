@@ -35,6 +35,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "stars-yetkazish-vaqti",
+    title: "Через сколько Telegram Stars приходят на аккаунт? Что делать, если не пришли",
+    excerpt:
+      "Обычно за несколько минут. Причины задержки, где проверить баланс и что сделать по шагам, прежде чем писать в @premiumsend_admin.",
+    category: "Решение проблем",
+    date: "2026-09-21",
+  },
+  {
     slug: "stars-kartaga-otkazma",
     title: "Можно ли купить Telegram Stars, переведя деньги напрямую на карту?",
     excerpt:

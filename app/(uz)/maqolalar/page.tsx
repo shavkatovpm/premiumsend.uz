@@ -34,6 +34,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "stars-yetkazish-vaqti",
+    title: "Telegram Stars qancha vaqtda hisobga tushadi? Kelmasa nima qilish kerak",
+    excerpt:
+      "Odatda bir necha daqiqada. Kechikish sabablari, balansni qayerda tekshirish va Stars kelmasa @premiumsend_admin ga murojaat qilishdan oldingi aniq qadamlar.",
+    category: "Muammolar yechimi",
+    date: "2026-09-21",
+  },
+  {
     slug: "stars-kartaga-otkazma",
     title: "Kartaga to'g'ridan-to'g'ri o'tkazib Telegram Stars sotib olsa bo'ladimi?",
     excerpt:

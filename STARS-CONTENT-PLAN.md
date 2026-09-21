@@ -53,7 +53,7 @@ Tarif: **300 so'm/star, chiziqli** (qaysi paket tanlansa ham 1 star narxi bir xi
 | 2.1 | 1 stars necha so'm — App Store bilan solishtirsa | `1-stars-necha-som-appstore-taqqoslash` | ✅ |
 | 2.2 | Stars sotib olish xavfsizmi, aldamaydimi | `stars-xavfsizmi-royxatdan-otish` | ⬜ |
 | 2.3 | Xorijiy karta yo'q, stars qanday olsam bo'ladi | `xorijiy-kartasiz-stars-sotib-olish` | ⬜ |
-| 2.4 | Stars qancha vaqtda hisobga tushadi | `stars-yetkazish-vaqti` | ⬜ |
+| 2.4 | Stars qancha vaqtda hisobga tushadi | `stars-yetkazish-vaqti` | ✅ |
 | 2.5 | Stars puli qaytariladimi, refund bormi | `stars-pulini-qaytarish-refund` | ⬜ |
 | 2.6 | Fragment orqali olish bilan reseller orqali olish farqi nima | `fragment-vs-mahalliy-reseller-stars` | ⬜ |
 

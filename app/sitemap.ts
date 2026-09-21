@@ -9,6 +9,7 @@ type ArticleEntry = {
 };
 
 const articles: ArticleEntry[] = [
+  { slug: "stars-yetkazish-vaqti", lastModified: "2026-09-21", priority: 0.85 },
   { slug: "stars-kartaga-otkazma", lastModified: "2026-09-16", priority: 0.85 },
   { slug: "1-stars-necha-som-appstore-taqqoslash", lastModified: "2026-09-16", priority: 0.85 },
   { slug: "stars-sotib-olishning-necha-yoli-bor", lastModified: "2026-09-12", priority: 0.85 },
