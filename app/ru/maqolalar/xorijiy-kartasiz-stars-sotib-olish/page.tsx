@@ -5,7 +5,7 @@ import { ogBaseRu } from "@/app/shared-metadata";
 export const metadata: Metadata = {
   title: "Нет зарубежной карты — как получить Telegram Stars?",
   description:
-    "3 реальных способа получить Telegram Stars без зарубежной карты (Visa/Mastercard): через местного реселлера в сумах, подарком от знакомого за границей или через Fragment (TON). Кому что подходит — честное сравнение.",
+    "Получить Telegram Stars без зарубежной карты (Visa/Mastercard) можно: 2 из 3 способов — местный реселлер (в сумах) и Fragment (TON) — карту не требуют. Дополнительный вариант: подарок от знакомого за границей. Кому что подходит.",
   keywords: [
     "stars без зарубежной карты",
     "telegram stars без visa",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     ...ogBaseRu,
     title: "Нет зарубежной карты — как получить Telegram Stars?",
     description:
-      "3 реальных способа получить Stars без Visa/Mastercard и какой из них подходит вам — с таблицей выбора.",
+      "Способы, которые работают без Visa/Mastercard, и какой из них подходит вам — с таблицей выбора.",
     url: "https://premiumsend.uz/ru/maqolalar/xorijiy-kartasiz-stars-sotib-olish",
     type: "article",
     publishedTime: "2026-09-30",
@@ -57,7 +57,7 @@ export default function ArticleXorijiyKartasizStarsRu() {
         name: "Можно ли получить Telegram Stars без зарубежной карты?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Да. Официальная покупка внутри приложения Telegram требует международной оплаты, но 3 способа работают без зарубежной карты: оплата в сумах через местного реселлера (например, @premiumsendbot), подарок от знакомого за границей или покупка через Fragment за криптовалюту TON.",
+          text: "Да. Из 3 способов купить Stars международную карту требует только официальное приложение. Два других работают без зарубежной карты: оплата в сумах через местного реселлера (например, @premiumsendbot) и покупка через Fragment за криптовалюту TON. Дополнительный вариант — знакомый с зарубежной картой дарит вам Stars.",
         },
       },
       {
@@ -132,9 +132,9 @@ export default function ArticleXorijiyKartasizStarsRu() {
           <div className="bg-primary-light/40 rounded-xl p-5 border border-primary/20 mb-6">
             <p className="text-sm font-bold text-primary mb-2">КРАТКИЙ ОТВЕТ</p>
             <p className="text-foreground leading-relaxed font-medium">
-              Официальная покупка в приложении Telegram требует международной оплаты, но <strong>получить Stars можно и без зарубежной карты</strong>. Есть 3 реальных способа: через местного реселлера в сумах (например,{" "}
+              Да, <strong>получить Stars можно и без зарубежной карты</strong>. Из 3 способов купить Stars международную карту требует только официальное приложение. Два других работают без неё: через местного реселлера в сумах (например,{" "}
               <Link href="https://telegram.me/premiumsendbot" target="_blank" rel="noopener" className="text-primary hover:underline">@premiumsendbot</Link>,
-              с Uzcard/Humo/Click/Payme), подарком от знакомого за границей или через Fragment за криптовалюту TON. Для большинства самый простой — первый.
+              с Uzcard/Humo/Click/Payme) и через Fragment за криптовалюту TON. Дополнительный вариант — знакомый за границей дарит вам Stars. Для большинства самый простой — местный реселлер.
             </p>
           </div>
 
@@ -147,7 +147,7 @@ export default function ArticleXorijiyKartasizStarsRu() {
           <section>
             <h2 className="text-2xl font-extrabold text-foreground mb-4">Почему для покупки Stars в самом Telegram нужна зарубежная карта?</h2>
             <p className="text-muted leading-relaxed mb-4">
-              Потому что Telegram продаёт Stars только через сторонние платёжные системы. Согласно разделу 2 условий Telegram Stars, Stars приобретаются через <strong>встроенные покупки</strong> в приложениях для iOS и Android (App Store / Google Play) и через <strong>@PremiumBot</strong>. Эти платежи проходят через международные платёжные сети.
+              Потому что покупка внутри приложения проходит через международные платёжные системы. Согласно разделу 2 условий Telegram Stars, Stars приобретаются через <strong>встроенные покупки</strong> в приложениях для iOS и Android (App Store / Google Play) и через <strong>@PremiumBot</strong> — это оплата в долларах международной картой.
             </p>
             <p className="text-muted leading-relaxed">
               Uzcard и Humo — местные платёжные сети, поэтому в таких платежах они не принимаются. Подробно о причинах — в статье{" "}
@@ -158,7 +158,7 @@ export default function ArticleXorijiyKartasizStarsRu() {
           <section>
             <h2 className="text-2xl font-extrabold text-foreground mb-4">Какие способы остаются без зарубежной карты?</h2>
             <p className="text-muted leading-relaxed mb-4">
-              3 способа, для которых карта не нужна, и что требуется для каждого:
+              2 способа без зарубежной карты, дополнительный вариант с подарком и что требуется для каждого:
             </p>
             <div className="bg-white rounded-2xl border border-card-border shadow-lg overflow-x-auto mb-4">
               <table className="w-full text-sm min-w-[600px]">
@@ -178,22 +178,22 @@ export default function ArticleXorijiyKartasizStarsRu() {
                     <td className="p-4">Большинству — самый простой путь</td>
                   </tr>
                   <tr className="border-b border-card-border">
-                    <td className="p-4 font-medium">Подарок от знакомого</td>
-                    <td className="p-4">Знакомый с зарубежной картой</td>
-                    <td className="p-4">Платит даритель</td>
-                    <td className="p-4">Тем, у кого родные за границей</td>
-                  </tr>
-                  <tr className="border-b border-card-border last:border-b-0">
                     <td className="p-4 font-medium">Fragment.com</td>
                     <td className="p-4">TON-кошелёк и криптовалюта TON</td>
                     <td className="p-4">Криптовалюта TON</td>
                     <td className="p-4">Тем, кто знаком с криптой</td>
                   </tr>
+                  <tr className="border-b border-card-border last:border-b-0">
+                    <td className="p-4 font-medium">Подарок от знакомого (доп. вариант)</td>
+                    <td className="p-4">Знакомый с зарубежной картой</td>
+                    <td className="p-4">Даритель платит в официальном приложении</td>
+                    <td className="p-4">Тем, у кого родные за границей</td>
+                  </tr>
                 </tbody>
               </table>
             </div>
             <p className="text-muted leading-relaxed">
-              Полное сравнение всех способов по цене и скорости — в статье{" "}
+              Полное сравнение всех трёх способов, включая официальное приложение, по цене — в статье{" "}
               <Link href="/ru/maqolalar/stars-sotib-olishning-necha-yoli-bor" className="text-primary font-semibold hover:underline">сравнение способов покупки Stars</Link>.
             </p>
           </section>
@@ -262,7 +262,7 @@ export default function ArticleXorijiyKartasizStarsRu() {
           <section>
             <h2 className="text-2xl font-extrabold text-foreground mb-4">Решит ли проблему карта Visa узбекского банка?</h2>
             <p className="text-muted leading-relaxed">
-              Не всегда. Visa/Mastercard, выпущенная местным банком, тоже иногда отклоняется в App Store или при оплате в Telegram — причины (регион аккаунта, ограничения банка, 3D Secure) разобраны в статье{" "}
+              Не всегда. Visa/Mastercard, выпущенная местным банком, тоже иногда отклоняется в App Store или при оплате в Telegram — причины (VPN или несовпадение региона, подтверждение 3D Secure и другие) разобраны в статье{" "}
               <Link href="/ru/maqolalar/nega-xalqaro-karta-telegram-premiumni-rad-etadi" className="text-primary font-semibold hover:underline">почему отклоняется международная карта</Link>.
               То есть оформлять карту только ради Stars — не гарантированное решение.
             </p>
@@ -289,7 +289,7 @@ export default function ArticleXorijiyKartasizStarsRu() {
             <h2 className="text-2xl font-extrabold text-foreground mb-6">Частые вопросы (FAQ)</h2>
             <div className="space-y-4">
               {[
-                { q: "Можно ли получить Telegram Stars без зарубежной карты?", a: "Да. Есть 3 способа: через местного реселлера в сумах, подарком от знакомого за границей или через Fragment за TON." },
+                { q: "Можно ли получить Telegram Stars без зарубежной карты?", a: "Да. Из 3 способов международную карту требует только официальное приложение; местный реселлер (в сумах) и Fragment (TON) работают без неё. Дополнительный вариант — подарок от знакомого." },
                 { q: "Почему в приложении Telegram нельзя купить Stars с Uzcard или Humo?", a: "Покупка в приложении идёт через App Store, Google Play или @PremiumBot по международным платёжным системам — Uzcard и Humo как местные сети там не принимаются." },
                 { q: "Какой способ без зарубежной карты самый простой?", a: "Местный реселлер: в @premiumsendbot переводите на карту из Mini App через своё банковское приложение, Stars зачисляются автоматически. 50 Stars — 15 000 сумов." },
                 { q: "Может ли родственник за границей подарить мне Stars?", a: "Да, в Telegram можно купить Stars в подарок контакту (Настройки → My Stars). Оплачивает даритель." },

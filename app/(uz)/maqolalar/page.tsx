@@ -37,7 +37,7 @@ const articles = [
     slug: "stars-pulini-qaytarish-refund",
     title: "Telegram Stars puli qaytariladimi? Refund qoidalari va istisnolar",
     excerpt:
-      "Keraksiz xarid uchun pul qaytmaydi, lekin bot xizmat bermasa Stars qaytadi, @premiumsendbot'da to'lov o'tib Stars tushmasa — to'liq qaytarim. Barcha holatlar jadvalda.",
+      "Telegram keraksiz xarid uchun pul qaytarmaydi, lekin bot xizmat bermasa Stars qaytarilishi mumkin. @premiumsendbot'da muammo bo'lsa — aniq qadamlar. Holatlar jadvalda.",
     category: "Muammolar yechimi",
     date: "2026-09-30",
   },
@@ -45,7 +45,7 @@ const articles = [
     slug: "xorijiy-kartasiz-stars-sotib-olish",
     title: "Xorijiy karta yo'q — Telegram Stars'ni qanday olsam bo'ladi?",
     excerpt:
-      "Visa/Mastercard'siz 3 ta real yo'l: mahalliy reseller orqali so'mda, chet eldagi tanishdan sovg'a yoki Fragment (TON). Qaysi biri kimga mos — qaror jadvali.",
+      "Visa/Mastercard'siz ham bo'ladi: mahalliy reseller (so'mda) va Fragment (TON) kartasiz ishlaydi, qo'shimcha variant — tanishdan sovg'a. Qaysi biri kimga mos — qaror jadvali.",
     category: "To'lov qo'llanmasi",
     date: "2026-09-30",
   },

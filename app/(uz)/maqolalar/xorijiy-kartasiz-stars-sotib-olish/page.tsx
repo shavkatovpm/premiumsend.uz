@@ -5,7 +5,7 @@ import { ogBaseUz } from "@/app/shared-metadata";
 export const metadata: Metadata = {
   title: "Xorijiy karta yo'q — Telegram Stars'ni qanday olsam bo'ladi?",
   description:
-    "Xorijiy (Visa/Mastercard) kartasiz Telegram Stars olishning 3 ta real yo'li: mahalliy reseller orqali so'mda, chet eldagi tanishdan sovg'a yoki Fragment (TON). Qaysi biri kimga mos — halol taqqoslash.",
+    "Xorijiy (Visa/Mastercard) kartasiz Telegram Stars olish mumkin: 3 ta yo'ldan 2 tasi — mahalliy reseller (so'mda) va Fragment (TON) — karta talab qilmaydi. Qo'shimcha variant: chet eldagi tanishdan sovg'a. Qaysi biri kimga mos.",
   keywords: [
     "xorijiy kartasiz stars",
     "visa kartasiz telegram stars",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     ...ogBaseUz,
     title: "Xorijiy karta yo'q — Telegram Stars'ni qanday olsam bo'ladi?",
     description:
-      "Visa/Mastercard'siz Stars olishning 3 ta real yo'li va qaysi biri sizga mosligi — qaror jadvali bilan.",
+      "Visa/Mastercard'siz ishlaydigan yo'llar va qaysi biri sizga mosligi — qaror jadvali bilan.",
     url: "https://premiumsend.uz/maqolalar/xorijiy-kartasiz-stars-sotib-olish",
     type: "article",
     publishedTime: "2026-09-30",
@@ -57,7 +57,7 @@ export default function ArticleXorijiyKartasizStars() {
         name: "Xorijiy kartasiz Telegram Stars olsa bo'ladimi?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Ha. Telegram ilovasi ichidagi rasmiy xarid xalqaro to'lovni talab qiladi, lekin 3 ta yo'l xorijiy kartasiz ishlaydi: mahalliy reseller orqali so'mda to'lash (masalan, @premiumsendbot), chet eldagi tanishingiz sizga Stars sovg'a qilishi yoki Fragment orqali TON kriptovalyutasi bilan olish.",
+          text: "Ha. Stars olishning 3 ta yo'lidan faqat rasmiy ilova xalqaro karta talab qiladi. Qolgan ikkitasi xorijiy kartasiz ishlaydi: mahalliy reseller orqali so'mda to'lash (masalan, @premiumsendbot) va Fragment orqali TON kriptovalyutasi bilan olish. Qo'shimcha variant — xorijiy kartasi bor tanishingiz sizga Stars sovg'a qilishi.",
         },
       },
       {
@@ -132,9 +132,9 @@ export default function ArticleXorijiyKartasizStars() {
           <div className="bg-primary-light/40 rounded-xl p-5 border border-primary/20 mb-6">
             <p className="text-sm font-bold text-primary mb-2">QISQACHA JAVOB</p>
             <p className="text-foreground leading-relaxed font-medium">
-              Telegram ilovasi ichidagi rasmiy xarid xalqaro to&apos;lovni talab qiladi, lekin <strong>xorijiy kartasiz ham Stars olish mumkin</strong>. 3 ta real yo&apos;l bor: mahalliy reseller orqali so&apos;mda (masalan,{" "}
+              Ha, <strong>xorijiy kartasiz ham Stars olish mumkin</strong>. Stars olishning 3 ta yo&apos;lidan faqat rasmiy ilova xalqaro karta talab qiladi. Qolgan ikkitasi kartasiz ishlaydi: mahalliy reseller orqali so&apos;mda (masalan,{" "}
               <Link href="https://telegram.me/premiumsendbot" target="_blank" rel="noopener" className="text-primary hover:underline">@premiumsendbot</Link>,
-              Uzcard/Humo/Click/Payme bilan), chet eldagi tanishdan sovg&apos;a yoki Fragment orqali TON kripto bilan. Ko&apos;pchilik uchun eng osoni — birinchisi.
+              Uzcard/Humo/Click/Payme bilan) va Fragment orqali TON kripto bilan. Qo&apos;shimcha variant — chet eldagi tanishingiz sizga Stars sovg&apos;a qilishi. Ko&apos;pchilik uchun eng osoni — mahalliy reseller.
             </p>
           </div>
 
@@ -147,7 +147,7 @@ export default function ArticleXorijiyKartasizStars() {
           <section>
             <h2 className="text-2xl font-extrabold text-foreground mb-4">Nega Telegram&apos;ning o&apos;zida Stars olish uchun xorijiy karta kerak?</h2>
             <p className="text-muted leading-relaxed mb-4">
-              Chunki Telegram Stars&apos;ni faqat uchinchi tomon to&apos;lov tizimlari orqali sotadi. Telegram Stars shartlarining 2-bandiga ko&apos;ra, Stars iOS va Android ilovalarida <strong>in-app xarid</strong> (App Store / Google Play) va <strong>@PremiumBot</strong> orqali olinadi. Bu to&apos;lovlar xalqaro to&apos;lov tarmoqlaridan o&apos;tadi.
+              Chunki ilova ichidagi xarid xalqaro to&apos;lov tizimlari orqali o&apos;tadi. Telegram Stars shartlarining 2-bandiga ko&apos;ra, Stars iOS va Android ilovalarida <strong>in-app xarid</strong> (App Store / Google Play) va <strong>@PremiumBot</strong> orqali olinadi — bular dollarda, xalqaro karta bilan ishlaydi.
             </p>
             <p className="text-muted leading-relaxed">
               Uzcard va Humo — mahalliy to&apos;lov tarmoqlari, shuning uchun bu to&apos;lovlarda qabul qilinmaydi. Batafsil sababini{" "}
@@ -159,7 +159,7 @@ export default function ArticleXorijiyKartasizStars() {
           <section>
             <h2 className="text-2xl font-extrabold text-foreground mb-4">Xorijiy kartasiz qaysi yo&apos;llar qoladi?</h2>
             <p className="text-muted leading-relaxed mb-4">
-              Karta talab qilmaydigan 3 ta yo&apos;l va ularning har biri uchun nima kerakligi:
+              Xorijiy karta talab qilmaydigan 2 ta yo&apos;l, qo&apos;shimcha sovg&apos;a varianti va har biri uchun nima kerakligi:
             </p>
             <div className="bg-white rounded-2xl border border-card-border shadow-lg overflow-x-auto mb-4">
               <table className="w-full text-sm min-w-[600px]">
@@ -179,22 +179,22 @@ export default function ArticleXorijiyKartasizStars() {
                     <td className="p-4">Ko&apos;pchilik — eng oddiy yo&apos;l</td>
                   </tr>
                   <tr className="border-b border-card-border">
-                    <td className="p-4 font-medium">Tanishdan sovg&apos;a</td>
-                    <td className="p-4">Xorijiy kartasi bor tanish</td>
-                    <td className="p-4">Sovg&apos;a qiluvchi to&apos;laydi</td>
-                    <td className="p-4">Chet elda qarindoshi borlar</td>
-                  </tr>
-                  <tr className="border-b border-card-border last:border-b-0">
                     <td className="p-4 font-medium">Fragment.com</td>
                     <td className="p-4">TON hamyoni va TON kripto</td>
                     <td className="p-4">TON kriptovalyutasi</td>
                     <td className="p-4">Kripto bilan tanishlar</td>
                   </tr>
+                  <tr className="border-b border-card-border last:border-b-0">
+                    <td className="p-4 font-medium">Tanishdan sovg&apos;a (qo&apos;shimcha variant)</td>
+                    <td className="p-4">Xorijiy kartasi bor tanish</td>
+                    <td className="p-4">Sovg&apos;a qiluvchi rasmiy ilovada to&apos;laydi</td>
+                    <td className="p-4">Chet elda qarindoshi borlar</td>
+                  </tr>
                 </tbody>
               </table>
             </div>
             <p className="text-muted leading-relaxed">
-              Uchala yo&apos;lning narxi va tezligi bo&apos;yicha to&apos;liq taqqoslash{" "}
+              Rasmiy ilovani ham qo&apos;shib, uchala yo&apos;lning narxi bo&apos;yicha to&apos;liq taqqoslash{" "}
               <Link href="/maqolalar/stars-sotib-olishning-necha-yoli-bor" className="text-primary font-semibold hover:underline">Stars olish yo&apos;llari taqqoslashi</Link>{" "}
               maqolasida.
             </p>
@@ -265,7 +265,7 @@ export default function ArticleXorijiyKartasizStars() {
           <section>
             <h2 className="text-2xl font-extrabold text-foreground mb-4">O&apos;zbek bankidan Visa karta ochsam muammo hal bo&apos;ladimi?</h2>
             <p className="text-muted leading-relaxed">
-              Har doim emas. Mahalliy bank chiqargan Visa/Mastercard ham ba&apos;zan App Store yoki Telegram to&apos;lovida rad etiladi — sabablari (hisob mintaqasi, bank cheklovlari, 3D Secure){" "}
+              Har doim emas. Mahalliy bank chiqargan Visa/Mastercard ham ba&apos;zan App Store yoki Telegram to&apos;lovida rad etiladi — sabablari (VPN yoki mintaqa nomuvofiqligi, 3D Secure tasdig&apos;i va boshqalar){" "}
               <Link href="/maqolalar/nega-xalqaro-karta-telegram-premiumni-rad-etadi" className="text-primary font-semibold hover:underline">xalqaro karta nega rad etiladi</Link>{" "}
               maqolasida tushuntirilgan. Ya&apos;ni faqat Stars uchun karta ochish har doim ham kafolatli yechim emas.
             </p>
@@ -292,7 +292,7 @@ export default function ArticleXorijiyKartasizStars() {
             <h2 className="text-2xl font-extrabold text-foreground mb-6">Tez-tez so&apos;raladigan savollar (FAQ)</h2>
             <div className="space-y-4">
               {[
-                { q: "Xorijiy kartasiz Telegram Stars olsa bo'ladimi?", a: "Ha. 3 ta yo'l bor: mahalliy reseller orqali so'mda, chet eldagi tanishdan sovg'a yoki Fragment orqali TON bilan." },
+                { q: "Xorijiy kartasiz Telegram Stars olsa bo'ladimi?", a: "Ha. 3 ta yo'ldan faqat rasmiy ilova xalqaro karta talab qiladi; mahalliy reseller (so'mda) va Fragment (TON) kartasiz ishlaydi. Qo'shimcha variant — tanishdan sovg'a." },
                 { q: "Nega Uzcard yoki Humo bilan Telegram ilovasida Stars olib bo'lmaydi?", a: "Ilovadagi xarid App Store, Google Play yoki @PremiumBot orqali xalqaro to'lov tizimlaridan o'tadi — Uzcard va Humo mahalliy tarmoq bo'lgani uchun qabul qilinmaydi." },
                 { q: "Xorijiy kartasiz eng oson yo'l qaysi?", a: "Mahalliy reseller: @premiumsendbot'da Mini App ko'rsatgan kartaga o'z bank ilovangizdan o'tkazasiz, Stars avtomatik tushadi. 50 Stars — 15 000 so'm." },
                 { q: "Chet eldagi qarindoshim menga Stars sovg'a qila oladimi?", a: "Ha, Telegram'da Stars'ni kontaktga sovg'a sifatida sotib olish mumkin (Sozlamalar → My Stars). To'lovni sovg'a qiluvchi qiladi." },
