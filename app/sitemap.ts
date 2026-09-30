@@ -9,6 +9,8 @@ type ArticleEntry = {
 };
 
 const articles: ArticleEntry[] = [
+  { slug: "stars-pulini-qaytarish-refund", lastModified: "2026-09-30", priority: 0.85 },
+  { slug: "xorijiy-kartasiz-stars-sotib-olish", lastModified: "2026-09-30", priority: 0.85 },
   { slug: "stars-yetkazish-vaqti", lastModified: "2026-09-21", priority: 0.85 },
   { slug: "stars-kartaga-otkazma", lastModified: "2026-09-16", priority: 0.85 },
   { slug: "1-stars-necha-som-appstore-taqqoslash", lastModified: "2026-09-16", priority: 0.85 },

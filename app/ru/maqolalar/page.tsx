@@ -35,6 +35,22 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "stars-pulini-qaytarish-refund",
+    title: "Возвращают ли деньги за Telegram Stars? Правила возврата и исключения",
+    excerpt:
+      "За ненужную покупку деньги не возвращают, но если бот не оказал услугу — Stars вернут, а в @premiumsendbot при оплате без зачисления Stars — полный возврат. Все случаи в таблице.",
+    category: "Решение проблем",
+    date: "2026-09-30",
+  },
+  {
+    slug: "xorijiy-kartasiz-stars-sotib-olish",
+    title: "Нет зарубежной карты — как получить Telegram Stars?",
+    excerpt:
+      "3 реальных способа без Visa/Mastercard: местный реселлер в сумах, подарок от знакомого за границей или Fragment (TON). Кому что подходит — таблица выбора.",
+    category: "Руководство по оплате",
+    date: "2026-09-30",
+  },
+  {
     slug: "stars-yetkazish-vaqti",
     title: "Через сколько Telegram Stars приходят на аккаунт? Что делать, если не пришли",
     excerpt:
