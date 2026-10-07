@@ -9,6 +9,8 @@ type ArticleEntry = {
 };
 
 const articles: ArticleEntry[] = [
+  { slug: "telegram-stars-xavfsizmi-aldov-belgilari", lastModified: "2026-10-07", priority: 0.85 },
+  { slug: "fragment-com-telegram-stars-qanday-ishlaydi", lastModified: "2026-10-07", priority: 0.85 },
   { slug: "stars-pulini-qaytarish-refund", lastModified: "2026-09-30", priority: 0.85 },
   { slug: "xorijiy-kartasiz-stars-sotib-olish", lastModified: "2026-09-30", priority: 0.85 },
   { slug: "stars-yetkazish-vaqti", lastModified: "2026-09-21", priority: 0.85 },

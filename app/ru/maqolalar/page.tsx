@@ -35,6 +35,22 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "telegram-stars-xavfsizmi-aldov-belgilari",
+    title: "Безопасно ли покупать Telegram Stars? Признаки обмана и чек-лист проверки",
+    excerpt:
+      "Да, если продавец не просит код входа, пароль или данные карты. 6 признаков поддельного продавца Stars, чек-лист перед покупкой и что делать, если вас обманули.",
+    category: "Руководство по безопасности",
+    date: "2026-10-07",
+  },
+  {
+    slug: "fragment-com-telegram-stars-qanday-ishlaydi",
+    title: "Как купить Telegram Stars на Fragment.com — можно ли с Uzcard или Humo?",
+    excerpt:
+      "Только за крипту: Gram (бывший Toncoin), USDT или USDC — Uzcard/Humo не принимаются. 1000 Stars — 15 долларов, минимум 50 Stars. Шаги, KYC и отличие от местного реселлера.",
+    category: "Руководство",
+    date: "2026-10-07",
+  },
+  {
     slug: "stars-pulini-qaytarish-refund",
     title: "Возвращают ли деньги за Telegram Stars? Правила возврата и исключения",
     excerpt:

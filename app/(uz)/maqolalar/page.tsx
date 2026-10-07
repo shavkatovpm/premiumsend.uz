@@ -34,6 +34,22 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "telegram-stars-xavfsizmi-aldov-belgilari",
+    title: "Telegram Stars sotib olish xavfsizmi? Aldov belgilari va tekshirish ro'yxati",
+    excerpt:
+      "Ha, agar sotuvchi login kodi, parol yoki karta ma'lumotini so'ramasa. Soxta Stars sotuvchisining 6 ta belgisi, xariddan oldingi tekshirish ro'yxati va aldanib qolsangiz nima qilish kerak.",
+    category: "Xavfsizlik qo'llanmasi",
+    date: "2026-10-07",
+  },
+  {
+    slug: "fragment-com-telegram-stars-qanday-ishlaydi",
+    title: "Fragment.com'da Telegram Stars qanday olinadi — Uzcard yoki Humo bilan bo'ladimi?",
+    excerpt:
+      "Faqat kripto bilan: Gram (sobiq Toncoin), USDT yoki USDC — Uzcard/Humo qabul qilinmaydi. 1000 Stars — 15 dollar, minimal 50 Stars. Qadamlar, KYC va mahalliy resellerdan farqi.",
+    category: "Qo'llanma",
+    date: "2026-10-07",
+  },
+  {
     slug: "stars-pulini-qaytarish-refund",
     title: "Telegram Stars puli qaytariladimi? Refund qoidalari va istisnolar",
     excerpt:

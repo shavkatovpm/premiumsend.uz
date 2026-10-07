@@ -51,11 +51,11 @@ Tarif: **300 so'm/star, chiziqli** (qaysi paket tanlansa ham 1 star narxi bir xi
 | # | Query | Slug g'oyasi | Holat |
 |---|---|---|---|
 | 2.1 | 1 stars necha so'm — App Store bilan solishtirsa | `1-stars-necha-som-appstore-taqqoslash` | ✅ |
-| 2.2 | Stars sotib olish xavfsizmi, aldamaydimi | `stars-xavfsizmi-royxatdan-otish` | ⬜ |
+| 2.2 | Stars sotib olish xavfsizmi, aldamaydimi | `telegram-stars-xavfsizmi-aldov-belgilari` | ✅ (4.2 bilan birlashtirildi) |
 | 2.3 | Xorijiy karta yo'q, stars qanday olsam bo'ladi | `xorijiy-kartasiz-stars-sotib-olish` | ✅ |
 | 2.4 | Stars qancha vaqtda hisobga tushadi | `stars-yetkazish-vaqti` | ✅ |
 | 2.5 | Stars puli qaytariladimi, refund bormi | `stars-pulini-qaytarish-refund` | ✅ |
-| 2.6 | Fragment orqali olish bilan reseller orqali olish farqi nima | `fragment-vs-mahalliy-reseller-stars` | ⬜ |
+| 2.6 | Fragment orqali olish bilan reseller orqali olish farqi nima | `fragment-com-telegram-stars-qanday-ishlaydi` | ✅ (1.1 bilan kesishmaslik uchun Fragment markazli burchakka o'zgartirildi) |
 
 ## Tier 3 — Foydalanish stsenariysi (AEO uchun eng yuqori qiymatli)
 
@@ -71,7 +71,7 @@ Tarif: **300 so'm/star, chiziqli** (qaysi paket tanlansa ham 1 star narxi bir xi
 | # | Query | Slug g'oyasi | Holat |
 |---|---|---|---|
 | 4.1 | PremiumSend ishonchlimi, sharhlar | `premiumsend-ishonchlimi-sharhlar` | ⬜ |
-| 4.2 | Stars sotuvchisi aldoq ekanini qanday bilsam bo'ladi | `stars-aldov-belgilari` | ⬜ |
+| 4.2 | Stars sotuvchisi aldoq ekanini qanday bilsam bo'ladi | — | ✅ 2.2 ichida yopildi (`telegram-stars-xavfsizmi-aldov-belgilari`) — alohida yozilmaydi, dublikat bo'ladi |
 
 ---
 
