@@ -5,8 +5,10 @@ import { ogBaseUz } from "@/app/shared-metadata";
 const PAGE_URL = "https://premiumsend.uz/maqolalar/talabalar-uchun-arzon-telegram-stars-kam-byudjet";
 const TITLE = "Talaba va yoshlar uchun eng arzon Telegram Stars: kam byudjet bilan qanday olinadi?";
 
+const META_TITLE = "Talabalar uchun eng arzon Telegram Stars — 15 000 so'mdan";
+
 export const metadata: Metadata = {
-  title: TITLE,
+  title: META_TITLE,
   description:
     "Talabalar uchun alohida chegirma yo'q, lekin tarif chiziqli: eng kichik paket 50 Stars — 15 000 so'm, 1 star 300 so'm. Kam byudjetga nima yetadi, qanday tejash mumkin va Uzcard/Humo bilan qanday olinadi.",
   keywords: [
@@ -86,7 +88,23 @@ const FAQS = [
   },
 ];
 
-const TG_ICON = "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z";
+const KEY_FACTS = [
+  { k: "Eng kichik paket", v: "50 Stars — 15 000 so'm" },
+  { k: "1 star narxi", v: "300 so'm — har qanday paketda bir xil" },
+  { k: "Talaba chegirmasi", v: "Yo'q — narx hamma uchun bir xil" },
+  { k: "Xalqaro karta", v: "Kerak emas" },
+  { k: "To'lov", v: "Uzcard, Humo, Click, Payme — so'mda" },
+  { k: "Yetkazish", v: "Odatda bir necha daqiqa" },
+  { k: "Qayerdan olinadi", v: "@premiumsendbot (telegram.me/premiumsendbot)" },
+];
+
+const SOURCES = [
+  { label: "Telegram blogi — Gifts (2024-yil 5-oktabr)", href: "https://telegram.org/blog/gifts-verification-platform" },
+  { label: "Telegram blogi — Star Reactions va pullik obuna", href: "https://telegram.org/blog/superchannels-star-reactions-subscriptions" },
+  { label: "Telegram API hujjatlari — Telegram Stars", href: "https://core.telegram.org/api/stars" },
+];
+
+const TG_ICON ="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z";
 
 const fmt = (n: number) => n.toLocaleString("en-US").replace(/,/g, " ");
 
@@ -120,8 +138,16 @@ export default function ArticleTalabalarUchunArzonStars() {
     ],
   };
 
+  const howToSchema = {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    name: "Kam byudjet bilan Telegram Stars qanday sotib olinadi",
+    step: STEPS.map((s, i) => ({ "@type": "HowToStep", position: i + 1, name: s.title, text: s.desc })),
+  };
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
@@ -155,6 +181,20 @@ export default function ArticleTalabalarUchunArzonStars() {
           <p className="text-lg text-muted leading-relaxed">
             Stipendiya yoki cho&apos;ntak puli bilan yashaydigan odam uchun asosiy savol &quot;qayerda chegirma bor&quot; emas, &quot;eng kam qancha pul bilan boshlasa bo&apos;ladi&quot;. Quyida eng kichik paketlar narxi, ular nimaga yetishi, pulni tejashning halol usullari va xarid qadamlari keltirilgan.
           </p>
+
+          <div className="bg-white rounded-2xl border border-card-border shadow-sm overflow-x-auto mt-6">
+            <table className="w-full text-sm">
+              <caption className="text-left text-sm font-bold text-foreground px-4 pt-4 pb-2">Asosiy faktlar (2026-yil oktabr)</caption>
+              <tbody>
+                {KEY_FACTS.map((f) => (
+                  <tr key={f.k} className="border-b border-card-border last:border-b-0">
+                    <th scope="row" className="p-4 text-left font-medium text-muted w-2/5">{f.k}</th>
+                    <td className="p-4 font-semibold text-foreground">{f.v}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         </header>
 
         <div className="prose prose-lg max-w-none space-y-12">
@@ -277,6 +317,10 @@ export default function ArticleTalabalarUchunArzonStars() {
                 </div>
               ))}
             </div>
+            <p className="text-foreground leading-relaxed font-medium mb-4">
+              Tayyormisiz? 15 000 so&apos;m bilan hozir boshlang:{" "}
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" rel="noopener" className="text-primary font-bold hover:underline">@premiumsendbot&apos;ni ochish →</Link>
+            </p>
             <p className="text-muted leading-relaxed mb-4">
               To&apos;lov tartibi batafsil:{" "}
               <Link href="/maqolalar/stars-kartaga-otkazma" className="text-primary font-semibold hover:underline">kartaga o&apos;tkazib Stars olish</Link>. Stars kechiksa:{" "}
@@ -286,6 +330,20 @@ export default function ArticleTalabalarUchunArzonStars() {
               Muhim: Premium Send Telegram&apos;ning rasmiy hamkori emas, mahalliy reseller. Muammo chiqsa, har bir holat alohida ko&apos;rib chiqiladi — chek bilan <strong>@premiumsend_admin</strong> ga yozing. Kanal yoki loyiha uchun katta hajm kerak bo&apos;lsa:{" "}
               <Link href="/maqolalar/kanal-va-bloger-uchun-kop-miqdorda-telegram-stars" className="text-primary font-semibold hover:underline">ko&apos;p miqdorda Stars olish</Link>.
             </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-extrabold text-foreground mb-4">Bu ma&apos;lumotlar qayerdan olingan?</h2>
+            <p className="text-muted leading-relaxed mb-4">
+              Telegram funksiyalari haqidagi da&apos;volar rasmiy manbalarga tayanadi; narxlar Premium Send&apos;ning 2026-yil oktabr holatidagi tarifidan olingan.
+            </p>
+            <ul className="list-disc list-inside text-muted leading-relaxed space-y-2">
+              {SOURCES.map((s) => (
+                <li key={s.href}>
+                  <Link href={s.href} target="_blank" rel="noopener" className="text-primary hover:underline">{s.label}</Link>
+                </li>
+              ))}
+            </ul>
           </section>
 
           <section>

@@ -6,8 +6,10 @@ const PAGE_URL = "https://premiumsend.uz/ru/maqolalar/talabalar-uchun-arzon-tele
 const UZ_URL = "https://premiumsend.uz/maqolalar/talabalar-uchun-arzon-telegram-stars-kam-byudjet";
 const TITLE = "Самые дешёвые Telegram Stars для студентов и молодёжи: как купить при маленьком бюджете?";
 
+const META_TITLE = "Дешёвые Telegram Stars для студентов — от 15 000 сум";
+
 export const metadata: Metadata = {
-  title: TITLE,
+  title: META_TITLE,
   description:
     "Отдельной скидки для студентов нет, но тариф линейный: самый маленький пакет 50 Stars — 15 000 сум, 1 star — 300 сум. На что хватит небольшого бюджета, как сэкономить и как купить с Uzcard/Humo.",
   keywords: [
@@ -87,7 +89,23 @@ const FAQS = [
   },
 ];
 
-const TG_ICON = "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z";
+const KEY_FACTS = [
+  { k: "Самый маленький пакет", v: "50 Stars — 15 000 сум" },
+  { k: "Цена 1 star", v: "300 сум — одинаково в любом пакете" },
+  { k: "Скидка для студентов", v: "Нет — цена одна для всех" },
+  { k: "Международная карта", v: "Не нужна" },
+  { k: "Оплата", v: "Uzcard, Humo, Click, Payme — в сумах" },
+  { k: "Доставка", v: "Обычно несколько минут" },
+  { k: "Где купить", v: "@premiumsendbot (telegram.me/premiumsendbot)" },
+];
+
+const SOURCES = [
+  { label: "Блог Telegram — Gifts (5 октября 2024)", href: "https://telegram.org/blog/gifts-verification-platform" },
+  { label: "Блог Telegram — Star Reactions и платная подписка", href: "https://telegram.org/blog/superchannels-star-reactions-subscriptions" },
+  { label: "Документация Telegram API — Telegram Stars", href: "https://core.telegram.org/api/stars" },
+];
+
+const TG_ICON ="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z";
 
 const fmt = (n: number) => n.toLocaleString("en-US").replace(/,/g, " ");
 
@@ -122,8 +140,17 @@ export default function ArticleTalabalarUchunArzonStarsRu() {
     ],
   };
 
+  const howToSchema = {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    name: "Как купить Telegram Stars при маленьком бюджете",
+    inLanguage: "ru",
+    step: STEPS.map((s, i) => ({ "@type": "HowToStep", position: i + 1, name: s.title, text: s.desc })),
+  };
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
@@ -158,6 +185,20 @@ export default function ArticleTalabalarUchunArzonStarsRu() {
           <p className="text-lg text-muted leading-relaxed">
             Для того, кто живёт на стипендию или карманные деньги, главный вопрос не «где скидка», а «с какой минимальной суммы можно начать». Ниже — цены самых маленьких пакетов, на что их хватает, честные способы сэкономить и шаги покупки.
           </p>
+
+          <div className="bg-white rounded-2xl border border-card-border shadow-sm overflow-x-auto mt-6">
+            <table className="w-full text-sm">
+              <caption className="text-left text-sm font-bold text-foreground px-4 pt-4 pb-2">Главные факты (октябрь 2026)</caption>
+              <tbody>
+                {KEY_FACTS.map((f) => (
+                  <tr key={f.k} className="border-b border-card-border last:border-b-0">
+                    <th scope="row" className="p-4 text-left font-medium text-muted w-2/5">{f.k}</th>
+                    <td className="p-4 font-semibold text-foreground">{f.v}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         </header>
 
         <div className="prose prose-lg max-w-none space-y-12">
@@ -280,6 +321,10 @@ export default function ArticleTalabalarUchunArzonStarsRu() {
                 </div>
               ))}
             </div>
+            <p className="text-foreground leading-relaxed font-medium mb-4">
+              Готовы? Начните с 15 000 сум прямо сейчас:{" "}
+              <Link href="https://telegram.me/premiumsendbot" target="_blank" rel="noopener" className="text-primary font-bold hover:underline">открыть @premiumsendbot →</Link>
+            </p>
             <p className="text-muted leading-relaxed mb-4">
               Подробно о порядке оплаты:{" "}
               <Link href="/ru/maqolalar/stars-kartaga-otkazma" className="text-primary font-semibold hover:underline">покупка Stars переводом на карту</Link>. Если Stars задерживаются:{" "}
@@ -289,6 +334,20 @@ export default function ArticleTalabalarUchunArzonStarsRu() {
               Важно: Premium Send — не официальный партнёр Telegram, а местный реселлер. Если возникла проблема, каждый случай рассматривается отдельно — напишите <strong>@premiumsend_admin</strong> с чеком. Если нужен большой объём для канала или проекта:{" "}
               <Link href="/ru/maqolalar/kanal-va-bloger-uchun-kop-miqdorda-telegram-stars" className="text-primary font-semibold hover:underline">как купить много Stars</Link>.
             </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-extrabold text-foreground mb-4">Откуда эти данные?</h2>
+            <p className="text-muted leading-relaxed mb-4">
+              Утверждения о функциях Telegram опираются на официальные источники; цены взяты из тарифа Premium Send по состоянию на октябрь 2026 года.
+            </p>
+            <ul className="list-disc list-inside text-muted leading-relaxed space-y-2">
+              {SOURCES.map((s) => (
+                <li key={s.href}>
+                  <Link href={s.href} target="_blank" rel="noopener" className="text-primary hover:underline">{s.label}</Link>
+                </li>
+              ))}
+            </ul>
           </section>
 
           <section>

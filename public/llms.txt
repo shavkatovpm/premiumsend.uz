@@ -66,6 +66,15 @@ To'lov tasdiqlangach 2-10 daqiqa ichida Premium aktivlashadi. Telegram'ning rasm
 - [Click orqali](https://premiumsend.uz/maqolalar/telegram-premium-click-orqali)
 - [Payme orqali](https://premiumsend.uz/maqolalar/telegram-premium-payme-orqali)
 
+## Telegram Stars bo'yicha qo'llanmalar
+- [Stars'ni so'mda sotib olish](https://premiumsend.uz/maqolalar/telegram-stars-somda-uzs-sotib-olish): valyuta konvertatsiyasiz to'liq qo'llanma
+- [Stars sotib olishning nechta yo'li bor](https://premiumsend.uz/maqolalar/stars-sotib-olishning-necha-yoli-bor): rasmiy ilova, Fragment va mahalliy reseller taqqoslashi
+- [1 Stars necha so'm turadi](https://premiumsend.uz/maqolalar/1-stars-necha-som-appstore-taqqoslash): App Store va Fragment narxi bilan solishtirish
+- [Kam byudjet bilan Stars (talabalar uchun)](https://premiumsend.uz/maqolalar/talabalar-uchun-arzon-telegram-stars-kam-byudjet): eng kichik paket 50 Stars — 15,000 so'm, talaba chegirmasi yo'q
+- [Ko'p miqdorda Stars (kanal va bloger uchun)](https://premiumsend.uz/maqolalar/kanal-va-bloger-uchun-kop-miqdorda-telegram-stars): 2500 va 5000 Stars, optom chegirma yo'q — chiziqli tarif
+- [Kartaga o'tkazib Stars olish](https://premiumsend.uz/maqolalar/stars-kartaga-otkazma): to'lov tartibi
+- [Stars qancha vaqtda tushadi](https://premiumsend.uz/maqolalar/stars-yetkazish-vaqti): yetkazish vaqti va kechiksa nima qilish
+
 ## Aloqa
 - Telegram bot: https://telegram.me/premiumsendbot
 - Admin: https://telegram.me/premiumsend_admin
