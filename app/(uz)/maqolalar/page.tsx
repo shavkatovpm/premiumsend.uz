@@ -34,6 +34,22 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "kanal-va-bloger-uchun-kop-miqdorda-telegram-stars",
+    title: "Kanal egasi va bloger ko'p miqdorda (optom) Telegram Stars'ni qanday oladi?",
+    excerpt:
+      "Optom chegirma yo'q — tarif chiziqli: 2500 Stars 750 000 so'm, 5000 Stars 1 500 000 so'm. Katta paketlar nimaga yetadi, sotib olingan Stars bilan nima qilib bo'lmaydi va xarid qadamlari.",
+    category: "Biznes qo'llanmasi",
+    date: "2026-10-10",
+  },
+  {
+    slug: "talabalar-uchun-arzon-telegram-stars-kam-byudjet",
+    title: "Talaba va yoshlar uchun eng arzon Telegram Stars: kam byudjet bilan qanday olinadi?",
+    excerpt:
+      "Talabalar uchun alohida chegirma yo'q, lekin eng kichik paket 50 Stars — 15 000 so'm, ustamasiz 300 so'm/star. Kam byudjetga nima yetadi va pulni qanday tejash mumkin.",
+    category: "Xarid qo'llanmasi",
+    date: "2026-10-10",
+  },
+  {
     slug: "telegram-stars-xavfsizmi-aldov-belgilari",
     title: "Telegram Stars sotib olish xavfsizmi? Aldov belgilari va tekshirish ro'yxati",
     excerpt:

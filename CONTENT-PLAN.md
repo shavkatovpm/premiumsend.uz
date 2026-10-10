@@ -99,8 +99,8 @@ Foydalanuvchi talabi bilan qo'shildi: sof ma'lumot/muammo-yechim mavzularidan ol
 | P11 | Telegram Stars sotib olgandan keyin necha daqiqada hisobga tushadi | ⬜ |
 | P12 | Xorijiy karta bo'lmasa Telegram Stars'ni O'zbekistondan qanday sotib olish mumkin | ⬜ |
 | P13 | Telegram Stars'ni bir necha daqiqada eng tez sotib olish usuli qaysi | ⬜ |
-| P14 | Talabalar va yoshlar uchun eng arzon Telegram Stars sotib olish yo'li qaysi | ⬜ |
-| P15 | Kanal/bloger optom (ko'p miqdorda) Telegram Stars qanday sotib oladi — biznes uchun | ⬜ |
+| P14 | Talabalar va yoshlar uchun eng arzon Telegram Stars sotib olish yo'li qaysi | ✅ (`talabalar-uchun-arzon-telegram-stars-kam-byudjet`) |
+| P15 | Kanal/bloger optom (ko'p miqdorda) Telegram Stars qanday sotib oladi — biznes uchun | ✅ (`kanal-va-bloger-uchun-kop-miqdorda-telegram-stars`) |
 
 ### A-klaster — To'lov va texnik muammolar
 | # | Mavzu | Holat |

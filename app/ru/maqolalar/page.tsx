@@ -35,6 +35,22 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "kanal-va-bloger-uchun-kop-miqdorda-telegram-stars",
+    title: "Как владельцу канала и блогеру купить много Telegram Stars (оптом)?",
+    excerpt:
+      "Оптовой скидки нет — тариф линейный: 2500 Stars — 750 000 сум, 5000 Stars — 1 500 000 сум. На что хватает больших пакетов, чего нельзя сделать купленными Stars и шаги покупки.",
+    category: "Руководство для бизнеса",
+    date: "2026-10-10",
+  },
+  {
+    slug: "talabalar-uchun-arzon-telegram-stars-kam-byudjet",
+    title: "Самые дешёвые Telegram Stars для студентов и молодёжи: как купить при маленьком бюджете?",
+    excerpt:
+      "Отдельной скидки для студентов нет, но самый маленький пакет 50 Stars — 15 000 сум, 300 сум/star без наценки. На что хватит небольшого бюджета и как сэкономить.",
+    category: "Руководство по покупке",
+    date: "2026-10-10",
+  },
+  {
     slug: "telegram-stars-xavfsizmi-aldov-belgilari",
     title: "Безопасно ли покупать Telegram Stars? Признаки обмана и чек-лист проверки",
     excerpt:
